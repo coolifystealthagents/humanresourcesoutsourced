@@ -1,6 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="Site logo">
-  <rect width="96" height="96" rx="24" fill="#17324D"/>
-  <path d="M24 60V29h13l22 28V29h13v38H59L37 39v28H24z" fill="#FFF8EE"/>
-  <circle cx="70" cy="26" r="8" fill="#F27B3D"/>
-  <path d="M22 73c15-8 36-8 52 0" fill="none" stroke="#0F8F73" stroke-width="8" stroke-linecap="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="Human Resources Outsourced people logo">
+  <rect width="96" height="96" rx="22" fill="#211A37"/>
+  <circle cx="35" cy="35" r="12" fill="#FFFAF4"/>
+  <circle cx="62" cy="33" r="10" fill="#7CD0B6"/>
+  <path d="M16 72c2-14 10-21 21-21s20 7 22 21" fill="#FFFAF4"/>
+  <path d="M49 70c2-12 9-18 18-18 7 0 13 4 16 11" fill="none" stroke="#7CD0B6" stroke-width="9" stroke-linecap="round"/>
+  <path d="m62 70 7 7 14-18" fill="none" stroke="#E85C47" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
