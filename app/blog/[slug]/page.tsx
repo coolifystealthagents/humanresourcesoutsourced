@@ -1,5 +1,7 @@
-import { Header, Footer, CTA } from '../../components';
+import { Header, Footer, CTA, JsonLd } from '../../components';
 import { blogPosts, site } from '../../data';
+
+const siteUrl = 'https://humanresourcesoutsourced.com';
 
 const guideDetails: Record<string, {
   shortAnswer: string;
@@ -74,18 +76,74 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const post = blogPosts.find((item) => item.slug === slug);
-  return { title: post?.title || 'Guide', description: post?.excerpt };
+  if (!post) return { title: 'Guide' };
+
+  const url = `${siteUrl}/blog/${post.slug}`;
+  return {
+    title: post.title,
+    description: post.excerpt,
+    alternates: { canonical: url },
+    openGraph: {
+      title: post.title,
+      description: post.excerpt,
+      url,
+      siteName: site.brand,
+      type: 'article',
+    },
+  };
 }
 
 export default async function Post({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const post = blogPosts.find((item) => item.slug === slug) || blogPosts[0];
   const details = guideDetails[post.slug];
+  const path = `/blog/${post.slug}`;
+  const url = `${siteUrl}${path}`;
+  const schema = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'Article',
+        '@id': `${url}#article`,
+        headline: post.title,
+        description: post.excerpt,
+        url,
+        mainEntityOfPage: { '@id': `${url}#webpage` },
+        author: { '@type': 'Organization', name: site.brand, url: siteUrl },
+        publisher: { '@type': 'Organization', name: site.brand, url: siteUrl },
+        hasPart: details.sections.map((section, index) => ({
+          '@type': 'WebPageElement',
+          position: index + 1,
+          name: section.title,
+          description: section.body,
+        })),
+      },
+      {
+        '@type': 'WebPage',
+        '@id': `${url}#webpage`,
+        name: post.title,
+        description: post.excerpt,
+        url,
+        isPartOf: { '@type': 'WebSite', name: site.brand, url: siteUrl },
+        mainEntity: { '@id': `${url}#article` },
+      },
+      {
+        '@type': 'BreadcrumbList',
+        '@id': `${url}#breadcrumb`,
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: siteUrl },
+          { '@type': 'ListItem', position: 2, name: 'Guides', item: `${siteUrl}/blog` },
+          { '@type': 'ListItem', position: 3, name: post.title, item: url },
+        ],
+      },
+    ],
+  };
 
   return (
     <>
       <Header />
       <main className="section">
+        <JsonLd data={schema} />
         <article className="container" style={{ maxWidth: 880 }}>
           <p className="eyebrow">{site.brand} guide</p>
           <h1>{post.title}</h1>
