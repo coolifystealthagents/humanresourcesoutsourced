@@ -19,7 +19,7 @@ export const services = [
   {
     slug: 'operations-support',
     title: 'HR operations support',
-    desc: 'Offshore HR operations support for inbox triage, employee record updates, policy handoffs, and manager follow-up.',
+    desc: 'Keep the HR inbox, employee records, policy acknowledgements, and manager follow-up from falling behind.',
     bestTasks: ['HR inbox sorting and owner-approved replies', 'employee file updates and checklist tracking', 'policy acknowledgement follow-up', 'PTO, address, and status change routing'],
     controls: ['manager approval for sensitive employee issues', 'daily handoff note with open items and blockers', 'weekly error review for files, dates, and missing documents'],
     firstWeek: ['connect the HR inbox with limited permissions', 'share three good examples and three do-not-send examples', 'review the first 25 tickets before replies go out'],
@@ -36,14 +36,14 @@ export const services = [
     controls: ['reply templates approved before launch', 'ticket tags for payroll, benefits, manager, and urgent issues', 'same-day escalation rules for sensitive messages'],
     firstWeek: ['build a small answer bank', 'tag ten past requests by owner and risk level', 'send daily unresolved-ticket summaries to HR'],
     faqs: [
-      { question: 'Is this a replacement for an HR manager?', answer: 'No. It removes repeat admin work and routes issues faster. A manager still owns policy, judgement calls, and employee-sensitive decisions.' },
+      { question: 'Is this a replacement for an HR manager?', answer: 'No. It takes repeat admin work off the manager and routes questions to the right owner. Policy, judgment calls, and sensitive employee decisions stay with the manager.' },
       { question: 'How do we keep answers consistent?', answer: 'Start with approved reply templates, a list of topics the assistant cannot answer alone, and a weekly review of changed policies.' },
     ],
   },
   {
     slug: 'admin-support',
     title: 'Recruiting admin support',
-    desc: 'Recruiting admin support for interview scheduling, candidate follow-up, scorecard collection, and hiring pipeline cleanup.',
+    desc: 'Keep interview scheduling, candidate follow-up, scorecard collection, and hiring pipeline updates on track.',
     bestTasks: ['candidate email follow-up', 'interview scheduling and reminder messages', 'resume labeling and pipeline updates', 'scorecard collection after interviews'],
     controls: ['no salary, offer, rejection, or legal wording without approval', 'candidate notes stay factual and source based', 'daily pipeline report for stuck candidates'],
     firstWeek: ['load interview templates', 'clean one open role pipeline', 'test handoffs with five candidates before expanding'],
@@ -55,7 +55,7 @@ export const services = [
   {
     slug: 'reporting-and-qa',
     title: 'HR reporting and QA',
-    desc: 'HR reporting and QA support for weekly people ops dashboards, checklist audits, and clean handoffs to the HR owner.',
+    desc: 'Prepare weekly HR reports, check missing paperwork, and hand open questions back to the HR owner.',
     bestTasks: ['weekly onboarding status reports', 'missing document audits', 'ticket aging and response-time summaries', 'checklist QA before payroll or benefits cutoffs'],
     controls: ['source links for every number', 'red flag list for missing IDs, dates, or approvals', 'owner signoff before reports are sent outside HR'],
     firstWeek: ['pick one report that already exists', 'define the fields and source systems', 'compare assistant output to the owner report for two cycles'],
@@ -69,71 +69,45 @@ export const services = [
 export const blogPosts = [
   {
     slug: 'human-resources-outsourced-planning',
-    title: 'Human Resources Outsourced: What does it plan?',
-    excerpt: 'A plain-English guide to staffing details, scope, and hidden planning.',
+    title: 'How to plan outsourced HR support',
+    excerpt: 'Define the admin work, approval lines, and access rules before you look for support.',
     minutes: 6,
   },
   {
     slug: 'human-resources-outsourced-tasks-to-outsource',
-    title: 'Human Resources Outsourced: What tasks should you outsource first?',
-    excerpt: 'Start with recurring work that has examples and clear review rules.',
+    title: 'HR tasks to outsource first',
+    excerpt: 'Start with repeat admin work that has good examples and a clear owner.',
     minutes: 7,
   },
   {
     slug: 'human-resources-outsourced-provider-questions',
-    title: 'Human Resources Outsourced: Questions to ask before hiring',
-    excerpt: 'Use these questions before you sign with a provider or freelancer.',
+    title: 'Questions to ask an HR outsourcing provider',
+    excerpt: 'Ask how the provider handles access, quality checks, sensitive questions, and daily handoffs.',
     minutes: 8,
   },
   {
     slug: 'human-resources-outsourced-onboarding-checklist',
-    title: 'Human Resources Outsourced: First week onboarding checklist',
-    excerpt: 'A simple checklist for tools, SOPs, calls, QA, and reporting.',
+    title: 'First-week HR support onboarding checklist',
+    excerpt: 'Set up tools, sample work, approval rules, and daily review before handing over the full queue.',
     minutes: 9,
   },
 ] as const;
 
-export const stats = [
-  { label: 'Typical savings target', value: '30-60%', note: 'depends on role, management, and local hiring plan' },
-  { label: 'Best pilot length', value: '14 days', note: 'enough time to test quality before scaling' },
-  { label: 'Start with', value: '5-10 tasks', note: 'clear recurring tasks beat vague job descriptions' },
-] as const;
-
 export const staffingOffer = {
-  partner: 'our staffing team',
-  promise: 'Get a managed offshore staffing plan built around the work you need removed from your plate.',
-  fit: [
-    'business owners who need reliable remote staff but do not want to screen alone',
-    'teams that want trained support, backup coverage, and a clear manager path',
-    'companies that need help with admin, operations, customer support, calls, bookkeeping, development, or marketing work',
-  ],
   included: [
-    'role planning call to turn your task list into a clear staffing scope',
-    'candidate matching based on skills, schedule, tools, and communication needs',
-    'onboarding guidance for SOPs, scorecards, reporting, and safe tool access',
-    'managed support so quality, attendance, and replacement questions do not sit only on the owner',
-  ],
-  proof: [
-    'clear task scope before hiring',
-    'weekly reporting rhythm',
-    'named accountability and escalation path',
-    'simple handoff plan for tools, SOPs, and quality checks',
+    'the HR admin tasks that can move without giving away manager decisions',
+    'the inboxes, files, calendars, and HR tools the role will use',
+    'approval rules for employee messages, records, offers, pay, and policy questions',
+    'a first-week review plan for sample work, open items, and access limits',
   ],
 } as const;
 
 export const leadQuestions = [
-  'What work do you want off your plate first?',
-  'Which tools, inboxes, phones, CRMs, or systems will the staff member use?',
+  'Which HR admin work is falling behind now?',
+  'Which inboxes, calendars, employee files, or HR systems will the staff member use?',
   'What hours, time zone, and response time do you need?',
   'Who checks quality during the first two weeks?',
   'What should the staff member never decide without approval?',
 ] as const;
 
-export const staffingProcess = [
-  { step: '1', title: 'Map the role', body: 'We turn messy tasks into one clear role with outcomes, tools, limits, and a first-week checklist.' },
-  { step: '2', title: 'Match the staff', body: 'our staffing team can help match remote staff to the work, schedule, communication style, and skill level you need.' },
-  { step: '3', title: 'Launch with control', body: 'Start with SOPs, sample work, limited access, daily review, and a simple scorecard so quality is easy to see.' },
-  { step: '4', title: 'Scale what works', body: 'Once the first tasks are stable, add more work, better reporting, and stronger delegation without guessing.' },
-] as const;
-
-export const staffingFitNote = 'Every staffing plan depends on role scope, schedule, skills, tools, and management needs. Send the role details and our staffing team can guide the best fit.';
+export const staffingFitNote = 'The right setup depends on the HR tasks, schedule, access level, and decisions that must stay with your internal owner.';

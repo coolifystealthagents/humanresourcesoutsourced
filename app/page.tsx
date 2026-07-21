@@ -57,7 +57,7 @@ export default function Home() {
                 <li>Stop hiring calendars from going quiet.</li>
               </ul>
               <a className="hr-button" href="/contact">Plan my HR support</a>
-              <p className="hr-button-note">Clear task limits. Human review. No public rate card.</p>
+              <p className="hr-button-note">Start with clear task limits and a named reviewer.</p>
             </div>
 
             <div className="hr-photo-stage">

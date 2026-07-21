@@ -75,12 +75,12 @@ export default async function Service({ params }: { params: Promise<{ slug: stri
         <section className="service-hero">
           <div className="container two">
             <div>
-              <p className="eyebrow">{site.brand} service</p>
+              <p className="eyebrow">HR admin support</p>
               <h1>{s.title}</h1>
               <p className="lead">{s.desc}</p>
-              <a className="btn" href="/contact">Plan this role</a>
+              <a className="btn" href="/contact">Plan this HR role</a>
             </div>
-            <div className="hero-card"><img src={site.serviceImage} alt={`${s.title} offshore service team`} /></div>
+            <div className="hero-card"><img src={site.serviceImage} alt={`Team planning ${s.title.toLowerCase()}`} /></div>
           </div>
         </section>
         <section className="section">
@@ -94,7 +94,7 @@ export default async function Service({ params }: { params: Promise<{ slug: stri
               <ul>{s.controls.map((control) => <li key={control}>{control}</li>)}</ul>
             </div>
             <div className="card">
-              <h3>First week launch</h3>
+              <h3>First-week setup</h3>
               <ul>{s.firstWeek.map((step) => <li key={step}>{step}</li>)}</ul>
             </div>
           </div>
@@ -102,9 +102,9 @@ export default async function Service({ params }: { params: Promise<{ slug: stri
         <section className="section band">
           <div className="container two">
             <div>
-              <p className="eyebrow">Buyer FAQ</p>
+              <p className="eyebrow">Questions before you hire</p>
               <h2>Keep the HR owner in control.</h2>
-              <p>Outsourced HR support works best when admin work moves offshore and sensitive decisions stay with the person who owns the policy.</p>
+              <p>Remote staff can prepare the admin work. Sensitive decisions stay with the person who owns the policy and the employee relationship.</p>
             </div>
             <div className="cards stacked">
               {s.faqs.map((faq) => (
