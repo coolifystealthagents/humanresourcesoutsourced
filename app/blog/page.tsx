@@ -1,32 +1,3 @@
-import { Header, Footer } from '../components';
-import { blogPosts, site } from '../data';
-
-export const metadata = {
-  title: 'HR outsourcing guides',
-  description: 'Short guides to planning HR admin support, choosing the first tasks, checking providers, and setting up the first week.',
-};
-
-export default function Blog() {
-  return (
-    <>
-      <Header />
-      <main className="section">
-        <div className="container">
-          <p className="eyebrow">{site.brand}</p>
-          <h1>Guides for handing off HR admin work</h1>
-          <p className="lead">Use these guides to choose the work, protect sensitive decisions, check a provider, and set up the first week.</p>
-          <div className="cards">
-            {blogPosts.map((post) => (
-              <a className="card" href={`/blog/${post.slug}`} key={post.slug}>
-                <h3>{post.title}</h3>
-                <p>{post.excerpt}</p>
-                <span className="pill">{post.minutes} min read</span>
-              </a>
-            ))}
-          </div>
-        </div>
-      </main>
-      <Footer />
-    </>
-  );
-}
+import {Header,Footer} from '../components'; import {blogPosts,site} from '../data'; import {postsPerPage} from '../fleet-data';
+export const metadata={title:`Blog | ${site.brand}`,description:`Philippines-based ${site.primary} planning guides.`};
+export default function Blog(){const pages=Math.max(1,Math.ceil(blogPosts.length/postsPerPage));const posts=blogPosts.slice(0,postsPerPage);return <><Header/><main><section className="fleet-hero variant-2"><div className="container"><p className="eyebrow">Blog</p><h1>Human Resources Outsourced guides</h1><p className="lead">Practical planning for Philippines-based human resources roles, workflows, and manager handoffs.</p></div></section><section className="section"><div className="container fleet-service-grid">{posts.map(p=><a className="card" href={`/blog/${p.slug}`} key={p.slug}><h2>{p.title}</h2><p>{p.excerpt}</p><b>Read article →</b></a>)}</div><nav className="pagination" aria-label="Blog pages">{Array.from({length:pages},(_,i)=><a aria-current={i===0?'page':undefined} href={i===0?'/blog':`/blog/page/${i+1}`} key={i}>{i+1}</a>)}</nav></section></main><Footer/></>}
