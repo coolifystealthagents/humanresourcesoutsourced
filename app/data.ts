@@ -24,7 +24,7 @@ export const services = [
     controls: ['manager approval for sensitive employee issues', 'daily handoff note with open items and blockers', 'weekly error review for files, dates, and missing documents'],
     firstWeek: ['connect the HR inbox with limited permissions', 'share three good examples and three do-not-send examples', 'review the first 25 tickets before replies go out'],
     faqs: [
-      { question: 'Can offshore staff answer employee HR questions?', answer: 'They can draft and route simple replies from approved templates. Pay, discipline, medical, legal, and policy exceptions should stay with the HR owner.' },
+      { question: 'Can Philippines-based staff answer employee HR questions?', answer: 'They can draft and route simple replies from approved templates. Pay, discipline, medical, legal, and policy exceptions should stay with the HR owner.' },
       { question: 'What should stay in-house?', answer: 'Final decisions on employee relations, compensation, terminations, investigations, and legal interpretation should stay with your internal lead or advisor.' },
     ],
   },
@@ -60,7 +60,7 @@ export const services = [
     controls: ['source links for every number', 'red flag list for missing IDs, dates, or approvals', 'owner signoff before reports are sent outside HR'],
     firstWeek: ['pick one report that already exists', 'define the fields and source systems', 'compare assistant output to the owner report for two cycles'],
     faqs: [
-      { question: 'Can an offshore assistant own HR metrics?', answer: 'They can prepare and check the report. The HR owner should still approve the numbers, explain trends, and decide what changes.' },
+      { question: 'Can a Philippines-based assistant own HR metrics?', answer: 'They can prepare and check the report. The HR owner should still approve the numbers, explain trends, and decide what changes.' },
       { question: 'Which reports are safest to start with?', answer: 'Start with onboarding status, missing paperwork, open tickets, and aging items. Avoid sensitive performance or compensation reports until trust and access controls are proven.' },
     ],
   },
@@ -69,9 +69,9 @@ export const services = [
 export const blogPosts = [
   {
     slug: 'human-resources-outsourced-planning',
-    title: 'How to plan outsourced HR support',
-    excerpt: 'Define the admin work, approval lines, and access rules before you look for support.',
-    minutes: 6,
+    title: 'HR outsourcing: a Philippines HR admin buyer guide',
+    excerpt: 'Plan Philippines-based HR admin support with clear task lanes, access limits, owner decisions, scripts, and a practical 10-day pilot.',
+    minutes: 12,
   },
   {
     slug: 'human-resources-outsourced-tasks-to-outsource',
