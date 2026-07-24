@@ -13,7 +13,6 @@ export function GET() {
   const paths = [
     '/',
     '/services',
-    '/pricing',
     '/blog',
     '/research',
     '/contact',
@@ -22,7 +21,7 @@ export function GET() {
     '/cancellation-policy',
     ...Array.from(serviceSlugs, (slug) => `/services/${slug}`),
     ...blogs.map((blog) => `/blog/${blog.slug}`),
-    ...Array.from({ length: pageCount }, (_, index) => `/blog/page/${index + 1}`),
+    ...Array.from({ length: Math.max(0, pageCount - 1) }, (_, index) => `/blog/page/${index + 2}`),
     ...researchPosts.map((post) => `/research/${post.slug}`)
   ];
   const body = paths
