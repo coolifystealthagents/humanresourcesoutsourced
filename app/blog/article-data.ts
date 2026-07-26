@@ -16,6 +16,10 @@ export type RichArticle = {
   faqs: { question: string; answer: string }[];
   related: { title: string; href: string; note: string }[];
   sources: { name: string; url: string; note: string }[];
+  expertQuote?: { text: string; attribution: string; url: string };
+  chart?: { title: string; subtitle: string; bars: { label: string; value: number; note: string }[]; methods: string };
+  graphic?: { title: string; caption: string; steps: { label: string; detail: string }[] };
+  banners?: { eyebrow: string; title: string; text: string; href: string; linkLabel: string }[];
 };
 
 export const richArticles: Record<string, RichArticle> = {
@@ -149,6 +153,154 @@ export const richArticles: Record<string, RichArticle> = {
       { name: 'IRS: employment tax recordkeeping', url: 'https://www.irs.gov/businesses/small-businesses-self-employed/employment-tax-recordkeeping', note: 'Four-year employment tax record guidance.' },
       { name: 'EEOC: recordkeeping requirements', url: 'https://www.eeoc.gov/employers/recordkeeping-requirements', note: 'Federal personnel and employment record guidance.' },
       { name: 'SBA: hire and manage employees', url: 'https://www.sba.gov/business-guide/manage-your-business/hire-manage-employees', note: 'Employer planning and compliance overview.' }
+    ]
+  },
+  'philippines-hr-onboarding-support-30-day-handoff-plan': {
+    slug: 'philippines-hr-onboarding-support-30-day-handoff-plan',
+    title: 'Philippines HR onboarding support: a 30-day handoff plan',
+    description: 'Use this 30-day plan to hand repeat onboarding admin to a Philippines-based HR assistant while your company keeps hiring, policy, pay, access, and employee decisions.',
+    published: '2026-07-25',
+    updated: '2026-07-25',
+    minutes: 13,
+    revision: '2026-07-25-philippines-hr-onboarding-handoff',
+    directAnswer: [
+      'A Philippines-based HR assistant can run the repeat parts of onboarding: sending approved welcome notes, checking forms for missing fields, booking orientation, updating the HR system, and chasing signed acknowledgements. Your company should keep final control of the hire, start date, pay, policy exceptions, system permissions, and any message that contains a complaint or medical detail.',
+      'Move the work in four steps over 30 days instead of handing over the whole queue on day one. Start with redacted examples, test named accounts, review every early item, and widen the lane only after the records are complete and the stop rules work.'
+    ],
+    takeaways: [
+      'Begin with one repeat onboarding queue and ten clean examples.',
+      'Give the assistant a named account with only the access the task needs.',
+      'Keep hiring, pay, policy, employee relations, and legal calls with the company.',
+      'Check complete records and correct handoffs, not message volume.',
+      'Remove access and return open work through a written exit checklist.'
+    ],
+    taskRows: [
+      { lane: 'Welcome messages', philippinesTeam: 'Send owner-approved copy, confirm receipt, and record the next step.', owner: 'Approve the hire, start date, policy wording, and any exception.', check: 'Correct person, date, template, and status' },
+      { lane: 'Form collection', philippinesTeam: 'Check required fields, name the missing item, and store the approved file.', owner: 'Decide whether a document is acceptable and handle sensitive details.', check: 'Complete file with source and received date' },
+      { lane: 'Orientation booking', philippinesTeam: 'Offer approved times, send reminders, and update the shared calendar.', owner: 'Choose required sessions, presenters, and attendance rules.', check: 'Calendar, time zone, and attendee match' },
+      { lane: 'System setup request', philippinesTeam: 'Prepare the approved request and track its status.', owner: 'Approve each permission and confirm the business need.', check: 'Named account and least-access review' },
+      { lane: 'First-week follow-up', philippinesTeam: 'Send the checklist, collect open questions, and route each one.', owner: 'Answer pay, policy, complaint, medical, and manager questions.', check: 'No sensitive question answered from guesswork' }
+    ],
+    pilotStats: [
+      { value: '60%', label: 'Human element', note: 'Share of breaches involving a human element in the 2025 Verizon DBIR' },
+      { value: '$4.88M', label: 'Global breach impact', note: 'Average reported in IBM\'s 2024 Cost of a Data Breach study' },
+      { value: '859,532', label: 'Cyber complaints', note: 'Complaints received by the FBI IC3 during calendar year 2024' },
+      { value: '$16.6B', label: 'Reported cyber loss', note: 'Losses in the FBI IC3 2024 annual report' }
+    ],
+    sections: [
+      {
+        heading: 'Choose a first lane that can be checked',
+        paragraphs: [
+          'Onboarding looks like one process, but it is a pile of small jobs owned by different people. Pick one lane that has a clear input and output, such as form collection or orientation booking, and leave exceptions with the internal HR owner.',
+          'Gather ten recent examples and remove details the assistant does not need for training. Mark what was correct, what needed approval, and what should have stopped the process, because a folder of examples without notes leaves the new person guessing.'
+        ]
+      },
+      {
+        heading: 'Keep employee decisions inside the company',
+        paragraphs: [
+          'The outside assistant may prepare a record or send approved copy, but preparation is not approval. Hiring decisions, pay, benefit eligibility, background-check decisions, policy exceptions, discipline, accommodations, investigations, and termination belong with qualified company owners.',
+          'Put the owner beside each stop rule. If a new hire asks why a benefit is unavailable, the assistant should route the question to the benefits owner rather than trying to make the welcome process feel complete.'
+        ]
+      },
+      {
+        heading: 'Use named accounts and the smallest useful access',
+        paragraphs: [
+          'NIST calls this least privilege. Its glossary defines the principle this way: "A security principle that a system should restrict the access privileges of users (or processes acting on behalf of users) to the minimum necessary to accomplish assigned tasks."',
+          'For an onboarding coordinator, that may mean access to a checklist, a limited employee profile, and the orientation calendar. It does not automatically mean access to compensation files, investigation notes, medical records, or every past employee file.'
+        ]
+      },
+      {
+        heading: 'Treat the security numbers as a reason to slow down',
+        paragraphs: [
+          'The 2025 Verizon Data Breach Investigations Report says the human element was involved in about 60% of breaches. That does not mean an HR assistant is the problem; it means email, credentials, copied files, and rushed approvals deserve a simple control that people can follow.',
+          'IBM reported that the global average impact of a data breach reached $4.88 million in its 2024 study, up 10% from the prior year. The FBI Internet Crime Complaint Center received 859,532 complaints in 2024 and recorded more than $16.6 billion in reported losses, but those global and national figures are context for careful account setup rather than a forecast for one company.'
+        ]
+      },
+      {
+        heading: 'Run the handoff in four review windows',
+        paragraphs: [
+          'Days 1 through 3 are for mapping the queue, cleaning examples, and naming the owner. The assistant watches the process and repeats the instructions back using one sample, while no message or record leaves the training area without review.',
+          'Days 4 through 7 are a small supervised test. Give the assistant five to ten ordinary items, check every output, and sort misses into instruction, access, source-data, or judgment errors so the fix is clear.',
+          'Days 8 through 14 are for a normal but narrow queue. Review a daily sample, keep every sensitive item with HR, and check whether the work actually reduces follow-up instead of creating another place for the manager to look.'
+        ]
+      },
+      {
+        heading: 'Count complete handoffs, not activity',
+        paragraphs: [
+          'A busy assistant can send many reminders while the employee file stays incomplete. Use a short scorecard that checks record completeness, correct owner routing, calendar accuracy, approval evidence, and the age of unresolved items.',
+          'Review misses by type and show the exact example. If three forms arrive without a received date, change the checklist and test the fix instead of telling the assistant to be more careful.'
+        ]
+      },
+      {
+        heading: 'Set record and exit rules before the first live file',
+        paragraphs: [
+          'Retention is not one universal number. The IRS says employers should keep employment tax records for at least four years after the tax becomes due or is paid, whichever is later, while the EEOC says employers generally must keep personnel or employment records for one year and lists other situations with different duties.',
+          'Ask the company owner or counsel to set the schedule that applies to each record type and location. The assistant needs the approved file name, storage place, source field, correction owner, and deletion or archive instruction, not a general request to keep HR files organized.'
+        ]
+      }
+    ],
+    scripts: [
+      { label: 'Provider call question', text: 'Please show how your Philippines-based HR assistant would process a new-hire form with one missing field, then explain what changes if the form includes medical information or a complaint.' },
+      { label: 'Assistant stop rule', text: 'You may send the approved welcome and checklist messages. Stop and tag the HR owner before replying to anything about pay, benefits eligibility, policy exceptions, complaints, medical details, investigations, or access outside the approved list.' }
+    ],
+    workflow: [
+      { step: '01', title: 'Map one queue', text: 'Name the input, output, owner, storage place, and stop rule for one repeat onboarding task.' },
+      { step: '02', title: 'Prepare examples', text: 'Use ten redacted examples with notes that show what passed, what changed, and what returned to HR.' },
+      { step: '03', title: 'Test access', text: 'Create a named account with the smallest useful permission set and test it on a sample record.' },
+      { step: '04', title: 'Review live work', text: 'Check every early item, then move to a daily sample only after the lane stays inside its boundary.' },
+      { step: '05', title: 'Close the loop', text: 'Review record quality, manager time, open items, and access before adding another task.' }
+    ],
+    faqs: [
+      { question: 'Which onboarding tasks can a Philippines HR assistant handle?', answer: 'A trained assistant can send approved messages, collect forms, flag missing fields, book orientation, update approved HR system fields, track acknowledgements, and route employee questions. The company should keep decisions and sensitive exceptions.' },
+      { question: 'Should the assistant receive full HR system access?', answer: 'No. Start with the smallest role and field access needed for the chosen lane, use a named account, and review permissions when the lane changes.' },
+      { question: 'Who approves system access for a new hire?', answer: 'A company system or data owner should approve each permission based on the job. The outsourced assistant may prepare and track the request but should not grant access alone.' },
+      { question: 'How often should HR review the first month of work?', answer: 'Review every item during the first supervised test, then use a daily sample when the lane is stable. Keep immediate review for sensitive records and exceptions.' },
+      { question: 'Does this plan replace legal or privacy advice?', answer: 'No. It is an operations plan for assigning admin work. Qualified company owners and advisers must set the employment, privacy, retention, and cross-border rules that apply.' }
+    ],
+    related: [
+      { title: 'HR operations support', href: '/services/operations-support', note: 'See the matching employee admin lane.' },
+      { title: 'Recruiting admin support', href: '/services/admin-support', note: 'Plan candidate scheduling and pipeline work.' },
+      { title: 'HR reporting and QA', href: '/services/reporting-and-qa', note: 'Build a small review scorecard.' },
+      { title: 'HR outsourcing planning guide', href: '/blog/human-resources-outsourced-planning', note: 'Compare task lanes and owner boundaries.' }
+    ],
+    sources: [
+      { name: 'Verizon: 2025 Data Breach Investigations Report executive summary', url: 'https://www.verizon.com/business/resources/reports/2025-dbir-executive-summary.pdf', note: 'Published in 2025; source for the human-element share used in the article.' },
+      { name: 'IBM: 2024 Cost of a Data Breach study release', url: 'https://newsroom.ibm.com/2024-07-30-ibm-report-escalating-data-breach-disruption-pushes-costs-to-new-highs', note: 'Published July 30, 2024; source for the global average and year-over-year change.' },
+      { name: 'FBI IC3: 2024 Internet Crime Report', url: 'https://www.ic3.gov/AnnualReport/Reports/2024_IC3Report.pdf', note: 'Published in 2025 for calendar year 2024; source for complaint and reported-loss totals.' },
+      { name: 'NIST: least privilege glossary', url: 'https://csrc.nist.gov/glossary/term/least_privilege', note: 'Source for the exact least-privilege definition quoted in the article.' },
+      { name: 'IRS: employment tax recordkeeping', url: 'https://www.irs.gov/businesses/small-businesses-self-employed/employment-tax-recordkeeping', note: 'Official guidance for the four-year employment tax record rule.' },
+      { name: 'EEOC: recordkeeping requirements', url: 'https://www.eeoc.gov/employers/recordkeeping-requirements', note: 'Official guidance for federal personnel and employment record retention.' }
+    ],
+    expertQuote: {
+      text: 'A security principle that a system should restrict the access privileges of users (or processes acting on behalf of users) to the minimum necessary to accomplish assigned tasks.',
+      attribution: 'NIST Computer Security Resource Center, least privilege glossary',
+      url: 'https://csrc.nist.gov/glossary/term/least_privilege'
+    },
+    chart: {
+      title: '30-day onboarding handoff review windows',
+      subtitle: 'Each bar ends at a planned review point, not a promised performance result.',
+      bars: [
+        { label: 'Map and observe', value: 3, note: 'Days 1-3' },
+        { label: 'Supervised test', value: 7, note: 'Days 4-7' },
+        { label: 'Narrow live queue', value: 14, note: 'Days 8-14' },
+        { label: 'Steady lane review', value: 30, note: 'Days 15-30' }
+      ],
+      methods: 'Method: the bars show the four planning windows in this guide on a 30-day scale. They are an operating example, not survey findings or a promise that every onboarding queue will be ready on the same day.'
+    },
+    graphic: {
+      title: 'The employee record handoff path',
+      caption: 'Every live item should leave a visible record, while exceptions return to the company owner.',
+      steps: [
+        { label: 'Receive', detail: 'Approved channel' },
+        { label: 'Check', detail: 'Fields and source' },
+        { label: 'Route', detail: 'Owner or next step' },
+        { label: 'Record', detail: 'Status and evidence' }
+      ]
+    },
+    banners: [
+      { eyebrow: 'First task', title: 'Start with one onboarding queue.', text: 'Map the inputs, owner decisions, systems, and stop rules before a Philippines-based assistant touches a live employee record.', href: '/services/operations-support', linkLabel: 'Review HR operations support' },
+      { eyebrow: 'Quality check', title: 'Give the manager one review sheet.', text: 'Use the reporting and QA lane to check complete records, correct routing, open items, and access without building a giant dashboard.', href: '/services/reporting-and-qa', linkLabel: 'See HR reporting and QA' },
+      { eyebrow: 'Plan the role', title: 'Bring a real checklist to the staffing call.', text: 'A short, redacted example makes it easier to define the work, the tools, and the decisions that stay with your HR owner.', href: '/contact', linkLabel: 'Discuss Philippines-based HR support' }
     ]
   }
 };

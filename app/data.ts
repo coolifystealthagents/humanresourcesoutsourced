@@ -68,6 +68,12 @@ export const services = [
 
 export const blogPosts = [
   {
+    slug: 'philippines-hr-onboarding-support-30-day-handoff-plan',
+    title: 'Philippines HR onboarding support: a 30-day handoff plan',
+    excerpt: 'Move onboarding admin to a Philippines-based HR assistant with clear owner decisions, access limits, review windows, and record controls.',
+    minutes: 13,
+  },
+  {
     slug: 'human-resources-outsourced-planning',
     title: 'HR outsourcing: a Philippines HR admin buyer guide',
     excerpt: 'Plan Philippines-based HR admin support with clear task lanes, access limits, owner decisions, scripts, and a practical 10-day pilot.',

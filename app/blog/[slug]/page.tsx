@@ -73,7 +73,7 @@ export default async function Post({ params }: Params) {
   };
 
   return <>
-    <Header />
+    <Header articleMode />
     <main className="hr-article" data-article-revision={article.revision}>
       <JsonLd data={articleSchema} />
       <JsonLd data={faqSchema} />
@@ -85,7 +85,7 @@ export default async function Post({ params }: Params) {
             <p className="eyebrow">Philippines staffing guide</p>
             <h1>{article.title}</h1>
             <p className="lead">{article.description}</p>
-            <div className="hr-article-meta"><span>{article.minutes} minute read</span><span>Updated July 22, 2026</span><span>Philippines-only talent</span></div>
+            <div className="hr-article-meta"><span>{article.minutes} minute read</span><span>Updated {new Date(`${article.updated}T00:00:00Z`).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' })}</span><span>Philippines-only talent</span></div>
           </div>
           <aside className="hr-direct-answer" aria-label="Direct answer">
             <span>Direct answer</span>
@@ -112,11 +112,15 @@ export default async function Post({ params }: Params) {
         </section>
 
         <section className="hr-pilot-board" aria-labelledby="pilot-board-heading">
-          <div><p className="eyebrow">Example pilot board</p><h2 id="pilot-board-heading">Use small numbers for the first review</h2></div>
+          <div><p className="eyebrow">{article.chart ? 'Evidence snapshot' : 'Example pilot board'}</p><h2 id="pilot-board-heading">{article.chart ? 'Why careful access and review matter' : 'Use small numbers for the first review'}</h2></div>
           <div className="hr-stat-grid">{article.pilotStats.map((stat) => <div key={stat.label}><strong>{stat.value}</strong><span>{stat.label}</span><small>{stat.note}</small></div>)}</div>
         </section>
 
+        {article.banners?.[0] && <aside className="hr-article-banner" data-banner-slot="1"><div><p className="eyebrow">{article.banners[0].eyebrow}</p><h2>{article.banners[0].title}</h2><p>{article.banners[0].text}</p></div><a href={article.banners[0].href}>{article.banners[0].linkLabel}</a></aside>}
+
         {article.sections.slice(0, 4).map((section) => <section className="hr-prose-section" key={section.heading}><h2>{section.heading}</h2>{section.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}</section>)}
+
+        {article.expertQuote && <figure className="hr-expert-quote"><blockquote>&quot;{article.expertQuote.text}&quot;</blockquote><figcaption><a href={article.expertQuote.url} rel="noopener noreferrer">{article.expertQuote.attribution}</a></figcaption></figure>}
 
         <section className="hr-script-panel" aria-labelledby="scripts-heading">
           <div><p className="eyebrow">Copy-ready scripts</p><h2 id="scripts-heading">Make the stop points easy to say</h2></div>
@@ -125,12 +129,35 @@ export default async function Post({ params }: Params) {
 
         {article.sections.slice(4, 5).map((section) => <section className="hr-prose-section" key={section.heading}><h2>{section.heading}</h2>{section.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}</section>)}
 
+        {article.chart && <figure className="hr-svg-module" aria-labelledby="handoff-chart-title handoff-chart-desc">
+          <div className="hr-section-heading"><p className="eyebrow">Planning chart</p><h2 id="handoff-chart-title">{article.chart.title}</h2><p id="handoff-chart-desc">{article.chart.subtitle}</p></div>
+          <svg viewBox="0 0 860 360" role="img" aria-labelledby="handoff-chart-title handoff-chart-desc">
+            <line x1="210" y1="30" x2="210" y2="310" className="hr-chart-axis" />
+            {[0, 10, 20, 30].map((tick) => <g key={tick}><line x1={210 + tick * 19} y1="30" x2={210 + tick * 19} y2="310" className="hr-chart-grid" /><text x={210 + tick * 19} y="336" textAnchor="middle" className="hr-chart-tick">Day {tick}</text></g>)}
+            {article.chart.bars.map((bar, index) => <g key={bar.label} transform={`translate(0 ${48 + index * 67})`}><text x="195" y="20" textAnchor="end" className="hr-chart-label">{bar.label}</text><rect x="210" y="0" width={bar.value * 19} height="34" rx="8" className="hr-chart-bar" /><text x={bar.value === 30 ? 770 : 220 + bar.value * 19} y="22" textAnchor={bar.value === 30 ? 'end' : 'start'} className="hr-chart-note">{bar.note}</text></g>)}
+          </svg>
+          <figcaption>{article.chart.methods}</figcaption>
+        </figure>}
+
+        {article.banners?.[1] && <aside className="hr-article-banner hr-article-banner-alt" data-banner-slot="2"><div><p className="eyebrow">{article.banners[1].eyebrow}</p><h2>{article.banners[1].title}</h2><p>{article.banners[1].text}</p></div><a href={article.banners[1].href}>{article.banners[1].linkLabel}</a></aside>}
+
         <section className="hr-workflow" aria-labelledby="workflow-heading">
           <div className="hr-section-heading"><p className="eyebrow">Launch path</p><h2 id="workflow-heading">A five-step HR outsourcing workflow</h2></div>
           <ol>{article.workflow.map((item) => <li key={item.step}><span>{item.step}</span><div><h3>{item.title}</h3><p>{item.text}</p></div></li>)}</ol>
         </section>
 
+        {article.graphic && <figure className="hr-svg-module hr-loop-graphic" aria-labelledby="handoff-loop-title handoff-loop-desc">
+          <div className="hr-section-heading"><p className="eyebrow">Process graphic</p><h2 id="handoff-loop-title">{article.graphic.title}</h2><p id="handoff-loop-desc">{article.graphic.caption}</p></div>
+          <svg viewBox="0 0 900 300" role="img" aria-labelledby="handoff-loop-title handoff-loop-desc">
+            <path d="M145 150 H755" className="hr-loop-line" />
+            {article.graphic.steps.map((step, index) => { const x = 145 + index * 203; return <g key={step.label}><circle cx={x} cy="150" r="62" className="hr-loop-node" /><text x={x} y="143" textAnchor="middle" className="hr-loop-label">{step.label}</text><text x={x} y="169" textAnchor="middle" className="hr-loop-detail">{step.detail}</text>{index < article.graphic!.steps.length - 1 && <path d={`M ${x + 86} 150 l -18 -10 v 20 z`} className="hr-loop-arrow" />}</g>})}
+          </svg>
+          <figcaption>{article.graphic.caption}</figcaption>
+        </figure>}
+
         {article.sections.slice(5).map((section) => <section className="hr-prose-section" key={section.heading}><h2>{section.heading}</h2>{section.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}</section>)}
+
+        {article.banners?.[2] && <aside className="hr-article-banner" data-banner-slot="3"><div><p className="eyebrow">{article.banners[2].eyebrow}</p><h2>{article.banners[2].title}</h2><p>{article.banners[2].text}</p></div><a href={article.banners[2].href}>{article.banners[2].linkLabel}</a></aside>}
 
         <section className="hr-faq" aria-labelledby="faq-heading">
           <p className="eyebrow">Buyer FAQ</p><h2 id="faq-heading">HR outsourcing questions</h2>
@@ -147,8 +174,7 @@ export default async function Post({ params }: Params) {
           <ol>{article.sources.map((source) => <li key={source.url}><a href={source.url} rel="noopener noreferrer">{source.name}</a><span>{source.note}</span></li>)}</ol>
         </section>
       </article>
-      <CTA />
     </main>
-    <Footer />
+    <Footer articleMode />
   </>;
 }
