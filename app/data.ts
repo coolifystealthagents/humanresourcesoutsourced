@@ -68,6 +68,12 @@ export const services = [
 
 export const blogPosts = [
   {
+    slug: 'philippines-payroll-preparation-support-controls',
+    title: 'Philippines payroll preparation support: scope and controls',
+    excerpt: 'Set up Philippines-based payroll preparation with a narrow task list, separate approvals, change checks, source records, and a clear closeout review.',
+    minutes: 14,
+  },
+  {
     slug: 'philippines-hr-onboarding-support-30-day-handoff-plan',
     title: 'Philippines HR onboarding support: a 30-day handoff plan',
     excerpt: 'Move onboarding admin to a Philippines-based HR assistant with clear owner decisions, access limits, review windows, and record controls.',

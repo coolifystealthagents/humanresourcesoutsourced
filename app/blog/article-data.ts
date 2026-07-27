@@ -23,6 +23,153 @@ export type RichArticle = {
 };
 
 export const richArticles: Record<string, RichArticle> = {
+  'philippines-payroll-preparation-support-controls': {
+    slug: 'philippines-payroll-preparation-support-controls',
+    title: 'Philippines payroll preparation support: scope and controls',
+    description: 'Set up Philippines-based payroll preparation with a narrow task list, separate approvals, change checks, source records, and a clear closeout review.',
+    published: '2026-07-27',
+    updated: '2026-07-27',
+    minutes: 14,
+    revision: '2026-07-27-philippines-payroll-preparation-controls',
+    directAnswer: [
+      'A Philippines-based payroll assistant can collect approved time records, check missing fields, prepare change lists, update working files, and assemble a payroll register for review. Your company should keep control of employee master-data approval, final payroll approval, bank-detail changes, funding, and payment release.',
+      'The cleanest setup separates preparation from approval and leaves a record for every change. Start with one pay cycle, use named accounts, review each exception, and reconcile the approved register against the final output before the cycle closes.'
+    ],
+    takeaways: [
+      'Give the assistant preparation work, not payment authority.',
+      'Require source evidence for every employee or bank-detail change.',
+      'Keep named company owners for approvals, funding, and release.',
+      'Reconcile the approved register against the final output.',
+      'Remove access and return open items through a written exit list.'
+    ],
+    taskRows: [
+      { lane: 'Time and attendance intake', philippinesTeam: 'Collect approved files, check names and dates, and list missing items.', owner: 'Approve time, leave, corrections, and exceptions before they enter the payroll file.', check: 'Source file, owner, date, and approval are visible' },
+      { lane: 'Employee change list', philippinesTeam: 'Prepare additions, departures, status changes, and approved deductions from source records.', owner: 'Approve every change that affects employment, pay, benefits, tax treatment, or access.', check: 'Old value, new value, source, and approver match' },
+      { lane: 'Payroll register draft', philippinesTeam: 'Enter approved inputs, run the working calculation, and flag unusual results.', owner: 'Review totals, exceptions, and sensitive employee changes before approval.', check: 'Totals tie to approved inputs and prior-cycle review' },
+      { lane: 'Payment file support', philippinesTeam: 'Prepare the approved output and hand it to the named release owner.', owner: 'Control bank details, funding, final authorization, and payment release.', check: 'Preparer and releaser are different people' },
+      { lane: 'Closeout records', philippinesTeam: 'Save the approved register, exception list, confirmations, and open-item note.', owner: 'Confirm the final output, resolve differences, and set retention rules.', check: 'Final record matches the approved register' }
+    ],
+    pilotStats: [
+      { value: '76%', label: 'Payments fraud exposure', note: 'United States organizations reporting attempted or actual payments fraud in AFP\'s 2026 survey about 2025 activity' },
+      { value: '74%', label: 'BEC exposure', note: 'United States organizations affected by business email compromise in the same AFP survey' },
+      { value: '43%', label: 'Detected by tips', note: 'Share of cases detected by tips in ACFE\'s 2024 global study' },
+      { value: '$145K', label: 'Median case loss', note: 'Median loss among cases in ACFE\'s 2024 global study' }
+    ],
+    sections: [
+      {
+        heading: 'Define payroll preparation before assigning it',
+        paragraphs: [
+          'Payroll preparation is the work that turns approved time, employee changes, deductions, and other source records into a register that a company owner can review. It does not include deciding a person\'s pay, changing bank details without approval, funding the account, or releasing the payment.',
+          'Write the first scope as a short list of inputs and outputs. A useful line says where the time file arrives, which fields the assistant checks, where exceptions go, who approves the register, and what evidence closes the cycle.'
+        ]
+      },
+      {
+        heading: 'Separate preparation from approval and release',
+        paragraphs: [
+          'One person should not be able to create an employee change, approve it, alter the payment destination, and release funds. NIST control AC-5 tells organizations to identify duties that need separation and define access rights that support that split.',
+          'For a Philippines support role, the assistant can prepare the working file and exception list while named company owners approve employee changes and the final register. A different authorized person should control funding and release, with reconciliation completed after the output is available.'
+        ]
+      },
+      {
+        heading: 'Treat change requests as evidence, not email instructions',
+        paragraphs: [
+          'A request to add an employee, change a deduction, or replace bank details needs a known source and an approved path. The assistant should record the old value, proposed value, request source, approver, date, and status instead of acting on a forwarded message alone.',
+          'Business email compromise makes this rule practical rather than fussy. AFP reported on April 14, 2026 that 74% of 465 surveyed United States organizations were affected by business email compromise during 2025, so a separate verification step is sensible even though that figure is not a Philippines incident estimate.'
+        ]
+      },
+      {
+        heading: 'Use fraud research as context, not a forecast',
+        paragraphs: [
+          'The same AFP release says 76% of surveyed United States organizations experienced attempted or actual payments fraud in 2025, and 58% said checks were subject to fraud. Those results describe United States treasury teams; they do not measure a Philippines-based assistant or predict what will happen in one payroll process.',
+          'ACFE\'s 2024 global study covered 1,921 occupational fraud cases from 138 countries and territories, with more than $3.1 billion in total losses and a $145,000 median loss per case. It also found that 43% of cases were detected by tips, which supports a clear reporting path and owner review without turning the article into a claim about any worker or location.'
+        ]
+      },
+      {
+        heading: 'Run the first cycle with visible checkpoints',
+        paragraphs: [
+          'Use a real cycle with redacted training examples and a narrow employee group. Check each input before entry, review every exception, compare the draft totals with approved source records, and hold release until the owner signs off.',
+          'The 30-day chart below is a setup example for teams that need time to map, test, run, and close one preparation lane. It is not a claim that every payroll calendar takes 30 days or that the support role should control the full process.'
+        ]
+      },
+      {
+        heading: 'Keep records that explain what happened',
+        paragraphs: [
+          'A good closeout pack shows the approved inputs, change list, exception decisions, reviewed register, confirmation, and unresolved items. The assistant can assemble this pack, but the company owner sets the retention schedule and decides who may correct or delete a record.',
+          'The IRS says United States employers should keep employment tax records for at least four years after filing the fourth quarter for the year. That is a United States rule rather than a Philippine retention period, so use it only as an example and ask the right company owner or adviser to set the schedule that applies.'
+        ]
+      },
+      {
+        heading: 'Ask the provider to show the control path',
+        paragraphs: [
+          'A useful provider answer walks through an ordinary time-file correction and a risky bank-detail request. It names the source, assistant action, approval owner, system record, stop rule, final check, and the person who removes access when the work ends.',
+          'Ask to see the first-cycle plan, not a promise that the team can handle everything. The plan should show sample files, named accounts, review times, exception categories, backup coverage, open-item reporting, and the handback process if the assigned worker changes.'
+        ]
+      }
+    ],
+    scripts: [
+      { label: 'Provider call question', text: 'Please show how your Philippines-based payroll assistant would handle one missing time record and one request to change employee bank details. Name the source evidence, the stop point, each approval owner, and the record left after the cycle closes.' },
+      { label: 'Assistant stop rule', text: 'You may prepare the register from approved source records and list exceptions. Stop and tag the payroll owner before changing employee details, resolving a pay dispute, accepting new bank instructions, approving the final register, funding an account, or releasing a payment.' }
+    ],
+    workflow: [
+      { step: '01', title: 'Map the source files', text: 'List each input, its owner, arrival time, required fields, and approved storage place.' },
+      { step: '02', title: 'Mark approval points', text: 'Name who approves employee changes, exceptions, the final register, funding, and release.' },
+      { step: '03', title: 'Test named access', text: 'Give the assistant only the systems and fields needed for preparation, then test removal.' },
+      { step: '04', title: 'Review one live cycle', text: 'Check every exception and compare the draft register with approved source records.' },
+      { step: '05', title: 'Close and reconcile', text: 'Match the final output to the approved register and save the evidence and open-item note.' }
+    ],
+    faqs: [
+      { question: 'What can a Philippines payroll assistant prepare?', answer: 'The role can collect approved time records, check missing fields, prepare employee change lists, enter approved inputs, build a draft register, list exceptions, and assemble closeout records. The exact scope should match the company\'s systems and owner rules.' },
+      { question: 'Which payroll duties should stay with the company?', answer: 'Keep decisions about employment and pay, employee master-data approval, bank-detail verification, final register approval, funding, payment release, dispute handling, and legal interpretation with qualified company owners.' },
+      { question: 'Should the assistant have access to the bank account?', answer: 'Preparation normally does not require payment-release authority. Use the smallest access needed, keep preparer and releaser duties separate, and have the company\'s system and finance owners approve access.' },
+      { question: 'How should bank-detail changes be checked?', answer: 'Use a known request channel and a separate verification step with an authorized owner. Record the old and new values, source, verifier, approval, date, and status before the change enters the approved payroll file.' },
+      { question: 'Does this guide set a legal retention period?', answer: 'No. It gives an operating checklist and cites the IRS rule as a United States example. The company owner or adviser must set the employment, tax, privacy, and cross-border record rules that apply.' }
+    ],
+    related: [
+      { title: 'Payroll preparation support', href: '/services/payroll-preparation-support', note: 'Review the matching Philippines staffing lane.' },
+      { title: 'Employee records administration', href: '/services/employee-records-administration', note: 'Plan source records and approved changes.' },
+      { title: 'HR reporting and QA', href: '/services/reporting-and-qa', note: 'Set up register checks and closeout reports.' },
+      { title: 'HR outsourcing planning guide', href: '/blog/human-resources-outsourced-planning', note: 'Compare broader task and owner boundaries.' },
+      { title: 'Plan Philippines-based HR support', href: '/contact', note: 'Bring a sample checklist to a staffing discussion.' }
+    ],
+    sources: [
+      { name: 'AFP: 2026 Payments Fraud and Control Survey release', url: 'https://www.financialprofessionals.org/about/learn-more/press-releases/Details/over-75-percent-of-us-firms-experienced-payments-fraud-in-2025-while-ai-adoption-for-fraud-mitigation-lags', note: 'Published April 14, 2026; United States survey of 465 treasury practitioners and source for the 76%, 74%, and 58% figures and the Chris Ward quote.' },
+      { name: 'ACFE: Occupational Fraud 2024, A Report to the Nations', url: 'https://www.acfe.com/-/media/files/acfe/pdfs/rttn/2024/2024-report-to-the-nations.pdf', note: 'Global study and source for the case count, countries and territories, total loss, median loss, and tip-detection share.' },
+      { name: 'NIST SP 800-53 Rev. 5: AC-5 Separation of Duties', url: 'https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final', note: 'Published September 2020 with later updates; source for the separation-of-duties control used in this guide.' },
+      { name: 'IRS: Employment tax recordkeeping', url: 'https://www.irs.gov/businesses/small-businesses-self-employed/employment-tax-recordkeeping', note: 'Reviewed June 12, 2026; official United States guidance used only as a recordkeeping example.' },
+      { name: 'Lawphil: Republic Act No. 10173, Data Privacy Act of 2012', url: 'https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html', note: 'Philippine privacy-law text for readers who need to discuss cross-border personal-data duties with qualified owners or advisers.' }
+    ],
+    expertQuote: {
+      text: 'Fraud prevention today is an operating model, not a single control. The best outcomes come from strengthening the fundamentals — verification, disciplined approvals and timely detection — and using technology to reinforce trust as payments move faster. At Truist, that’s how we show up: with simplicity, speed, safety and smart execution.',
+      attribution: 'Chris Ward, Head of Enterprise Payments at Truist, quoted by AFP on April 14, 2026',
+      url: 'https://www.financialprofessionals.org/about/learn-more/press-releases/Details/over-75-percent-of-us-firms-experienced-payments-fraud-in-2025-while-ai-adoption-for-fraud-mitigation-lags'
+    },
+    chart: {
+      title: 'First 30 days of payroll preparation review',
+      subtitle: 'Each bar ends at a planned control check, not a promised result.',
+      bars: [
+        { label: 'Map inputs', value: 3, note: 'Days 1-3' },
+        { label: 'Test changes', value: 7, note: 'Days 4-7' },
+        { label: 'Run one cycle', value: 14, note: 'Days 8-14' },
+        { label: 'Close and review', value: 30, note: 'Days 15-30' }
+      ],
+      methods: 'Method: the bars place the example mapping, test, live-cycle, and closeout checks on a 30-day setup scale. They are planning points made for this guide, not survey results, service promises, or a required payroll calendar.'
+    },
+    graphic: {
+      title: 'Payroll preparation control path',
+      caption: 'Preparation moves forward only from approved evidence, while decisions and release stay with company owners.',
+      steps: [
+        { label: 'Collect', detail: 'Approved sources' },
+        { label: 'Prepare', detail: 'Draft and exceptions' },
+        { label: 'Approve', detail: 'Company owner' },
+        { label: 'Reconcile', detail: 'Final evidence' }
+      ]
+    },
+    banners: [
+      { eyebrow: 'First task', title: 'Map one payroll preparation lane.', text: 'Bring one source file, one change list, and one closeout example so the role starts with work the owner can check.', href: '/services/payroll-preparation-support', linkLabel: 'Review payroll preparation support' },
+      { eyebrow: 'Quality check', title: 'Give every change a source and owner.', text: 'Use the reporting and QA lane to compare approved inputs, the draft register, exceptions, and the final record.', href: '/services/reporting-and-qa', linkLabel: 'See HR reporting and QA' },
+      { eyebrow: 'Plan the role', title: 'Keep approvals and payment release in-house.', text: 'A staffing discussion can map the Philippines support work around your existing owners, systems, and closeout rules.', href: '/contact', linkLabel: 'Discuss Philippines-based HR support' }
+    ]
+  },
   'human-resources-outsourced-planning': {
     slug: 'human-resources-outsourced-planning',
     title: 'HR outsourcing: a Philippines HR admin buyer guide',
