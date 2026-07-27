@@ -142,9 +142,9 @@ export const richArticles: Record<string, RichArticle> = {
       { question: 'How do we protect employee data?', answer: 'Use the minimum access needed, named accounts, strong login controls, written storage rules, and regular access reviews. Set the final privacy and retention rules with the company owners who understand the laws and contracts that apply.' }
     ],
     related: [
-      { title: 'HR tasks to outsource first', href: '/blog/human-resources-outsourced-tasks-to-outsource', note: 'Choose a small first lane.' },
-      { title: 'Questions to ask an HR outsourcing provider', href: '/blog/human-resources-outsourced-provider-questions', note: 'Prepare for provider calls.' },
-      { title: 'First-week HR support onboarding checklist', href: '/blog/human-resources-outsourced-onboarding-checklist', note: 'Turn the plan into a launch list.' },
+      { title: 'HR tasks to outsource first', href: '/blog', note: 'Choose a small first lane.' },
+      { title: 'Questions to ask an HR outsourcing provider', href: '/blog', note: 'Prepare for provider calls.' },
+      { title: 'First-week HR support onboarding checklist', href: '/blog', note: 'Turn the plan into a launch list.' },
       { title: 'HR operations support', href: '/services/operations-support', note: 'Review the matching service lane.' }
     ],
     sources: [

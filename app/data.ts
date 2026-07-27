@@ -78,26 +78,7 @@ export const blogPosts = [
     title: 'HR outsourcing: a Philippines HR admin buyer guide',
     excerpt: 'Plan Philippines-based HR admin support with clear task lanes, access limits, owner decisions, scripts, and a practical 10-day pilot.',
     minutes: 12,
-  },
-  {
-    slug: 'human-resources-outsourced-tasks-to-outsource',
-    title: 'HR tasks to outsource first',
-    excerpt: 'Start with repeat admin work that has good examples and a clear owner.',
-    minutes: 7,
-  },
-  {
-    slug: 'human-resources-outsourced-provider-questions',
-    title: 'Questions to ask an HR outsourcing provider',
-    excerpt: 'Ask how the provider handles access, quality checks, sensitive questions, and daily handoffs.',
-    minutes: 8,
-  },
-  {
-    slug: 'human-resources-outsourced-onboarding-checklist',
-    title: 'First-week HR support onboarding checklist',
-    excerpt: 'Set up tools, sample work, approval rules, and daily review before handing over the full queue.',
-    minutes: 9,
-  },
-] as const;
+  },] as const;
 
 export const staffingOffer = {
   included: [
