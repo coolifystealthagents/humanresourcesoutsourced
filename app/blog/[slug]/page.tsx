@@ -129,12 +129,12 @@ export default async function Post({ params }: Params) {
 
         {article.sections.slice(4, 5).map((section) => <section className="hr-prose-section" key={section.heading}><h2>{section.heading}</h2>{section.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}</section>)}
 
-        {article.chart && <figure className="hr-svg-module" aria-labelledby="handoff-chart-title handoff-chart-desc">
+        {article.chart && <figure className="hr-svg-module" tabIndex={0} aria-labelledby="handoff-chart-title handoff-chart-desc">
           <div className="hr-section-heading"><p className="eyebrow">Planning chart</p><h2 id="handoff-chart-title">{article.chart.title}</h2><p id="handoff-chart-desc">{article.chart.subtitle}</p></div>
           <svg viewBox="0 0 860 360" role="img" aria-labelledby="handoff-chart-title handoff-chart-desc">
             <line x1="210" y1="30" x2="210" y2="310" className="hr-chart-axis" />
             {[0, 10, 20, 30].map((tick) => <g key={tick}><line x1={210 + tick * 19} y1="30" x2={210 + tick * 19} y2="310" className="hr-chart-grid" /><text x={210 + tick * 19} y="336" textAnchor="middle" className="hr-chart-tick">Day {tick}</text></g>)}
-            {article.chart.bars.map((bar, index) => <g key={bar.label} transform={`translate(0 ${48 + index * 67})`}><text x="195" y="20" textAnchor="end" className="hr-chart-label">{bar.label}</text><rect x="210" y="0" width={bar.value * 19} height="34" rx="8" className="hr-chart-bar" /><text x={bar.value === 30 ? 770 : 220 + bar.value * 19} y="22" textAnchor={bar.value === 30 ? 'end' : 'start'} className="hr-chart-note">{bar.note}</text></g>)}
+            {article.chart.bars.map((bar, index) => <g key={bar.label} transform={`translate(0 ${48 + index * 67})`}><text x="195" y="20" textAnchor="end" className="hr-chart-label">{bar.label}</text><rect x="210" y="0" width={bar.value * 19} height="34" rx="8" className="hr-chart-bar" /><text x={bar.value === 30 ? 770 : 220 + bar.value * 19} y="22" textAnchor={bar.value === 30 ? 'end' : 'start'} className={`hr-chart-note ${bar.value === 30 ? 'hr-chart-note-inside' : ''}`}>{bar.note}</text></g>)}
           </svg>
           <figcaption>{article.chart.methods}</figcaption>
         </figure>}
@@ -146,7 +146,7 @@ export default async function Post({ params }: Params) {
           <ol>{article.workflow.map((item) => <li key={item.step}><span>{item.step}</span><div><h3>{item.title}</h3><p>{item.text}</p></div></li>)}</ol>
         </section>
 
-        {article.graphic && <figure className="hr-svg-module hr-loop-graphic" aria-labelledby="handoff-loop-title handoff-loop-desc">
+        {article.graphic && <figure className="hr-svg-module hr-loop-graphic" tabIndex={0} aria-labelledby="handoff-loop-title handoff-loop-desc">
           <div className="hr-section-heading"><p className="eyebrow">Process graphic</p><h2 id="handoff-loop-title">{article.graphic.title}</h2><p id="handoff-loop-desc">{article.graphic.caption}</p></div>
           <svg viewBox="0 0 900 300" role="img" aria-labelledby="handoff-loop-title handoff-loop-desc">
             <path d="M145 150 H755" className="hr-loop-line" />

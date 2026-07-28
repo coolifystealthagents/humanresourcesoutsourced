@@ -68,6 +68,12 @@ export const services = [
 
 export const blogPosts = [
   {
+    slug: 'philippines-hr-offboarding-support-access-closeout-checklist',
+    title: 'Philippines HR offboarding support: access closeout checklist',
+    excerpt: 'Use a Philippines-based HR assistant to track offboarding tasks while company owners keep control of employment decisions, system access, final records, and sensitive messages.',
+    minutes: 14,
+  },
+  {
     slug: 'philippines-payroll-preparation-support-controls',
     title: 'Philippines payroll preparation support: scope and controls',
     excerpt: 'Set up Philippines-based payroll preparation with a narrow task list, separate approvals, change checks, source records, and a clear closeout review.',

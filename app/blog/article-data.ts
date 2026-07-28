@@ -23,6 +23,153 @@ export type RichArticle = {
 };
 
 export const richArticles: Record<string, RichArticle> = {
+  'philippines-hr-offboarding-support-access-closeout-checklist': {
+    slug: 'philippines-hr-offboarding-support-access-closeout-checklist',
+    title: 'Philippines HR offboarding support: access closeout checklist',
+    description: 'Use a Philippines-based HR assistant to track offboarding tasks while company owners keep control of employment decisions, system access, final records, and sensitive messages.',
+    published: '2026-07-28',
+    updated: '2026-07-28',
+    minutes: 14,
+    revision: '2026-07-28-philippines-hr-offboarding-access-closeout',
+    directAnswer: [
+      'A Philippines-based HR assistant can prepare an offboarding checklist, book exit meetings, collect approved forms, track company property, update the employee file, and chase task owners. The company should keep control of the employment decision, final employee message, access shutdown, final pay instructions, legal questions, and any dispute.',
+      'The safest closeout uses one named owner, a timed access list, and proof for each completed task. The assistant records what happened and flags missing work, while qualified company owners decide what the business must do and when.'
+    ],
+    takeaways: [
+      'Give the assistant tracking work, not the employment decision.',
+      'List every account, device, file, and task owner before the last day.',
+      'Let system owners disable access and record the time.',
+      'Keep complaints, disputes, pay questions, and legal calls with the company.',
+      'Close the file only after every open item has an owner and proof.'
+    ],
+    taskRows: [
+      { lane: 'Closeout checklist', philippinesTeam: 'Open the approved list, add due times, and remind each named owner.', owner: 'Approve the exit plan, last day, message, and required steps.', check: 'Every row has an owner, due time, status, and proof' },
+      { lane: 'System access list', philippinesTeam: 'Build the account list from approved records and flag anything missing.', owner: 'Decide the shutdown time and disable or transfer each account.', check: 'Account, system owner, action, time, and confirmation match' },
+      { lane: 'Company property', philippinesTeam: 'Send approved return instructions and track devices, badges, keys, and files.', owner: 'Decide recovery, shipping, loss, and exception steps.', check: 'Asset tag, condition, receipt date, and open issue are recorded' },
+      { lane: 'Employee records', philippinesTeam: 'File approved notices, acknowledgements, task confirmations, and final status notes.', owner: 'Set retention, access, correction, and disclosure rules.', check: 'Each record has a source, date, owner, and approved location' },
+      { lane: 'Final handback', philippinesTeam: 'List open work, shared files, scheduled meetings, and unanswered requests.', owner: 'Choose the new owner and approve any employee or client message.', check: 'No task, calendar item, or shared file is left without an owner' }
+    ],
+    pilotStats: [
+      { value: '$4.88M', label: 'Average breach impact', note: 'Global average reported in IBM\'s 2024 study' },
+      { value: '10%', label: 'Yearly increase', note: 'Change from the prior year in the same IBM release' },
+      { value: '70%', label: 'Major disruption', note: 'Breached organizations reporting significant or very significant disruption' },
+      { value: '60%', label: 'Human element', note: 'Share of breaches involving a human element in the 2025 Verizon DBIR' }
+    ],
+    sections: [
+      {
+        heading: 'Define offboarding support before a departure happens',
+        paragraphs: [
+          'Offboarding admin is the work that keeps a departure list moving after the company has made its decision. A Philippines-based HR assistant can prepare the checklist, contact task owners, collect confirmations, update approved records, and show what is still open.',
+          'Write the scope before the assistant receives a live case. Name the source of the exit notice, the company owner, the last working time, the systems in use, the records to save, and the questions that must go straight back to HR.'
+        ]
+      },
+      {
+        heading: 'Keep the employment decision and message with the company',
+        paragraphs: [
+          'An assistant should not decide whether a person leaves, change the last day, write a reason for departure, settle a complaint, or answer a legal question. Those calls belong with the employer, its qualified HR owner, and its advisers.',
+          'The assistant may send copy that the owner has approved and log that it was received. If the employee raises pay, benefits, medical details, discrimination, retaliation, a complaint, or a dispute, the assistant should stop and route the message without trying to finish the conversation.'
+        ]
+      },
+      {
+        heading: 'Build one account list instead of relying on memory',
+        paragraphs: [
+          'Start with the identity provider, email, HR system, payroll workspace, applicant system, shared drives, calendar groups, chat tools, building access, and any role-specific software. Add the account owner and the exact action needed, because disabling one login may leave shared links, sessions, forwarding rules, or delegated access behind.',
+          'NIST defines least privilege as giving only the access needed for assigned work. That same idea helps with offboarding: the company system owner should remove or transfer access at the approved time, while the HR assistant checks the list and records the confirmation.'
+        ]
+      },
+      {
+        heading: 'Use breach figures as context, not a claim about workers',
+        paragraphs: [
+          'IBM reported on July 30, 2024 that the global average impact of a data breach reached $4.88 million, up 10% from the prior year. It also said 70% of breached organizations reported significant or very significant disruption, which is a reason to treat account closeout as scheduled work rather than an inbox reminder.',
+          'The 2025 Verizon Data Breach Investigations Report says the human element was involved in about 60% of breaches. These figures describe broad breach studies, not Philippines-based staff or one company, so they support careful controls without turning location or employment status into a risk claim.'
+        ]
+      },
+      {
+        heading: 'Run the closeout through timed checkpoints',
+        paragraphs: [
+          'The chart below uses four checkpoints around an employee\'s last working time. It starts when the approved notice arrives, moves through owner and account checks, then ends only after records and open work have been reviewed.',
+          'Do not let the checklist pick the timing by itself. HR, system, facilities, payroll, and legal owners should set the time for their own actions, and the assistant should flag a missed checkpoint instead of changing it.'
+        ]
+      },
+      {
+        heading: 'Leave a record that another person can follow',
+        paragraphs: [
+          'A useful closeout record shows the approved notice, task list, account actions, property status, file handback, employee messages, exceptions, and final review. It also shows who completed each step and when, which is more useful than a single box marked done.',
+          'The Philippines Data Privacy Act says personal information must be kept only as long as needed for the declared purpose, a legal claim, legitimate business purpose, or another lawful ground. The company still needs a qualified owner to set the actual schedule and decide which records may be viewed, corrected, archived, or removed.'
+        ]
+      },
+      {
+        heading: 'Test the hard cases before the first live exit',
+        paragraphs: [
+          'Ask the provider to walk through an ordinary departure, an immediate access shutdown, a missing laptop, and a late complaint. A useful answer names who decides, what the assistant records, which owner acts, how the employee message is approved, and what proof closes the task.',
+          'Use redacted examples and test the account list with the system owners. The FBI Internet Crime Complaint Center received 859,532 complaints in 2024 and recorded more than $16.6 billion in reported losses, but those United States figures are only broad context for checking email, access, and transfer steps.'
+        ]
+      }
+    ],
+    scripts: [
+      { label: 'Provider call question', text: 'Please show how your Philippines-based HR assistant would track an ordinary departure and an immediate access shutdown. Name who makes each decision, who disables each account, what the assistant records, and what proof closes the case.' },
+      { label: 'Assistant stop rule', text: 'You may prepare the approved checklist, collect confirmations, and flag late tasks. Stop and tag the HR owner before answering questions about the departure decision, pay, benefits, complaints, medical details, legal rights, disputes, or any change to the approved last day.' }
+    ],
+    workflow: [
+      { step: '01', title: 'Receive the approved notice', text: 'Confirm the company owner, last working time, approved message, and people allowed to view the case.' },
+      { step: '02', title: 'Build the closeout list', text: 'List accounts, property, records, meetings, shared files, open work, and the owner for each action.' },
+      { step: '03', title: 'Track owner actions', text: 'Remind named owners and record their confirmations without making employment or access decisions.' },
+      { step: '04', title: 'Return open work', text: 'Give every file, calendar item, request, and exception a new owner and approved location.' },
+      { step: '05', title: 'Review and close', text: 'Have HR and system owners check the proof, resolve missing work, and approve the final record.' }
+    ],
+    faqs: [
+      { question: 'What can a Philippines HR assistant do during offboarding?', answer: 'The assistant can prepare and track an approved checklist, book meetings, collect forms, chase task owners, update approved records, track property, list open work, and assemble the final closeout pack.' },
+      { question: 'Who should disable the departing employee\'s accounts?', answer: 'A named company system owner should decide and carry out the access action at the approved time. The assistant can prepare the account list, flag missing systems, and collect confirmation.' },
+      { question: 'Can the assistant answer questions about the departure?', answer: 'The assistant may send owner-approved practical instructions. Questions about the reason, pay, benefits, complaints, medical details, disputes, legal rights, or policy exceptions should go to the qualified company owner.' },
+      { question: 'What proof should close an offboarding task?', answer: 'Use proof that fits the task, such as an account confirmation, asset receipt, approved record, meeting note, employee acknowledgement, or signed owner review. A box marked complete is weak if nobody can see who acted or when.' },
+      { question: 'How long should offboarding records be kept?', answer: 'There is no single period for every record and company. The employer should set the schedule with qualified owners or advisers based on the record type, location, purpose, contracts, legal duties, and active claims.' }
+    ],
+    related: [
+      { title: 'Offboarding coordination service', href: '/services/offboarding-coordination', note: 'Review the matching Philippines support lane.' },
+      { title: 'Employee records administration', href: '/services/employee-records-administration', note: 'Plan approved file updates and closeout records.' },
+      { title: 'HR reporting and QA', href: '/services/reporting-and-qa', note: 'Build a short closeout review sheet.' },
+      { title: 'HR outsourcing planning guide', href: '/blog/human-resources-outsourced-planning', note: 'Compare task and owner boundaries.' },
+      { title: 'Plan Philippines-based HR support', href: '/contact', note: 'Bring a redacted checklist to a staffing discussion.' }
+    ],
+    sources: [
+      { name: 'NIST Computer Security Resource Center: least privilege glossary', url: 'https://csrc.nist.gov/glossary/term/least_privilege', note: 'Official definition used for the exact expert quote and account-access guidance.' },
+      { name: 'IBM: 2024 Cost of a Data Breach study release', url: 'https://newsroom.ibm.com/2024-07-30-ibm-report-escalating-data-breach-disruption-pushes-costs-to-new-highs', note: 'Published July 30, 2024; source for the $4.88 million global average, 10% yearly increase, and 70% disruption figure.' },
+      { name: 'Verizon: 2025 Data Breach Investigations Report executive summary', url: 'https://www.verizon.com/business/resources/reports/2025-dbir-executive-summary.pdf', note: 'Published in 2025; source for the share of breaches involving a human element.' },
+      { name: 'FBI IC3: 2024 Internet Crime Report', url: 'https://www.ic3.gov/AnnualReport/Reports/2024_IC3Report.pdf', note: 'Published in 2025 for calendar year 2024; source for complaint and reported-loss totals.' },
+      { name: 'Lawphil: Republic Act No. 10173, Data Privacy Act of 2012', url: 'https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html', note: 'Philippine law text used for the personal-information retention principle.' }
+    ],
+    expertQuote: {
+      text: 'A security principle that a system should restrict the access privileges of users (or processes acting on behalf of users) to the minimum necessary to accomplish assigned tasks.',
+      attribution: 'NIST Computer Security Resource Center, least privilege glossary',
+      url: 'https://csrc.nist.gov/glossary/term/least_privilege'
+    },
+    chart: {
+      title: 'Offboarding control checkpoints',
+      subtitle: 'Each bar ends at a planned owner check around the approved last working time.',
+      bars: [
+        { label: 'Open case', value: 3, note: 'Notice received' },
+        { label: 'Confirm owners', value: 10, note: 'Before last day' },
+        { label: 'Close access', value: 20, note: 'Approved time' },
+        { label: 'Review record', value: 30, note: 'After handback' }
+      ],
+      methods: 'Method: the bars place four checklist checkpoints on a 30-point planning scale so their order is easy to see. They are made for this guide and are not survey results, fixed deadlines, or a promise about how long offboarding takes.'
+    },
+    graphic: {
+      title: 'The offboarding closeout path',
+      caption: 'The assistant tracks the record while company owners keep each decision and control action.',
+      steps: [
+        { label: 'Approve', detail: 'Company owner' },
+        { label: 'Track', detail: 'Named checklist' },
+        { label: 'Act', detail: 'Task owners' },
+        { label: 'Close', detail: 'Proof reviewed' }
+      ]
+    },
+    banners: [
+      { eyebrow: 'First task', title: 'Build one offboarding checklist.', text: 'List the accounts, property, records, open work, due times, and company owner before a Philippines-based assistant tracks a live case.', href: '/services/offboarding-coordination', linkLabel: 'Review offboarding coordination' },
+      { eyebrow: 'Quality check', title: 'Ask for proof, not a done box.', text: 'Use the reporting and QA lane to check owner confirmations, missing work, account actions, and the final closeout record.', href: '/services/reporting-and-qa', linkLabel: 'See HR reporting and QA' },
+      { eyebrow: 'Plan the role', title: 'Keep decisions and access control in-house.', text: 'A staffing discussion can map the Philippines support work around your HR, system, facilities, and work owners.', href: '/contact', linkLabel: 'Discuss Philippines-based HR support' }
+    ]
+  },
   'philippines-payroll-preparation-support-controls': {
     slug: 'philippines-payroll-preparation-support-controls',
     title: 'Philippines payroll preparation support: scope and controls',
