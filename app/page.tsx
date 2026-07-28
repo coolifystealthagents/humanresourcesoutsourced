@@ -22,6 +22,11 @@ const launchSteps = [
   ['02', 'Set the red lines', 'Write down what the assistant may send, what needs review, and what must stay with your HR owner.'],
   ['03', 'Review real work', 'Check the first batch together, fix the instructions, then add work only when the basics stay clean.'],
 ];
+const hrIcons = [
+  '/icons/getillustrations/sharpie-office-icons-svg/onboarding-checklist.svg',
+  '/icons/getillustrations/sharpie-office-icons-svg/employee-files.svg',
+  '/icons/getillustrations/sharpie-office-icons-svg/recruiting-calendar.svg',
+];
 
 export default function Home() {
   const schema = {
@@ -43,7 +48,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main className="hr-handled-home" data-redesign="hr-desk-2026">
+      <main className="hr-handled-home" data-redesign="hr-desk-2026" data-gi-rollout="two-illustration-packs-one-icon-pack">
         <JsonLd data={schema} />
 
         <section className="hr-hero">
@@ -52,9 +57,9 @@ export default function Home() {
               <p className="hr-kicker">A steadier people desk</p>
               <h1>HR admin, handled with care.</h1>
               <ul className="hr-hero-list">
-                <li>Keep onboarding files and checklists moving.</li>
-                <li>Give employee questions a clear owner.</li>
-                <li>Stop hiring calendars from going quiet.</li>
+                <li><img src={hrIcons[0]} alt="" width="28" height="28" /> Keep onboarding files and checklists moving.</li>
+                <li><img src={hrIcons[1]} alt="" width="28" height="28" /> Give employee questions a clear owner.</li>
+                <li><img src={hrIcons[2]} alt="" width="28" height="28" /> Stop hiring calendars from going quiet.</li>
               </ul>
               <a className="hr-button" href="/contact">Plan my HR support</a>
               <p className="hr-button-note">Start with clear task limits and a named reviewer.</p>
@@ -62,7 +67,7 @@ export default function Home() {
 
             <div className="hr-photo-stage">
               <div className="hr-photo-frame">
-                <img src="/hr-team.jpg" alt="HR team reviewing an employee onboarding plan together" />
+                <img src="/illustrations/getillustrations/hannah-business-illustrations-svg/hr-admin-support.svg" alt="Illustration of carefully organized HR administration and onboarding work" />
               </div>
               <div className="hr-photo-note">
                 <span>First desk to fix</span>
@@ -103,6 +108,7 @@ export default function Home() {
               <a href="/services/operations-support">See the HR operations plan</a>
             </div>
             <div className="hr-boundary-board">
+              <img src="/illustrations/getillustrations/inkdex-team-illustrations-svg/employee-files-workflow.svg" alt="" style={{ width: '100%', maxHeight: 220, objectFit: 'contain', gridColumn: '1 / -1' }} loading="lazy" />
               <article>
                 <span>Assistant can prepare</span>
                 <ul>

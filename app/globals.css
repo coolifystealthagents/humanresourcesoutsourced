@@ -19,8 +19,8 @@ body:has(.hr-handled-home) .links a{color:#4f485a}
 .hr-hero-copy{padding:24px 0 72px}
 .hr-hero-copy h1{font-family:Fraunces,Georgia,serif;font-size:clamp(54px,6.3vw,88px);line-height:.93;letter-spacing:-.045em;max-width:680px;margin:0 0 30px;color:#fff;text-wrap:balance}
 .hr-hero-list{list-style:none;padding:0;margin:0 0 30px;display:grid;gap:13px;max-width:590px}
-.hr-hero-list li{position:relative;padding-left:29px;color:#eeeaf5;font-size:18px;line-height:1.5}
-.hr-hero-list li:before{content:"";position:absolute;left:0;top:.53em;width:11px;height:11px;background:#7cd0b6;border-radius:2px;transform:rotate(45deg)}
+.hr-hero-list li{display:flex;align-items:center;gap:11px;color:#eeeaf5;font-size:18px;line-height:1.5}
+.hr-hero-list img{flex:0 0 auto}
 .hr-button{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:14px 23px;background:#e85c47;color:#fff;border-radius:8px;font-weight:900;box-shadow:0 14px 28px rgba(9,5,20,.18);transition:transform .18s ease,background .18s ease}
 .hr-button:hover{background:#f06b56;transform:translateY(-2px)}
 .hr-button:focus-visible,.hr-service-card:focus-visible,.hr-guide-list a:focus-visible{outline:3px solid #7cd0b6;outline-offset:4px}
