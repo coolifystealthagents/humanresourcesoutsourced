@@ -13,7 +13,7 @@ export function GET() {
   const paths = [
     '/',
     '/services',
-    '/blog',
+    '/blog','/blog/top-30-hr-recruiting-outsourcing-companies',
     '/research',
     '/contact',
     '/privacy',
