@@ -1,5 +1,5 @@
 export function FeaturedComparison() {
-  return <section aria-label="Featured comparison" style={{padding:'18px 16px',background:'#0d2946',color:'#fff',textAlign:'center'}}>
-    <a href="/blog/top-30-hr-recruiting-outsourcing-companies" style={{display:'inline-block',maxWidth:980,color:'#fff',fontWeight:800,textDecoration:'none'}}>Featured guide: Top 30 Outsourcing Companies for HR, Recruiting, and Business Support · Compare 30 companies →</a>
+  return <section aria-label="Human Resources Outsourced featured comparison" style={{padding:'14px 18px',background:'#10233a',borderBottom:'4px solid #3277b3',textAlign:'left'}}>
+    <a href="/blog/top-30-hr-recruiting-outsourcing-companies" style={{display:'inline-block',maxWidth:1000,color:'#fff',fontWeight:700,textDecoration:'none'}}>Human Resources Outsourced editor pick for HR or recruiting support: compare 30 Philippines-focused providers →</a>
   </section>;
 }
