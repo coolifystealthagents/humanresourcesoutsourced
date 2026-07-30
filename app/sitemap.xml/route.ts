@@ -15,7 +15,7 @@ export function GET() {
     '/services',
     '/blog','/blog/top-30-hr-recruiting-outsourcing-companies',
     '/research',
-    '/contact',
+    '/contact-us',
     '/privacy',
     '/terms',
     '/cancellation-policy',

@@ -61,7 +61,7 @@ export default function Home() {
                 <li><img src={hrIcons[1]} alt="" width="28" height="28" /> Give employee questions a clear owner.</li>
                 <li><img src={hrIcons[2]} alt="" width="28" height="28" /> Stop hiring calendars from going quiet.</li>
               </ul>
-              <a className="hr-button" href="/contact">Plan my HR support</a>
+              <a className="hr-button" href="/contact-us">Plan my HR support</a>
               <p className="hr-button-note">Start with clear task limits and a named reviewer.</p>
             </div>
 
@@ -171,7 +171,7 @@ export default function Home() {
             <p className="hr-kicker">Bring the messy list</p>
             <h2>Turn repeat HR admin into one clear support role.</h2>
           </div>
-          <a className="hr-button" href="/contact">Plan my HR support</a>
+          <a className="hr-button" href="/contact-us">Plan my HR support</a>
         </section>
       </main>
       <Footer />

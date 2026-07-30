@@ -129,7 +129,7 @@ export const richArticles: Record<string, RichArticle> = {
       { title: 'Employee records administration', href: '/services/employee-records-administration', note: 'Plan approved file updates and closeout records.' },
       { title: 'HR reporting and QA', href: '/services/reporting-and-qa', note: 'Build a short closeout review sheet.' },
       { title: 'HR outsourcing planning guide', href: '/blog/human-resources-outsourced-planning', note: 'Compare task and owner boundaries.' },
-      { title: 'Plan Philippines-based HR support', href: '/contact', note: 'Bring a redacted checklist to a staffing discussion.' }
+      { title: 'Plan Philippines-based HR support', href: '/contact-us', note: 'Bring a redacted checklist to a staffing discussion.' }
     ],
     sources: [
       { name: 'NIST Computer Security Resource Center: least privilege glossary', url: 'https://csrc.nist.gov/glossary/term/least_privilege', note: 'Official definition used for the exact expert quote and account-access guidance.' },
@@ -167,7 +167,7 @@ export const richArticles: Record<string, RichArticle> = {
     banners: [
       { eyebrow: 'First task', title: 'Build one offboarding checklist.', text: 'List the accounts, property, records, open work, due times, and company owner before a Philippines-based assistant tracks a live case.', href: '/services/offboarding-coordination', linkLabel: 'Review offboarding coordination' },
       { eyebrow: 'Quality check', title: 'Ask for proof, not a done box.', text: 'Use the reporting and QA lane to check owner confirmations, missing work, account actions, and the final closeout record.', href: '/services/reporting-and-qa', linkLabel: 'See HR reporting and QA' },
-      { eyebrow: 'Plan the role', title: 'Keep decisions and access control in-house.', text: 'A staffing discussion can map the Philippines support work around your HR, system, facilities, and work owners.', href: '/contact', linkLabel: 'Discuss Philippines-based HR support' }
+      { eyebrow: 'Plan the role', title: 'Keep decisions and access control in-house.', text: 'A staffing discussion can map the Philippines support work around your HR, system, facilities, and work owners.', href: '/contact-us', linkLabel: 'Discuss Philippines-based HR support' }
     ]
   },
   'philippines-payroll-preparation-support-controls': {
@@ -276,7 +276,7 @@ export const richArticles: Record<string, RichArticle> = {
       { title: 'Employee records administration', href: '/services/employee-records-administration', note: 'Plan source records and approved changes.' },
       { title: 'HR reporting and QA', href: '/services/reporting-and-qa', note: 'Set up register checks and closeout reports.' },
       { title: 'HR outsourcing planning guide', href: '/blog/human-resources-outsourced-planning', note: 'Compare broader task and owner boundaries.' },
-      { title: 'Plan Philippines-based HR support', href: '/contact', note: 'Bring a sample checklist to a staffing discussion.' }
+      { title: 'Plan Philippines-based HR support', href: '/contact-us', note: 'Bring a sample checklist to a staffing discussion.' }
     ],
     sources: [
       { name: 'AFP: 2026 Payments Fraud and Control Survey release', url: 'https://www.financialprofessionals.org/about/learn-more/press-releases/Details/over-75-percent-of-us-firms-experienced-payments-fraud-in-2025-while-ai-adoption-for-fraud-mitigation-lags', note: 'Published April 14, 2026; United States survey of 465 treasury practitioners and source for the 76%, 74%, and 58% figures and the Chris Ward quote.' },
@@ -314,7 +314,7 @@ export const richArticles: Record<string, RichArticle> = {
     banners: [
       { eyebrow: 'First task', title: 'Map one payroll preparation lane.', text: 'Bring one source file, one change list, and one closeout example so the role starts with work the owner can check.', href: '/services/payroll-preparation-support', linkLabel: 'Review payroll preparation support' },
       { eyebrow: 'Quality check', title: 'Give every change a source and owner.', text: 'Use the reporting and QA lane to compare approved inputs, the draft register, exceptions, and the final record.', href: '/services/reporting-and-qa', linkLabel: 'See HR reporting and QA' },
-      { eyebrow: 'Plan the role', title: 'Keep approvals and payment release in-house.', text: 'A staffing discussion can map the Philippines support work around your existing owners, systems, and closeout rules.', href: '/contact', linkLabel: 'Discuss Philippines-based HR support' }
+      { eyebrow: 'Plan the role', title: 'Keep approvals and payment release in-house.', text: 'A staffing discussion can map the Philippines support work around your existing owners, systems, and closeout rules.', href: '/contact-us', linkLabel: 'Discuss Philippines-based HR support' }
     ]
   },
   'human-resources-outsourced-planning': {
@@ -594,7 +594,7 @@ export const richArticles: Record<string, RichArticle> = {
     banners: [
       { eyebrow: 'First task', title: 'Start with one onboarding queue.', text: 'Map the inputs, owner decisions, systems, and stop rules before a Philippines-based assistant touches a live employee record.', href: '/services/operations-support', linkLabel: 'Review HR operations support' },
       { eyebrow: 'Quality check', title: 'Give the manager one review sheet.', text: 'Use the reporting and QA lane to check complete records, correct routing, open items, and access without building a giant dashboard.', href: '/services/reporting-and-qa', linkLabel: 'See HR reporting and QA' },
-      { eyebrow: 'Plan the role', title: 'Bring a real checklist to the staffing call.', text: 'A short, redacted example makes it easier to define the work, the tools, and the decisions that stay with your HR owner.', href: '/contact', linkLabel: 'Discuss Philippines-based HR support' }
+      { eyebrow: 'Plan the role', title: 'Bring a real checklist to the staffing call.', text: 'A short, redacted example makes it easier to define the work, the tools, and the decisions that stay with your HR owner.', href: '/contact-us', linkLabel: 'Discuss Philippines-based HR support' }
     ]
   }
 };
