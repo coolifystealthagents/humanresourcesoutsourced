@@ -1,0 +1,14 @@
+{
+  "site": "HumanResourcesOutsourced.com",
+  "siteLabel": "Human Resources Outsourced",
+  "domain": "humanresourcesoutsourced.com",
+  "repository": "coolifystealthagents/humanresourcesoutsourced",
+  "framework": "Next.js 15",
+  "productionBranch": "main",
+  "timezone": "UTC",
+  "schedulerManifest": "ops/recurring-routines.json",
+  "allowedRoutines": [
+    "daily-blog-publishing",
+    "daily-research-publishing"
+  ]
+}
