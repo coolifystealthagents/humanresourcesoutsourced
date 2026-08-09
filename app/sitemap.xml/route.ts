@@ -1,5 +1,5 @@
 import * as data from '../data';
-import { fleetServices, researchPosts, postsPerPage } from '../fleet-data';
+import { fleetServices, allResearchPosts, postsPerPage } from '../fleet-data';
 
 export function GET() {
   const siteData = data as typeof data & { blogPosts?: readonly { slug: string }[] };
@@ -22,7 +22,7 @@ export function GET() {
     ...Array.from(serviceSlugs, (slug) => `/services/${slug}`),
     ...blogs.map((blog) => `/blog/${blog.slug}`),
     ...Array.from({ length: Math.max(0, pageCount - 1) }, (_, index) => `/blog/page/${index + 2}`),
-    ...researchPosts.map((post) => `/research/${post.slug}`)
+    ...allResearchPosts.map((post) => `/research/${post.slug}`)
   ];
   const body = paths
     .map((path) => `<url><loc>${path === '/' ? base : `${base}${path}`}</loc></url>`)
