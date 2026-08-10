@@ -1,4 +1,5 @@
 import type { RichArticle } from './article-data';
+import { dailySeeds } from './daily-batch-2026-08-10';
 
 type Seed = { slug: string; title: string; description: string; focus: string };
 
@@ -28,9 +29,10 @@ const seeds: Seed[] = [
 ].map(([slug, title, description, focus]) => ({ slug, title, description, focus }));
 
 const source = { name: 'International Labour Organization: Decent work and the care economy', url: 'https://www.ilo.org/topics-and-sectors/care-economy', note: 'Authoritative context for clear responsibilities, worker support, and accountable work arrangements.' };
+const allSeeds = [...seeds, ...dailySeeds];
 
-export const generatedArticles: Record<string, RichArticle> = Object.fromEntries(seeds.map((seed, index) => {
-  const related = seeds.filter((candidate) => candidate.slug !== seed.slug).slice(index % 3, index % 3 + 3);
+export const generatedArticles: Record<string, RichArticle> = Object.fromEntries(allSeeds.map((seed, index) => {
+  const related = allSeeds.filter((candidate) => candidate.slug !== seed.slug).slice(index % 3, index % 3 + 3);
   return [seed.slug, {
     slug: seed.slug, title: seed.title, description: seed.description, published: '2026-08-07', updated: '2026-08-07', minutes: 9, revision: `2026-08-07-${seed.slug}`,
     directAnswer: [`A Philippines-based assistant can prepare and track ${seed.focus}, use approved templates, check required fields, and route exceptions. Your HR owner should retain final decisions, sensitive employee conversations, policy interpretation, and approval authority.`, `Start with one narrow queue, named tools, a written review rhythm, and proof for each completed item. Expand only after the owner can compare the support work with the approved process.`],

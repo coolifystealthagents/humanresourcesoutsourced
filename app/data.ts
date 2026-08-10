@@ -1,3 +1,5 @@
+import { dailyBlogPosts } from './blog/daily-batch-2026-08-10';
+
 export const site = {
   domain: 'HumanResourcesOutsourced.com',
   slug: 'humanresourcesoutsourced',
@@ -112,7 +114,9 @@ export const blogPosts = [
     title: 'HR outsourcing: a Philippines HR admin buyer guide',
     excerpt: 'Plan Philippines-based HR admin support with clear task lanes, access limits, owner decisions, scripts, and a practical 10-day pilot.',
     minutes: 12,
-  },] as const;
+  },
+  ...dailyBlogPosts,
+] as const;
 
 export const staffingOffer = {
   included: [
