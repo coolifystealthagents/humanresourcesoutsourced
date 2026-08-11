@@ -248,5 +248,6 @@ export const researchRun15Posts: readonly ResearchPost[] = researchRun15Topics.m
   sources: researchRun15Sources,
 }));
 
-export const allResearchPosts: readonly ResearchPost[] = [...researchPosts, ...researchBatchPosts, ...researchRunPosts, ...researchRun15Posts];
+export const allResearchPosts: readonly ResearchPost[] = [...researchPosts, ...researchBatchPosts, ...researchRunPosts, ...researchRun15Posts]
+  .toSorted((a, b) => b.published.localeCompare(a.published));
 export const postsPerPage = 20;
