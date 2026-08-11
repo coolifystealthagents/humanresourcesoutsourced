@@ -1,5 +1,5 @@
 export type FleetService = { slug: string; title: string; desc: string; tasks: readonly string[]; controls: readonly string[]; firstWeek: readonly string[] };
-export type ResearchPost = { slug: string; title: string; excerpt: string; published: string; sourceDate?: string; thumbnail?: string; sections: readonly { heading: string; body: string }[]; sources?: readonly { name: string; url: string }[] };
+export type ResearchPost = { slug: string; title: string; excerpt: string; published: string; thumbnail?: string; sections: readonly { heading: string; body: string }[]; sources?: readonly { name: string; url: string }[] };
 
 export const fleetServices: readonly FleetService[] = [
   { slug: 'candidate-sourcing', title: 'Candidate Sourcing', desc: 'Build a Philippines-based candidate sourcing workflow with documented responsibilities, access limits, and manager review.', tasks: ['Document the recurring human resources work', 'Complete approved tasks in the client workflow', 'Record exceptions and next actions'], controls: ['Use named accounts and limited permissions', 'Follow written approval and escalation rules', 'Review work with a client-side owner'], firstWeek: ['Confirm scope and working hours', 'Practice with representative examples', 'Review the first completed work together'] },
@@ -256,7 +256,7 @@ const researchRun15SourceDates: Record<string, '2026-08-10'> = {
 };
 
 export const researchRun15Posts: readonly ResearchPost[] = researchRun15Topics.map(([slug, title, excerpt, statistic, model, faq]) => ({
-  slug, title, excerpt, published: researchRun15SourceDates[slug], sourceDate: researchRun15SourceDates[slug], thumbnail: `/research-banners/${slug}.svg`,
+  slug, title, excerpt, published: researchRun15SourceDates[slug], thumbnail: `/research-banners/${slug}.svg`,
   sections: [
     { heading: 'Research question', body: `This report asks how ${title.toLowerCase().replace(/^.*?: /, '')} can remain repeatable, reviewable, and properly owned by a small HR operations team.` },
     { heading: 'Methodology', body: 'We synthesized the ten listed authoritative and professional sources, screened this topic against existing Research and Blog slugs, and translated the guidance into an operational control model. This is general workflow guidance, not legal advice.' },
