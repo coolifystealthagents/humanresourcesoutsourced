@@ -9,7 +9,7 @@
   "minimum": 10,
   "priorRunId": "297e452a-8d19-438d-ae4b-46ee863cdfbc",
   "priorIssueId": "7fb62b8c-c263-48eb-82fd-a64450dbc2aa",
-  "validationCommands": ["git fetch origin main", "node --test tests/*.test.mjs", "npm run build", "git diff --check", "git ls-remote origin refs/heads/main"],
+  "validationCommands": ["git fetch origin main", "npm run build", "node --test tests/*.test.mjs", "git diff --check", "git ls-remote origin refs/heads/main"],
   "cleanBuildPassed": true,
   "existingCompliancePassed": true,
   "indexNewestFirstPassed": true,
