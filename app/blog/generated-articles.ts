@@ -1,5 +1,6 @@
 import type { RichArticle } from './article-data';
 import { dailySeeds } from './daily-batch-2026-08-10';
+import { august11BlogSeeds } from './daily-batch-2026-08-11';
 
 type Seed = { slug: string; title: string; description: string; focus: string; sourceDate?: string };
 
@@ -29,7 +30,7 @@ const seeds: Seed[] = [
 ].map(([slug, title, description, focus]) => ({ slug, title, description, focus }));
 
 const source = { name: 'International Labour Organization: Decent work and the care economy', url: 'https://www.ilo.org/topics-and-sectors/care-economy', note: 'Authoritative context for clear responsibilities, worker support, and accountable work arrangements.' };
-const allSeeds = [...seeds, ...dailySeeds];
+const allSeeds = [...august11BlogSeeds, ...dailySeeds, ...seeds];
 
 export const generatedArticles: Record<string, RichArticle> = Object.fromEntries(allSeeds.map((seed, index) => {
   const related = allSeeds.filter((candidate) => candidate.slug !== seed.slug).slice(index % 3, index % 3 + 3);

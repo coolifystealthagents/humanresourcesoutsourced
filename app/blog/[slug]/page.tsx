@@ -88,7 +88,7 @@ export default async function Post({ params }: Params) {
             <p className="eyebrow">Philippines staffing guide</p>
             <h1>{article.title}</h1>
             <p className="lead">{article.description}</p>
-            <div className="hr-article-meta"><span>{article.minutes} minute read</span><span>Updated {new Date(`${article.updated}T00:00:00Z`).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' })}</span><span>Philippines-only talent</span></div>
+            <div className="hr-article-meta"><span>{article.minutes} minute read</span><span>Published {new Date(`${article.published}T00:00:00Z`).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' })}</span><span>Philippines-only talent</span></div>
           </div>
           <aside className="hr-direct-answer" aria-label="Direct answer">
             <span>Direct answer</span>
