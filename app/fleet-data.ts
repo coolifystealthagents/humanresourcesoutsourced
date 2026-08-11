@@ -268,6 +268,27 @@ export const researchRun15Posts: readonly ResearchPost[] = researchRun15Topics.m
   sources: researchRun15Sources,
 }));
 
-export const allResearchPosts: readonly ResearchPost[] = [...researchPosts, ...researchBatchPosts, ...researchRunPosts, ...researchRun15Posts]
+const frozenResearchOrder = [
+  'hr-benefits-enrollment-document-control',
+  'hr-candidate-communication-approval',
+  'hr-employee-complaint-intake-routing',
+  'hr-employee-file-duplicate-prevention',
+  'hr-employee-master-data-change-control',
+  'hr-hr-calendar-deadline-exceptions',
+  'hr-hr-metrics-definition-governance',
+  'hr-hris-role-permission-matrix',
+  'hr-manager-request-authentication',
+  'hr-new-hire-identity-access-handoff',
+  'hr-people-ops-month-end-close',
+  'hr-policy-change-communication-tracking',
+  'hr-recruiting-interview-feedback-integrity',
+  'hr-termination-checklist-evidence',
+  'hr-training-completion-reconciliation',
+] as const;
+const orderedResearchRun15Posts = frozenResearchOrder
+  .map(slug => researchRun15Posts.find(post => post.slug === slug))
+  .filter((post): post is ResearchPost => Boolean(post));
+
+export const allResearchPosts: readonly ResearchPost[] = [...researchPosts, ...researchBatchPosts, ...researchRunPosts, ...orderedResearchRun15Posts]
   .toSorted((a, b) => b.published.localeCompare(a.published));
 export const postsPerPage = 20;
