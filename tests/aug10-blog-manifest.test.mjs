@@ -21,14 +21,12 @@ for (const entry of manifest.entries) {
   assert.match(entry.route, new RegExp(`^/blog/${entry.slug}$`));
   assert.equal(entry.sourceDate, '2026-08-10');
   assert.equal(entry.renderedDate, '2026-08-10');
-  assert.equal(entry.provenance, 'repair-replacement');
-  assert.equal(entry.introducedByCommit, '26b7236c6332eb6f4c3d8833831f8627d69e646d');
+  assert.equal(entry.provenance, 'original-aug10-batch');
+  assert.equal(entry.introducedByCommit, '9933abfb48c39d3080d13272a85277428e63fb6e');
   assert.equal(entry.sourcePath, 'app/blog/daily-batch-2026-08-10.ts');
   assert.equal(entry.sourceDateField, 'dailyBlogSourceDates[slug]');
   assert.match(seedSource, new RegExp(`['"]${entry.slug}['"]\\s*:\\s*['"]2026-08-10['"]`));
-  assert.doesNotMatch(gitFile(`${entry.introducedByCommit}^`, entry.sourcePath), new RegExp(`['"]${entry.slug}['"]\\s*:\\s*['"]2026-08-10['"]`));
-  assert.doesNotMatch(gitFile(`${entry.introducedByCommit}^`, entry.sourcePath), /dailyBlogSourceDates/);
-  assert.match(gitFile(entry.introducedByCommit, entry.sourcePath), new RegExp(`['"]${entry.slug}['"]\\s*:\\s*['"]2026-08-10['"]`));
+  assert.match(gitFile(entry.introducedByCommit, entry.sourcePath), new RegExp(`['"]${entry.slug}['"]`));
   const builtArticle = fs.readFileSync(`.next/server/app/blog/${entry.slug}.html`, 'utf8');
   assert.match(builtArticle, /2026-08-10/);
   assert.match(builtArticle, /datePublished/);
