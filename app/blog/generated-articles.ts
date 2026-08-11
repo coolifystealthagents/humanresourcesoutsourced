@@ -33,8 +33,10 @@ const allSeeds = [...seeds, ...dailySeeds];
 
 export const generatedArticles: Record<string, RichArticle> = Object.fromEntries(allSeeds.map((seed, index) => {
   const related = allSeeds.filter((candidate) => candidate.slug !== seed.slug).slice(index % 3, index % 3 + 3);
+  const isAugust10Batch = dailySeeds.some((candidate) => candidate.slug === seed.slug);
+  const publicationDate = isAugust10Batch ? '2026-08-10' : '2026-08-07';
   return [seed.slug, {
-    slug: seed.slug, title: seed.title, description: seed.description, published: '2026-08-07', updated: '2026-08-07', minutes: 9, revision: `2026-08-07-${seed.slug}`,
+    slug: seed.slug, title: seed.title, description: seed.description, published: publicationDate, updated: publicationDate, minutes: 9, revision: `${publicationDate}-${seed.slug}`,
     directAnswer: [`A Philippines-based assistant can prepare and track ${seed.focus}, use approved templates, check required fields, and route exceptions. Your HR owner should retain final decisions, sensitive employee conversations, policy interpretation, and approval authority.`, `Start with one narrow queue, named tools, a written review rhythm, and proof for each completed item. Expand only after the owner can compare the support work with the approved process.`],
     takeaways: ['Define the queue and its owner before granting access.', 'Use source records and approved templates for routine work.', 'Escalate sensitive employee, legal, pay, and policy questions.', 'Review a small sample every day during the pilot.', 'Close each item with status, date, owner, and evidence.'],
     taskRows: [

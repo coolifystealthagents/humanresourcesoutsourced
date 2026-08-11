@@ -68,7 +68,7 @@ export const services = [
   },
 ] as const;
 
-export const blogPosts = [
+const evergreenBlogPosts = [
   { slug: 'philippines-hr-inbox-management-workflow', title: 'Philippines HR inbox management: a controlled workflow', excerpt: 'Build a Philippines-based HR inbox lane with approved replies, clear routing, and an owner review for sensitive employee questions.', minutes: 9 },
   { slug: 'philippines-employee-records-administration-checklist', title: 'Philippines employee records administration: a practical checklist', excerpt: 'Organize employee record updates with source checks, access limits, and an approval path for a Philippines-based support role.', minutes: 9 },
   { slug: 'philippines-interview-scheduling-support-process', title: 'Philippines interview scheduling support: process and handoffs', excerpt: 'Keep interviews moving with a Philippines-based coordinator while hiring owners retain candidate decisions and message approval.', minutes: 9 },
@@ -115,8 +115,10 @@ export const blogPosts = [
     excerpt: 'Plan Philippines-based HR admin support with clear task lanes, access limits, owner decisions, scripts, and a practical 10-day pilot.',
     minutes: 12,
   },
-  ...dailyBlogPosts,
 ] as const;
+
+// The dated daily batch is the newest family content and must precede evergreen posts.
+export const blogPosts = [...dailyBlogPosts, ...evergreenBlogPosts] as const;
 
 export const staffingOffer = {
   included: [
