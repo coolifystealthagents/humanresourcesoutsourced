@@ -1,4 +1,32 @@
-export type DailySeed = { slug: string; title: string; description: string; focus: string };
+export type DailySeed = { slug: string; title: string; description: string; focus: string; sourceDate: string };
+
+const dailyBlogSourceDates: Record<string, string> = {
+  'philippines-hr-case-intake-routing': '2026-08-10',
+  'philippines-employee-file-audit-workflow': '2026-08-10',
+  'philippines-hr-knowledge-base-maintenance': '2026-08-10',
+  'philippines-recruiting-requisition-administration': '2026-08-10',
+  'philippines-reference-check-coordination': '2026-08-10',
+  'philippines-hr-survey-administration': '2026-08-10',
+  'philippines-employee-letter-preparation': '2026-08-10',
+  'philippines-hr-absence-tracking-support': '2026-08-10',
+  'philippines-hr-org-chart-maintenance': '2026-08-10',
+  'philippines-hr-new-manager-support-workflow': '2026-08-10',
+  'philippines-hr-training-invitation-coordination': '2026-08-10',
+  'philippines-hr-document-retention-review': '2026-08-10',
+  'philippines-hr-employee-announcement-workflow': '2026-08-10',
+  'philippines-hr-people-analytics-data-preparation': '2026-08-10',
+  'philippines-hr-policy-update-implementation': '2026-08-10',
+  'philippines-hr-employee-feedback-routing': '2026-08-10',
+  'philippines-hr-employee-directory-cleanup': '2026-08-10',
+  'philippines-hr-offer-document-coordination': '2026-08-10',
+  'philippines-hr-employee-status-reporting': '2026-08-10',
+  'philippines-hr-policy-question-escalation': '2026-08-10',
+  'philippines-hr-employee-recognition-administration': '2026-08-10',
+  'philippines-hr-return-to-work-coordination': '2026-08-10',
+  'philippines-hr-people-operations-calendar': '2026-08-10',
+  'philippines-hr-process-exception-log': '2026-08-10',
+  'philippines-hr-employee-milestone-tracking': '2026-08-10',
+};
 
 export const dailySeeds: DailySeed[] = [
   ['philippines-hr-case-intake-routing','Philippines HR case intake routing: protect the first handoff','Create a controlled HR case intake lane with minimum-necessary details, priority tags, and named escalation owners.','HR case intake routing'],
@@ -49,6 +77,6 @@ export const dailySeeds: DailySeed[] = [
   ,['philippines-hr-offer-approval-tracking','Philippines offer approval tracking: separate preparation from decision','Track offer approvals, document status, and handoffs while compensation, terms, and final decisions remain with authorized owners.','offer approval tracking']
   ,['philippines-hr-employee-file-indexing','Philippines employee file indexing: make records findable','Index approved employee records by source, type, date, and owner without changing content or retention decisions.','employee file indexing']
   ,['philippines-hr-employee-record-correction-routing','Philippines employee record correction routing: verify the request','Route employee record correction requests with source evidence, owner review, and a clear audit trail.','employee record correction routing']
-].map(([slug, title, description, focus]) => ({ slug, title, description, focus }));
+].map(([slug, title, description, focus]) => ({ slug, title, description, focus, sourceDate: dailyBlogSourceDates[slug] }));
 
 export const dailyBlogPosts = dailySeeds.map(({ slug, title, description }) => ({ slug, title, excerpt: description, minutes: 9 }));
