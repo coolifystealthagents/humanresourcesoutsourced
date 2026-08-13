@@ -34,7 +34,7 @@ const allSeeds = [...august11BlogSeeds, ...dailySeeds, ...seeds];
 
 export const generatedArticles: Record<string, RichArticle> = Object.fromEntries(allSeeds.map((seed, index) => {
   const related = allSeeds.filter((candidate) => candidate.slug !== seed.slug).slice(index % 3, index % 3 + 3);
-  const publicationDate = seed.sourceDate ?? '2026-08-07';
+  const publicationDate = august11BlogSeeds.some((candidate) => candidate.slug === seed.slug) ? '2026-08-12' : seed.sourceDate ?? '2026-08-07';
   return [seed.slug, {
     slug: seed.slug, title: seed.title, description: seed.description, published: publicationDate, updated: publicationDate, minutes: 9, revision: `${publicationDate}-${seed.slug}`,
     directAnswer: [`A Philippines-based assistant can prepare and track ${seed.focus}, use approved templates, check required fields, and route exceptions. Your HR owner should retain final decisions, sensitive employee conversations, policy interpretation, and approval authority.`, `Start with one narrow queue, named tools, a written review rhythm, and proof for each completed item. Expand only after the owner can compare the support work with the approved process.`],
