@@ -57,9 +57,9 @@ export default function Home() {
               <p className="hr-kicker">A steadier people desk</p>
               <h1>HR admin, handled with care.</h1>
               <ul className="hr-hero-list">
-                <li><img src={hrIcons[0]} alt="" width="28" height="28" /> Keep onboarding files and checklists moving.</li>
-                <li><img src={hrIcons[1]} alt="" width="28" height="28" /> Give employee questions a clear owner.</li>
-                <li><img src={hrIcons[2]} alt="" width="28" height="28" /> Stop hiring calendars from going quiet.</li>
+                <li><img src={hrIcons[0]} alt="Onboarding checklist icon" width="28" height="28" /> Keep onboarding files and checklists moving.</li>
+                <li><img src={hrIcons[1]} alt="Employee records icon" width="28" height="28" /> Give employee questions a clear owner.</li>
+                <li><img src={hrIcons[2]} alt="Recruiting calendar icon" width="28" height="28" /> Stop hiring calendars from going quiet.</li>
               </ul>
               <a className="hr-button" href="/contact-us">Plan my HR support</a>
               <p className="hr-button-note">Start with clear task limits and a named reviewer.</p>
@@ -108,7 +108,7 @@ export default function Home() {
               <a href="/services/operations-support">See the HR operations plan</a>
             </div>
             <div className="hr-boundary-board">
-              <img src="/illustrations/getillustrations/inkdex-team-illustrations-svg/employee-files-workflow.svg" alt="" style={{ width: '100%', maxHeight: 220, objectFit: 'contain', gridColumn: '1 / -1' }} loading="lazy" />
+              <img src="/illustrations/getillustrations/inkdex-team-illustrations-svg/employee-files-workflow.svg" alt="Employee files workflow prepared for review" style={{ width: '100%', maxHeight: 220, objectFit: 'contain', gridColumn: '1 / -1' }} loading="lazy" />
               <article>
                 <span>Assistant can prepare</span>
                 <ul>
