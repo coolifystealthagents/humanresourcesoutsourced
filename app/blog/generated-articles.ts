@@ -3,6 +3,7 @@ import { dailySeeds } from './daily-batch-2026-08-10';
 import { august11BlogSeeds } from './daily-batch-2026-08-11';
 import { august13BlogSeeds } from './daily-batch-2026-08-13';
 import { august14BlogSeeds } from './daily-batch-2026-08-14';
+import { august17BlogSeeds } from './daily-batch-2026-08-17';
 
 type Seed = { slug: string; title: string; description: string; focus: string; sourceDate?: string };
 
@@ -32,11 +33,11 @@ const seeds: Seed[] = [
 ].map(([slug, title, description, focus]) => ({ slug, title, description, focus }));
 
 const source = { name: 'International Labour Organization: Decent work and the care economy', url: 'https://www.ilo.org/topics-and-sectors/care-economy', note: 'Authoritative context for clear responsibilities, worker support, and accountable work arrangements.' };
-const allSeeds = [...august14BlogSeeds, ...august13BlogSeeds, ...august11BlogSeeds, ...dailySeeds, ...seeds];
+const allSeeds = [...august17BlogSeeds, ...august14BlogSeeds, ...august13BlogSeeds, ...august11BlogSeeds, ...dailySeeds, ...seeds];
 
 export const generatedArticles: Record<string, RichArticle> = Object.fromEntries(allSeeds.map((seed, index) => {
   const related = allSeeds.filter((candidate) => candidate.slug !== seed.slug).slice(index % 3, index % 3 + 3);
-  const publicationDate = august11BlogSeeds.some((candidate) => candidate.slug === seed.slug) ? '2026-08-12' : seed.sourceDate ?? '2026-08-07';
+  const publicationDate = seed.sourceDate ?? (august11BlogSeeds.some((candidate) => candidate.slug === seed.slug) ? '2026-08-12' : '2026-08-07');
   return [seed.slug, {
     slug: seed.slug, title: seed.title, description: seed.description, published: publicationDate, updated: publicationDate, minutes: 9, revision: `${publicationDate}-${seed.slug}`,
     directAnswer: [`A Philippines-based assistant can prepare and track ${seed.focus}, use approved templates, check required fields, and route exceptions. Your HR owner should retain final decisions, sensitive employee conversations, policy interpretation, and approval authority.`, `Start with one narrow queue, named tools, a written review rhythm, and proof for each completed item. Expand only after the owner can compare the support work with the approved process.`],

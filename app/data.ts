@@ -2,6 +2,7 @@ import { dailyBlogPosts } from './blog/daily-batch-2026-08-10';
 import { august11BlogPosts } from './blog/daily-batch-2026-08-11';
 import { august13BlogPosts } from './blog/daily-batch-2026-08-13';
 import { august14BlogPosts } from './blog/daily-batch-2026-08-14';
+import { august17BlogPosts } from './blog/daily-batch-2026-08-17';
 
 export const site = {
   domain: 'HumanResourcesOutsourced.com',
@@ -121,7 +122,7 @@ const evergreenBlogPosts = [
 ] as const;
 
 // The dated daily batch is the newest family content and must precede evergreen posts.
-export const blogPosts = [...august14BlogPosts, ...august13BlogPosts, ...august11BlogPosts, ...dailyBlogPosts, ...evergreenBlogPosts] as const;
+export const blogPosts = [...august17BlogPosts, ...august14BlogPosts, ...august13BlogPosts, ...august11BlogPosts, ...dailyBlogPosts, ...evergreenBlogPosts] as const;
 
 export const staffingOffer = {
   included: [
