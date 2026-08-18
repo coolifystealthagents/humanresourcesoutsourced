@@ -34,7 +34,7 @@ const seeds: Seed[] = [
 ].map(([slug, title, description, focus]) => ({ slug, title, description, focus }));
 
 const source = { name: 'International Labour Organization: Decent work and the care economy', url: 'https://www.ilo.org/topics-and-sectors/care-economy', note: 'Authoritative context for clear responsibilities, worker support, and accountable work arrangements.' };
-const allSeeds = [...august17BlogSeeds, ...august14BlogSeeds, ...august13BlogSeeds, ...august11BlogSeeds, ...dailySeeds, ...seeds];
+const allSeeds = [...august14BlogSeeds, ...august13BlogSeeds, ...august11BlogSeeds, ...dailySeeds, ...seeds];
 
 const generatedArticleShells: Record<string, RichArticle> = Object.fromEntries(allSeeds.map((seed, index) => {
   const related = allSeeds.filter((candidate) => candidate.slug !== seed.slug).slice(index % 3, index % 3 + 3);
@@ -92,9 +92,45 @@ const generatedArticleShells: Record<string, RichArticle> = Object.fromEntries(a
   } as RichArticle];
 }));
 
-// August 17 uses explicit article records for substantive copy. The generic
-// records remain for older legacy routes until those routes are independently
-// reviewed.
-export const generatedArticles: Record<string, RichArticle> = Object.fromEntries(
-  Object.entries(generatedArticleShells).map(([slug, article]) => [slug, august17ArticleOverrides[slug] ? { ...article, ...august17ArticleOverrides[slug] } : article])
+// August 17 records are assembled only from their own seed metadata and
+// independently authored overrides. They never pass through the legacy
+// paragraph shell above.
+const august17Articles: Record<string, RichArticle> = Object.fromEntries(
+  august17BlogSeeds.map((seed) => {
+    const override = august17ArticleOverrides[seed.slug];
+    if (!override) throw new Error(`Missing August 17 article override: ${seed.slug}`);
+    return [seed.slug, {
+      slug: seed.slug,
+      title: seed.title,
+      description: seed.description,
+      published: seed.sourceDate,
+      updated: seed.sourceDate,
+      minutes: 10,
+      revision: `${seed.sourceDate}-${seed.slug}`,
+      pilotStats: [
+        { value: '1', label: 'Starting lane', note: `Keep the first ${seed.focus} review narrow and observable.` },
+        { value: '2', label: 'Review passes', note: 'Check the prepared work and then check the owner handoff.' },
+        { value: '3', label: 'Escalation tiers', note: 'Routine handling, owner review, and urgent routing.' },
+        { value: '30', label: 'Pilot days', note: 'Use a defined window before expanding the support scope.' }
+      ],
+      workflow: [
+        { step: '01', title: `Map ${seed.focus}`, text: `List the source, required fields, owner, due time, and approved destination for ${seed.focus}.` },
+        { step: '02', title: 'Test examples', text: 'Use redacted routine and exception examples with the responsible owner watching.' },
+        { step: '03', title: 'Run the lane', text: 'Prepare work, route questions, and record evidence without changing the approved scope.' },
+        { step: '04', title: 'Review the sample', text: 'Compare output to the brief and correct the operating notes.' },
+        { step: '05', title: 'Decide the next scope', text: 'Expand, narrow, or hand back the work using the review record.' }
+      ],
+      related: [
+        { title: seed.title, href: `/blog/${seed.slug}`, note: 'This guide.' },
+        { title: 'HR operations support', href: '/services/operations-support', note: 'Review the related support lane.' },
+        { title: 'HR reporting and QA', href: '/services/reporting-and-qa', note: 'Plan owner review and evidence.' }
+      ],
+      ...override
+    }];
+  })
 );
+
+export const generatedArticles: Record<string, RichArticle> = {
+  ...generatedArticleShells,
+  ...august17Articles
+};
