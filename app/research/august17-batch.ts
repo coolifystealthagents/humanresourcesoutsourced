@@ -120,6 +120,19 @@ const topics: readonly Topic[] = [
     conclusion: 'An employee-file correction is a change event, not a simple overwrite. Outsourced record administration can add value by protecting provenance, separating effective and entry dates, and showing which systems were reconciled. The authorized owner still decides what the record should say and what evidence supports it.',
   },
   {
+    slug: 'hr-accommodation-request-routing-confidentiality',
+    title: 'Accommodation Requests: Route the Record Without Deciding Eligibility',
+    excerpt: 'A bounded research model for handling workplace accommodation requests with confidentiality, minimum necessary detail, and explicit owner decisions.',
+    question: 'What can an outsourced HR support lane record when an accommodation request arrives, and which judgments must remain with a qualified employer-side owner?',
+    method: 'We treated one request as a dated intake event with a source, sensitivity class, requested process change, receiving owner, access boundary, and disposition state. We compared disability, privacy, records, security, and internal-control guidance with the role boundary of administrative HR support. The analysis concerns routing and evidence quality, not medical facts, eligibility, undue hardship, or an employment decision.',
+    context: 'An employee may describe a health condition, work limitation, schedule issue, equipment need, or request for a change through a manager, inbox, form, or HR system. A coordinator may need to preserve the request and get it to the correct owner quickly, but broad copying can expose more personal information than the next decision requires. A support record also must not quietly convert an employee’s description into a diagnosis, a denial, or a promise. The operational problem is to make the request visible while protecting its boundary.',
+    evidence: 'EEOC guidance on disability-related employment matters supports an employer process for handling requests and assessing appropriate next steps. NIST privacy and access guidance supports purpose limitation, minimum-necessary handling, and restricted access. GAO principles support assigned responsibility and review evidence, while NARA principles support preserving source context and event history. These sources support a controlled intake record; they do not decide whether a request is legally required or medically supported.',
+    finding: 'Receipt, identity signal, request description, confidentiality class, owner acknowledgment, clarification, assessment, approved response, implementation, and follow-up are separate states. A support queue should show that a request was received and routed without repeating diagnosis or medical detail in broad reports. Measure time to owner acknowledgment and missing-owner exceptions, not the speed of a substantive answer. Treat an incomplete request as pending clarification, not as a rejected request.',
+    model: 'Record request identifier, received time, source channel, minimum necessary description, access class, employee communication preference where approved, receiving HR or designated owner, acknowledgment, clarification request, decision reference, implementation owner, review date, and closeout evidence. Support staff can acknowledge receipt, protect the record, request an approved missing field, and route an exception. HR, legal, occupational, safety, or management owners decide assessment, accommodation, confidentiality, and implementation.',
+    limits: 'Accommodation duties, confidentiality rules, documentation needs, accessibility, and review processes vary by jurisdiction, policy, role, and individual facts. This method does not determine disability, entitlement, essential functions, undue hardship, retaliation, or a safe work arrangement. A restricted intake record is evidence of routing, not proof that the request was properly resolved.',
+    conclusion: 'Accommodation administration is most defensible when the support lane preserves the request, limits exposure, and makes owner acknowledgment visible without deciding what the employee needs. Human Resources Outsourced readers can use the record to prevent a sensitive request from disappearing or spreading while qualified owners retain the consequential judgment.',
+  },
+  {
     slug: 'hr-hr-support-capacity-denominator-integrity',
     title: 'HR Support Capacity: Define the Denominator Before Comparing Queue Performance',
     excerpt: 'Research on HR operations reporting that separates received work, eligible work, reopened work, and owner-dependent work before drawing capacity conclusions.',
@@ -190,4 +203,5 @@ export const august17ResearchPosts: readonly ResearchPost[] = [
   { ...post(topics[7], '2026-08-17'), published: '2026-08-17' },
   { ...post(topics[8], '2026-08-17'), published: '2026-08-17' },
   { ...post(topics[9], '2026-08-17'), published: '2026-08-17' },
+  { ...post(topics[10], '2026-08-17'), published: '2026-08-17' },
 ];
