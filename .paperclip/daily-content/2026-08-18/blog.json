@@ -1,0 +1,28 @@
+{
+  "campaignDate": "2026-08-18",
+  "family": "blog",
+  "entries": [
+    { "route": "/blog/philippines-hr-employee-file-retention-review", "sourcePaths": ["app/blog/august18-batch.ts"] },
+    { "route": "/blog/philippines-hr-new-hire-identity-access-handoff", "sourcePaths": ["app/blog/august18-batch.ts"] },
+    { "route": "/blog/philippines-hr-employee-complaint-intake-routing", "sourcePaths": ["app/blog/august18-batch.ts"] },
+    { "route": "/blog/philippines-recruiting-candidate-reference-check-coordination", "sourcePaths": ["app/blog/august18-batch.ts"] },
+    { "route": "/blog/philippines-hr-benefits-enrollment-deadline-reconciliation", "sourcePaths": ["app/blog/august18-batch.ts"] },
+    { "route": "/blog/philippines-hr-training-completion-evidence-audit", "sourcePaths": ["app/blog/august18-batch.ts"] },
+    { "route": "/blog/philippines-hr-employee-master-data-change-log", "sourcePaths": ["app/blog/august18-batch.ts"] },
+    { "route": "/blog/philippines-hr-leave-balance-reconciliation-support", "sourcePaths": ["app/blog/august18-batch.ts"] },
+    { "route": "/blog/philippines-hr-employee-survey-response-routing", "sourcePaths": ["app/blog/august18-batch.ts"] },
+    { "route": "/blog/philippines-hr-hris-permission-review-cycle", "sourcePaths": ["app/blog/august18-batch.ts"] },
+    { "route": "/blog/philippines-recruiting-offer-letter-approval-routing", "sourcePaths": ["app/blog/august18-batch.ts"] },
+    { "route": "/blog/philippines-hr-employee-relocation-record-coordination", "sourcePaths": ["app/blog/august18-batch.ts"] },
+    { "route": "/blog/philippines-hr-disciplinary-record-access-control", "sourcePaths": ["app/blog/august18-batch.ts"] },
+    { "route": "/blog/philippines-hr-employee-beneficiary-update-routing", "sourcePaths": ["app/blog/august18-batch.ts"] },
+    { "route": "/blog/philippines-hr-manager-headcount-request-reconciliation", "sourcePaths": ["app/blog/august18-batch.ts"] },
+    { "route": "/blog/philippines-recruiting-candidate-accommodation-routing", "sourcePaths": ["app/blog/august18-batch.ts"] },
+    { "route": "/blog/philippines-hr-employee-record-access-request-log", "sourcePaths": ["app/blog/august18-batch.ts"] },
+    { "route": "/blog/philippines-hr-payroll-bank-detail-change-routing", "sourcePaths": ["app/blog/august18-batch.ts"] },
+    { "route": "/blog/philippines-hr-policy-version-control-register", "sourcePaths": ["app/blog/august18-batch.ts"] },
+    { "route": "/blog/philippines-hr-employee-return-of-property-coordination", "sourcePaths": ["app/blog/august18-batch.ts"] },
+    { "route": "/blog/philippines-hr-recruiting-background-check-status-routing", "sourcePaths": ["app/blog/august18-batch.ts"] },
+    { "route": "/blog/philippines-hr-employee-hris-offboarding-reconciliation", "sourcePaths": ["app/blog/august18-batch.ts"] }
+  ]
+}
