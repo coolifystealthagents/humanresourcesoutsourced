@@ -1,0 +1,16 @@
+{
+  "campaignDate": "2026-08-18",
+  "family": "research",
+  "entries": [
+    { "route": "/research/hr-benefits-eligibility-event-reconciliation", "sourcePaths": ["app/research/august18-batch.ts"] },
+    { "route": "/research/hr-employee-leave-request-state-integrity", "sourcePaths": ["app/research/august18-batch.ts"] },
+    { "route": "/research/hr-recruiting-scorecard-version-control", "sourcePaths": ["app/research/august18-batch.ts"] },
+    { "route": "/research/hr-employee-master-data-effective-dates", "sourcePaths": ["app/research/august18-batch.ts"] },
+    { "route": "/research/hr-employee-relations-intake-privacy-minimization", "sourcePaths": ["app/research/august18-batch.ts"] },
+    { "route": "/research/hr-hris-integration-reconciliation-failures", "sourcePaths": ["app/research/august18-batch.ts"] },
+    { "route": "/research/hr-training-assignment-population-drift", "sourcePaths": ["app/research/august18-batch.ts"] },
+    { "route": "/research/hr-offboarding-knowledge-transfer-evidence", "sourcePaths": ["app/research/august18-batch.ts"] },
+    { "route": "/research/hr-employee-document-correction-provenance", "sourcePaths": ["app/research/august18-batch.ts"] },
+    { "route": "/research/hr-month-end-headcount-definition-reconciliation", "sourcePaths": ["app/research/august18-batch.ts"] }
+  ]
+}
