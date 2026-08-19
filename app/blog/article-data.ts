@@ -15,6 +15,7 @@ export type RichArticle = {
   workflow: { step: string; title: string; text: string }[];
   faqs: { question: string; answer: string }[];
   related: { title: string; href: string; note: string }[];
+  contextualLink?: { afterSection: string; lead: string; label: string; href: string };
   sources: { name: string; url: string; note: string }[];
   expertQuote?: { text: string; attribution: string; url: string };
   chart?: { title: string; subtitle: string; bars: { label: string; value: number; note: string }[]; methods: string };

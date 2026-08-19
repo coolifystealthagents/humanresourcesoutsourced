@@ -122,7 +122,7 @@ export default async function Post({ params }: Params) {
 
         {article.banners?.[0] && <aside className="hr-article-banner" data-banner-slot="1"><div><p className="eyebrow">{article.banners[0].eyebrow}</p><h2>{article.banners[0].title}</h2><p>{article.banners[0].text}</p></div><a href={article.banners[0].href}>{article.banners[0].linkLabel}</a></aside>}
 
-        {article.sections.slice(0, 4).map((section) => <section className="hr-prose-section" key={section.heading}><h2>{section.heading}</h2>{section.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}</section>)}
+        {article.sections.slice(0, 4).map((section) => <section className="hr-prose-section" key={section.heading}><h2>{section.heading}</h2>{section.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}{article.contextualLink?.afterSection === section.heading ? <p data-contextual-service-handoff="true">{article.contextualLink.lead} <a href={article.contextualLink.href}>{article.contextualLink.label}</a>.</p> : null}</section>)}
 
         {article.expertQuote && <figure className="hr-expert-quote"><blockquote>&quot;{article.expertQuote.text}&quot;</blockquote><figcaption><a href={article.expertQuote.url} rel="noopener noreferrer">{article.expertQuote.attribution}</a></figcaption></figure>}
 

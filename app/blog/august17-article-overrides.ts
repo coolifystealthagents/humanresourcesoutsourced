@@ -1,6 +1,6 @@
 import type { RichArticle } from './article-data';
 
-type Override = Pick<RichArticle, 'directAnswer' | 'takeaways' | 'taskRows' | 'sections' | 'scripts' | 'faqs' | 'sources'>;
+type Override = Pick<RichArticle, 'directAnswer' | 'takeaways' | 'taskRows' | 'sections' | 'scripts' | 'faqs' | 'sources' | 'contextualLink'> & { updated?: string };
 
 // These are deliberately written as article records rather than produced by a
 // substitution template. The shared page layout is presentation only.
@@ -46,6 +46,7 @@ export const august17ArticleOverrides: Record<string, Override> = {
     sources: [{ name: 'International Labour Organization: Recruitment and placement', url: 'https://www.ilo.org/topics/recruitment-and-placement', note: 'Provides context for transparent recruitment and clear communication around hiring arrangements.' }]
   },
   'philippines-hr-payroll-cutoff-calendar-support': {
+    updated: '2026-08-19',
     directAnswer: ['A payroll cutoff calendar is an administrative control, not a payroll approval. A Philippines-based coordinator can list pay-period dates, collect approved inputs, flag missing records, and show which owner still needs to act. Payroll and HR leaders decide what counts, how corrections are handled, and when pay data is released.', 'Use the calendar to distinguish a deadline from a completed input. Every item needs its source, employee or group scope, owner, status, and exception path. Never let a reminder or spreadsheet formula become an unreviewed pay decision.'],
     takeaways: ['Publish cutoffs with a timezone and named owner.', 'Separate received, checked, approved, and submitted states.', 'Keep pay and employee data access narrow.', 'Route corrections instead of overwriting history.', 'Reconcile the calendar against the payroll provider’s record.'],
     taskRows: [
@@ -61,6 +62,7 @@ export const august17ArticleOverrides: Record<string, Override> = {
       { heading: 'Restrict access to the calendar and inputs', paragraphs: ['The calendar may be broadly visible, but employee pay details should stay in the approved payroll system or restricted workspace. Give the coordinator the minimum access needed to track status and avoid copying sensitive values into reminders.', 'Review who receives notifications. A calendar alert that includes an employee name or amount can disclose more than the task owner needs.'] },
       { heading: 'Reconcile after each pay run', paragraphs: ['Compare the calendar status with the provider confirmation, returned-item list, and approved correction log. Capture the period and confirmation time so a later review can distinguish a late input from a provider rejection.', 'Use recurring misses to change the owner map or deadline. Do not solve a process problem by asking support staff to approve faster.'] }
     ],
+    contextualLink: { afterSection: 'Use states that protect payroll judgment', lead: 'If your team needs help keeping the tracker current, the service page explains the admin work, owner checks, and boundaries for a Philippines-based support role.', label: 'Review payroll preparation support', href: '/services/payroll-preparation-support' },
     scripts: [{ label: 'Missing input', text: 'The [period] input for [category] is not recorded by the cutoff. Payroll owner: [name]. Please confirm the approved next step.' }, { label: 'Correction route', text: 'Original source received at [time]. Requested correction: [description]. Evidence attached. Payroll owner approval is still required.' }],
     faqs: [{ question: 'Can support staff approve payroll inputs?', answer: 'No. They can track and route approved inputs. Payroll owners decide validity and correction.' }, { question: 'What is the most useful status field?', answer: 'Separate received, reviewed, approved, submitted, and returned so the calendar does not overstate completion.' }, { question: 'Should employee amounts be copied into the calendar?', answer: 'Usually no. Keep the calendar task-focused and store sensitive details in the approved restricted system.' }, { question: 'How should a late item be recorded?', answer: 'Keep the original due date, receipt time, owner, reason supplied, and final disposition.' }],
     sources: [{ name: 'Bangko Sentral ng Pilipinas: Financial consumer protection', url: 'https://www.bsp.gov.ph/Pages/InclusiveFinance/FinancialConsumerProtectionFramework.aspx', note: 'A named Philippine financial regulator source for careful handling of financial information and accountability.' }]
