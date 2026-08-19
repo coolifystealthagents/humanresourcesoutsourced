@@ -4,6 +4,7 @@ import { august13ResearchPosts } from './research/august13-batch';
 import { august14ResearchPosts } from './research/august14-batch';
 import { august17ResearchPosts } from './research/august17-batch';
 import { august18ResearchPosts } from './research/august18-batch';
+import { august19ResearchPosts } from './research/august19-batch';
 
 export const fleetServices: readonly FleetService[] = [
   { slug: 'candidate-sourcing', title: 'Candidate Sourcing', desc: 'Build a Philippines-based candidate sourcing workflow with documented responsibilities, access limits, and manager review.', tasks: ['Document the recurring human resources work', 'Complete approved tasks in the client workflow', 'Record exceptions and next actions'], controls: ['Use named accounts and limited permissions', 'Follow written approval and escalation rules', 'Review work with a client-side owner'], firstWeek: ['Confirm scope and working hours', 'Practice with representative examples', 'Review the first completed work together'] },
@@ -320,6 +321,6 @@ const august11ResearchPosts: readonly ResearchPost[] = [
   { slug: 'hr-people-ops-reporting-close-controls', title: 'People-Ops Reporting Close: Freeze Definitions Before Comparing Results', excerpt: 'A research model for closing recurring HR reports with stable definitions and visible exceptions.', published: '2026-08-12', sections: [{ heading: 'Research question', body: 'Why do recurring HR reports drift even when the spreadsheet formula appears unchanged? Population, effective dates, source freshness, exclusions, and definitions can change silently.' }, { heading: 'Evidence and model', body: 'Measurement methodology and internal-control guidance support versioned definitions, a fixed reporting window, source checks, reconciliation, and owner signoff. Document the reason for any restatement.' }, { heading: 'Operational implication', body: 'Close the reporting window before explaining trends. Show unresolved exceptions rather than excluding them, and keep the metric definition alongside the report so another reviewer can reproduce it.' }], sources: august11ResearchSources },
 ] as const;
 
-export const allResearchPosts: readonly ResearchPost[] = [...august18ResearchPosts, ...august17ResearchPosts, ...august14ResearchPosts, ...august13ResearchPosts, ...august11ResearchPosts, ...researchPosts, ...researchBatchPosts, ...researchRunPosts, ...orderedResearchRun15Posts]
+export const allResearchPosts: readonly ResearchPost[] = [...august19ResearchPosts, ...august18ResearchPosts, ...august17ResearchPosts, ...august14ResearchPosts, ...august13ResearchPosts, ...august11ResearchPosts, ...researchPosts, ...researchBatchPosts, ...researchRunPosts, ...orderedResearchRun15Posts]
   .toSorted((a, b) => b.published.localeCompare(a.published));
 export const postsPerPage = 20;

@@ -1,0 +1,16 @@
+{
+  "campaignDate": "2026-08-19",
+  "family": "research",
+  "entries": [
+    { "route": "/research/hr-new-hire-start-date-evidence-reconciliation", "sourcePaths": ["app/research/august19-batch.ts"] },
+    { "route": "/research/hr-employee-manager-change-effective-date-governance", "sourcePaths": ["app/research/august19-batch.ts"] },
+    { "route": "/research/hr-employee-termination-final-payroll-input-evidence", "sourcePaths": ["app/research/august19-batch.ts"] },
+    { "route": "/research/hr-leave-request-approval-effective-date-reconciliation", "sourcePaths": ["app/research/august19-batch.ts"] },
+    { "route": "/research/hr-benefits-change-event-vendor-acknowledgment", "sourcePaths": ["app/research/august19-batch.ts"] },
+    { "route": "/research/hr-recruiting-candidate-disposition-evidence-boundaries", "sourcePaths": ["app/research/august19-batch.ts"] },
+    { "route": "/research/hr-performance-review-cycle-calibration-records", "sourcePaths": ["app/research/august19-batch.ts"] },
+    { "route": "/research/hr-employee-hris-identity-duplicate-resolution", "sourcePaths": ["app/research/august19-batch.ts"] },
+    { "route": "/research/hr-policy-update-effective-date-employee-acknowledgment", "sourcePaths": ["app/research/august19-batch.ts"] },
+    { "route": "/research/hr-employee-training-assignment-due-date-integrity", "sourcePaths": ["app/research/august19-batch.ts"] }
+  ]
+}
