@@ -10,7 +10,7 @@
     { "route": "/blog/philippines-hr-training-completion-evidence-audit", "sourcePaths": ["app/blog/august18-batch.ts"] },
     { "route": "/blog/philippines-hr-employee-master-data-change-log", "sourcePaths": ["app/blog/august18-batch.ts"] },
     { "route": "/blog/philippines-hr-leave-balance-reconciliation-support", "sourcePaths": ["app/blog/august18-batch.ts"] },
-    { "route": "/blog/philippines-hr-employee-listening-signal-triage", "sourcePaths": ["app/blog/august18-repair-3.ts"] },
+    { "route": "/blog/philippines-hr-employee-emergency-contact-record-coordination", "sourcePaths": ["app/blog/august18-repair-4.ts"] },
     { "route": "/blog/philippines-hr-hris-permission-review-cycle", "sourcePaths": ["app/blog/august18-batch.ts"] },
     { "route": "/blog/philippines-recruiting-offer-letter-approval-routing", "sourcePaths": ["app/blog/august18-batch.ts"] },
     { "route": "/blog/philippines-hr-employee-relocation-record-coordination", "sourcePaths": ["app/blog/august18-batch.ts"] },
