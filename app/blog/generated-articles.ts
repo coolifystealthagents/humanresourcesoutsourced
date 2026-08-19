@@ -7,6 +7,7 @@ import { august17BlogSeeds } from './daily-batch-2026-08-17';
 import { august17ArticleOverrides } from './august17-article-overrides';
 import { august18Articles } from './august18-batch';
 import { august18Repair4Articles } from './august18-repair-4';
+import { august19Articles } from './august19-batch';
 
 type Seed = { slug: string; title: string; description: string; focus: string; sourceDate?: string };
 
@@ -133,6 +134,7 @@ const august17Articles: Record<string, RichArticle> = Object.fromEntries(
 );
 
 export const generatedArticles: Record<string, RichArticle> = {
+  ...august19Articles,
   ...generatedArticleShells,
   ...august17Articles,
   ...august18Articles,
