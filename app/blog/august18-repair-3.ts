@@ -9,7 +9,7 @@ const source = { name: 'National Privacy Commission of the Philippines: Data Pri
 
 export const august18Repair3Articles: Record<string, RichArticle> = {
   [slug]: {
-    slug, title, description, published: sourceDate, updated: sourceDate, minutes: 13, revision: `${sourceDate}-${slug}`,
+    slug, title, description, published: '2026-08-18', updated: '2026-08-18', minutes: 13, revision: `${sourceDate}-${slug}`,
     directAnswer: [
       'A Philippines-based HR support coordinator can sort approved listening inputs into themes, check whether a submission contains a personal case, prepare an anonymized trend brief, and route the next step. The company’s HR or management owner must decide what a signal means, contact an employee, investigate, or change a workplace practice.',
       'The safest lane preserves the original signal, limits who can see identifying detail, and uses a separate case route when a message names a person, alleges harm, or asks for individual action. A theme is not proof, and an anonymous pattern is not permission to guess who submitted it.'
