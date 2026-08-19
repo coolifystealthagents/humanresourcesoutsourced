@@ -60,7 +60,7 @@ const related = (slug: string) => [{ title: 'HR operations support', href: '/ser
 const source = { name: 'International Labour Organization: Decent work and the care economy', url: 'https://www.ilo.org/topics-and-sectors/care-economy', note: 'General context for clear responsibilities and accountable work arrangements.' };
 
 const makeArticle = (t: Topic, index: number): RichArticle => {
-  const paragraphs = routeSourceGuidance[t.slug].body.split('\\n\\n');
+  const paragraphs = routeSourceGuidance[t.slug].body.split('\n\n');
   const legacyParagraphs = [
     `A Philippines-based HR support role can prepare and track ${t.focus}, but the useful boundary begins before the first item arrives. Write the accepted source, the fields to record, the approved destination, the reviewer, and the stop condition. The point is not to make the support role sound broad; it is to make one repeatable administrative lane understandable to the person doing it and to the owner checking it.`,
     `The company owner keeps ${t.decision}. Support staff may compare approved records, format a queue, send an approved reminder, and report a missing input. They should not infer an employment outcome, interpret policy, answer a legal question, decide eligibility, investigate a complaint, or change a sensitive record because one value looks more convenient. A handoff should state what is known, what is missing, and who must decide.`,
