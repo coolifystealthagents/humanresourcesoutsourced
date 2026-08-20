@@ -21,6 +21,7 @@ export type RichArticle = {
   chart?: { title: string; subtitle: string; bars: { label: string; value: number; note: string }[]; methods: string };
   graphic?: { title: string; caption: string; steps: { label: string; detail: string }[] };
   banners?: { eyebrow: string; title: string; text: string; href: string; linkLabel: string }[];
+  heroImage?: string;
 };
 
 export const richArticles: Record<string, RichArticle> = {

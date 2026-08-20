@@ -1,0 +1,14 @@
+[
+  {"route":"/blog/philippines-hr-employee-file-index-provenance-map","sourcePaths":["app/blog/august20-batch.ts"]},
+  {"route":"/blog/philippines-hr-absence-calendar-version-reconciliation","sourcePaths":["app/blog/august20-batch.ts"]},
+  {"route":"/blog/philippines-hr-manager-request-authentication","sourcePaths":["app/blog/august20-batch.ts"]},
+  {"route":"/blog/philippines-hr-candidate-communication-approval","sourcePaths":["app/blog/august20-batch.ts"]},
+  {"route":"/blog/philippines-hr-benefits-enrollment-document-control","sourcePaths":["app/blog/august20-batch.ts"]},
+  {"route":"/blog/philippines-hr-training-completion-reconciliation","sourcePaths":["app/blog/august20-batch.ts"]},
+  {"route":"/blog/philippines-hr-people-ops-month-end-close","sourcePaths":["app/blog/august20-batch.ts"]},
+  {"route":"/blog/philippines-hr-employee-master-data-change-control","sourcePaths":["app/blog/august20-batch.ts"]},
+  {"route":"/blog/philippines-hr-complaint-intake-routing","sourcePaths":["app/blog/august20-batch.ts"]},
+  {"route":"/blog/philippines-hr-new-hire-access-activation-proof","sourcePaths":["app/blog/august20-batch.ts"]},
+  {"route":"/blog/philippines-hr-termination-checklist-evidence","sourcePaths":["app/blog/august20-batch.ts"]},
+  {"route":"/blog/philippines-hr-interview-feedback-integrity","sourcePaths":["app/blog/august20-batch.ts"]}
+]

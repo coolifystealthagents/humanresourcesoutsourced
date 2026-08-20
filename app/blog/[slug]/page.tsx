@@ -89,6 +89,7 @@ export default async function Post({ params }: Params) {
             <p className="eyebrow">Philippines staffing guide</p>
             <h1>{article.title}</h1>
             <p className="lead">{article.description}</p>
+            {article.heroImage && <img src={article.heroImage} alt="" width={1200} height={630} loading="eager" />}
             <div className="hr-article-meta"><span>{article.minutes} minute read</span><span>Published <time dateTime={article.published}>{formatPublicDate(article.published)}</time></span><span>Philippines-only talent</span></div>
           </div>
           <aside className="hr-direct-answer" aria-label="Direct answer">
