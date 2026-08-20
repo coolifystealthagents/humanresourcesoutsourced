@@ -1,0 +1,7 @@
+[
+  { "route": "/research/hr-employee-address-change-provenance", "sourcePaths": ["app/research/august20-batch.ts"], "imagePath": "public/research-banners/hr-employee-address-change-provenance.svg" },
+  { "route": "/research/hr-employee-status-change-reconciliation", "sourcePaths": ["app/research/august20-batch.ts"], "imagePath": "public/research-banners/hr-employee-status-change-reconciliation.svg" },
+  { "route": "/research/hr-employee-file-retention-disposition-evidence", "sourcePaths": ["app/research/august20-batch.ts"], "imagePath": "public/research-banners/hr-employee-file-retention-disposition-evidence.svg" },
+  { "route": "/research/hr-manager-approval-evidence-delegation", "sourcePaths": ["app/research/august20-batch.ts"], "imagePath": "public/research-banners/hr-manager-approval-evidence-delegation.svg" },
+  { "route": "/research/hr-employee-portal-request-authentication", "sourcePaths": ["app/research/august20-batch.ts"], "imagePath": "public/research-banners/hr-employee-portal-request-authentication.svg" }
+]
