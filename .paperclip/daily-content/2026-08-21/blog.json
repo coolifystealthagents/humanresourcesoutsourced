@@ -1,0 +1,18 @@
+{
+  "campaignDate": "2026-08-21",
+  "family": "blog",
+  "entries": [
+    {"route":"/blog/august21-philippines-hr-absence-calendar-version-reconciliation","sourcePaths":["app/blog/august21-batch.ts"]},
+    {"route":"/blog/august21-philippines-hr-employee-change-request-routing","sourcePaths":["app/blog/august21-batch.ts"]},
+    {"route":"/blog/august21-philippines-hr-benefits-enrollment-document-control","sourcePaths":["app/blog/august21-batch.ts"]},
+    {"route":"/blog/august21-philippines-hr-new-hire-access-activation-proof","sourcePaths":["app/blog/august21-batch.ts"]},
+    {"route":"/blog/august21-philippines-hr-people-ops-month-end-close","sourcePaths":["app/blog/august21-batch.ts"]},
+    {"route":"/blog/august21-philippines-hr-complaint-intake-routing","sourcePaths":["app/blog/august21-batch.ts"]},
+    {"route":"/blog/august21-philippines-hr-training-completion-reconciliation","sourcePaths":["app/blog/august21-batch.ts"]},
+    {"route":"/blog/august21-philippines-hr-manager-request-authentication","sourcePaths":["app/blog/august21-batch.ts"]},
+    {"route":"/blog/august21-philippines-hr-candidate-communication-approval","sourcePaths":["app/blog/august21-batch.ts"]},
+    {"route":"/blog/august21-philippines-hr-termination-checklist-evidence","sourcePaths":["app/blog/august21-batch.ts"]},
+    {"route":"/blog/august21-philippines-hr-employee-file-index-provenance-map","sourcePaths":["app/blog/august21-batch.ts"]},
+    {"route":"/blog/august21-philippines-hr-interview-feedback-integrity","sourcePaths":["app/blog/august21-batch.ts"]}
+  ]
+}
