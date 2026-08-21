@@ -1,7 +1,7 @@
 [
-  { "route": "/research/hr-employee-address-change-provenance", "sourcePaths": ["app/research/august20-batch.ts"], "imagePath": "public/research-banners/hr-employee-address-change-provenance.svg" },
-  { "route": "/research/hr-employee-status-change-reconciliation", "sourcePaths": ["app/research/august20-batch.ts"], "imagePath": "public/research-banners/hr-employee-status-change-reconciliation.svg" },
-  { "route": "/research/hr-employee-file-retention-disposition-evidence", "sourcePaths": ["app/research/august20-batch.ts"], "imagePath": "public/research-banners/hr-employee-file-retention-disposition-evidence.svg" },
-  { "route": "/research/hr-manager-approval-evidence-delegation", "sourcePaths": ["app/research/august20-batch.ts"], "imagePath": "public/research-banners/hr-manager-approval-evidence-delegation.svg" },
-  { "route": "/research/hr-employee-portal-request-authentication", "sourcePaths": ["app/research/august20-batch.ts"], "imagePath": "public/research-banners/hr-employee-portal-request-authentication.svg" }
+  { "route": "/research/hr-address-effective-date-by-purpose", "sourcePaths": ["app/research/august21-repair-address.ts"], "imagePath": "public/research-banners/hr-address-purpose-ledger-review.svg" },
+  { "route": "/research/hr-status-event-propagation-window", "sourcePaths": ["app/research/august21-repair-status.ts"], "imagePath": "public/research-banners/hr-status-event-effective-window-audit.svg" },
+  { "route": "/research/hr-record-review-trigger-before-disposition", "sourcePaths": ["app/research/august21-repair-retention.ts"], "imagePath": "public/research-banners/hr-record-disposition-trigger-confirmation.svg" },
+  { "route": "/research/hr-delegated-approval-scope-by-action", "sourcePaths": ["app/research/august21-repair-approval.ts"], "imagePath": "public/research-banners/hr-manager-delegation-proof-before-approval.svg" },
+  { "route": "/research/hr-portal-request-state-before-execution", "sourcePaths": ["app/research/august21-repair-portal.ts"], "imagePath": "public/research-banners/hr-portal-request-identity-evidence.svg" }
 ]
