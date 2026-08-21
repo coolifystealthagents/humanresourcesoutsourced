@@ -1,0 +1,12 @@
+{
+  "campaignDate": "2026-08-21",
+  "family": "research",
+  "generator": "built-in image generation skill",
+  "receipts": [
+    { "route": "/research/hr-status-source-authority-matrix", "imagePath": "public/research-heroes/hr-status-source-authority-matrix.png", "prompt": "Wide editorial illustration about an HR status source-of-truth matrix: layered records cards, timeline markers, and connected system nodes representing HRIS, payroll, benefits, and manager approval, with no readable text." },
+    { "route": "/research/hr-payroll-input-reconciliation-evidence", "imagePath": "public/research-heroes/hr-payroll-input-reconciliation-evidence.png", "prompt": "Wide editorial illustration of payroll input reconciliation: layered pay-period calendar, verified change markers, two review lenses, and flowing source records converging into a secure packet, no readable text." },
+    { "route": "/research/hr-employee-request-analytics-privacy", "imagePath": "public/research-heroes/hr-employee-request-analytics-privacy.png", "prompt": "Wide editorial illustration about privacy-safe HR analytics: abstract request bubbles transformed into grouped dots and protected aggregate bars behind a translucent shield, no readable text." },
+    { "route": "/research/hr-policy-distribution-version-drift", "imagePath": "public/research-heroes/hr-policy-distribution-version-drift.png", "prompt": "Wide editorial illustration of policy version drift: stacked document layers with one approved layer linked to audience nodes and an older layer fading behind, timeline and version relationships without readable text." },
+    { "route": "/research/hr-hr-support-handoff-resilience", "imagePath": "public/research-heroes/hr-hr-support-handoff-resilience.png", "prompt": "Wide editorial illustration of resilient HR support handoffs: connected work nodes passing a secure case packet across a queue with checkpoint lights, protected boundaries and an owner destination, no readable text." }
+  ]
+}
