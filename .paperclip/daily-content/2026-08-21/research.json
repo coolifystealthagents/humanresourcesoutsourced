@@ -1,26 +1,11 @@
 {
   "campaignDate": "2026-08-21",
   "family": "research",
-  "articles": [
-    {
-      "route": "/research/ai-transparency-virtual-assistant-performance",
-      "sourcePaths": ["app/fleet-data.ts:researchPosts20260821[0]"]
-    },
-    {
-      "route": "/research/cross-cultural-communication-distributed-teams",
-      "sourcePaths": ["app/fleet-data.ts:researchPosts20260821[1]"]
-    },
-    {
-      "route": "/research/data-privacy-virtual-assistant-platforms",
-      "sourcePaths": ["app/fleet-data.ts:researchPosts20260821[2]"]
-    },
-    {
-      "route": "/research/knowledge-retention-va-client-transitions",
-      "sourcePaths": ["app/fleet-data.ts:researchPosts20260821[3]"]
-    },
-    {
-      "route": "/research/productivity-metrics-remote-admin-support",
-      "sourcePaths": ["app/fleet-data.ts:researchPosts20260821[4]"]
-    }
+  "entries": [
+    { "slug": "ai-transparency-virtual-assistant-performance", "route": "/research/ai-transparency-virtual-assistant-performance", "sourcePath": "app/research/august21-ai-transparency-virtual-assistant-performance.ts", "imagePath": "public/images/research/ai-transparency-virtual-assistant-performance-hero.jpg" },
+    { "slug": "cross-cultural-communication-distributed-teams", "route": "/research/cross-cultural-communication-distributed-teams", "sourcePath": "app/research/august21-cross-cultural-communication-distributed-teams.ts", "imagePath": "public/images/research/cross-cultural-communication-distributed-teams-hero.jpg" },
+    { "slug": "data-privacy-virtual-assistant-platforms", "route": "/research/data-privacy-virtual-assistant-platforms", "sourcePath": "app/research/august21-data-privacy-virtual-assistant-platforms.ts", "imagePath": "public/images/research/data-privacy-virtual-assistant-platforms-hero.jpg" },
+    { "slug": "knowledge-retention-va-client-transitions", "route": "/research/knowledge-retention-va-client-transitions", "sourcePath": "app/research/august21-knowledge-retention-va-client-transitions.ts", "imagePath": "public/images/research/knowledge-retention-va-client-transitions-hero.jpg" },
+    { "slug": "productivity-metrics-remote-admin-support", "route": "/research/productivity-metrics-remote-admin-support", "sourcePath": "app/research/august21-productivity-metrics-remote-admin-support.ts", "imagePath": "public/images/research/productivity-metrics-remote-admin-support-hero.jpg" }
   ]
 }
