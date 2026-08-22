@@ -1,11 +1,26 @@
 {
   "campaignDate": "2026-08-21",
   "family": "research",
-  "entries": [
-    { "slug": "hr-status-source-authority-matrix", "route": "/research/hr-status-source-authority-matrix", "sourcePath": "app/research/august21-research-batch.ts", "imagePath": "public/research-heroes/hr-status-source-authority-matrix.png" },
-    { "slug": "hr-payroll-input-reconciliation-evidence", "route": "/research/hr-payroll-input-reconciliation-evidence", "sourcePath": "app/research/august21-research-batch.ts", "imagePath": "public/research-heroes/hr-payroll-input-reconciliation-evidence.png" },
-    { "slug": "hr-employee-request-analytics-privacy", "route": "/research/hr-employee-request-analytics-privacy", "sourcePath": "app/research/august21-research-batch.ts", "imagePath": "public/research-heroes/hr-employee-request-analytics-privacy.png" },
-    { "slug": "hr-policy-distribution-version-drift", "route": "/research/hr-policy-distribution-version-drift", "sourcePath": "app/research/august21-research-batch.ts", "imagePath": "public/research-heroes/hr-policy-distribution-version-drift.png" },
-    { "slug": "hr-hr-support-handoff-resilience", "route": "/research/hr-hr-support-handoff-resilience", "sourcePath": "app/research/august21-research-batch.ts", "imagePath": "public/research-heroes/hr-hr-support-handoff-resilience.png" }
+  "articles": [
+    {
+      "route": "/research/ai-transparency-virtual-assistant-performance",
+      "sourcePaths": ["app/fleet-data.ts:researchPosts20260821[0]"]
+    },
+    {
+      "route": "/research/cross-cultural-communication-distributed-teams",
+      "sourcePaths": ["app/fleet-data.ts:researchPosts20260821[1]"]
+    },
+    {
+      "route": "/research/data-privacy-virtual-assistant-platforms",
+      "sourcePaths": ["app/fleet-data.ts:researchPosts20260821[2]"]
+    },
+    {
+      "route": "/research/knowledge-retention-va-client-transitions",
+      "sourcePaths": ["app/fleet-data.ts:researchPosts20260821[3]"]
+    },
+    {
+      "route": "/research/productivity-metrics-remote-admin-support",
+      "sourcePaths": ["app/fleet-data.ts:researchPosts20260821[4]"]
+    }
   ]
 }

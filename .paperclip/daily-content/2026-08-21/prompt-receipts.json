@@ -1,0 +1,34 @@
+{
+  "images": [
+    {
+      "route": "/research/ai-transparency-virtual-assistant-performance",
+      "imagePath": "public/images/research/ai-transparency-virtual-assistant-performance-hero.jpg",
+      "prompt": "Abstract neural network visualization overlaying a transparency gradient, representing AI-assisted virtual assistant performance evaluation. Color palette: cool blues and purples with faint circuit-like patterns. No stock elements, no literal screenshots, no generic abstract swirl. Niche-specific: represents algorithmic accountability in virtual assistance operations.",
+      "status": "created"
+    },
+    {
+      "route": "/research/cross-cultural-communication-distributed-teams",
+      "imagePath": "public/images/research/cross-cultural-communication-distributed-teams-hero.jpg",
+      "prompt": "Three abstract human silhouette forms in varying shades, connected by faint dotted lines, representing distributed virtual team communication across cultures. Color palette: earth tones and muted blues. No stock photography, no literal faces, no generic handshake imagery. Niche-specific: represents cross-cultural communication in distributed virtual assistance.",
+      "status": "created"
+    },
+    {
+      "route": "/research/data-privacy-virtual-assistant-platforms",
+      "imagePath": "public/images/research/data-privacy-virtual-assistant-platforms-hero.jpg",
+      "prompt": "Stylized digital lock motif with flowing cipher lines, representing data privacy compliance for virtual assistant platforms. Color palette: deep blues and purples with accent gold. No literal lock images, no generic shield symbols, no stock security imagery. Niche-specific: represents privacy governance in virtual assistance operations.",
+      "status": "created"
+    },
+    {
+      "route": "/research/knowledge-retention-va-client-transitions",
+      "imagePath": "public/images/research/knowledge-retention-va-client-transitions-hero.jpg",
+      "prompt": "Abstract document transfer illustration: a stylized folder passing between two forms, with fading edges to represent knowledge retention during client transitions. Color palette: muted greens and blues. No literal document photos, no generic arrow clipart, no stock transition imagery. Niche-specific: represents knowledge transfer in virtual assistant client onboarding/offboarding.",
+      "status": "created"
+    },
+    {
+      "route": "/research/productivity-metrics-remote-admin-support",
+      "imagePath": "public/images/research/productivity-metrics-remote-admin-support-hero.jpg",
+      "prompt": "Five abstract bar chart elements in varying heights and colors, representing outcome-based productivity metrics for remote administrative support. Color palette: teal, blue, and accent coral. No literal screenshots, no surveillance camera imagery, no generic pie chart. Niche-specific: represents measurable outcome metrics in virtual assistance operations.",
+      "status": "created"
+    }
+  ]
+}
