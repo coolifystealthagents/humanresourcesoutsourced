@@ -1,0 +1,11 @@
+{
+  "campaignDate": "2026-08-23",
+  "family": "research",
+  "entries": [
+    { "slug": "hr-status-change-reconciliation-source-of-truth", "route": "/research/hr-status-change-reconciliation-source-of-truth", "sourcePath": "app/research/august23-research-batch.ts", "imagePath": "public/research-heroes/aug23-status-authority-research.png" },
+    { "slug": "hr-onboarding-handoff-dependency-evidence", "route": "/research/hr-onboarding-handoff-dependency-evidence", "sourcePath": "app/research/august23-research-batch.ts", "imagePath": "public/research-heroes/aug23-onboarding-dependency-research.png" },
+    { "slug": "hr-help-desk-quality-metrics-privacy-safe", "route": "/research/hr-help-desk-quality-metrics-privacy-safe", "sourcePath": "app/research/august23-research-batch.ts", "imagePath": "public/research-heroes/aug23-help-desk-privacy-research.png" },
+    { "slug": "hr-policy-currency-version-ledger", "route": "/research/hr-policy-currency-version-ledger", "sourcePath": "app/research/august23-research-batch.ts", "imagePath": "public/research-heroes/aug23-policy-currency-research.png" },
+    { "slug": "hr-support-queue-owner-acknowledgment-resilience", "route": "/research/hr-support-queue-owner-acknowledgment-resilience", "sourcePath": "app/research/august23-research-batch.ts", "imagePath": "public/research-heroes/aug23-queue-resilience-research.png" }
+  ]
+}

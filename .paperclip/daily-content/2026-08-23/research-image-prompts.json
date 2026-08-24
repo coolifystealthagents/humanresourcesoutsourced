@@ -1,0 +1,12 @@
+{
+  "campaignDate": "2026-08-23",
+  "family": "research",
+  "provider": "Gemini",
+  "receipts": [
+    { "route": "/research/hr-status-change-reconciliation-source-of-truth", "imagePath": "public/research-heroes/aug23-status-authority-research.png", "prompt": "Editorial scene of a Philippines-based HR operations coordinator reconciling employee status changes across abstract document folders and system panels, with one source-of-truth ledger in focus; wide 1200x630, deep plum and cream, no logos, readable text, watermark, or personal data." },
+    { "route": "/research/hr-onboarding-handoff-dependency-evidence", "imagePath": "public/research-heroes/aug23-onboarding-dependency-research.png", "prompt": "Editorial scene illustrating HR onboarding handoff dependencies across recruiting, HR, payroll, IT, manager, and employee using abstract connected workflow cards; wide 1200x630, warm natural light, no logos, readable text, or watermark." },
+    { "route": "/research/hr-help-desk-quality-metrics-privacy-safe", "imagePath": "public/research-heroes/aug23-help-desk-privacy-research.png", "prompt": "Editorial scene of a privacy-preserving HR help desk measurement review with anonymized queue dots and shield-like privacy cues, emphasizing quality over speed; wide 1200x630, no logos, readable text, watermark, or exposed personal data." },
+    { "route": "/research/hr-policy-currency-version-ledger", "imagePath": "public/research-heroes/aug23-policy-currency-research.png", "prompt": "Editorial scene of a controlled HR policy version ledger with approved documents, version markers, distribution paths, and a superseded copy kept for history; wide 1200x630, no logos, readable text, watermark, or destroyed documents." },
+    { "route": "/research/hr-support-queue-owner-acknowledgment-resilience", "imagePath": "public/research-heroes/aug23-queue-resilience-research.png", "prompt": "Editorial scene of an HR support queue under pressure with resilient handoff controls, named owner lanes, acknowledgment markers, due-date checkpoints, and a calm escalation path; wide 1200x630, no logos, readable text, or watermark." }
+  ]
+}
