@@ -1,0 +1,21 @@
+{
+  "campaignDate": "2026-08-23",
+  "family": "blog",
+  "provider": "Gemini",
+  "status": "blocked-provider-unavailable",
+  "note": "Gemini image generation was unavailable in this workspace. No stock, template, or uncertain retained image was substituted.",
+  "receipts": [
+    {"route":"/blog/august23-philippines-hr-employee-file-access-review","imagePath":null,"prompt":"Editorial hero for employee-file access review in a Philippines HR support workflow; no readable text, logo, watermark, stock look, or people identifiable."},
+    {"route":"/blog/august23-philippines-hr-offer-letter-version-control","imagePath":null,"prompt":"Editorial hero for offer-letter version control in a Philippines recruiting workflow; no readable text, logo, watermark, stock look, or people identifiable."},
+    {"route":"/blog/august23-philippines-hr-leave-balance-reconciliation","imagePath":null,"prompt":"Editorial hero for leave-balance reconciliation in a Philippines HR workflow; no readable text, logo, watermark, stock look, or people identifiable."},
+    {"route":"/blog/august23-philippines-hr-employee-survey-response-routing","imagePath":null,"prompt":"Editorial hero for privacy-conscious employee-survey response routing; no readable text, logo, watermark, stock look, or people identifiable."},
+    {"route":"/blog/august23-philippines-hr-new-hire-paperwork-exception-log","imagePath":null,"prompt":"Editorial hero for a new-hire paperwork exception log in a Philippines HR workflow; no readable text, logo, watermark, stock look, or people identifiable."},
+    {"route":"/blog/august23-philippines-hr-manager-absence-handoff","imagePath":null,"prompt":"Editorial hero for explicit manager-absence handoffs in a Philippines HR workflow; no readable text, logo, watermark, stock look, or people identifiable."},
+    {"route":"/blog/august23-philippines-hr-policy-change-acknowledgment","imagePath":null,"prompt":"Editorial hero for policy-change acknowledgment tracking in a Philippines HR workflow; no readable text, logo, watermark, stock look, or people identifiable."},
+    {"route":"/blog/august23-philippines-hr-recruiting-requisition-intake","imagePath":null,"prompt":"Editorial hero for recruiting requisition intake and approval boundaries; no readable text, logo, watermark, stock look, or people identifiable."},
+    {"route":"/blog/august23-philippines-hr-payroll-cutoff-checklist","imagePath":null,"prompt":"Editorial hero for payroll-cutoff preparation and approval separation; no readable text, logo, watermark, stock look, or people identifiable."},
+    {"route":"/blog/august23-philippines-hr-employee-contact-update","imagePath":null,"prompt":"Editorial hero for employee contact-update provenance and effective dates; no readable text, logo, watermark, stock look, or people identifiable."},
+    {"route":"/blog/august23-philippines-hr-employee-complaint-intake-minimization","imagePath":null,"prompt":"Editorial hero for minimized employee complaint intake and careful routing; no readable text, logo, watermark, stock look, or people identifiable."},
+    {"route":"/blog/august23-philippines-hr-people-ops-weekly-review","imagePath":null,"prompt":"Editorial hero for a named-source weekly people-operations review; no readable text, logo, watermark, stock look, or people identifiable."}
+  ]
+}

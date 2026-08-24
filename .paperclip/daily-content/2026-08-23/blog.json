@@ -1,0 +1,19 @@
+{
+  "campaignDate": "2026-08-23",
+  "family": "blog",
+  "imageFallback": "Gemini unavailable in workspace; no stock or retained-image substitution used.",
+  "entries": [
+    {"route":"/blog/august23-philippines-hr-employee-file-access-review","sourcePaths":["app/blog/august23-batch.ts"]},
+    {"route":"/blog/august23-philippines-hr-offer-letter-version-control","sourcePaths":["app/blog/august23-batch.ts"]},
+    {"route":"/blog/august23-philippines-hr-leave-balance-reconciliation","sourcePaths":["app/blog/august23-batch.ts"]},
+    {"route":"/blog/august23-philippines-hr-employee-survey-response-routing","sourcePaths":["app/blog/august23-batch.ts"]},
+    {"route":"/blog/august23-philippines-hr-new-hire-paperwork-exception-log","sourcePaths":["app/blog/august23-batch.ts"]},
+    {"route":"/blog/august23-philippines-hr-manager-absence-handoff","sourcePaths":["app/blog/august23-batch.ts"]},
+    {"route":"/blog/august23-philippines-hr-policy-change-acknowledgment","sourcePaths":["app/blog/august23-batch.ts"]},
+    {"route":"/blog/august23-philippines-hr-recruiting-requisition-intake","sourcePaths":["app/blog/august23-batch.ts"]},
+    {"route":"/blog/august23-philippines-hr-payroll-cutoff-checklist","sourcePaths":["app/blog/august23-batch.ts"]},
+    {"route":"/blog/august23-philippines-hr-employee-contact-update","sourcePaths":["app/blog/august23-batch.ts"]},
+    {"route":"/blog/august23-philippines-hr-employee-complaint-intake-minimization","sourcePaths":["app/blog/august23-batch.ts"]},
+    {"route":"/blog/august23-philippines-hr-people-ops-weekly-review","sourcePaths":["app/blog/august23-batch.ts"]}
+  ]
+}
