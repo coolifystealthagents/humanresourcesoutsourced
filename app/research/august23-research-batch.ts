@@ -16,7 +16,11 @@ export const august23ResearchPosts: readonly ResearchPost[] = [
     slug: 'hr-status-change-reconciliation-source-of-truth',
     title: 'HR Status Changes Across Systems: Which Record Should Win?',
     excerpt: 'Research on reconciling employee status changes across HR tools without letting an administrator make the underlying employment decision.',
-    published: '2026-08-23', thumbnail: '/research-heroes/aug23-status-authority-research.png', sources,
+    published: '2026-08-23', thumbnail: '/research-heroes/aug23-status-authority-research.png', sources: [
+      { name: 'NIST Cybersecurity Framework 2.0', url: 'https://www.nist.gov/cyberframework' },
+      { name: 'GAO Standards for Internal Control in the Federal Government', url: 'https://www.gao.gov/green-book' },
+      { name: 'National Archives Records Management', url: 'https://www.archives.gov/records-mgmt' },
+    ],
     sections: [
       { heading: 'Research question', body: 'When an employee status, manager, work arrangement, or effective date differs between an HRIS, payroll input, manager request, and onboarding tracker, which record should an HR support team treat as authoritative? This study asks how a Philippines-based administrative lane can expose the conflict, reconcile approved changes, and preserve the owner decision without guessing from the newest timestamp or most convenient spreadsheet.' },
       { heading: 'Methodology and evidence scope', body: 'I compared NIST access and governance guidance, NIST privacy principles, GAO internal-control concepts, NARA records guidance, and employment-record resources from the EEOC and Department of Labor. I then mapped a status change through request, approval, application, and reconciliation states. These sources support traceability, controlled access, records integrity, and review. They do not establish which employment policy applies, whether a change is lawful, or which person may approve a particular case. Those questions remain with the authorized HR, payroll, legal, or management owner.' },
@@ -33,7 +37,11 @@ export const august23ResearchPosts: readonly ResearchPost[] = [
     slug: 'hr-onboarding-handoff-dependency-evidence',
     title: 'Onboarding Handoffs: Can Completion Be Proven at Each Dependency?',
     excerpt: 'A research study of the evidence needed when recruiting, HR, payroll, IT, managers, and new hires pass onboarding work between owners.',
-    published: '2026-08-23', thumbnail: '/research-heroes/aug23-onboarding-dependency-research.png', sources,
+    published: '2026-08-23', thumbnail: '/research-heroes/aug23-onboarding-dependency-research.png', sources: [
+      { name: 'NIST Privacy Framework', url: 'https://www.nist.gov/privacy-framework' },
+      { name: 'FTC Protecting Personal Information', url: 'https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business' },
+      { name: 'EEOC Recordkeeping Requirements', url: 'https://www.eeoc.gov/employers/recordkeeping-requirements' },
+    ],
     sections: [
       { heading: 'Research question', body: 'Can an HR team prove that each onboarding dependency was completed by the right owner, at the right time, with the right evidence? The question matters for a Philippines-based support operation because onboarding work crosses recruiting, HR, payroll, IT, managers, and employees. A checklist can show boxes marked done while hiding a missing approval, an inaccessible document, or a handoff that no one accepted.' },
       { heading: 'Methodology and evidence scope', body: 'This analysis synthesizes NIST cybersecurity and privacy frameworks, GAO internal-control guidance, NARA records principles, EEOC and Department of Labor recordkeeping resources, and FTC data-protection guidance. I modeled onboarding as linked dependencies rather than a single task list: identity and work authorization, payroll setup, system access, equipment, manager preparation, policy delivery, and first-week follow-up. The evidence supports ownership and traceability; it does not determine an employer’s legal forms, eligibility decision, or required notice.' },
@@ -50,7 +58,11 @@ export const august23ResearchPosts: readonly ResearchPost[] = [
     slug: 'hr-help-desk-quality-metrics-privacy-safe',
     title: 'HR Help-Desk Metrics: Which Measures Survive a Privacy Review?',
     excerpt: 'Research on measuring response quality, routing, and unresolved work without turning employee narratives into a public performance dashboard.',
-    published: '2026-08-23', thumbnail: '/research-heroes/aug23-help-desk-privacy-research.png', sources,
+    published: '2026-08-23', thumbnail: '/research-heroes/aug23-help-desk-privacy-research.png', sources: [
+      { name: 'NIST Privacy Framework', url: 'https://www.nist.gov/privacy-framework' },
+      { name: 'NIST SP 800-53 Rev. 5', url: 'https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final' },
+      { name: 'FTC Protecting Personal Information', url: 'https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business' },
+    ],
     sections: [
       { heading: 'Research question', body: 'Which HR help-desk measures remain useful after a privacy review? Response time is easy to count, but speed alone can reward premature closure, unsafe disclosure, or routing that merely moves a question elsewhere. This study examines whether a Philippines-based employee support lane can report workload and quality signals while keeping personal narratives, rare cases, and substantive HR judgments in a restricted record.' },
       { heading: 'Methodology and evidence scope', body: 'I compared the NIST Privacy Framework, NIST Cybersecurity Framework, NIST SP 800-53 access concepts, GAO control principles, FTC data-minimization guidance, and NARA records guidance. I translated them into a measurement model with purpose, audience, unit, denominator, access group, retention, and sampling rules. These sources support governance and protection practices; they do not prescribe a universal service level, establish employee sentiment, or decide whether a response was legally or substantively correct.' },
@@ -67,7 +79,11 @@ export const august23ResearchPosts: readonly ResearchPost[] = [
     slug: 'hr-policy-currency-version-ledger',
     title: 'HR Policy Currency: When Does Distribution Evidence Stop Proving the Right Version?',
     excerpt: 'Research on proving that the right HR policy version reached the intended audience at the intended time, without rewriting historical evidence.',
-    published: '2026-08-23', thumbnail: '/research-heroes/aug23-policy-currency-research.png', sources,
+    published: '2026-08-23', thumbnail: '/research-heroes/aug23-policy-currency-research.png', sources: [
+      { name: 'National Archives Records Management', url: 'https://www.archives.gov/records-mgmt' },
+      { name: 'EEOC Recordkeeping Requirements', url: 'https://www.eeoc.gov/employers/recordkeeping-requirements' },
+      { name: 'U.S. Department of Labor Recordkeeping', url: 'https://www.dol.gov/general/topic/workhours/recordkeeping' },
+    ],
     sections: [
       { heading: 'Research question', body: 'When does an HR policy distribution record stop proving that the intended audience received current guidance? A send log may show transmission, while a later revision, changed audience, translation, inaccessible link, or failed acknowledgment makes the record ambiguous. This study examines the evidence needed to distinguish approved, published, delivered, acknowledged, superseded, and withdrawn states in a Philippines-based HR administration workflow.' },
       { heading: 'Methodology and evidence scope', body: 'The method combines NARA authenticity and records principles, NIST governance and privacy frameworks, GAO authorization concepts, EEOC recordkeeping resources, and Department of Labor recordkeeping guidance. I mapped a policy from draft through approval, publication, distribution, acknowledgment, revision, and retirement. The sources support version identity, accountability, retrievability, and controlled access. They do not establish legal notice, employee understanding, translation sufficiency, or the substantive adequacy of any policy.' },
@@ -84,7 +100,11 @@ export const august23ResearchPosts: readonly ResearchPost[] = [
     slug: 'hr-support-queue-owner-acknowledgment-resilience',
     title: 'HR Support Queues Under Pressure: Which Handoff Signals Predict a Missed Owner?',
     excerpt: 'A research examination of HR handoff resilience when queues grow, priorities compete, and administrative speed can hide ownership gaps.',
-    published: '2026-08-23', thumbnail: '/research-heroes/aug23-queue-resilience-research.png', sources,
+    published: '2026-08-23', thumbnail: '/research-heroes/aug23-queue-resilience-research.png', sources: [
+      { name: 'NIST Cybersecurity Framework 2.0', url: 'https://www.nist.gov/cyberframework' },
+      { name: 'GAO Standards for Internal Control in the Federal Government', url: 'https://www.gao.gov/green-book' },
+      { name: 'NIST Privacy Framework', url: 'https://www.nist.gov/privacy-framework' },
+    ],
     sections: [
       { heading: 'Research question', body: 'Which observable signals suggest that an HR support handoff will miss its owner when a queue is under pressure? Queue size alone is not enough. A small queue can be unsafe when the decision owner, authority, or checkpoint is unclear; a larger queue can remain controlled when work is classified and acknowledged. This research focuses on the boundary between a Philippines-based coordinator’s preparation and the accountable HR, payroll, benefits, legal, safety, or security owner’s decision.' },
       { heading: 'Methodology and evidence scope', body: 'I compared NIST Cybersecurity Framework governance, CISA performance-goal concepts, GAO internal-control standards, NIST Privacy Framework principles, FTC data-protection guidance, and NARA records guidance. I modeled a handoff as an event with source request, restricted data boundary, receiving owner, expected acknowledgment, due or review time, and closure evidence. These references support ownership, least privilege, response tracking, and records. They do not set a universal service promise, rank individual employee matters, or prove that an owner’s decision was correct.' },
