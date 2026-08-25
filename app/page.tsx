@@ -61,7 +61,7 @@ export default function Home() {
                 <li><img src={hrIcons[1]} alt="Employee records icon" width="28" height="28" /> Give employee questions a clear owner.</li>
                 <li><img src={hrIcons[2]} alt="Recruiting calendar icon" width="28" height="28" /> Stop hiring calendars from going quiet.</li>
               </ul>
-              <a className="hr-button" href="/contact-us">Plan my HR support</a>
+              <a className="hr-button" href="/contact-us" id="cta-page-action-1">Plan my HR support</a>
               <p className="hr-button-note">Start with clear task limits and a named reviewer.</p>
             </div>
 
@@ -89,7 +89,7 @@ export default function Home() {
           </div>
           <div className="hr-service-grid">
             {services.map((service, index) => (
-              <a className="hr-service-card" href={`/services/${service.slug}`} key={service.slug}>
+              <a id={`cta-home-services-open-${service.slug}`} className="hr-service-card" href={`/services/${service.slug}`} key={service.slug}>
                 <span className="hr-card-number">0{index + 1}</span>
                 <h3>{service.title}</h3>
                 <p>{service.desc}</p>
@@ -152,7 +152,7 @@ export default function Home() {
             <div>
               <p className="hr-kicker">Read before you hire</p>
               <h2>Plain guides for a safer handoff.</h2>
-              <a className="hr-text-link" href="/blog">View all HR guides</a>
+              <a className="hr-text-link" href="/blog" id="cta-page-action-2">View all HR guides</a>
             </div>
             <div className="hr-guide-list">
               {blogPosts.slice(0, 3).map((post, index) => (
@@ -171,7 +171,7 @@ export default function Home() {
             <p className="hr-kicker">Bring the messy list</p>
             <h2>Turn repeat HR admin into one clear support role.</h2>
           </div>
-          <a className="hr-button" href="/contact-us">Plan my HR support</a>
+          <a className="hr-button" href="/contact-us" id="cta-page-action-3">Plan my HR support</a>
         </section>
       </main>
       <Footer />

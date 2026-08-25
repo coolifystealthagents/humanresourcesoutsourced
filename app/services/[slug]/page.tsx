@@ -55,7 +55,7 @@ export default async function Service({ params }: Params) {
           <p className="eyebrow">Philippines-based human resources support</p>
           <h1>{service.title}</h1>
           <p className="lead">{service.desc}</p>
-          <a className="btn primary" href="/contact-us">Discuss this service</a>
+          <a className="btn primary" href="/contact-us" id="cta-services-slug-action-1">Discuss this service</a>
         </div>
       </section>
       <section className="section">
