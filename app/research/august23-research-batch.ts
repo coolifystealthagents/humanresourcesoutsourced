@@ -16,7 +16,7 @@ export const august23ResearchPosts: readonly ResearchPost[] = [
     slug: 'hr-status-change-reconciliation-source-of-truth',
     title: 'HR Status Changes Across Systems: Which Record Should Win?',
     excerpt: 'Research on reconciling employee status changes across HR tools without letting an administrator make the underlying employment decision.',
-    published: '2026-08-23', thumbnail: '/research-heroes/aug23-status-authority-research.png', sources: [
+    published: '2026-08-24', thumbnail: '/research-heroes/aug23-status-authority-research.png', sources: [
       { name: 'NIST Cybersecurity Framework 2.0', url: 'https://www.nist.gov/cyberframework' },
       { name: 'GAO Standards for Internal Control in the Federal Government', url: 'https://www.gao.gov/green-book' },
       { name: 'National Archives Records Management', url: 'https://www.archives.gov/records-mgmt' },
@@ -37,7 +37,7 @@ export const august23ResearchPosts: readonly ResearchPost[] = [
     slug: 'hr-onboarding-handoff-dependency-evidence',
     title: 'Onboarding Handoffs: Can Completion Be Proven at Each Dependency?',
     excerpt: 'A research study of the evidence needed when recruiting, HR, payroll, IT, managers, and new hires pass onboarding work between owners.',
-    published: '2026-08-23', thumbnail: '/research-heroes/aug23-onboarding-dependency-research.png', sources: [
+    published: '2026-08-24', thumbnail: '/research-heroes/aug23-onboarding-dependency-research.png', sources: [
       { name: 'NIST Privacy Framework', url: 'https://www.nist.gov/privacy-framework' },
       { name: 'FTC Protecting Personal Information', url: 'https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business' },
       { name: 'EEOC Recordkeeping Requirements', url: 'https://www.eeoc.gov/employers/recordkeeping-requirements' },
@@ -58,7 +58,7 @@ export const august23ResearchPosts: readonly ResearchPost[] = [
     slug: 'hr-help-desk-quality-metrics-privacy-safe',
     title: 'HR Help-Desk Metrics: Which Measures Survive a Privacy Review?',
     excerpt: 'Research on measuring response quality, routing, and unresolved work without turning employee narratives into a public performance dashboard.',
-    published: '2026-08-23', thumbnail: '/research-heroes/aug23-help-desk-privacy-research.png', sources: [
+    published: '2026-08-24', thumbnail: '/research-heroes/aug23-help-desk-privacy-research.png', sources: [
       { name: 'NIST Privacy Framework', url: 'https://www.nist.gov/privacy-framework' },
       { name: 'NIST SP 800-53 Rev. 5', url: 'https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final' },
       { name: 'FTC Protecting Personal Information', url: 'https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business' },
@@ -79,7 +79,7 @@ export const august23ResearchPosts: readonly ResearchPost[] = [
     slug: 'hr-policy-currency-version-ledger',
     title: 'HR Policy Currency: When Does Distribution Evidence Stop Proving the Right Version?',
     excerpt: 'Research on proving that the right HR policy version reached the intended audience at the intended time, without rewriting historical evidence.',
-    published: '2026-08-23', thumbnail: '/research-heroes/aug23-policy-currency-research.png', sources: [
+    published: '2026-08-24', thumbnail: '/research-heroes/aug23-policy-currency-research.png', sources: [
       { name: 'National Archives Records Management', url: 'https://www.archives.gov/records-mgmt' },
       { name: 'EEOC Recordkeeping Requirements', url: 'https://www.eeoc.gov/employers/recordkeeping-requirements' },
       { name: 'U.S. Department of Labor Recordkeeping', url: 'https://www.dol.gov/general/topic/workhours/recordkeeping' },
@@ -100,7 +100,7 @@ export const august23ResearchPosts: readonly ResearchPost[] = [
     slug: 'hr-support-queue-owner-acknowledgment-resilience',
     title: 'HR Support Queues Under Pressure: Which Handoff Signals Predict a Missed Owner?',
     excerpt: 'A research examination of HR handoff resilience when queues grow, priorities compete, and administrative speed can hide ownership gaps.',
-    published: '2026-08-23', thumbnail: '/research-heroes/aug23-queue-resilience-research.png', sources: [
+    published: '2026-08-24', thumbnail: '/research-heroes/aug23-queue-resilience-research.png', sources: [
       { name: 'NIST Cybersecurity Framework 2.0', url: 'https://www.nist.gov/cyberframework' },
       { name: 'GAO Standards for Internal Control in the Federal Government', url: 'https://www.gao.gov/green-book' },
       { name: 'NIST Privacy Framework', url: 'https://www.nist.gov/privacy-framework' },

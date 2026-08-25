@@ -1,5 +1,5 @@
 {
-  "campaignDate": "2026-08-23",
+  "campaignDate": "2026-08-24",
   "family": "research",
   "entries": [
     { "slug": "hr-status-change-reconciliation-source-of-truth", "route": "/research/hr-status-change-reconciliation-source-of-truth", "sourcePath": "app/research/august23-research-batch.ts", "imagePath": "public/research-heroes/aug23-status-authority-research.png" },
