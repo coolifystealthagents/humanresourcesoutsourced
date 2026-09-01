@@ -12,6 +12,7 @@ import { august20Articles } from './august20-batch';
 import { august21Articles } from './august21-batch';
 import { august23Articles } from './august23-batch';
 import { august31Articles } from './august31-batch';
+import { september1Articles } from './september1-batch';
 
 type Seed = { slug: string; title: string; description: string; focus: string; sourceDate?: string };
 
@@ -138,6 +139,7 @@ const august17Articles: Record<string, RichArticle> = Object.fromEntries(
 );
 
 export const generatedArticles: Record<string, RichArticle> = {
+  ...september1Articles,
   ...august31Articles,
   ...august23Articles,
   ...august21Articles,
