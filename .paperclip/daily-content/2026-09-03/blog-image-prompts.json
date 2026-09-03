@@ -1,0 +1,21 @@
+{
+  "campaignDate": "2026-09-03",
+  "family": "blog",
+  "provider": "Gemini",
+  "status": "blocked-provider-unavailable",
+  "note": "Gemini image generation is unavailable in this workspace. No substitute imagery was used.",
+  "receipts": [
+    {"route":"/blog/september3-philippines-hr-dependent-care-change-intake","imagePath":null,"prompt":"Editorial illustration of a controlled dependent-care document intake queue; no readable text, logo, watermark, or identifiable person."},
+    {"route":"/blog/september3-philippines-hr-jury-duty-notice-routing","imagePath":null,"prompt":"Editorial illustration of an HR notice moving to a named policy owner; no readable text, logo, watermark, or identifiable person."},
+    {"route":"/blog/september3-philippines-hr-referral-bonus-evidence-check","imagePath":null,"prompt":"Editorial illustration of referral evidence checked before payroll handoff; no readable text, logo, watermark, or identifiable person."},
+    {"route":"/blog/september3-philippines-hr-candidate-withdrawal-closeout","imagePath":null,"prompt":"Editorial illustration of a recruiting record closing after candidate withdrawal; no readable text, logo, watermark, or identifiable person."},
+    {"route":"/blog/september3-philippines-hr-interviewer-substitution-control","imagePath":null,"prompt":"Editorial illustration of an approved interview-panel substitution; no readable text, logo, watermark, or identifiable person."},
+    {"route":"/blog/september3-philippines-hr-onboarding-equipment-readiness","imagePath":null,"prompt":"Editorial illustration of onboarding equipment and access dependencies; no readable text, logo, watermark, or identifiable person."},
+    {"route":"/blog/september3-philippines-hr-remote-work-request-intake","imagePath":null,"prompt":"Editorial illustration of a neutral remote-work request intake; no readable text, logo, watermark, or identifiable person."},
+    {"route":"/blog/september3-philippines-hr-mailbox-delegation-review","imagePath":null,"prompt":"Editorial illustration of separated read, send, and archive mailbox permissions; no readable text, logo, watermark, or identifiable person."},
+    {"route":"/blog/september3-philippines-hr-bank-detail-change-verification","imagePath":null,"prompt":"Editorial illustration of secure payroll bank-detail verification; no readable text, logo, watermark, or identifiable person."},
+    {"route":"/blog/september3-philippines-hr-life-event-benefits-intake","imagePath":null,"prompt":"Editorial illustration of a benefits life-event packet and owner deadline; no readable text, logo, watermark, or identifiable person."},
+    {"route":"/blog/september3-philippines-hr-training-reminder-exclusion-check","imagePath":null,"prompt":"Editorial illustration of a training reminder recipient list checked for exclusions; no readable text, logo, watermark, or identifiable person."},
+    {"route":"/blog/september3-philippines-hr-reporting-line-correction","imagePath":null,"prompt":"Editorial illustration of a reporting-line correction across HR systems; no readable text, logo, watermark, or identifiable person."}
+  ]
+}

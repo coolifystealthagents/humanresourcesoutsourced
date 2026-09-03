@@ -1,0 +1,19 @@
+{
+  "campaignDate": "2026-09-03",
+  "family": "blog",
+  "imageFallback": "Gemini unavailable in workspace; no stock, template, or retained-image substitution used.",
+  "entries": [
+    {"route":"/blog/september3-philippines-hr-dependent-care-change-intake","sourcePaths":["app/blog/september3-batch.ts"]},
+    {"route":"/blog/september3-philippines-hr-jury-duty-notice-routing","sourcePaths":["app/blog/september3-batch.ts"]},
+    {"route":"/blog/september3-philippines-hr-referral-bonus-evidence-check","sourcePaths":["app/blog/september3-batch.ts"]},
+    {"route":"/blog/september3-philippines-hr-candidate-withdrawal-closeout","sourcePaths":["app/blog/september3-batch.ts"]},
+    {"route":"/blog/september3-philippines-hr-interviewer-substitution-control","sourcePaths":["app/blog/september3-batch.ts"]},
+    {"route":"/blog/september3-philippines-hr-onboarding-equipment-readiness","sourcePaths":["app/blog/september3-batch.ts"]},
+    {"route":"/blog/september3-philippines-hr-remote-work-request-intake","sourcePaths":["app/blog/september3-batch.ts"]},
+    {"route":"/blog/september3-philippines-hr-mailbox-delegation-review","sourcePaths":["app/blog/september3-batch.ts"]},
+    {"route":"/blog/september3-philippines-hr-bank-detail-change-verification","sourcePaths":["app/blog/september3-batch.ts"]},
+    {"route":"/blog/september3-philippines-hr-life-event-benefits-intake","sourcePaths":["app/blog/september3-batch.ts"]},
+    {"route":"/blog/september3-philippines-hr-training-reminder-exclusion-check","sourcePaths":["app/blog/september3-batch.ts"]},
+    {"route":"/blog/september3-philippines-hr-reporting-line-correction","sourcePaths":["app/blog/september3-batch.ts"]}
+  ]
+}
