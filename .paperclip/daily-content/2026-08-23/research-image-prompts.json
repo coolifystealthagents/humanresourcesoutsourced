@@ -1,7 +1,8 @@
 {
-  "campaignDate": "2026-08-24",
+  "campaignDate": "2026-08-23",
   "family": "research",
   "provider": "Gemini",
+  "status": "generated",
   "receipts": [
     { "route": "/research/hr-status-change-reconciliation-source-of-truth", "imagePath": "public/research-heroes/aug23-status-authority-research.png", "prompt": "Editorial scene of a Philippines-based HR operations coordinator reconciling employee status changes across abstract document folders and system panels, with one source-of-truth ledger in focus; wide 1200x630, deep plum and cream, no logos, readable text, watermark, or personal data." },
     { "route": "/research/hr-onboarding-handoff-dependency-evidence", "imagePath": "public/research-heroes/aug23-onboarding-dependency-research.png", "prompt": "Editorial scene illustrating HR onboarding handoff dependencies across recruiting, HR, payroll, IT, manager, and employee using abstract connected workflow cards; wide 1200x630, warm natural light, no logos, readable text, or watermark." },

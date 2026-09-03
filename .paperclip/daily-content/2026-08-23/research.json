@@ -1,0 +1,11 @@
+{
+  "campaignDate": "2026-08-23",
+  "family": "research",
+  "entries": [
+    { "route": "/research/hr-status-change-reconciliation-source-of-truth", "sourcePath": "app/research/august23-research-batch.ts" },
+    { "route": "/research/hr-onboarding-handoff-dependency-evidence", "sourcePath": "app/research/august23-research-batch.ts" },
+    { "route": "/research/hr-help-desk-quality-metrics-privacy-safe", "sourcePath": "app/research/august23-research-batch.ts" },
+    { "route": "/research/hr-policy-currency-version-ledger", "sourcePath": "app/research/august23-research-batch.ts" },
+    { "route": "/research/hr-support-queue-owner-acknowledgment-resilience", "sourcePath": "app/research/august23-research-batch.ts" }
+  ]
+}
