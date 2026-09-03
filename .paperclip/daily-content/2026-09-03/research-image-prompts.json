@@ -1,0 +1,14 @@
+{
+  "campaignDate": "2026-09-03",
+  "family": "research",
+  "provider": "Gemini",
+  "status": "blocked-provider-authentication",
+  "note": "Gemini rejected the configured API key as invalid. No stock, template, retained, or alternate-provider image was substituted.",
+  "receipts": [
+    { "route": "/research/candidate-interview-reschedule-chain-evidence", "imagePath": null, "prompt": "Editorial research hero showing a versioned interview rescheduling chain across candidate and interviewer calendars, wide composition, no readable text, logos, watermark, or personal data." },
+    { "route": "/research/payroll-cutoff-exception-arrival-patterns", "imagePath": null, "prompt": "Editorial research hero showing payroll input events approaching a cutoff with distinct approval and destination checkpoints, wide composition, no readable text, logos, watermark, or personal data." },
+    { "route": "/research/benefits-enrollment-rejection-loop-evidence", "imagePath": null, "prompt": "Editorial research hero showing a benefits enrollment submission, rejection, correction, and acknowledgment loop using abstract protected records, wide composition, no readable text, logos, watermark, or personal data." },
+    { "route": "/research/hr-inbox-language-routing-evidence", "imagePath": null, "prompt": "Editorial research hero showing privacy-conscious multilingual HR inbox routing toward qualified human reviewers, wide composition, no readable text, flags, logos, watermark, or personal data." },
+    { "route": "/research/offboarding-residual-task-ownership", "imagePath": null, "prompt": "Editorial research hero showing separate residual offboarding tasks with named HR, payroll, IT, benefits, and asset owners after a last-day checkpoint, wide composition, no readable text, logos, watermark, or personal data." }
+  ]
+}

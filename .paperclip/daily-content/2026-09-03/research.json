@@ -1,0 +1,11 @@
+{
+  "campaignDate": "2026-09-03",
+  "family": "research",
+  "entries": [
+    { "route": "/research/candidate-interview-reschedule-chain-evidence", "sourcePath": "app/research/september3-research-batch.ts" },
+    { "route": "/research/payroll-cutoff-exception-arrival-patterns", "sourcePath": "app/research/september3-research-batch.ts" },
+    { "route": "/research/benefits-enrollment-rejection-loop-evidence", "sourcePath": "app/research/september3-research-batch.ts" },
+    { "route": "/research/hr-inbox-language-routing-evidence", "sourcePath": "app/research/september3-research-batch.ts" },
+    { "route": "/research/offboarding-residual-task-ownership", "sourcePath": "app/research/september3-research-batch.ts" }
+  ]
+}
