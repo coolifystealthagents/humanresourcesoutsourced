@@ -1,3 +1,5 @@
+import { september7Articles } from './september7-batch';
+
 export type RichArticle = {
   slug: string;
   title: string;
@@ -25,6 +27,7 @@ export type RichArticle = {
 };
 
 export const richArticles: Record<string, RichArticle> = {
+  ...september7Articles,
   'philippines-hr-offboarding-support-access-closeout-checklist': {
     slug: 'philippines-hr-offboarding-support-access-closeout-checklist',
     title: 'Philippines HR offboarding support: access closeout checklist',
