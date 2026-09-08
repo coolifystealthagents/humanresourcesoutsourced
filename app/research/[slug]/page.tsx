@@ -9,7 +9,7 @@ export function generateStaticParams() { return allResearchPosts.map(p => ({ slu
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const post = allResearchPosts.find(p => p.slug === slug);
-  return post ? { title: `${post.title} | ${site.brand}`, description: post.excerpt, alternates: { canonical: `https://${site.domain}/research/${post.slug}` } } : {};
+  return post ? { title: `${post.title} | ${site.brand}`, description: post.excerpt, alternates: { canonical: `https://${site.domain}/research/${post.slug}` }, openGraph: { title: post.title, description: post.excerpt, url: `https://${site.domain.toLowerCase()}/research/${post.slug}`, type: 'article', publishedTime: post.published, images: post.thumbnail ? [{ url: `https://${site.domain.toLowerCase()}${post.thumbnail}` }] : undefined } } : {};
 }
 export default async function ResearchArticle({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
