@@ -23,16 +23,76 @@ import { september14ResearchPosts } from './research/september14-research-batch'
 import { september10ResearchPosts } from './research/september10-research-batch';
 
 export const fleetServices: readonly FleetService[] = [
-  { slug: 'candidate-sourcing', title: 'Candidate Sourcing', desc: 'Build a Philippines-based candidate sourcing workflow with documented responsibilities, access limits, and manager review.', tasks: ['Document the recurring human resources work', 'Complete approved tasks in the client workflow', 'Record exceptions and next actions'], controls: ['Use named accounts and limited permissions', 'Follow written approval and escalation rules', 'Review work with a client-side owner'], firstWeek: ['Confirm scope and working hours', 'Practice with representative examples', 'Review the first completed work together'] },
-  { slug: 'interview-coordination', title: 'Interview Coordination', desc: 'Build a Philippines-based interview coordination workflow with documented responsibilities, access limits, and manager review.', tasks: ['Document the recurring human resources work', 'Complete approved tasks in the client workflow', 'Record exceptions and next actions'], controls: ['Use named accounts and limited permissions', 'Follow written approval and escalation rules', 'Review work with a client-side owner'], firstWeek: ['Confirm scope and working hours', 'Practice with representative examples', 'Review the first completed work together'] },
-  { slug: 'employee-records-administration', title: 'Employee Records Administration', desc: 'Build a Philippines-based employee records administration workflow with documented responsibilities, access limits, and manager review.', tasks: ['Document the recurring human resources work', 'Complete approved tasks in the client workflow', 'Record exceptions and next actions'], controls: ['Use named accounts and limited permissions', 'Follow written approval and escalation rules', 'Review work with a client-side owner'], firstWeek: ['Confirm scope and working hours', 'Practice with representative examples', 'Review the first completed work together'] },
-  { slug: 'benefits-administration-support', title: 'Benefits Administration Support', desc: 'Build a Philippines-based benefits administration support workflow with documented responsibilities, access limits, and manager review.', tasks: ['Document the recurring human resources work', 'Complete approved tasks in the client workflow', 'Record exceptions and next actions'], controls: ['Use named accounts and limited permissions', 'Follow written approval and escalation rules', 'Review work with a client-side owner'], firstWeek: ['Confirm scope and working hours', 'Practice with representative examples', 'Review the first completed work together'] },
-  { slug: 'payroll-preparation-support', title: 'Payroll Preparation Support', desc: 'Build a Philippines-based payroll preparation support workflow with documented responsibilities, access limits, and manager review.', tasks: ['Document the recurring human resources work', 'Complete approved tasks in the client workflow', 'Record exceptions and next actions'], controls: ['Use named accounts and limited permissions', 'Follow written approval and escalation rules', 'Review work with a client-side owner'], firstWeek: ['Confirm scope and working hours', 'Practice with representative examples', 'Review the first completed work together'] },
-  { slug: 'onboarding-coordination', title: 'Onboarding Coordination', desc: 'Build a Philippines-based onboarding coordination workflow with documented responsibilities, access limits, and manager review.', tasks: ['Document the recurring human resources work', 'Complete approved tasks in the client workflow', 'Record exceptions and next actions'], controls: ['Use named accounts and limited permissions', 'Follow written approval and escalation rules', 'Review work with a client-side owner'], firstWeek: ['Confirm scope and working hours', 'Practice with representative examples', 'Review the first completed work together'] },
-  { slug: 'learning-administration', title: 'Learning Administration', desc: 'Build a Philippines-based learning administration workflow with documented responsibilities, access limits, and manager review.', tasks: ['Document the recurring human resources work', 'Complete approved tasks in the client workflow', 'Record exceptions and next actions'], controls: ['Use named accounts and limited permissions', 'Follow written approval and escalation rules', 'Review work with a client-side owner'], firstWeek: ['Confirm scope and working hours', 'Practice with representative examples', 'Review the first completed work together'] },
-  { slug: 'hr-help-desk-support', title: 'HR Help Desk Support', desc: 'Build a Philippines-based hr help desk support workflow with documented responsibilities, access limits, and manager review.', tasks: ['Document the recurring human resources work', 'Complete approved tasks in the client workflow', 'Record exceptions and next actions'], controls: ['Use named accounts and limited permissions', 'Follow written approval and escalation rules', 'Review work with a client-side owner'], firstWeek: ['Confirm scope and working hours', 'Practice with representative examples', 'Review the first completed work together'] },
-  { slug: 'performance-review-administration', title: 'Performance Review Administration', desc: 'Build a Philippines-based performance review administration workflow with documented responsibilities, access limits, and manager review.', tasks: ['Document the recurring human resources work', 'Complete approved tasks in the client workflow', 'Record exceptions and next actions'], controls: ['Use named accounts and limited permissions', 'Follow written approval and escalation rules', 'Review work with a client-side owner'], firstWeek: ['Confirm scope and working hours', 'Practice with representative examples', 'Review the first completed work together'] },
-  { slug: 'offboarding-coordination', title: 'Offboarding Coordination', desc: 'Build a Philippines-based offboarding coordination workflow with documented responsibilities, access limits, and manager review.', tasks: ['Document the recurring human resources work', 'Complete approved tasks in the client workflow', 'Record exceptions and next actions'], controls: ['Use named accounts and limited permissions', 'Follow written approval and escalation rules', 'Review work with a client-side owner'], firstWeek: ['Confirm scope and working hours', 'Practice with representative examples', 'Review the first completed work together'] }
+  {
+    slug: 'candidate-sourcing', title: 'Candidate Sourcing',
+    desc: 'Research and maintain an ATS longlist from the employer’s approved requisition criteria; hiring teams keep shortlist and selection decisions.',
+    tasks: ['Translate approved requisition fields into a sourcing checklist', 'Research permitted channels and add source-linked profiles', 'Deduplicate records and flag missing or conflicting information'],
+    controls: ['Do not infer protected traits or candidate suitability', 'Use only employer-approved sources, fields, and outreach templates', 'Route shortlist, compensation, accommodation, and selection decisions to the hiring owner'],
+    firstWeek: ['Confirm one requisition and its non-negotiable approved fields', 'Source a small review batch with links and factual notes', 'Calibrate accepted, rejected, duplicate, and do-not-contact examples']
+  },
+  {
+    slug: 'interview-coordination', title: 'Interview Coordination',
+    desc: 'Coordinate interview availability, approved communications, scorecard reminders, and calendar changes without editing interviewer judgment.',
+    tasks: ['Collect panel availability and time-zone constraints', 'Send approved invitations and candidate logistics', 'Track scorecard completion and unresolved scheduling conflicts'],
+    controls: ['Keep candidate records and interview notes in the approved system', 'Escalate accommodations, complaints, and message exceptions', 'Leave evaluation, disposition, and offer decisions with the hiring team'],
+    firstWeek: ['Map stages, calendars, templates, and response owners', 'Run a supervised scheduling scenario including one reschedule', 'Reconcile calendar, ATS stage, and scorecard ownership']
+  },
+  {
+    slug: 'employee-records-administration', title: 'Employee Records Administration',
+    desc: 'Prepare approved employee-record changes, filing checks, and reconciliation logs while the employer controls authoritative values and retention rules.',
+    tasks: ['Validate requests against required fields and source evidence', 'File approved records in the designated employee record', 'Reconcile before-and-after values across named downstream systems'],
+    controls: ['Never change an employee record from memory or informal chat', 'Separate authoritative records from working copies', 'Escalate identity conflicts, sensitive documents, and retention questions'],
+    firstWeek: ['Inventory record classes, systems, and permitted actions', 'Practice one redacted change and one duplicate-file exception', 'Review the resulting change log with the HR data owner']
+  },
+  {
+    slug: 'benefits-administration-support', title: 'Benefits Administration Support',
+    desc: 'Track benefits enrollment and change packets for completeness, deadlines, carrier handoffs, and reconciliation—not eligibility or plan advice.',
+    tasks: ['Check approved enrollment packets for required administrative fields', 'Track life-event documents and carrier transmission status', 'Reconcile deductions or enrollment status against owner-approved instructions'],
+    controls: ['Benefits and legal owners decide eligibility and plan interpretation', 'Keep dependent and health information in restricted systems', 'Route missed windows, conflicting deductions, and disputed coverage immediately'],
+    firstWeek: ['Choose one plan-year queue and define its evidence checklist', 'Process a redacted complete packet and incomplete exception', 'Confirm status labels with the benefits owner and payroll contact']
+  },
+  {
+    slug: 'payroll-preparation-support', title: 'Payroll Preparation Support',
+    desc: 'Assemble and reconcile approved payroll inputs so a separate payroll owner can review and submit the run.',
+    tasks: ['Collect approved starter, leaver, time, leave, and change inputs', 'Compare source values with the payroll-preparation register', 'Document variances, cutoff status, and missing approvals'],
+    controls: ['Do not estimate hours, deductions, taxes, or missing pay inputs', 'Preserve original values and link every correction to an approver', 'Require separate employer review before payroll submission'],
+    firstWeek: ['Map cutoffs, source systems, fields, and approval owners', 'Reconcile a redacted prior-period sample', 'Test a late input, duplicate, and unexplained variance path']
+  },
+  {
+    slug: 'onboarding-coordination', title: 'Onboarding Coordination',
+    desc: 'Keep new-hire tasks moving across HR, the manager, IT, payroll, and the employee while each specialist retains approval authority.',
+    tasks: ['Open the approved checklist from the confirmed start record', 'Coordinate equipment, account, policy, and first-week dependencies', 'Chase named owners and record completion evidence'],
+    controls: ['Do not approve work authorization, access scope, or employment terms', 'Keep identity and payroll documents in their restricted destinations', 'Escalate changed start dates, missing approvals, and access mismatches'],
+    firstWeek: ['Map one role’s onboarding dependencies and deadlines', 'Rehearse a normal start and an equipment-delay exception', 'Review the closeout evidence with HR, manager, and IT owners']
+  },
+  {
+    slug: 'learning-administration', title: 'Learning Administration',
+    desc: 'Administer assigned learning rosters, versions, reminders, completion evidence, and exceptions using employer-approved requirements.',
+    tasks: ['Load the approved audience and correct course version', 'Monitor due dates and send approved reminders', 'Reconcile LMS status, certificates, and owner-approved exemptions'],
+    controls: ['Do not decide who is legally required to train', 'Restrict learner details to the source system and approved reports', 'Route disputed completion, exemptions, and content questions to the program owner'],
+    firstWeek: ['Select one course and freeze its audience snapshot', 'Test complete, overdue, exempt, and conflicting-evidence records', 'Validate the final roster and escalation report with the owner']
+  },
+  {
+    slug: 'hr-help-desk-support', title: 'HR Help Desk Support',
+    desc: 'Triage a shared HR request queue and send approved knowledge responses while sensitive cases move to qualified internal owners.',
+    tasks: ['Classify requests using the employer’s service categories', 'Answer routine questions from current approved knowledge', 'Record owner, next action, due time, and closure evidence'],
+    controls: ['Route complaints, safety, accommodation, pay disputes, and legal questions', 'Verify the requester before revealing employee information', 'Keep sensitive narratives out of broad queues and dashboards'],
+    firstWeek: ['Review the knowledge base, categories, and restricted-case triggers', 'Classify a redacted set of routine and sensitive requests', 'Calibrate response quality, escalation accuracy, and reopened cases']
+  },
+  {
+    slug: 'performance-review-administration', title: 'Performance Review Administration',
+    desc: 'Coordinate review-cycle rosters, deadlines, forms, reminders, and completion evidence without changing evaluation content.',
+    tasks: ['Confirm the cycle population and approved form version', 'Track manager and employee completion against the calendar', 'Prepare privacy-safe exception and aging reports'],
+    controls: ['Managers retain ratings, narrative judgment, and performance decisions', 'Do not rewrite comments or silently reset deadlines', 'Restrict review content and preserve authorized corrections'],
+    firstWeek: ['Map the cycle, population source, forms, and deadline owners', 'Test a manager change and missing-scorecard exception', 'Review the status report and escalation thresholds with HR']
+  },
+  {
+    slug: 'offboarding-coordination', title: 'Offboarding Coordination',
+    desc: 'Coordinate approved separation tasks across HR, payroll, IT, records, assets, and the manager after the employer authorizes the event.',
+    tasks: ['Open tasks from the approved effective date and owner instruction', 'Track account disablement, asset return, payroll, and record handoffs', 'Reconcile completion signals and unresolved exceptions'],
+    controls: ['The employer retains the separation decision and communications', 'Share only minimum-necessary operational details', 'Do not close the case until accountable system owners confirm their tasks'],
+    firstWeek: ['Map one offboarding path and time-critical dependencies', 'Rehearse normal closeout and a missing-asset exception', 'Validate the evidence trail with HR, payroll, IT, and records owners']
+  }
 ];
 
 // Add reviewed, source-backed original research here. The templates and sitemap update automatically.
@@ -172,10 +232,10 @@ export const researchBatchPosts: readonly ResearchPost[] = researchBatchTopics.m
   slug, title, excerpt, published: '2026-08-09',
   sections: [
     { heading: 'Research question', body: `This report asks: what makes ${title.toLowerCase().replace(/^.*?: /, '')} repeatable, reviewable, and safe for a small HR operations team?` },
-    { heading: 'Methodology', body: 'We synthesized the ten listed primary and professional sources, screened the topic against the existing Research slugs and titles, and translated the guidance into an operational control model. This is general workflow guidance, not legal advice.' },
+    { heading: 'Methodology', body: `For ${title}, we compared the control implications in the ten listed sources with the specific HR failure mode described above. The result is a workflow model for employer review, not legal advice.` },
     { heading: 'Key statistic', body: statistic },
-    { heading: 'Key takeaways and data model', body: `${model} Track status, owner, source system, due date, exception category, and completion evidence as separate fields so a reviewer can test the workflow without receiving unnecessary personal data.` },
-    { heading: 'Implementation checklist', body: 'Confirm the trigger and owner; use the approved system of record; restrict access by task; retain the evidence required by policy; review exceptions weekly; and document the escalation outcome.' },
+    { heading: 'Key takeaways and data model', body: `${model} In the ${title.toLowerCase().replace(/^.*?: /, '')} record, separate current state, accountable owner, source, deadline, exception reason, and close evidence so review does not require extra personal data.` },
+    { heading: 'Implementation checklist', body: `Implement ${title.toLowerCase().replace(/^.*?: /, '')} by confirming its trigger, authoritative system, task-level access, required evidence, exception review cadence, and named escalation owner.` },
     { heading: 'FAQs', body: faq }
   ],
   sources: researchBatchSources
@@ -214,10 +274,10 @@ export const researchRunPosts: readonly ResearchPost[] = researchRunTopics.map((
   slug, title, excerpt, published: '2026-08-10',
   sections: [
     { heading: 'Research question', body: `This report asks: what makes ${title.toLowerCase().replace(/^.*?: /, '')} repeatable, reviewable, and safe for a small HR operations team?` },
-    { heading: 'Methodology', body: 'We synthesized the ten listed primary and professional sources, screened this topic against existing Research slugs and titles, and translated the guidance into an operational control model. This is general workflow guidance, not legal advice.' },
+    { heading: 'Methodology', body: `The listed sources provide general privacy, records, access, and internal-control context for ${title.toLowerCase().replace(/^.*?: /, '')}. The model below is a proposed workflow for employer review, not a finding of compliance or legal advice.` },
     { heading: 'Key statistic', body: statistic },
-    { heading: 'Key takeaways and data model', body: `${model} Track status, owner, source system, due date, exception category, and completion evidence as separate fields so a reviewer can test the workflow without receiving unnecessary personal data.` },
-    { heading: 'Implementation checklist', body: 'Confirm the trigger and owner; use the approved system of record; restrict access by task; retain the evidence required by policy; review exceptions weekly; and document the escalation outcome.' },
+    { heading: 'Key takeaways and data model', body: model },
+    { heading: 'Implementation checklist', body: `Before adopting ${title.toLowerCase().replace(/^.*?: /, '')}, name the employer decision owner, authoritative system, permitted administrative actions, required closeout evidence, and escalation path. Pilot the workflow with redacted examples before expanding access.` },
     { heading: 'FAQs', body: faq },
   ],
   sources: researchRunSources,
@@ -280,10 +340,10 @@ export const researchRun15Posts: readonly ResearchPost[] = researchRun15Topics.m
   slug, title, excerpt, published: researchRun15SourceDates[slug], thumbnail: `/research-banners/${slug}.svg`,
   sections: [
     { heading: 'Research question', body: `This report asks how ${title.toLowerCase().replace(/^.*?: /, '')} can remain repeatable, reviewable, and properly owned by a small HR operations team.` },
-    { heading: 'Methodology', body: 'We synthesized the ten listed authoritative and professional sources, screened this topic against existing Research and Blog slugs, and translated the guidance into an operational control model. This is general workflow guidance, not legal advice.' },
+    { heading: 'Methodology', body: `For ${title}, we compared the stated control problem with the ten listed public authorities and professional references, then screened the operating model against existing Research and Blog topics. This is workflow guidance for employer review, not legal advice.` },
     { heading: 'Key statistic', body: statistic },
-    { heading: 'Key takeaways and data model', body: `${model} Track status, owner, source system, due date, exception category, and completion evidence as separate fields so a reviewer can test the workflow without receiving unnecessary personal data.` },
-    { heading: 'Implementation checklist', body: 'Confirm the trigger and owner; use the approved system of record; restrict access by task; retain the evidence required by policy; review exceptions weekly; and document the escalation outcome.' },
+    { heading: 'Key takeaways and data model', body: `${model} For this ${title.toLowerCase().replace(/^.*?: /, '')} workflow, keep state, owner, authoritative source, target date, exception reason, and closure evidence distinct so reviewers can test the result without broad data access.` },
+    { heading: 'Implementation checklist', body: `For ${title.toLowerCase().replace(/^.*?: /, '')}, verify the initiating event, decision owner, allowed system, minimum permissions, required evidence, exception cadence, and escalation outcome before rollout.` },
     { heading: 'FAQs', body: faq },
   ],
   sources: researchRun15Sources,

@@ -1,12 +1,12 @@
 import type { RichArticle } from './article-data';
-const date='2026-09-07',heroImage='/blog-heroes/august31-hr-operations-field-guide.svg';
+const date='2026-09-07';
 const topics=[
 ['candidate-time-zone-confirmation','Confirm candidate time zones before interview day','prevent silent time-zone assumptions from becoming missed interviews','interview-coordination'],
 ['onboarding-equipment-delivery-exceptions','Route onboarding equipment delivery exceptions','keep delayed equipment visible without making unsupported promises','onboarding-coordination'],
 ['benefits-enrollment-receipt-log','Build a benefits enrollment receipt log','track secure receipt while plan owners decide eligibility and coverage','benefits-administration-support'],
 ['payroll-bank-change-callback-tracker','Track payroll bank-change callback verification','separate intake, identity checks, approval, and payroll entry','payroll-preparation-support'],
 ['manager-approval-aging-board','Design a manager approval aging board','surface waiting decisions without exposing sensitive case narratives','reporting-and-qa'],
-['candidate-withdrawal-record-handoff','Record a candidate withdrawal cleanly','preserve the source message and stop scheduled outreach','recruiting-coordination'],
+['candidate-withdrawal-record-handoff','Record a candidate withdrawal cleanly','preserve the source message and stop scheduled outreach','interview-coordination'],
 ['learning-completion-evidence-check','Check learning completion evidence before escalation','reconcile certificates, system status, and approved exemptions','learning-administration'],
 ['employee-name-change-system-map','Map an employee name change across HR systems','coordinate approved values across downstream destinations','employee-records-administration'],
 ['shared-mailbox-sensitive-case-routing','Route sensitive cases out of a shared HR mailbox','move complaints, medical details, and disputes to restricted owners','hr-help-desk-support'],
@@ -15,7 +15,7 @@ const topics=[
 ['weekly-record-correction-sample','Run a weekly sample of HR record corrections','review source, approval, changed values, and destination evidence','reporting-and-qa']] as const;
 export const september7BlogPosts=topics.map(([s,t,d])=>({slug:`september7-hr-${s}`,title:t,excerpt:`A practical HR operations guide to ${d}.`,minutes:9,published:date}));
 export const september7Articles:Record<string,RichArticle>=Object.fromEntries(topics.map(([s,title,focus,service],i)=>{const slug=`september7-hr-${s}`,stop='the source is incomplete, conflicting, or requires a policy decision',proof=`dated owner approval and destination confirmation for ${focus}`;return [slug,{
-slug,title,description:`A bounded workflow to ${focus}, with clear ownership, access limits, and completion evidence.`,published:date,updated:date,minutes:9,revision:`${date}-${slug}`,heroImage,
+slug,title,description:`A bounded workflow to ${focus}, with clear ownership, access limits, and completion evidence.`,published:date,updated:date,minutes:9,revision:`${date}-${slug}`,
 directAnswer:[`Treat this work as a documented administrative lane: ${focus}. Name the controlling source, company owner, stop condition, and evidence before the first live case.`,`A coordinator can collect, compare, remind, route, and record. The company retains employment, pay, benefits, privacy, and exception decisions.`],
 takeaways:['Name one controlling source.','Keep submitted and approved values separate.','Use the minimum necessary access.',`Pause when ${stop}.`,`Close only with ${proof}.`],
 taskRows:[{lane:'Receive',philippinesTeam:'Preserve the request and record its source.',owner:'Set scope, authority, timing, and approved inputs.',check:'Source, owner, and due time are visible'},{lane:'Compare',philippinesTeam:'Check required fields without replacing conflicting evidence.',owner:'Resolve differences and approve consequential changes.',check:'Original and proposed values remain distinct'},{lane:'Escalate',philippinesTeam:'Pause and send one precise exception handoff.',owner:'Make the decision and return an actionable instruction.',check:'The exception has an owner and review time'},{lane:'Close',philippinesTeam:'Apply the approved step and attach confirmation.',owner:'Review exceptions and authorize closure.',check:proof}],

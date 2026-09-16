@@ -1,7 +1,7 @@
 import type { ResearchPost } from '../fleet-data';
 
 const date = '2026-09-02';
-const thumbnail = '/research-heroes/august31-hr-controls-research.svg';
+
 const sources = [
   { name: 'NIST Privacy Framework', url: 'https://www.nist.gov/privacy-framework' },
   { name: 'NIST Cybersecurity Framework 2.0', url: 'https://www.nist.gov/cyberframework' },
@@ -30,7 +30,7 @@ export const september2ResearchPosts: readonly ResearchPost[] = studies.map((stu
   title: study.title,
   excerpt: study.excerpt,
   published: date,
-  thumbnail,
+
   sections: [
     { heading: 'Research question', body: study.question },
     { heading: 'Evidence scope and method', body: study.method },

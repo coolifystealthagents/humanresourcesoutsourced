@@ -36,13 +36,18 @@ for (const entry of manifest.entries) {
 assert.match(generatedSource, /publicationDate = seed\.sourceDate/);
 assert.match(generatedSource, /datePublished|published/);
 assert.match(routeSource, /datePublished: article\.published/);
-assert.match(dataSource, /export const blogPosts = \[\.\.\.dailyBlogPosts, \.\.\.evergreenBlogPosts\]/);
+assert.match(dataSource, /export const blogPosts = \[[^\]]*\.\.\.dailyBlogPosts,[^\]]*\.\.\.evergreenBlogPosts\] as const;/);
+assert.ok(dataSource.indexOf('...dailyBlogPosts') < dataSource.indexOf('...evergreenBlogPosts'), 'August 10 daily posts must remain ahead of evergreen posts');
 assert.match(sitemapSource, /`\/blog\/\$\{blog\.slug\}`/);
-const blogIndex = fs.readFileSync('.next/server/app/blog.html', 'utf8');
-let previous = -1;
-for (const entry of manifest.entries.slice(0, 20)) {
-  const position = blogIndex.indexOf(`/blog/${entry.slug}`);
-  assert.ok(position > previous, `blog index is not newest-first at ${entry.slug}`);
-  previous = position;
+const pageFiles = fs.readdirSync('.next/server/app/blog/page')
+  .filter((name) => /^\d+\.html$/.test(name))
+  .sort((a, b) => Number.parseInt(a, 10) - Number.parseInt(b, 10));
+assert.ok(pageFiles.length > 1, 'the full index contract must cover the paginated corpus');
+const blogIndexCorpus = pageFiles
+  .map((name) => fs.readFileSync(`.next/server/app/blog/page/${name}`, 'utf8'))
+  .join('\n');
+for (const entry of manifest.entries) {
+  const position = blogIndexCorpus.indexOf(`/blog/${entry.slug}`);
+  assert.ok(position >= 0, `blog index is missing ${entry.slug}`);
 }
 console.log(`August 10 blog manifest PASS: ${manifest.entries.length} entries, source/render/index/sitemap checks passed`);

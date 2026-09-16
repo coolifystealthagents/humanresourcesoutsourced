@@ -1,5 +1,5 @@
 import type { RichArticle } from './article-data';
-const date='2026-09-08',heroImage='/blog-heroes/august31-hr-operations-field-guide.svg';
+const date='2026-09-08';
 const topics=[
 ['candidate-interview-panel-change-log','Keep an Interview Panel Change Log','align interviewer substitutions, calendar updates, candidate notices, and decision ownership','interview-coordination'],
 ['new-hire-missing-document-queue','Run a New-Hire Missing-Document Queue','separate routine reminders from eligibility, accommodation, and policy decisions','onboarding-coordination'],
@@ -7,7 +7,7 @@ const topics=[
 ['payroll-retro-change-preparation','Prepare Retroactive Payroll Changes for Review','show the source period, approved correction, calculation input, and reviewer before payroll entry','payroll-preparation-support'],
 ['employee-record-retention-hold-flag','Add a Retention-Hold Flag to Employee Records','prevent routine disposition while a qualified owner reviews a hold or active matter','employee-records-administration'],
 ['hr-inbox-duplicate-request-linking','Link Duplicate Requests in the HR Inbox','consolidate repeated messages without losing the original sender, timestamp, or attachment trail','hr-help-desk-support'],
-['candidate-accommodation-request-routing','Route Candidate Accommodation Requests Safely','move accommodation messages promptly to a restricted, qualified decision owner','recruiting-coordination'],
+['candidate-accommodation-request-routing','Route Candidate Accommodation Requests Safely','move accommodation messages promptly to a restricted, qualified decision owner','interview-coordination'],
 ['manager-review-deadline-reset','Document Performance-Review Deadline Resets','distinguish an approved schedule change from an overdue or silently edited review','performance-review-administration'],
 ['learning-roster-version-check','Version-Control Mandatory Learning Rosters','tie every assignment and completion check to the approved audience snapshot','learning-administration'],
 ['offboarding-shared-drive-ownership','Transfer Shared-Drive Ownership During Offboarding','identify business files, assign a destination owner, and confirm access after transfer','offboarding-coordination'],
@@ -15,7 +15,7 @@ const topics=[
 ['employee-address-change-effective-date','Check Effective Dates on Employee Address Changes','keep receipt date, approved effective date, and downstream confirmations distinct','employee-records-administration']] as const;
 export const september8BlogPosts=topics.map(([s,t,f])=>({slug:`september8-hr-${s}`,title:t,excerpt:`A practical HR operations guide to ${f}.`,minutes:9,published:date}));
 export const september8Articles:Record<string,RichArticle>=Object.fromEntries(topics.map(([s,title,focus,service],i)=>{const slug=`september8-hr-${s}`,proof=`dated owner approval and destination evidence for ${focus}`;return [slug,{
-slug,title,description:`A bounded HR support workflow to ${focus}, with narrow access, stop rules, and reviewable evidence.`,published:date,updated:date,minutes:9,revision:`${date}-${slug}`,heroImage,
+slug,title,description:`A bounded HR support workflow to ${focus}, with narrow access, stop rules, and reviewable evidence.`,published:date,updated:date,minutes:9,revision:`${date}-${slug}`,
 directAnswer:[`Name the event that opens this lane, the controlling system, the company owner, and the proof needed to close it. The operational goal is to ${focus}.`,`A Philippines-based coordinator can collect, compare, remind, route, and record. The employer retains policy, privacy, pay, benefits, accommodation, employee-relations, and other consequential decisions.`],
 takeaways:['Preserve the original request and timestamp.','Separate proposed, approved, and applied values.','Give access only to fields required for this lane.','Stop when evidence conflicts or a decision is required.',`Close with ${proof}.`],
 taskRows:[{lane:'Open',philippinesTeam:'Capture source, received time, requested action, and case identifier.',owner:'Define the controlling source and allowed action.',check:'The original request remains available'},{lane:'Verify',philippinesTeam:'Compare required fields without choosing between conflicts.',owner:'Resolve conflicts and approve consequential changes.',check:'Submitted and approved values are distinct'},{lane:'Route',philippinesTeam:'Send one precise exception note to the restricted owner.',owner:'Return a decision or actionable correction.',check:'Owner, reason, and review time are recorded'},{lane:'Close',philippinesTeam:'Apply only the approved administrative step and attach confirmation.',owner:'Review exceptions and authorize closure.',check:proof}],

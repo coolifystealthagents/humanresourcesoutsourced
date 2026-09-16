@@ -2,7 +2,7 @@ import type { RichArticle } from './article-data';
 
 type Topic = { slug: string; title: string; description: string; focus: string; snag: string; proof: string; service: string };
 const date = '2026-09-04';
-const heroImage = '/blog-heroes/august31-hr-operations-field-guide.svg';
+
 const source = { name: 'NIST Privacy Framework', url: 'https://www.nist.gov/privacy-framework', note: 'Official framework used for privacy-risk and data-processing controls.' };
 
 const topics: Topic[] = [
@@ -15,7 +15,7 @@ const topics: Topic[] = [
   { slug: 'september4-hr-leave-calendar-return-date-reconciliation', title: 'Reconcile return dates on the HR leave calendar', description: 'Compare approved leave records with calendars and staffing trackers without interpreting leave rights or medical details.', focus: 'leave return-date reconciliation', snag: 'sources conflict or the return date needs a policy decision', proof: 'an owner-approved date reflected in each in-scope calendar', service: 'employee-records-administration' },
   { slug: 'september4-hr-training-expiry-reminder-queue', title: 'Run a training-expiry reminder queue that respects exceptions', description: 'Use due dates, completion evidence, and approved exemptions to keep reminders accurate.', focus: 'training-expiry reminder administration', snag: 'completion evidence conflicts with the learning system', proof: 'current completion status or an owner-reviewed exception', service: 'learning-administration' },
   { slug: 'september4-hr-employee-address-change-payroll-sync', title: 'Sync an employee address change with payroll records', description: 'Route one authenticated address change through HR and payroll while keeping source evidence and destination confirmation.', focus: 'address-change synchronization', snag: 'identity checks fail or the two systems reject different fields', proof: 'matching approved values and confirmations from both systems', service: 'employee-records-administration' },
-  { slug: 'september4-hr-reference-check-consent-tracker', title: 'Track reference-check consent before outreach begins', description: 'Give recruiting coordinators a clear record of consent, approved contacts, outreach status, and stop conditions.', focus: 'reference-check consent tracking', snag: 'consent is missing, withdrawn, or narrower than the proposed outreach', proof: 'current consent tied to each approved contact', service: 'recruiting-coordination' },
+  { slug: 'september4-hr-reference-check-consent-tracker', title: 'Track reference-check consent before outreach begins', description: 'Give recruiting coordinators a clear record of consent, approved contacts, outreach status, and stop conditions.', focus: 'reference-check consent tracking', snag: 'consent is missing, withdrawn, or narrower than the proposed outreach', proof: 'current consent tied to each approved contact', service: 'interview-coordination' },
   { slug: 'september4-hr-manager-change-open-task-transfer', title: 'Transfer open HR tasks after a manager change', description: 'Reassign approvals and employee follow-ups with a dated owner record instead of relying on an old directory entry.', focus: 'open-task ownership transfer', snag: 'the new manager lacks authority for a pending decision', proof: 'a confirmed owner for every open item', service: 'operations-support' },
   { slug: 'september4-hr-weekly-queue-aging-review', title: 'Make a weekly HR queue aging review useful', description: 'Show why work is waiting, who owns the next action, and which records need immediate review.', focus: 'weekly queue aging review', snag: 'a sensitive case would expose details in a broad report', proof: 'a privacy-safe report with an owner and next date for each exception', service: 'reporting-and-qa' }
 ];
@@ -23,7 +23,7 @@ const topics: Topic[] = [
 export const september4BlogPosts = topics.map(t => ({ slug: t.slug, title: t.title, excerpt: t.description, minutes: 9, published: date }));
 export const september4Articles: Record<string, RichArticle> = Object.fromEntries(topics.map((t, index) => [t.slug, {
   slug: t.slug, title: t.title, description: t.description, published: date, updated: date, minutes: 9,
-  revision: `${date}-${t.slug}`, heroImage,
+  revision: `${date}-${t.slug}`,
   directAnswer: [`Treat ${t.focus} as a bounded administrative job. Name the controlling record, the company owner, and the event that proves the work reached its destination.`, `A Philippines-based coordinator can prepare, compare, remind, and document. The coordinator should pause when ${t.snag}.`],
   takeaways: [`Define the source for ${t.focus}.`, 'Keep submitted and approved values separate.', 'Use a named company owner for exceptions.', `Stop when ${t.snag}.`, `Close only with ${t.proof}.`],
   taskRows: [

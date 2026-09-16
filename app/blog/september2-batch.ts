@@ -6,7 +6,7 @@ type Topic = {
 };
 
 const date = '2026-09-02';
-const heroImage = '/blog-heroes/august31-hr-operations-field-guide.svg';
+
 const source = {
   name: 'NIST Privacy Framework',
   url: 'https://www.nist.gov/privacy-framework',
@@ -38,7 +38,7 @@ export const september2Articles: Record<string, RichArticle> = Object.fromEntrie
   updated: date,
   minutes: 10,
   revision: `${date}-${topic.slug}`,
-  heroImage,
+
   directAnswer: [
     `A Philippines-based HR coordinator can manage ${topic.focus} when the company identifies the source records, permitted checks, decision owner, and stop point. The coordinator can prepare and route the work, but the employer keeps policy, employment, pay, benefits, privacy, and exception decisions.`,
     `Start with ${topic.intake}. Close the item only when the record contains ${topic.proof}.`

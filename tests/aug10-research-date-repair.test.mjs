@@ -50,6 +50,7 @@ test('August 10 research manifest and rendered contract pass', () => {
   }
   assert.match(page, /datePublished:post\.published/);
   assert.match(page, /article:published_time/);
-  assert.match(page, /<time dateTime=\{post\.published\}>\{post\.published\}<\/time>/);
+  assert.match(page, /formatPublicDate/);
+  assert.match(page, /<time dateTime=\{post\.published\}>\{formatPublicDate\(post\.published\)\}<\/time>/);
   assert.match(source, /toSorted\(\(a, b\) => b\.published\.localeCompare\(a\.published\)\)/);
 });

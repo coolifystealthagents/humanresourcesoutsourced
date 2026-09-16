@@ -1,5 +1,5 @@
 import type { RichArticle } from './article-data';
-const date='2026-09-10',heroImage='/blog-heroes/august31-hr-operations-field-guide.svg';
+const date='2026-09-10';
 const topics=[
 ['candidate-reschedule-consent-check','Check Candidate Consent Before Rescheduling Interviews','confirm a candidate-approved time before replacing the calendar event','interview-coordination'],
 ['onboarding-equipment-readiness-log','Build an Onboarding Equipment Readiness Log','track device ownership, delivery evidence, setup status, and the access owner','onboarding-coordination'],
@@ -7,7 +7,7 @@ const topics=[
 ['payroll-variable-pay-source-register','Create a Source Register for Variable Pay Inputs','connect each payroll input to its period, approver, source, and cutoff status','payroll-preparation-support'],
 ['employee-name-change-document-route','Route Employee Name-Change Documents Safely','separate document intake, identity review, approval, and downstream updates','employee-records-administration'],
 ['hr-inbox-owner-absence-cover','Set Up HR Inbox Cover for an Absent Owner','keep routine requests moving while sensitive work remains restricted','hr-help-desk-support'],
-['candidate-withdrawal-record-closeout','Close Candidate Withdrawal Records Consistently','preserve the candidate message, stop scheduled activity, and record an approved disposition','recruiting-coordination'],
+['candidate-withdrawal-record-closeout','Close Candidate Withdrawal Records Consistently','preserve the candidate message, stop scheduled activity, and record an approved disposition','interview-coordination'],
 ['performance-review-form-version-lock','Lock the Form Version for a Performance Review Cycle','prevent managers from completing different review forms under one cycle name','performance-review-administration'],
 ['learning-completion-evidence-check','Check Evidence Before Closing Learning Assignments','distinguish attendance, completion, assessment, and approved exception evidence','learning-administration'],
 ['offboarding-forwarding-rule-expiry','Put Expiry Dates on Offboarding Forwarding Rules','record the approved recipient, business purpose, review date, and removal proof','offboarding-coordination'],
@@ -15,7 +15,7 @@ const topics=[
 ['employee-emergency-contact-update-proof','Confirm Employee Emergency Contact Updates at the Destination','retain the request while proving the approved value reached the authoritative record','employee-records-administration']] as const;
 export const september10BlogPosts=topics.map(([s,t,f])=>({slug:`september10-hr-${s}`,title:t,excerpt:`A practical HR operations guide to ${f}.`,minutes:9,published:date}));
 export const september10Articles:Record<string,RichArticle>=Object.fromEntries(topics.map(([s,title,focus,service],i)=>{const slug=`september10-hr-${s}`,proof=`dated destination evidence for ${focus}`;return [slug,{
-slug,title,description:`A controlled Philippines-based HR support workflow to ${focus}, with owner decisions and closeout evidence.`,published:date,updated:date,minutes:9,revision:`${date}-${slug}`,heroImage,
+slug,title,description:`A controlled Philippines-based HR support workflow to ${focus}, with owner decisions and closeout evidence.`,published:date,updated:date,minutes:9,revision:`${date}-${slug}`,
 directAnswer:[`Name the source record, the person allowed to approve the result, and the evidence that ends the task. The working objective is to ${focus}.`,'A Philippines-based coordinator can prepare, compare, remind, route, and document. The company keeps employment, pay, benefits, privacy, accommodation, safety, and policy decisions with qualified owners.'],
 takeaways:['Keep the original request intact.','Record submitted and approved values separately.','Limit the queue to fields needed for this job.','Pause when a source conflicts or judgment is required.',`Close only with ${proof}.`],
 taskRows:[{lane:'Receive',philippinesTeam:'Capture the source, received time, case ID, and requested action.',owner:'Define the authoritative source and permitted task.',check:'The unedited source can be retrieved'},{lane:'Check',philippinesTeam:'Compare required fields and dates without resolving discrepancies.',owner:'Decide which value controls when records disagree.',check:'Differences remain visible'},{lane:'Route',philippinesTeam:'Send one concise exception note through the approved channel.',owner:'Return an approval, correction, or stop instruction.',check:'Decision owner and time are recorded'},{lane:'Close',philippinesTeam:'Complete the approved admin step and attach destination proof.',owner:'Review exceptions and authorize closure.',check:proof}],

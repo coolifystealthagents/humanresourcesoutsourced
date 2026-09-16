@@ -4,6 +4,7 @@ import { Header, Footer, CTA, JsonLd } from '../../components';
 import { blogPosts, site } from '../../data';
 import { richArticles } from '../article-data';
 import { generatedArticles } from '../generated-articles';
+import { ArticleTopicVisual } from '../../article-topic-visual';
 
 const allRichArticles = { ...richArticles, ...generatedArticles };
 
@@ -89,7 +90,7 @@ export default async function Post({ params }: Params) {
             <p className="eyebrow">Philippines staffing guide</p>
             <h1>{article.title}</h1>
             <p className="lead">{article.description}</p>
-            {article.heroImage && <img src={article.heroImage} alt="" width={1200} height={630} loading="eager" />}
+            {article.heroImage ? <img src={article.heroImage} alt={article.title} width={1200} height={630} loading="eager" /> : <ArticleTopicVisual title={article.title} kind="guide" />}
             <div className="hr-article-meta"><span>{article.minutes} minute read</span><span>Published <time dateTime={article.published}>{formatPublicDate(article.published)}</time></span><span>Philippines-only talent</span></div>
           </div>
           <aside className="hr-direct-answer" aria-label="Direct answer">

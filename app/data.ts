@@ -30,8 +30,6 @@ export const site = {
   dark: '#3b0a24',
   color: '#db2777',
   accent: '#7c3aed',
-  heroImage: 'https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80',
-  serviceImage: 'https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1200&q=80',
   alt: 'human resources coordinator onboarding employee',
   badge: 'HR desk',
 } as const;
