@@ -1,46 +1,17 @@
-import type { Metadata } from 'next';
-import { Header, Footer } from '../components';
-import StandardContactForm from './StandardContactForm';
-
-export const metadata: Metadata = {
-  title: 'Plan Your HR Support | Human Resources Outsourced',
-  description: 'Describe the HR workflow, systems, schedule, and approval boundaries you want a Philippines-based virtual assistant to support.'
-};
-
-export default function ContactUsPage() {
-  return <>
-    <Header />
-    <main className="contact-page variant-2">
-      <section className="fleet-hero">
-        <div className="container contact-hero-grid">
-          <div>
-            <p className="eyebrow">Plan Philippines-based HR support</p>
-            <h1>Plan your HR support around one real workflow</h1>
-            <p className="lead">Tell us which recurring HR administration queue needs help, which systems it uses, and which decisions must stay with your company. We’ll use those details to prepare a focused staffing conversation.</p>
-            <a className="btn primary" href="#contact-intake">Plan my HR support</a>
-          </div>
-          <aside className="contact-inclusions" aria-labelledby="planning-checklist-title">
-            <h2 id="planning-checklist-title">Bring these four details</h2>
-            <ul>
-              <li>The recurring task and expected output</li>
-              <li>The tools and working-hour overlap</li>
-              <li>The company owner for approvals</li>
-              <li>A redacted routine example and exception</li>
-            </ul>
-          </aside>
-        </div>
-      </section>
-      <section className="section" id="contact-intake" aria-labelledby="contact-intake-title">
-        <div className="container">
-          <div className="section-head">
-            <p className="eyebrow">Staffing intake</p>
-            <h2 id="contact-intake-title">Describe the role you want to build</h2>
-            <p>Do not include employee, candidate, payroll, medical, or other sensitive personal data. A workflow summary is enough for the first conversation.</p>
-          </div>
-          <StandardContactForm endpoint="/api/contact" encoding="form" />
-        </div>
-      </section>
-    </main>
-    <Footer />
-  </>;
-}
+import type { Metadata } from "next";
+import { Header, Footer } from "../components";
+import { site, services } from "../data";
+import StandardContactForm from "./StandardContactForm";
+import styles from "./contact.module.css";
+const pageUrl = "https://humanresourcesoutsourced.com/contact-us";
+export const metadata: Metadata = { title: `Contact ${site.brand} | Free Consultation`, description: "Build outsourced HR support around clear scope, privacy boundaries, owner approvals, and reliable handoffs.", alternates: { canonical: pageUrl }, robots: { index: true, follow: true } };
+const prep = ["The HR admin and recruiting work that needs support", "Hours, systems, records, and access boundaries", "Decision owners, sensitive topics, and review expectations"];
+export default function ContactUsPage() { return <><Header/><main className={styles.page}>
+  <section className={styles.hero}><div className={styles.shellGrid}><div><p className={styles.eyebrow}>Build reliable people-operations support</p><h1>Give recurring HR work a clear owner and handoff.</h1><p className={styles.lead}>Tell us where administration, recruiting coordination, or employee support slows down. We’ll prepare a focused staffing conversation around your workflow and boundaries.</p><div className={styles.checks}>{prep.map(x=><span key={x}>✓ {x}</span>)}</div><p className={styles.powered}>Powered by Stealth Agents</p></div><div id="consultation-form"><StandardContactForm endpoint="/api/contact" encoding="form"/></div></div></section>
+  <section className={styles.section}><div className={styles.shell}><p className={styles.kicker}>Prepare the brief</p><h2>What to bring to your consultation</h2><div className={styles.cards}>{prep.map((x,i)=><article key={x}><b>0{i+1}</b><h3>{x}</h3><p>Real examples help define practical access, approval, privacy, and review boundaries.</p></article>)}</div></div></section>
+  <section className={`${styles.section} ${styles.soft}`}><div className={styles.shell}><p className={styles.kicker}>A trusted staffing process</p><h2>What a strong HR support launch includes</h2><p className={styles.sub}>Clear ownership and review checkpoints keep recurring people-operations work reliable.</p><div className={styles.cards}><article><h3>Defined scope</h3><p>Document recurring tasks, owners, and exceptions before access begins.</p></article><article><h3>Secure handoffs</h3><p>Limit sensitive data and preserve approval controls with your HR team.</p></article><article><h3>Visible quality</h3><p>Review early work against agreed service levels before expanding scope.</p></article></div></div></section>
+  <section className={styles.section}><div className={styles.shellGrid}><div><p className={styles.kicker}>HR support possibilities</p><h2>Shape the role around repeatable people-operations work.</h2><p className={styles.sub}>Start with bounded administration while policy, legal interpretation, and sensitive decisions remain with your HR owner.</p><a className={styles.textLink} href="#consultation-form">Plan my HR support role →</a></div><div className={styles.tags}>{services.slice(0,8).map(s=><span key={s.slug}>{s.title}</span>)}</div></div></section>
+  <section className={`${styles.section} ${styles.about}`}><div className={styles.shellGrid}><img src="/hr-team.jpg" alt={site.alt}/><div><p className={styles.kicker}>Our staffing partner</p><h2>About Stealth Agents</h2><p>Stealth Agents works with over 35+ different industries. We&apos;re featured on Forbes as the top rated virtual assistant company.</p><a className={styles.textLink} href="https://stealthagents.com/" target="_blank" rel="noopener noreferrer">Powered by Stealth Agents ↗</a></div></div></section>
+  <section className={styles.section}><div className={styles.shell}><p className={styles.kicker}>A safer launch</p><h2>Clear boundaries before support starts</h2><div className={styles.cards}><article><h3>Protected decisions</h3><p>Keep policy, compensation, and employee-relations judgment with HR.</p></article><article><h3>Documented handoffs</h3><p>Define the records, owners, and escalation checkpoints.</p></article><article><h3>Measured quality</h3><p>Review early work before expanding responsibilities.</p></article></div></div></section>
+  <section className={styles.final}><div className={styles.shell}><h2>Ready to reduce recurring HR admin?</h2><p>Share the workflow, systems, hours, and boundaries you need supported.</p><a href="#consultation-form">Book a free consultation</a></div></section>
+  </main><Footer/></> }
