@@ -21,5 +21,16 @@
     {"topic":"Personnel-record correction requests","slug":"september18-hr-personnel-record-correction-request","sources":["https://www.nist.gov/privacy-framework"],"contentHash":"0f78e3d51976b854c90084f45569f92810eaf75d13f60f9d8967be1c5ee75456","publicationDate":"2026-09-18","liveUrl":"https://humanresourcesoutsourced.com/blog/september18-hr-personnel-record-correction-request"},
     {"topic":"Applicant-record retention and disposal","slug":"september18-hr-applicant-record-retention-disposal-queue","sources":["https://www.eeoc.gov/employers/recordkeeping-requirements","https://www.nist.gov/privacy-framework"],"contentHash":"2dbcf6c5dae170c79bf66626177e04aef6ba05338dc2e5876166b640ebf6561a","publicationDate":"2026-09-18","liveUrl":"https://humanresourcesoutsourced.com/blog/september18-hr-applicant-record-retention-disposal-queue"}
   ],
-  "verification": {"status":"pending_deployment","verifiedCount":0,"verifiedAt":null,"deploymentEvidence":null}
+  "verification": {
+    "status": "live_verified",
+    "verifiedCount": 12,
+    "verifiedAt": "2026-09-18T09:30:02Z",
+    "deploymentEvidence": {
+      "provider": "Coolify3",
+      "deploymentUuid": "lbfaf2slkgl8ocdti95jhmga",
+      "deployedCommit": "4b1e4cf0cdedde4a3b8d99a9c5ca78534644e0d1",
+      "finishedAt": "2026-09-18T09:27:40Z",
+      "checks": ["HTTP 200", "title", "canonical", "visible publication date", "datePublished", "BlogPosting structured data", "contact CTA", "sitemap lastmod"]
+    }
+  }
 }
