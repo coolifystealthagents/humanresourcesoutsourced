@@ -25,11 +25,13 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const title = article?.title ?? post.title;
   const description = article?.description ?? post.excerpt;
   const url = `${base}/blog/${slug}`;
+  const image = `${base}${article?.heroImage ?? '/hr-team.jpg'}`;
   return {
     title,
     description,
     alternates: { canonical: url },
-    openGraph: { title, description, url, siteName: site.brand, type: 'article', publishedTime: article?.published, images: article?.heroImage ? [{ url: `${base}${article.heroImage}` }] : undefined }
+    openGraph: { title, description, url, siteName: site.brand, type: 'article', publishedTime: article?.published, images: [{ url: image, alt: `${site.brand} — ${title}` }] },
+    twitter: { card: 'summary_large_image', title, description, images: [image] }
   };
 }
 
@@ -44,12 +46,14 @@ export default async function Post({ params }: Params) {
   }
 
   const articleUrl = `${base}/blog/${article.slug}`;
+  const articleImage = `${base}${article.heroImage ?? '/hr-team.jpg'}`;
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'BlogPosting',
     '@id': `${articleUrl}#article`,
     headline: article.title,
     description: article.description,
+    image: articleImage,
     datePublished: article.published,
     dateModified: article.updated,
     mainEntityOfPage: { '@type': 'WebPage', '@id': articleUrl },
