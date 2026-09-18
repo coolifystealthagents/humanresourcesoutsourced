@@ -1,0 +1,21 @@
+{
+  "updatedAt": "2026-09-18T08:16:00Z",
+  "families": {
+    "blog": {
+      "2026-09-18": [
+        "september18-hr-i9-reverification-deadline-queue",
+        "september18-hr-fmla-notice-deadline-tracker",
+        "september18-hr-accommodation-request-intake-routing",
+        "september18-hr-cobra-qualifying-event-handoff",
+        "september18-hr-background-check-authorization-status",
+        "september18-hr-wage-garnishment-order-intake",
+        "september18-hr-unemployment-claim-deadline-routing",
+        "september18-hr-workplace-incident-record-intake",
+        "september18-hr-employment-verification-request-control",
+        "september18-hr-new-hire-reporting-handoff",
+        "september18-hr-personnel-record-correction-request",
+        "september18-hr-applicant-record-retention-disposal-queue"
+      ]
+    }
+  }
+}
