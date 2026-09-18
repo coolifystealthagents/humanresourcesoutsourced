@@ -2,7 +2,7 @@ import * as data from '../data';
 import { fleetServices, allResearchPosts, postsPerPage } from '../fleet-data';
 
 export function GET() {
-  const siteData = data as typeof data & { blogPosts?: readonly { slug: string }[] };
+  const siteData = data as typeof data & { blogPosts?: readonly { slug: string; published?: string }[] };
   const base = `https://${siteData.site.domain.toLowerCase()}`;
   const blogs = siteData.blogPosts ?? [];
   const pageCount = Math.max(1, Math.ceil(blogs.length / postsPerPage));
@@ -20,13 +20,15 @@ export function GET() {
     '/terms',
     '/cancellation-policy',
     ...Array.from(serviceSlugs, (slug) => `/services/${slug}`),
-    ...blogs.map((blog) => `/blog/${blog.slug}`),
     ...Array.from({ length: Math.max(0, pageCount - 1) }, (_, index) => `/blog/page/${index + 2}`),
     ...allResearchPosts.map((post) => `/research/${post.slug}`)
   ];
   const body = paths
     .map((path) => `<url><loc>${path === '/' ? base : `${base}${path}`}</loc></url>`)
-    .join('');
+    .join('') + blogs.map((blog) => {
+      const published = 'published' in blog && typeof blog.published === 'string' ? blog.published : undefined;
+      return `<url><loc>${base}/blog/${blog.slug}</loc>${published ? `<lastmod>${published}</lastmod>` : ''}</url>`;
+    }).join('');
 
   return new Response(
     `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${body}</urlset>`,
