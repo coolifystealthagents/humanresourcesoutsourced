@@ -27,7 +27,8 @@ export function GET() {
     .map((path) => `<url><loc>${path === '/' ? base : `${base}${path}`}</loc></url>`)
     .join('') + blogs.map((blog) => {
       const published = 'published' in blog && typeof blog.published === 'string' ? blog.published : undefined;
-      return `<url><loc>${base}/blog/${blog.slug}</loc>${published ? `<lastmod>${published}</lastmod>` : ''}</url>`;
+      const path = `/blog/${blog.slug}`;
+      return `<url><loc>${base}${path}</loc>${published ? `<lastmod>${published}</lastmod>` : ''}</url>`;
     }).join('');
 
   return new Response(

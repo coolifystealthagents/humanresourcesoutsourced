@@ -1,7 +1,21 @@
 {
-  "updatedAt": "2026-09-18T09:30:02Z",
+  "updatedAt": "2026-09-22T00:00:00Z",
   "families": {
     "blog": {
+      "2026-09-22": [
+        "september22-hr-payroll-deduction-authorization-intake",
+        "september22-hr-payroll-tax-notice-routing",
+        "september22-hr-benefits-carrier-census-reconciliation",
+        "september22-hr-retirement-contribution-change-handoff",
+        "september22-hr-workers-compensation-document-handoff",
+        "september22-hr-performance-plan-meeting-coordination",
+        "september22-hr-training-certification-expiration-queue",
+        "september22-hr-recruiting-agency-candidate-ownership-conflict",
+        "september22-hr-offer-compensation-input-reconciliation",
+        "september22-hr-hr-vendor-invoice-approval-support",
+        "september22-hr-employee-privacy-request-intake",
+        "september22-hr-employment-record-legal-hold-tracking"
+      ],
       "2026-09-18": [
         "september18-hr-i9-reverification-deadline-queue",
         "september18-hr-fmla-notice-deadline-tracker",
