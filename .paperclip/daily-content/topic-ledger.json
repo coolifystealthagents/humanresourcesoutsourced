@@ -1,6 +1,15 @@
 {
   "updatedAt": "2026-09-22T00:00:00Z",
   "families": {
+    "research": {
+      "2026-09-22": [
+        "hr-inbox-outsourcing-readiness-sensitivity-mix",
+        "recruiting-coordination-reschedule-load-capacity",
+        "onboarding-document-collection-channel-friction",
+        "outsourced-hr-support-access-launch-baseline",
+        "hr-reporting-late-arriving-data-freshness"
+      ]
+    },
     "blog": {
       "2026-09-22": [
         "september22-hr-payroll-deduction-authorization-intake",
