@@ -23,10 +23,10 @@
       "applicationUuid": "z9ouisdufbu5unwm79ywygzb",
       "deploymentUuids": ["e8kvhy0oeuyynoxinwhwmdpu", "rypzgo8zsgocxc81hdtvjg9f", "ames2nu1rxan8hiaefop2rmr"],
       "attemptedAt": ["2026-09-23T17:08:16Z", "2026-09-23T17:09:32Z", "2026-09-23T17:17:42Z"],
-      "result": "The stale Coolify commit pin was repaired from 1273b387aef182cadc4433677d892b36e293fd78 to remote main 9a374e1ae64e6080ba49d2e3995c6c3a690812fc. Corrected deployment b3chdntgeoz3sdl0xxhxqef1 was accepted at 2026-09-23T19:30:37Z and is queued; all five URLs remain HTTP 404 until it completes.",
-      "recoveryAction": "Monitor corrected deployment b3chdntgeoz3sdl0xxhxqef1. After it finishes, use each article's first successful public verification time to reconcile the visible date, datePublished, sitemap/index metadata, ledger, and manifest before counting any article.",
-      "correctedDeploymentUuid": "b3chdntgeoz3sdl0xxhxqef1",
-      "correctedCommit": "9a374e1ae64e6080ba49d2e3995c6c3a690812fc"
+      "result": "Blog and Research were consolidated on production head 843051e6c71cba1f6b82cec189a64798d0e9a68d. This site's redundant queued deployments were cancelled; one combined deployment remains queued.",
+      "recoveryAction": "Monitor the one combined deployment, then reconcile actual first-live dates and run all 12 blog and 5 research live checks.",
+      "correctedDeploymentUuid": "6i6wioay67or2hhf2gpsolts",
+      "correctedCommit": "843051e6c71cba1f6b82cec189a64798d0e9a68d"
     }
   }
 }
