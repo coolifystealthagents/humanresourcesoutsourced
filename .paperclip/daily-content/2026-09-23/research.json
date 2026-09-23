@@ -21,10 +21,10 @@
     "deploymentEvidence": {
       "provider": "Coolify3",
       "applicationUuid": "z9ouisdufbu5unwm79ywygzb",
-      "deploymentUuids": ["e8kvhy0oeuyynoxinwhwmdpu", "rypzgo8zsgocxc81hdtvjg9f"],
-      "attemptedAt": ["2026-09-23T17:08:16Z", "2026-09-23T17:09:32Z"],
-      "result": "Both authenticated deployment attempts remained queued; production still served commit 1273b387aef182cadc4433677d892b36e293fd78 and all five new URLs returned HTTP 404.",
-      "recoveryAction": "Coolify3 owner clears or allows the queue to drain, deploys remote main SHA 3f5584c82d69c645f730f4367ebdae2834c78e1a, then reruns title, canonical, datePublished, structured-data, sitemap, asset, and unique-content verification for all five URLs."
+      "deploymentUuids": ["e8kvhy0oeuyynoxinwhwmdpu", "rypzgo8zsgocxc81hdtvjg9f", "ames2nu1rxan8hiaefop2rmr"],
+      "attemptedAt": ["2026-09-23T17:08:16Z", "2026-09-23T17:09:32Z", "2026-09-23T17:17:42Z"],
+      "result": "All three authenticated deployment attempts remained queued against deployed commit 1273b387aef182cadc4433677d892b36e293fd78; at 2026-09-23T17:18:13Z all five new URLs still returned HTTP 404.",
+      "recoveryAction": "Coolify3 platform owner clears or allows the queue to drain, deploys the latest remote main SHA, then reruns title, canonical, datePublished, structured-data, sitemap, asset, and unique-content verification for all five URLs."
     }
   }
 }
