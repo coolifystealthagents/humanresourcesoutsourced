@@ -5,7 +5,7 @@
   "timezone": "UTC",
   "repository": "coolifystealthagents/humanresourcesoutsourced",
   "productionBranch": "main",
-  "contentCommit": null,
+  "contentCommit": "26b55b2fd865fe62484528d2126eb00c8b15885e",
   "deploymentResource": "Coolify3 application z9ouisdufbu5unwm79ywygzb",
   "entries": [
     {"topic":"HRIS correction request source evidence","slug":"hris-correction-request-source-evidence","sources":["https://www.nist.gov/privacy-framework/using-privacy-framework-11","https://www.eeoc.gov/employers/recordkeeping-requirements","https://www.archives.gov/records-mgmt"],"contentHash":"17761893b817531b843b5a5f3b210fb52c9434759f3d5c2794f8410086612592","publicationDate":"2026-09-23","liveUrl":"https://humanresourcesoutsourced.com/research/hris-correction-request-source-evidence"},
