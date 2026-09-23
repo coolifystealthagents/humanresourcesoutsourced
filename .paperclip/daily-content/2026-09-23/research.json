@@ -14,5 +14,17 @@
     {"topic":"HR report owner signoff evidence","slug":"hr-report-owner-signoff-evidence","sources":["https://www.gao.gov/green-book","https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping","https://www.archives.gov/records-mgmt"],"contentHash":"736e9070863065c1a9da87c92d8d1634ec2bc0d759c355b77053d0db1728d285","publicationDate":"2026-09-23","liveUrl":"https://humanresourcesoutsourced.com/research/hr-report-owner-signoff-evidence"},
     {"topic":"HR task backup-owner continuity test","slug":"hr-task-backup-owner-continuity-test","sources":["https://www.nist.gov/cyberframework","https://www.cisa.gov/sites/default/files/2023-12/ESF%20IDENTITY%20AND%20ACCESS%20MANAGEMENT%20RECOMMENDED%20BEST%20PRACTICES%20FOR%20ADMINISTRATORS%20PP-23-0248_508C.pdf","https://www.gao.gov/green-book"],"contentHash":"2d0f6259d5f4b19eebede1cd941223c710ed23126ecdb57a3030d8d8fb18deb7","publicationDate":"2026-09-23","liveUrl":"https://humanresourcesoutsourced.com/research/hr-task-backup-owner-continuity-test"}
   ],
-  "verification": {"status":"pending","verifiedCount":0,"verifiedAt":null,"deploymentEvidence":null}
+  "verification": {
+    "status": "blocked",
+    "verifiedCount": 0,
+    "verifiedAt": null,
+    "deploymentEvidence": {
+      "provider": "Coolify3",
+      "applicationUuid": "z9ouisdufbu5unwm79ywygzb",
+      "deploymentUuids": ["e8kvhy0oeuyynoxinwhwmdpu", "rypzgo8zsgocxc81hdtvjg9f"],
+      "attemptedAt": ["2026-09-23T17:08:16Z", "2026-09-23T17:09:32Z"],
+      "result": "Both authenticated deployment attempts remained queued; production still served commit 1273b387aef182cadc4433677d892b36e293fd78 and all five new URLs returned HTTP 404.",
+      "recoveryAction": "Coolify3 owner clears or allows the queue to drain, deploys remote main SHA 3f5584c82d69c645f730f4367ebdae2834c78e1a, then reruns title, canonical, datePublished, structured-data, sitemap, asset, and unique-content verification for all five URLs."
+    }
+  }
 }
