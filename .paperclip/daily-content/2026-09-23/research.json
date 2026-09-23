@@ -15,7 +15,7 @@
     {"topic":"HR task backup-owner continuity test","slug":"hr-task-backup-owner-continuity-test","sources":["https://www.nist.gov/cyberframework","https://www.cisa.gov/sites/default/files/2023-12/ESF%20IDENTITY%20AND%20ACCESS%20MANAGEMENT%20RECOMMENDED%20BEST%20PRACTICES%20FOR%20ADMINISTRATORS%20PP-23-0248_508C.pdf","https://www.gao.gov/green-book"],"contentHash":"2d0f6259d5f4b19eebede1cd941223c710ed23126ecdb57a3030d8d8fb18deb7","publicationDate":"2026-09-23","liveUrl":"https://humanresourcesoutsourced.com/research/hr-task-backup-owner-continuity-test"}
   ],
   "verification": {
-    "status": "blocked",
+    "status": "deploying",
     "verifiedCount": 0,
     "verifiedAt": null,
     "deploymentEvidence": {
@@ -23,8 +23,10 @@
       "applicationUuid": "z9ouisdufbu5unwm79ywygzb",
       "deploymentUuids": ["e8kvhy0oeuyynoxinwhwmdpu", "rypzgo8zsgocxc81hdtvjg9f", "ames2nu1rxan8hiaefop2rmr"],
       "attemptedAt": ["2026-09-23T17:08:16Z", "2026-09-23T17:09:32Z", "2026-09-23T17:17:42Z"],
-      "result": "All three authenticated deployment attempts remained queued against deployed commit 1273b387aef182cadc4433677d892b36e293fd78; at 2026-09-23T17:18:13Z all five new URLs still returned HTTP 404.",
-      "recoveryAction": "Coolify3 platform owner clears or allows the queue to drain, deploys the latest remote main SHA, then reruns title, canonical, datePublished, structured-data, sitemap, asset, and unique-content verification for all five URLs."
+      "result": "The stale Coolify commit pin was repaired from 1273b387aef182cadc4433677d892b36e293fd78 to remote main 9a374e1ae64e6080ba49d2e3995c6c3a690812fc. Corrected deployment b3chdntgeoz3sdl0xxhxqef1 was accepted at 2026-09-23T19:30:37Z and is queued; all five URLs remain HTTP 404 until it completes.",
+      "recoveryAction": "Monitor corrected deployment b3chdntgeoz3sdl0xxhxqef1. After it finishes, use each article's first successful public verification time to reconcile the visible date, datePublished, sitemap/index metadata, ledger, and manifest before counting any article.",
+      "correctedDeploymentUuid": "b3chdntgeoz3sdl0xxhxqef1",
+      "correctedCommit": "9a374e1ae64e6080ba49d2e3995c6c3a690812fc"
     }
   }
 }
