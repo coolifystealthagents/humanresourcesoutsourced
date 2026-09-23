@@ -2,13 +2,13 @@ import type { RichArticle } from './article-data';
 
 const date = '2026-09-22';
 
-type Topic = {
+export type BlogBatchTopic = {
   slug: string; title: string; description: string; workflow: string; trigger: string;
   owner: string; stop: string; proof: string; service: string;
   example: string; source: { name: string; url: string; note: string };
 };
 
-const topics: Topic[] = [
+const topics: BlogBatchTopic[] = [
   { slug: 'payroll-deduction-authorization-intake', title: 'How to Control Payroll Deduction Authorization Intake', description: 'A practical intake lane for deduction requests that preserves employee authorization and keeps pay decisions with the employer.', workflow: 'payroll deduction authorization intake', trigger: 'an employee submits a request through the approved channel and the payroll owner confirms the request type is supported', owner: 'the authorized payroll and benefits owner', stop: 'authorization is missing, the amount or effective date conflicts, the deduction may be legally restricted, or net pay could be affected unexpectedly', proof: 'the payroll owner confirms the approved deduction, effective pay cycle, and post-payroll result', service: 'payroll-preparation-support', example: 'An employee asks to begin a voluntary deduction, but the signed form and ticket show different effective dates', source: { name: 'IRS Publication 15, Employer’s Tax Guide', url: 'https://www.irs.gov/publications/p15', note: 'Official federal employer guidance for payroll withholding and employment taxes.' } },
   { slug: 'payroll-tax-notice-routing', title: 'Route Payroll Tax Notices Without Losing the Response Clock', description: 'Receive, restrict, and route payroll tax notices while qualified company owners control interpretation and response.', workflow: 'payroll tax notice routing', trigger: 'an original agency notice arrives in an approved mailbox or portal and receives a stable case ID', owner: 'the employer tax, payroll, finance, or legal owner', stop: 'the notice identity is uncertain, amounts conflict with payroll records, a deadline needs interpretation, or a response position must be chosen', proof: 'the authorized owner records the disposition, submission evidence, and next monitoring date', service: 'payroll-preparation-support', example: 'A notice references a quarter that does not match the period named in the internal ticket', source: { name: 'IRS Employment Tax Recordkeeping', url: 'https://www.irs.gov/businesses/small-businesses-self-employed/employment-tax-recordkeeping', note: 'Official IRS recordkeeping guidance for employment taxes.' } },
   { slug: 'benefits-carrier-census-reconciliation', title: 'Reconcile a Benefits Carrier Census Before File Delivery', description: 'Compare approved eligibility data with a carrier census without allowing support staff to decide coverage or plan eligibility.', workflow: 'benefits carrier census reconciliation', trigger: 'the benefits owner releases a dated eligibility roster and carrier template for the same coverage period', owner: 'the plan administrator or authorized benefits specialist', stop: 'eligibility, dependent status, class, coverage level, effective date, or plan interpretation is unclear', proof: 'the benefits owner approves the final census and the carrier confirms accepted processing', service: 'benefits-administration-support', example: 'The HR system lists family coverage while the carrier extract lists employee-only coverage', source: { name: 'U.S. Department of Labor Health Plans and Benefits', url: 'https://www.dol.gov/general/topic/health-plans', note: 'Official DOL overview and resources for employer health benefit plans.' } },
@@ -25,11 +25,11 @@ const topics: Topic[] = [
 
 export const september22BlogPosts = topics.map(({ slug, title, description }) => ({ slug: `september22-hr-${slug}`, title, excerpt: description, minutes: 12, published: date }));
 
-export const september22Articles: Record<string, RichArticle> = Object.fromEntries(topics.map((topic, index) => {
-  const slug = `september22-hr-${topic.slug}`;
+export const buildBlogBatch = (batchDate: string, slugPrefix: string, batchTopics: BlogBatchTopic[]): Record<string, RichArticle> => Object.fromEntries(batchTopics.map((topic, index) => {
+  const slug = `${slugPrefix}${topic.slug}`;
   return [slug, {
-    slug, title: topic.title, description: topic.description, published: date, updated: date, minutes: 12,
-    revision: `${date}-${slug}`,
+    slug, title: topic.title, description: topic.description, published: batchDate, updated: batchDate, minutes: 12,
+    revision: `${batchDate}-${slug}`,
     directAnswer: [
       `Treat ${topic.workflow} as a controlled administrative lane. Open it only when ${topic.trigger}. Give the coordinator a written field list, a named company owner, a response target, and a stop rule.`,
       `A Philippines-based HR coordinator can preserve source records, check required fields, maintain deadlines, request missing administrative details, and prepare a handoff. The coordinator should stop when ${topic.stop}. Close the item only after ${topic.proof}.`
@@ -88,3 +88,5 @@ export const september22Articles: Record<string, RichArticle> = Object.fromEntri
     ]
   } satisfies RichArticle];
 }));
+
+export const september22Articles = buildBlogBatch(date, 'september22-hr-', topics);
