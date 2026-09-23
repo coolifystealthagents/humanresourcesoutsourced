@@ -1,0 +1,18 @@
+{
+  "family": "research",
+  "requiredCount": 5,
+  "publicationDate": "2026-09-23",
+  "timezone": "UTC",
+  "repository": "coolifystealthagents/humanresourcesoutsourced",
+  "productionBranch": "main",
+  "contentCommit": null,
+  "deploymentResource": "Coolify3 application z9ouisdufbu5unwm79ywygzb",
+  "entries": [
+    {"topic":"HRIS correction request source evidence","slug":"hris-correction-request-source-evidence","sources":["https://www.nist.gov/privacy-framework/using-privacy-framework-11","https://www.eeoc.gov/employers/recordkeeping-requirements","https://www.archives.gov/records-mgmt"],"contentHash":"17761893b817531b843b5a5f3b210fb52c9434759f3d5c2794f8410086612592","publicationDate":"2026-09-23","liveUrl":"https://humanresourcesoutsourced.com/research/hris-correction-request-source-evidence"},
+    {"topic":"Candidate scheduling time-zone proof","slug":"candidate-scheduling-time-zone-proof","sources":["https://www.nist.gov/privacy-framework/using-privacy-framework-11","https://www.eeoc.gov/disability-discrimination-and-employment-decisions","https://www.gao.gov/green-book"],"contentHash":"ad045c72c14e4a61ce4dad300cb1bc366a9dcfe7c1008a955f2c757b5a922ff5","publicationDate":"2026-09-23","liveUrl":"https://humanresourcesoutsourced.com/research/candidate-scheduling-time-zone-proof"},
+    {"topic":"Employee document intake wrong-person risk","slug":"employee-document-intake-wrong-person-risk","sources":["https://www.nist.gov/privacy-framework/using-privacy-framework-11","https://www.ftc.gov/business-guidance/resources/start-security-guide-business","https://www.eeoc.gov/employers/recordkeeping-requirements"],"contentHash":"df7e37ab5d73d028cbdee71c09d19ca39421ded1193f91b0b7872bb933c47ab7","publicationDate":"2026-09-23","liveUrl":"https://humanresourcesoutsourced.com/research/employee-document-intake-wrong-person-risk"},
+    {"topic":"HR report owner signoff evidence","slug":"hr-report-owner-signoff-evidence","sources":["https://www.gao.gov/green-book","https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping","https://www.archives.gov/records-mgmt"],"contentHash":"736e9070863065c1a9da87c92d8d1634ec2bc0d759c355b77053d0db1728d285","publicationDate":"2026-09-23","liveUrl":"https://humanresourcesoutsourced.com/research/hr-report-owner-signoff-evidence"},
+    {"topic":"HR task backup-owner continuity test","slug":"hr-task-backup-owner-continuity-test","sources":["https://www.nist.gov/cyberframework","https://www.cisa.gov/sites/default/files/2023-12/ESF%20IDENTITY%20AND%20ACCESS%20MANAGEMENT%20RECOMMENDED%20BEST%20PRACTICES%20FOR%20ADMINISTRATORS%20PP-23-0248_508C.pdf","https://www.gao.gov/green-book"],"contentHash":"2d0f6259d5f4b19eebede1cd941223c710ed23126ecdb57a3030d8d8fb18deb7","publicationDate":"2026-09-23","liveUrl":"https://humanresourcesoutsourced.com/research/hr-task-backup-owner-continuity-test"}
+  ],
+  "verification": {"status":"pending","verifiedCount":0,"verifiedAt":null,"deploymentEvidence":null}
+}
