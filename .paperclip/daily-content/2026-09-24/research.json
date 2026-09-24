@@ -1,0 +1,18 @@
+{
+  "family": "research",
+  "requiredCount": 5,
+  "publicationDate": "2026-09-24",
+  "timezone": "UTC",
+  "repository": "coolifystealthagents/humanresourcesoutsourced",
+  "productionBranch": "main",
+  "contentCommit": null,
+  "deploymentResource": "Coolify3 application z9ouisdufbu5unwm79ywygzb",
+  "entries": [
+    {"topic":"Outsourced HR transition backlog baseline","slug":"outsourced-hr-transition-backlog-baseline","sources":["https://www.nist.gov/cyberframework","https://www.gao.gov/green-book","https://www.archives.gov/records-mgmt"],"contentHash":"4adcfc1905494fbf56a923ba4572e4775243d2911f8f3fe449168aa5a212c5ae","publicationDate":"2026-09-24","liveUrl":"https://humanresourcesoutsourced.com/research/outsourced-hr-transition-backlog-baseline"},
+    {"topic":"HR procedure exception coverage test","slug":"hr-procedure-exception-coverage-test","sources":["https://www.gao.gov/green-book","https://www.nist.gov/privacy-framework/using-privacy-framework-11","https://www.archives.gov/records-mgmt"],"contentHash":"69c373a8f74a867aec06be17d7f4a802e0f204d64c937a1ded8a097b9b64f335","publicationDate":"2026-09-24","liveUrl":"https://humanresourcesoutsourced.com/research/hr-procedure-exception-coverage-test"},
+    {"topic":"HR request identity assurance by action","slug":"hr-request-identity-assurance-by-action","sources":["https://pages.nist.gov/800-63-4/","https://www.nist.gov/privacy-framework/using-privacy-framework-11","https://www.ftc.gov/business-guidance/resources/start-security-guide-business"],"contentHash":"a6fd5f4388b30591ea38b7e859457279ffc9b871f8b8079b055467c885e3e766","publicationDate":"2026-09-24","liveUrl":"https://humanresourcesoutsourced.com/research/hr-request-identity-assurance-by-action"},
+    {"topic":"Outsourced HR client data segregation evidence","slug":"outsourced-hr-client-data-segregation-evidence","sources":["https://www.nist.gov/cyberframework","https://www.cisa.gov/sites/default/files/2023-12/ESF%20IDENTITY%20AND%20ACCESS%20MANAGEMENT%20RECOMMENDED%20BEST%20PRACTICES%20FOR%20ADMINISTRATORS%20PP-23-0248_508C.pdf","https://www.ftc.gov/business-guidance/resources/start-security-guide-business"],"contentHash":"967bb2363e9cfad11a4d670a05ceff218f11ca1ab2d7175520823b42fad35f70","publicationDate":"2026-09-24","liveUrl":"https://humanresourcesoutsourced.com/research/outsourced-hr-client-data-segregation-evidence"},
+    {"topic":"HR reporting defect remediation loop","slug":"hr-reporting-defect-remediation-loop","sources":["https://www.gao.gov/green-book","https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping","https://www.archives.gov/records-mgmt"],"contentHash":"a7f42c75933e9f7345f60dd068b87f505d57b139d5837590dec2062843eb2a7b","publicationDate":"2026-09-24","liveUrl":"https://humanresourcesoutsourced.com/research/hr-reporting-defect-remediation-loop"}
+  ],
+  "verification": {"status":"pending","verifiedCount":0,"verifiedAt":null,"deploymentEvidence":null}
+}
