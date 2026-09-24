@@ -5,7 +5,7 @@
   "timezone": "UTC",
   "repository": "coolifystealthagents/humanresourcesoutsourced",
   "productionBranch": "main",
-  "contentCommit": null,
+  "contentCommit": "7cefc24c02e20b29ec3948c8a4526ac0a43aaa1f",
   "deploymentResource": "Coolify3 application z9ouisdufbu5unwm79ywygzb",
   "entries": [
     {"topic":"Outsourced HR transition backlog baseline","slug":"outsourced-hr-transition-backlog-baseline","sources":["https://www.nist.gov/cyberframework","https://www.gao.gov/green-book","https://www.archives.gov/records-mgmt"],"contentHash":"4adcfc1905494fbf56a923ba4572e4775243d2911f8f3fe449168aa5a212c5ae","publicationDate":"2026-09-24","liveUrl":"https://humanresourcesoutsourced.com/research/outsourced-hr-transition-backlog-baseline"},
