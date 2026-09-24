@@ -14,5 +14,19 @@
     {"topic":"Outsourced HR client data segregation evidence","slug":"outsourced-hr-client-data-segregation-evidence","sources":["https://www.nist.gov/cyberframework","https://www.cisa.gov/sites/default/files/2023-12/ESF%20IDENTITY%20AND%20ACCESS%20MANAGEMENT%20RECOMMENDED%20BEST%20PRACTICES%20FOR%20ADMINISTRATORS%20PP-23-0248_508C.pdf","https://www.ftc.gov/business-guidance/resources/start-security-guide-business"],"contentHash":"967bb2363e9cfad11a4d670a05ceff218f11ca1ab2d7175520823b42fad35f70","publicationDate":"2026-09-24","liveUrl":"https://humanresourcesoutsourced.com/research/outsourced-hr-client-data-segregation-evidence"},
     {"topic":"HR reporting defect remediation loop","slug":"hr-reporting-defect-remediation-loop","sources":["https://www.gao.gov/green-book","https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping","https://www.archives.gov/records-mgmt"],"contentHash":"a7f42c75933e9f7345f60dd068b87f505d57b139d5837590dec2062843eb2a7b","publicationDate":"2026-09-24","liveUrl":"https://humanresourcesoutsourced.com/research/hr-reporting-defect-remediation-loop"}
   ],
-  "verification": {"status":"pending","verifiedCount":0,"verifiedAt":null,"deploymentEvidence":null}
+  "verification": {
+    "status": "blocked",
+    "verifiedCount": 0,
+    "verifiedAt": null,
+    "deploymentEvidence": {
+      "provider": "Coolify3",
+      "applicationUuid": "z9ouisdufbu5unwm79ywygzb",
+      "contentCommit": "7cefc24c02e20b29ec3948c8a4526ac0a43aaa1f",
+      "publishingCommit": "b325a056e13d69af8da350c632ff80525699edae",
+      "productionRemoteSha": "0512a459f6d6e052ec2d1d4cb380e8c4ef46edd3",
+      "attemptedAt": "2026-09-24T14:53:07Z",
+      "result": "The configured Coolify3 API returned HTTP 401 for the dedicated application credential. After the production push, two bounded public transition windows made twelve checks per article family total; all five new research routes remained HTTP 404 while the existing site remained HTTP 200.",
+      "recoveryAction": "Coolify3 owner restores API access or confirms the Git-triggered deployment for production main, deploys a production SHA containing b325a056e13d69af8da350c632ff80525699edae, then reruns title, unique content, canonical, datePublished, structured-data, sitemap, and asset checks for all five URLs."
+    }
+  }
 }
