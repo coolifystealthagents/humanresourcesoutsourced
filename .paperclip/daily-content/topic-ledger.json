@@ -1,7 +1,14 @@
 {
-  "updatedAt": "2026-09-22T00:00:00Z",
+  "updatedAt": "2026-09-25T00:00:00Z",
   "families": {
     "research": {
+      "2026-09-25": [
+        "outsourced-hr-access-recertification-evidence",
+        "hr-sensitive-attachment-misdirection-recovery",
+        "hr-work-queue-reopen-rate-definition",
+        "hr-third-party-file-transfer-control-test",
+        "outsourced-hr-owner-response-dependency-measure"
+      ],
       "2026-09-24": [
         "outsourced-hr-transition-backlog-baseline",
         "hr-procedure-exception-coverage-test",
