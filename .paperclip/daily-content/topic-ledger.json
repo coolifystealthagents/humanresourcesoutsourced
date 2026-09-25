@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T00:00:00Z",
+  "updatedAt": "2026-09-25T21:04:00Z",
   "families": {
     "research": {
       "2026-09-25": [
@@ -32,6 +32,20 @@
       ]
     },
     "blog": {
+      "2026-09-25": [
+        "september25-hr-open-enrollment-change-evidence",
+        "september25-hr-payroll-bank-change-verification",
+        "september25-hr-employee-death-notification-dependency-routing",
+        "september25-hr-union-dues-authorization-handoff",
+        "september25-hr-candidate-accommodation-request-routing",
+        "september25-hr-dependent-verification-document-reconciliation",
+        "september25-hr-returned-payroll-payment-exception",
+        "september25-hr-hr-inbox-sensitive-case-triage",
+        "september25-hr-leave-balance-data-reconciliation",
+        "september25-hr-learning-completion-evidence-exceptions",
+        "september25-hr-hr-vendor-access-review",
+        "september25-hr-payroll-post-run-variance-review"
+      ],
       "2026-09-22": [
         "september22-hr-payroll-deduction-authorization-intake",
         "september22-hr-payroll-tax-notice-routing",
