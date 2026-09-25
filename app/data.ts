@@ -1,3 +1,4 @@
+import { september25BlogPosts } from './blog/september25-batch';
 import { september24BlogPosts } from './blog/september24-batch';
 import { september23BlogPosts } from './blog/september23-batch';
 import { september22BlogPosts } from './blog/september22-batch';
@@ -139,7 +140,7 @@ const evergreenBlogPosts = [
 ] as const;
 
 // The dated daily batch is the newest family content and must precede evergreen posts.
-export const blogPosts = [...september24BlogPosts, ...september23BlogPosts, ...september22BlogPosts, ...september18BlogPosts, ...september14BlogPosts, ...september10BlogPosts, ...september8BlogPosts, ...september7BlogPosts, ...september4BlogPosts, ...september3BlogPosts, ...september2BlogPosts, ...september1BlogPosts, ...august31BlogPosts, ...august23BlogPosts, ...august21BlogPosts, ...august20BlogPosts, ...august19BlogPosts, ...august18BlogPosts, ...august18Repair4Posts, ...august17BlogPosts, ...august14BlogPosts, ...august13BlogPosts, ...august11BlogPosts, ...dailyBlogPosts, ...evergreenBlogPosts] as const;
+export const blogPosts = [...september25BlogPosts, ...september24BlogPosts, ...september23BlogPosts, ...september22BlogPosts, ...september18BlogPosts, ...september14BlogPosts, ...september10BlogPosts, ...september8BlogPosts, ...september7BlogPosts, ...september4BlogPosts, ...september3BlogPosts, ...september2BlogPosts, ...september1BlogPosts, ...august31BlogPosts, ...august23BlogPosts, ...august21BlogPosts, ...august20BlogPosts, ...august19BlogPosts, ...august18BlogPosts, ...august18Repair4Posts, ...august17BlogPosts, ...august14BlogPosts, ...august13BlogPosts, ...august11BlogPosts, ...dailyBlogPosts, ...evergreenBlogPosts] as const;
 
 export const staffingOffer = {
   included: [
