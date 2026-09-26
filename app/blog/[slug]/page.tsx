@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
     title,
     description,
     alternates: { canonical: url },
-    openGraph: { title, description, url, siteName: site.brand, type: 'article', publishedTime: article?.published, images: [{ url: image, alt: `${site.brand} — ${title}` }] },
+    openGraph: { title, description, url, siteName: site.brand, type: 'article', publishedTime: article?.published, modifiedTime: article?.updated, images: [{ url: image, alt: `${site.brand} — ${title}` }] },
     twitter: { card: 'summary_large_image', title, description, images: [image] }
   };
 }
@@ -95,7 +95,7 @@ export default async function Post({ params }: Params) {
             <h1>{article.title}</h1>
             <p className="lead">{article.description}</p>
             {article.heroImage ? <img src={article.heroImage} alt={article.title} width={1200} height={630} loading="eager" /> : <ArticleTopicVisual title={article.title} kind="guide" />}
-            <div className="hr-article-meta"><span>{article.minutes} minute read</span><span>Published <time dateTime={article.published}>{formatPublicDate(article.published)}</time></span><span>Philippines-only talent</span></div>
+            <div className="hr-article-meta"><span>{article.minutes} minute read</span><span>Published <time dateTime={article.published}>{formatPublicDate(article.published)}</time></span>{article.updated !== article.published ? <span>Updated <time dateTime={article.updated}>{formatPublicDate(article.updated)}</time></span> : null}<span>Philippines-only talent</span></div>
           </div>
           <aside className="hr-direct-answer" aria-label="Direct answer">
             <span>Direct answer</span>

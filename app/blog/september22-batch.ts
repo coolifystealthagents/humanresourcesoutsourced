@@ -6,6 +6,7 @@ export type BlogBatchTopic = {
   slug: string; title: string; description: string; workflow: string; trigger: string;
   owner: string; stop: string; proof: string; service: string;
   example: string; source: { name: string; url: string; note: string };
+  updated?: string; contextualLink?: RichArticle['contextualLink'];
 };
 
 const topics: BlogBatchTopic[] = [
@@ -28,8 +29,8 @@ export const september22BlogPosts = topics.map(({ slug, title, description }) =>
 export const buildBlogBatch = (batchDate: string, slugPrefix: string, batchTopics: BlogBatchTopic[]): Record<string, RichArticle> => Object.fromEntries(batchTopics.map((topic, index) => {
   const slug = `${slugPrefix}${topic.slug}`;
   return [slug, {
-    slug, title: topic.title, description: topic.description, published: batchDate, updated: batchDate, minutes: 12,
-    revision: `${batchDate}-${slug}`,
+    slug, title: topic.title, description: topic.description, published: batchDate, updated: topic.updated ?? batchDate, minutes: 12,
+    revision: `${topic.updated ?? batchDate}-${slug}`,
     directAnswer: [
       `Treat ${topic.workflow} as a controlled administrative lane. Open it only when ${topic.trigger}. Give the coordinator a written field list, a named company owner, a response target, and a stop rule.`,
       `A Philippines-based HR coordinator can preserve source records, check required fields, maintain deadlines, request missing administrative details, and prepare a handoff. The coordinator should stop when ${topic.stop}. Close the item only after ${topic.proof}.`
@@ -80,6 +81,7 @@ export const buildBlogBatch = (batchDate: string, slugPrefix: string, batchTopic
       { title: 'HR reporting and QA', href: '/services/reporting-and-qa', note: 'Design owner checks and destination evidence.' },
       { title: 'Plan your HR support workflow', href: '/contact-us', note: 'Bring a redacted case to a role-scoping discussion.' }
     ],
+    contextualLink: topic.contextualLink,
     sources: topic.source.url === 'https://www.nist.gov/privacy-framework' ? [topic.source] : [topic.source, { name: 'NIST Privacy Framework', url: 'https://www.nist.gov/privacy-framework', note: 'Official voluntary framework for managing privacy risk and accountable data processing.' }],
     banners: [
       { eyebrow: 'Map the case', title: `Define the ${topic.workflow} boundary.`, text: 'Name the source, permitted checks, decision owner, stop rule, and closeout proof.', href: `/services/${topic.service}`, linkLabel: 'Review the service scope' },

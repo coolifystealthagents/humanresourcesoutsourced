@@ -2,9 +2,9 @@ import * as data from '../data';
 import { fleetServices, allResearchPosts, postsPerPage } from '../fleet-data';
 
 export function GET() {
-  const siteData = data as typeof data & { blogPosts?: readonly { slug: string; published?: string }[] };
+  const siteData = data as typeof data & { blogPosts?: readonly { slug: string; published?: string; updated?: string }[] };
   const base = `https://${siteData.site.domain.toLowerCase()}`;
-  const blogs = siteData.blogPosts ?? [];
+  const blogs: readonly { slug: string; published?: string; updated?: string }[] = siteData.blogPosts ?? [];
   const pageCount = Math.max(1, Math.ceil(blogs.length / postsPerPage));
   const serviceSlugs = new Set([
     ...siteData.services.map((service) => service.slug),
@@ -26,9 +26,9 @@ export function GET() {
   const body = paths
     .map((path) => `<url><loc>${path === '/' ? base : `${base}${path}`}</loc></url>`)
     .join('') + blogs.map((blog) => {
-      const published = 'published' in blog && typeof blog.published === 'string' ? blog.published : undefined;
+      const lastModified = typeof blog.updated === 'string' ? blog.updated : ('published' in blog && typeof blog.published === 'string' ? blog.published : undefined);
       const path = `/blog/${blog.slug}`;
-      return `<url><loc>${base}${path}</loc>${published ? `<lastmod>${published}</lastmod>` : ''}</url>`;
+      return `<url><loc>${base}${path}</loc>${lastModified ? `<lastmod>${lastModified}</lastmod>` : ''}</url>`;
     }).join('');
 
   return new Response(
