@@ -7,7 +7,7 @@
   "baseline": "2f03995d4fbd301844bd268b74ba73ba143dc477",
   "repository": "coolifystealthagents/humanresourcesoutsourced",
   "productionBranch": "main",
-  "contentCommit": null,
+  "contentCommit": "f1a2fe238f9353f3a180360d108b0aeb51e85220",
   "handoffOnly": true,
   "deploymentResource": "Coolify3 application z9ouisdufbu5unwm79ywygzb",
   "entries": [
