@@ -21,7 +21,6 @@ export function GET() {
     '/cancellation-policy',
     ...Array.from(serviceSlugs, (slug) => `/services/${slug}`),
     ...Array.from({ length: Math.max(0, pageCount - 1) }, (_, index) => `/blog/page/${index + 2}`),
-    ...allResearchPosts.map((post) => `/research/${post.slug}`)
   ];
   const body = paths
     .map((path) => `<url><loc>${path === '/' ? base : `${base}${path}`}</loc></url>`)
@@ -29,6 +28,10 @@ export function GET() {
       const lastModified = typeof blog.updated === 'string' ? blog.updated : ('published' in blog && typeof blog.published === 'string' ? blog.published : undefined);
       const path = `/blog/${blog.slug}`;
       return `<url><loc>${base}${path}</loc>${lastModified ? `<lastmod>${lastModified}</lastmod>` : ''}</url>`;
+    }).join('') + allResearchPosts.map((post) => {
+      const path = `/research/${post.slug}`;
+      const lastModified = post.modified ?? post.published;
+      return `<url><loc>${base}${path}</loc><lastmod>${lastModified}</lastmod></url>`;
     }).join('');
 
   return new Response(

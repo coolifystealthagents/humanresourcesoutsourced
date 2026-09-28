@@ -1,0 +1,22 @@
+{
+  "family": "research",
+  "cycleLabel": "September 28, 2026",
+  "requiredCount": 5,
+  "publicationDate": "2026-09-28",
+  "timezone": "UTC",
+  "baseline": "2f03995d4fbd301844bd268b74ba73ba143dc477",
+  "repository": "coolifystealthagents/humanresourcesoutsourced",
+  "productionBranch": "main",
+  "contentCommit": null,
+  "handoffOnly": true,
+  "deploymentResource": "Coolify3 application z9ouisdufbu5unwm79ywygzb",
+  "entries": [
+    {"topic":"HR knowledge-base answer provenance control","slug":"hr-knowledge-base-answer-provenance-control","sources":["https://www.nist.gov/privacy-framework","https://www.gao.gov/greenbook","https://www.eeoc.gov/employers/recordkeeping-requirements"],"contentHash":"d8c3cc16e90e54c65a148ee3541261f020995230d6376ac83d17c57f0210aff1","substantiveWordCount":1304,"publicationDate":"2026-09-28","liveUrl":"https://humanresourcesoutsourced.com/research/hr-knowledge-base-answer-provenance-control"},
+    {"topic":"Outsourced HR data deletion request evidence","slug":"outsourced-hr-data-deletion-request-evidence","sources":["https://www.nist.gov/privacy-framework","https://www.eeoc.gov/employers/recordkeeping-requirements","https://www.archives.gov/records-mgmt"],"contentHash":"e1d96ea98287c981e3e7bd60e6a7a32874b6be6cd46077a342b1caedda980a8f","substantiveWordCount":1302,"publicationDate":"2026-09-28","liveUrl":"https://humanresourcesoutsourced.com/research/outsourced-hr-data-deletion-request-evidence"},
+    {"topic":"HR work queue sampling bias control","slug":"hr-work-queue-sampling-bias-control","sources":["https://www.gao.gov/greenbook","https://www.nist.gov/privacy-framework","https://www.archives.gov/records-mgmt"],"contentHash":"0e9b695aedad11cdd67c8ec4b11a25e4f2cbaf0121e29e060c3f5c7e2cdc5d1a","substantiveWordCount":1286,"publicationDate":"2026-09-28","liveUrl":"https://humanresourcesoutsourced.com/research/hr-work-queue-sampling-bias-control"},
+    {"topic":"Outsourced HR service continuity recovery test","slug":"outsourced-hr-service-continuity-recovery-test","sources":["https://www.nist.gov/cyberframework","https://pages.nist.gov/800-63-4/","https://www.gao.gov/greenbook"],"contentHash":"c6c931a4acc008d07016bb85917c9318e77d81ed6894242a64b5e2f3575c098b","substantiveWordCount":1275,"publicationDate":"2026-09-28","liveUrl":"https://humanresourcesoutsourced.com/research/outsourced-hr-service-continuity-recovery-test"},
+    {"topic":"HR outsourcing responsibility matrix control test","slug":"hr-outsourcing-responsibility-matrix-control-test","sources":["https://www.gao.gov/greenbook","https://www.nist.gov/cyberframework","https://www.dol.gov/agencies/ebsa/key-topics/retirement-benefits/cybersecurity/best-practices"],"contentHash":"e797a60bcfc28310bff4d4af2c2c4024153f6a79d0da569149e4bd7a90660daf","substantiveWordCount":1271,"publicationDate":"2026-09-28","liveUrl":"https://humanresourcesoutsourced.com/research/hr-outsourcing-responsibility-matrix-control-test"}
+  ],
+  "quality": {"bodyOnlyMinimum":1200,"maximumPairwiseFiveWordShingleJaccard":0.113175},
+  "verification": {"status":"staged_for_combined_release","verifiedCount":0,"verifiedAt":null,"owner":"same-cycle Blog integrator and user/browser operator","note":"Research must not push or deploy separately. Reconcile publication dates before the sole combined push if first publication moves beyond September 28 UTC."}
+}

@@ -1,7 +1,14 @@
 {
-  "updatedAt": "2026-09-25T21:04:00Z",
+  "updatedAt": "2026-09-28T15:45:00Z",
   "families": {
     "research": {
+      "2026-09-28": [
+        "hr-knowledge-base-answer-provenance-control",
+        "outsourced-hr-data-deletion-request-evidence",
+        "hr-work-queue-sampling-bias-control",
+        "outsourced-hr-service-continuity-recovery-test",
+        "hr-outsourcing-responsibility-matrix-control-test"
+      ],
       "2026-09-25": [
         "outsourced-hr-access-recertification-evidence",
         "hr-sensitive-attachment-misdirection-recovery",
