@@ -18,5 +18,145 @@ const topics: BlogBatchTopic[] = [
   { slug: 'payroll-funding-confirmation-handoff', title: 'Separate Payroll Funding Confirmation From Payroll Approval', description: 'Coordinate register approval, funding instructions, bank evidence, and provider acknowledgment without trusting a single message or role.', workflow: 'payroll funding confirmation handoff', trigger: 'the payroll owner approves a final register and releases the expected funding amount, deadline, destination, and authorized confirmation path', owner: 'the employer payroll, treasury, finance, security, bank, and provider owners', stop: 'the amount, account, approver, cutoff, register total, payment instruction, provider status, or fraud signal conflicts', proof: 'treasury and payroll independently confirm the authorized amount and the bank or provider records the matching funded payroll reference', service: 'payroll-preparation-support', example: 'A message appearing to come from the payroll provider supplies a replacement funding account shortly before the bank cutoff', source: { name: 'FBI Business Email Compromise Guidance', url: 'https://www.fbi.gov/how-we-can-help-you/scams-and-safety/common-frauds-and-scams/business-email-compromise', note: 'Official guidance supporting independent verification of payment-related account changes.' } },
 ];
 
+const topicNotes: string[][] = [
+  [
+    'Start with a request register that distinguishes current employees, former employees, representatives, subpoenas, and informal manager requests. Those paths can require different authentication, ownership, and response handling.',
+    'Build a search map before collecting documents. Payroll, benefits, recruiting, investigations, email, learning, and local manager files may have different custodians; the request owner decides which repositories are in scope.',
+    'Use a candidate set and an approved response set as separate states. A search hit is not automatically responsive, releasable, current, or suitable for an unredacted delivery package.',
+    'Treat mixed-person records as an exception. Performance notes, complaint files, group messages, and investigation material may contain another person’s information that a general queue should not copy or expose.',
+    'Version the response package and delivery log. Record the reviewer, approved index, file count, secure destination, expiry setting, recipient confirmation, and any failed or replaced transfer.',
+    'Close with a gap statement, not an assumption. If a custodian, archive, or legacy system was unavailable, the owner should decide whether to extend, supplement, or formally complete the response.'
+  ],
+  [
+    'Anchor the dependency map to the contracting entity and engagement record, not a familiar worker name. Vendor changes and subcontracting can alter the sponsor, access basis, payment route, and required evidence.',
+    'Separate commercial readiness from operational readiness. A signed agreement does not prove identity, screening, equipment, workspace, training, or system permission, while an active account does not prove contract approval.',
+    'Sequence tasks by dependency rather than by department. Identity precedes named access; approved scope precedes permissions; shipping details precede equipment dispatch; and sponsor confirmation precedes a start-ready label.',
+    'Give every access request an expiry or review event tied to the engagement. Permanent groups copied from an employee template create avoidable permission drift when the contractor changes projects or ends work.',
+    'Design for a postponed start. The map should show which invitations, deliveries, account activations, billing dates, and orientation sessions must move, which may remain, and who authorizes each change.',
+    'End the onboarding map with the matching offboarding trigger. A contractor record is incomplete if nobody owns account removal, asset return, confidential-material handling, and open-work transfer.'
+  ],
+  [
+    'Preserve the certified timecard as the original event. Put the proposed correction, reason, requester, submission time, and affected pay period beside it rather than overwriting the value a worker or manager previously approved.',
+    'Classify the correction before routing: missed punch, allocation, approved leave, schedule, rate-related code, meal entry, overtime indicator, or duplicate import. Classification helps find the owner but does not decide the result.',
+    'Make cutoff state explicit. A pre-freeze correction, post-freeze change, already-paid adjustment, and prior-period discovery require different payroll handling and evidence even when the number of hours is identical.',
+    'Test arithmetic separately from authority. A coordinator can recompute totals from approved inputs, but a mathematically tidy result cannot establish that disputed work time should be added, removed, or recoded.',
+    'Carry the approved change through every destination. Timekeeping acceptance without payroll acknowledgment can leave the source corrected while the paycheck, labor allocation, or reporting extract remains unchanged.',
+    'Review patterns without exposing narratives. Repeated corrections by location, manager, code, or cutoff stage can identify a process defect, while individual disputes stay with restricted HR, payroll, or legal owners.'
+  ],
+  [
+    'Normalize the comparison period first. Carrier invoices may bill in advance, apply retroactive lines, group dependents differently, or show credits later than the HR enrollment source; an undated name match is unreliable.',
+    'Match on a controlled participant reference and coverage components. Compare plan, tier, covered members, effective interval, termination interval, premium class, and line status instead of treating the invoice total as the only test.',
+    'Separate timing differences from unexplained differences. A documented carrier processing lag can remain open with an owner and checkpoint; a plan or tier conflict requires a benefits decision before payment treatment is chosen.',
+    'Keep money and eligibility decisions in distinct lanes. Finance can question a billed amount, but an accounts-payable hold should not silently terminate coverage or rewrite the plan administrator’s enrollment record.',
+    'Use an exception register that prevents double recovery. Link each disputed line to its carrier case, approved disposition, credit expectation, invoice appearance, and finance treatment until the credit is actually observed.',
+    'Close at the coverage-period level. Paying an invoice, submitting a carrier ticket, or correcting an HRIS field is only an intermediate event until the approved enrollment and billing outcome reconcile.'
+  ],
+  [
+    'Define the chart population and effective moment before comparing systems. Employees, contingent workers, vacant roles, dotted-line relationships, and confidential teams may follow different publication rules.',
+    'Model reporting changes as dated edges between positions or people. That approach preserves the prior hierarchy, supports future changes, and avoids rebuilding history from whichever directory screen happens to be current.',
+    'Choose one authority for each displayed attribute. The manager relationship, public title, department label, photograph, location, and contact detail need not come from the same system or share the same refresh schedule.',
+    'Treat cycles and orphans as structural exceptions. A person reporting to themselves, a manager outside the population, or an active worker without a parent should stop publication for that branch rather than be guessed into place.',
+    'Coordinate publication with communication. A technically approved future hierarchy can still be inappropriate to expose before the company’s authorized announcement or individual notification sequence.',
+    'Sample the rendered destination, not only the export. Caching, directory synchronization, presentation software, and manually copied slides can preserve an old relationship after the source data has changed.'
+  ],
+  [
+    'Treat the employee as the source of the relationship and contact values unless an authorized safety process says otherwise. A manager’s helpful message should not silently replace the employee-controlled record.',
+    'Separate identity verification from contact validation. Confirming the employee’s session does not prove the supplied phone or email belongs to the named contact, and testing the address may require an approved notice.',
+    'Design fields for operational use: name, relationship label, primary and alternate channels, permitted order, language or accessibility needs, and effective time. Avoid collecting medical or family narrative without a defined purpose.',
+    'Retain the earlier state as history with restricted access. During an emergency, responders need the current authorized instruction; afterward, reviewers may need to understand when and by whom it changed.',
+    'Plan for unreachable contacts without improvising. A failed call, bounced message, wrong person, or request not to be contacted should create a dated exception for the safety or HR owner, not an unofficial replacement.',
+    'Audit access around actual tasks. People who can initiate a notification may not need bulk export, editing rights, family details, or the ability to view emergency contacts outside their assigned population.'
+  ],
+  [
+    'Start from an asset register snapshot that names device identifier, accessories, assigned person, condition baseline, security state, shipping constraints, and accountable asset owner. A generic checklist cannot prove which laptop is missing.',
+    'Separate return logistics from access containment. A prepaid label may take days, while credentials, tokens, remote sessions, local encryption keys, and device-management actions can have immediate security deadlines.',
+    'Record custody events from label creation through receipt. Carrier acceptance, transit exceptions, delivery scans, receiving intake, opened-package inventory, and final storage are different evidence points with different owners.',
+    'Provide a safe exception route for batteries, damaged equipment, inaccessible packaging, international customs, disability needs, and remote locations. The coordinator should not invent shipping instructions for a hazardous or unusual item.',
+    'Keep condition assessment and financial action apart. Photographs or technician notes can document damage, but cost recovery, insurance, write-off, wage treatment, and employee communication require authorized decisions.',
+    'Do not close on delivery alone. Match every returned identifier, confirm data-handling status, record missing components, preserve any investigation or legal hold, and obtain the asset owner’s disposition.'
+  ],
+  [
+    'Assign a stable role identifier before editing prose. Titles are reused and renamed, while the identifier connects the description to the requisition, approvals, compensation review, posting, interview materials, and retained history.',
+    'Separate observable duties from promotional language. Reviewers need to see the work, frequency, decision authority, tools, physical context, travel, schedule, and accountable outcomes without unsupported promises about culture or advancement.',
+    'Trace every minimum qualification to a work requirement and reviewer. Copying education, experience, license, location, or physical criteria from an older role can create an unexplained screening rule.',
+    'Mark proposed, under-review, approved, published, superseded, and withdrawn versions. A date in the filename is not enough when recruiters and managers can still open or copy an obsolete description.',
+    'Compare the live posting and interview scorecard with the approved description. Version control fails if public criteria, screening questions, or panel evaluation dimensions drift after approval.',
+    'Treat accommodation questions and classification analysis as owner work. The coordinator can gather the approved inputs and route inconsistencies but should not decide essential functions, exemption status, or individual adjustments.'
+  ],
+  [
+    'Design the intake form to collect only what recruiting may use before candidate contact. A referrer’s endorsement, personal history, protected information, or private résumé copy should not become an uncontrolled candidate record.',
+    'Record the introduction separately from the candidate’s response. The referral event can exist while the candidate is uncontacted, declines, requests deletion, chooses another channel, or authorizes a limited recruiting conversation.',
+    'Resolve duplicate-source evidence without changing candidate treatment. Timestamps, prior applications, agency submissions, event lists, and employee referrals may affect internal ownership or rewards, not selection merit.',
+    'Keep reward administration downstream. Eligibility conditions, exclusions, employment status, payment timing, tax handling, and disputes belong to the program and finance owners after the defined hiring event occurs.',
+    'Give candidates a clean correction path. They should be able to clarify contact details, source, consent, and interest without asking the referring employee to edit recruiting records on their behalf.',
+    'Measure the lane with consent and routing outcomes rather than referral volume alone. Useful checks include unauthorized uploads, duplicates, declined contact, wrong destinations, delayed acknowledgment, and unresolved program-owner decisions.'
+  ],
+  [
+    'Offer a bounded choice of interviewer, channel, and times rather than implying participation is required. The invitation should explain purpose, privacy limits, recording practice, and where logistical questions go.',
+    'Keep calendar metadata sparse. A meeting title visible to assistants or coworkers should not reveal allegations, health information, legal concerns, performance history, or the worker’s intended feedback.',
+    'Prepare the interviewer with the approved case reference and access path, not a copied narrative. Scheduling staff need availability and contact details; they do not need broad personnel or complaint files.',
+    'Define an immediate redirect for sensitive replies. A disclosure about safety, harassment, retaliation, pay, benefits, threats, records, or data loss should leave the scheduling queue and reach a restricted accountable owner.',
+    'Preserve a decline or no-response accurately. Silence is not positive feedback, consent, issue resolution, or evidence that the employee had nothing to report; it is only the observed scheduling outcome.',
+    'Close logistics and substantive follow-up separately. The interview may be booked or completed while an owner action remains open, and the coordinator should not mark the underlying concern resolved.'
+  ],
+  [
+    'Inventory fields by consequence before assigning permissions. Display name, legal identity, status, manager, location, bank, tax, pay, benefits, leave, security groups, and termination dates require different evidence and approvers.',
+    'Map hidden automation for every high-risk field. One edit can trigger payroll calculations, eligibility feeds, directory changes, access groups, vendor files, reports, notifications, and effective-dated transactions.',
+    'Use a change packet that retains old value, proposed value, authoritative source, effective time, requester, approver, entry actor, and expected destinations. A ticket title alone cannot support reconciliation.',
+    'Prevent self-approval for consequential edits. Emergency access should be time-bounded, logged, reviewed afterward, and unable to turn a coordinator’s preparation into unobserved decision authority.',
+    'Test future dates, reversals, corrections, bulk loads, and partial integration failures. A successful save message proves only that one interface accepted data, not that every downstream result is appropriate.',
+    'Review rejected and reopened changes as control evidence. Frequent missing approvals, late requests, unexpected side effects, and manual overrides can reveal that the matrix or system design no longer matches the work.'
+  ],
+  [
+    'Tie funding preparation to one immutable payroll version. The gross-to-net register, debit amount, fees, payroll identifier, bank destination, pay date, cutoff, and approval evidence must describe the same run.',
+    'Require separation between calculation approval and money movement. Payroll validates the authorized register; treasury validates liquidity and payment instruction; neither should rely on an emailed account change without independent confirmation.',
+    'Set the trusted channel before urgency arrives. Provider portals, known bank contacts, callback procedures, named approvers, and escalation paths should be documented before a late funding notice or suspicious message appears.',
+    'Reconcile acknowledgments by meaning. File received, debit scheduled, funds received, payroll released, and employee payment initiated are different states; a green provider notification may cover only one of them.',
+    'Plan for short funding, duplicate debit, rejected transfer, bank holiday, cutoff miss, and provider outage. Each scenario needs a decision owner, communication owner, next checkpoint, and evidence that must remain restricted.',
+    'Close with control totals and destination evidence. Compare the approved register and authorized funding instruction to bank and provider records, then retain the variance disposition without exposing individual pay details.'
+  ]
+];
+
+const sectionFrames = [
+  ['Build the request boundary', 'Map the search before collection', 'Separate candidates from approved output', 'Protect mixed-person records', 'Control delivery as a record event', 'State unresolved gaps at close'],
+  ['Confirm the engagement anchor', 'Split contract and operational readiness', 'Order the prerequisites', 'Expire access with the assignment', 'Model a delayed start', 'Connect onboarding to removal'],
+  ['Keep the original time event', 'Classify without deciding', 'Name the payroll cutoff state', 'Check arithmetic and authority separately', 'Follow the correction downstream', 'Learn from exception patterns'],
+  ['Align the billing period', 'Compare coverage components', 'Explain timing differences', 'Keep payment and eligibility separate', 'Track credits to observation', 'Close by coverage outcome'],
+  ['Fix the chart population', 'Represent dated relationships', 'Assign attribute authorities', 'Stop on structural defects', 'Sequence internal communication', 'Inspect the published result'],
+  ['Keep employee direction central', 'Verify identity and destination separately', 'Collect fields with a purpose', 'Preserve controlled history', 'Handle unreachable contacts', 'Limit operational access'],
+  ['Identify every asset', 'Contain access before shipping completes', 'Record the custody chain', 'Route shipping exceptions safely', 'Separate damage from recovery decisions', 'Reconcile before closure'],
+  ['Give the role a stable identity', 'Describe observable work', 'Justify each qualification', 'Control lifecycle states', 'Reconcile recruiting materials', 'Reserve substantive judgments'],
+  ['Minimize referral intake', 'Wait for candidate direction', 'Resolve source conflicts neutrally', 'Administer rewards downstream', 'Let candidates correct the record', 'Measure responsible routing'],
+  ['Offer a voluntary logistics path', 'Keep calendars discreet', 'Prepare without copying narratives', 'Redirect sensitive disclosures', 'Record declines honestly', 'Separate scheduling from response'],
+  ['Classify fields by consequence', 'Expose automated dependencies', 'Require a reconstructable packet', 'Separate entry from approval', 'Test difficult transaction paths', 'Review rework as evidence'],
+  ['Bind funding to a payroll version', 'Separate calculation and transfer authority', 'Predefine trusted channels', 'Read acknowledgments precisely', 'Design exception ownership', 'Reconcile the funded result']
+];
+
+const distinctiveLeads = [
+  'A records-request lane succeeds when its search and disclosure judgments remain visibly separate.',
+  'Contractor readiness is a dependency problem spanning a commercial relationship and several operational owners.',
+  'A time correction is an event chain, not permission to replace an inconvenient value.',
+  'Carrier billing reconciliation must connect money to a defined coverage interval and approved enrollment evidence.',
+  'An organization chart is a dated publication assembled from several authorities, not a decorative copy of one directory.',
+  'Emergency contact data is employee-directed personal information used for a narrow operational purpose.',
+  'Remote equipment return combines physical custody, information security, logistics, and owner decisions.',
+  'Job-description control protects the connection between approved work, public criteria, and hiring evidence.',
+  'A referral begins with an employee introduction but cannot manufacture candidate permission or selection priority.',
+  'Exit-interview coordination should make a conversation possible without absorbing the interviewer’s sensitive responsibilities.',
+  'HRIS risk follows the consequence of a field and its integrations, not the apparent simplicity of an edit screen.',
+  'Payroll funding is a controlled money movement connected to an approved calculation, trusted destination, and independent evidence.'
+];
+
+const buildDistinctSections = (topic: BlogBatchTopic, articleIndex: number) => topicNotes[articleIndex].map((note, noteIndex) => ({
+  heading: sectionFrames[articleIndex][noteIndex],
+  paragraphs: [
+    `${distinctiveLeads[articleIndex]} ${note} For ${topic.workflow}, record the source event, responsible owner, effective time, and present state in language that another reviewer can reconstruct. Use ${topic.example.toLowerCase()} as a redacted tabletop case, then identify the first fact that prevents routine processing. That fact determines the handoff; queue age or convenience does not.`,
+    `Turn this checkpoint into a working control by naming the permitted preparation, the evidence the coordinator may compare, and the decision reserved for ${topic.owner}. The item must pause when ${topic.stop}. Preserve both the observed value and the requested outcome, send a bounded question through the approved channel, and keep the next deadline visible. Completion requires that ${topic.proof}; a sent reminder, updated spreadsheet, or successful login is not equivalent evidence.`
+  ]
+}));
+
 export const september28BlogPosts = topics.map(({ slug, title, description }) => ({ slug: `${prefix}${slug}`, title, excerpt: description, minutes: 12, published: date }));
-export const september28Articles = buildBlogBatch(date, prefix, topics);
+export const september28Articles = Object.fromEntries(Object.entries(buildBlogBatch(date, prefix, topics)).map(([slug, article], articleIndex) => [slug, {
+  ...article,
+  sections: buildDistinctSections(topics[articleIndex], articleIndex)
+}]));
