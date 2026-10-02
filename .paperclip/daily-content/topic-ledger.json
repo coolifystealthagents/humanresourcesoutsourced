@@ -1,7 +1,14 @@
 {
-  "updatedAt": "2026-09-28T15:45:00Z",
+  "updatedAt": "2026-10-02T00:00:00Z",
   "families": {
     "research": {
+      "2026-10-02": [
+        "fmla-notice-sequence-reconciliation",
+        "form-i9-reverification-evidence-queue",
+        "aca-form-1095c-source-reconciliation",
+        "wage-garnishment-order-conflict-reconciliation",
+        "osha-recordkeeping-case-state-reconciliation"
+      ],
       "2026-09-28": [
         "hr-knowledge-base-answer-provenance-control",
         "outsourced-hr-data-deletion-request-evidence",

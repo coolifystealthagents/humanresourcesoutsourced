@@ -1,0 +1,14 @@
+import assert from 'node:assert/strict';
+import crypto from 'node:crypto';
+import fs from 'node:fs';
+import test from 'node:test';
+import vm from 'node:vm';
+import ts from 'typescript';
+const source=fs.readFileSync(new URL('../app/research/october2-research-batch.ts',import.meta.url),'utf8');
+const javascript=ts.transpileModule(source,{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText;
+const module={exports:{}}; vm.runInNewContext(javascript,{exports:module.exports,module,require:()=>({})});
+const posts=module.exports.october2ResearchPosts;
+const manifest=JSON.parse(fs.readFileSync(new URL('../.paperclip/daily-content/2026-10-02/research.json',import.meta.url),'utf8'));
+const shingles=text=>{const words=text.toLowerCase().match(/[a-z0-9]+/g)??[],out=new Set();for(let i=0;i+4<words.length;i++)out.add(words.slice(i,i+5).join(' '));return out};
+test('October 2 has exactly five new sourced Research posts',()=>{assert.equal(posts.length,5);assert.equal(new Set(posts.map(p=>p.slug)).size,5);for(const p of posts){const body=p.sections.map(s=>s.body).join(' '),e=manifest.entries.find(x=>x.slug===p.slug);assert.equal(p.published,'2026-10-02');assert.ok(e);assert.ok(body.trim().split(/\s+/).length>=1200);assert.equal(body.trim().split(/\s+/).length,e.substantiveWordCount);assert.equal(crypto.createHash('sha256').update(body).digest('hex'),e.contentHash);assert.ok(p.sources.length>=3);assert.equal(p.thumbnail,'/hr-team.jpg')}});
+test('originality gate passes',()=>{let max=0;const paragraphs=posts.flatMap(p=>p.sections.map(s=>s.body));assert.equal(new Set(paragraphs).size,paragraphs.length);for(let i=0;i<posts.length;i++)for(let j=i+1;j<posts.length;j++){const a=shingles(posts[i].sections.map(s=>s.body).join(' ')),b=shingles(posts[j].sections.map(s=>s.body).join(' '));let n=0;for(const x of a)if(b.has(x))n++;max=Math.max(max,n/(a.size+b.size-n))}assert.ok(max<.5);assert.equal(Number(max.toFixed(6)),manifest.quality.maximumPairwiseFiveWordShingleJaccard)});
