@@ -1,3 +1,4 @@
+import { october2Articles } from './october2-batch';
 import { september28Articles } from './september28-batch';
 import { september25Articles } from './september25-batch';
 import { september24Articles } from './september24-batch';
@@ -36,6 +37,7 @@ export type RichArticle = {
 };
 
 export const richArticles: Record<string, RichArticle> = {
+  ...october2Articles,
   ...september28Articles,
   ...september25Articles,
   ...september24Articles,
