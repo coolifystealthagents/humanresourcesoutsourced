@@ -28,6 +28,59 @@ export const october2BlogPosts = october2Topics.map(({ slug, title, description 
   published: october2CycleDate,
 }));
 
-// This first draft deliberately centralizes schema-complete content. Each article's
-// sections receive a topic-specific qualitative rewrite before the combined gate.
-export const october2Articles = buildBlogBatch(october2CycleDate, prefix, october2Topics);
+type SectionBrief = { heading: string; focus: string };
+
+const firstRewritePass: readonly (readonly SectionBrief[])[] = [
+  [
+    { heading: 'Choose the identity anchor before editing a field', focus: 'Separate the authenticated request, the employer’s controlling HR record, payroll reporting identity, preferred display name, and the evidence required by each destination. A name is not one universal field, and a directory preference must not silently overwrite a tax or benefits record.' },
+    { heading: 'Order destinations by consequence and dependency', focus: 'Map HRIS, payroll, benefits, retirement, timekeeping, identity provider, email, badges, directories, learning, and vendor portals. Update downstream systems only after their approved source is ready, and record rejections instead of repeatedly forcing a value through validation.' },
+    { heading: 'Protect the employee during the transition window', focus: 'Plan for mixed-name search, email delivery, paycheck access, benefits service, travel or badge checks, and confidential display preferences. Give the employee one status contact while restricting supporting evidence to staff who actually need it.' },
+    { heading: 'Reconcile the completed change rather than trusting tickets', focus: 'Compare the approved value and effective date with destination acknowledgments. Distinguish completed, intentionally different, pending, rejected, and not-applicable systems so one green master ticket cannot conceal a failed payroll or access update.' },
+  ],
+  [
+    { heading: 'Start from approved reporting scope, not the predecessor’s account', focus: 'Define the employee population, effective instant, temporary or permanent status, and business duties that create access needs. Copying a former manager’s groups can expose complaints, compensation, medical material, investigations, and workers outside the new manager’s remit.' },
+    { heading: 'Split operational approvals from confidential case ownership', focus: 'List timecards, leave workflow, schedule changes, recruiting actions, performance tasks, analytics, and employee-relations cases separately. Each application owner should grant the smallest role that supports the approved duty instead of treating manager as a single permission bundle.' },
+    { heading: 'Stage the handover around the effective time', focus: 'Identify approvals that must finish before the change, tasks that can transfer at the effective time, and restricted work that HR must reassign manually. Prevent both a gap in routine approvals and an overlap in sensitive access.' },
+    { heading: 'Test access from both sides of the reporting change', focus: 'Validate visible teams, available actions, delegated queues, exports, notifications, and removed permissions. Review orphaned tasks and inherited subscriptions because access can persist through reports and alerts even after the primary role changes.' },
+  ],
+  [
+    { heading: 'Record exactly what the candidate withdrew from', focus: 'Capture the candidate’s own words, authenticated channel, received time, role or requisition, and whether the instruction covers one application or all recruiting contact. Do not turn silence, a missed interview, or a recruiter assumption into a candidate-authored withdrawal.' },
+    { heading: 'Stop future activity without rewriting the past', focus: 'Cancel interviews, reminders, assessments, background steps, and hiring tasks that no longer have a valid purpose. Preserve prior stages, communications, scorecards, and source history under the employer’s retention rules instead of deleting evidence to make the pipeline tidy.' },
+    { heading: 'Separate withdrawal from privacy and complaint requests', focus: 'A candidate may withdraw and separately ask for deletion, correction, accommodation follow-up, or review of treatment. Route each request to its qualified owner; a pipeline status change cannot decide record rights or close a concern.' },
+    { heading: 'Close linked workflows with a truthful disposition', focus: 'Check calendars, agency submissions, referral records, offer documents, hiring-manager queues, and candidate messaging. The final record should show what stopped, what remains retained, who approved any exception, and whether another active application continues.' },
+  ],
+  [
+    { heading: 'Establish the new date and preserve the original commitment', focus: 'Keep the accepted offer and original start date intact, then attach the candidate-agreed change, reason category, approver, effective time, and controlling version. A calendar edit alone cannot establish that both parties accepted changed timing.' },
+    { heading: 'Move dependencies in a deliberate sequence', focus: 'Recalculate screening checkpoints, work-authorization tasks, payroll setup, benefits eligibility, equipment delivery, accounts, workspace, orientation, training, buddy meetings, and manager availability. Some tasks should move, while secure preparation may remain valid.' },
+    { heading: 'Find consequences that a one-week shift can create', focus: 'Test pay-cycle entry, benefit waiting periods, holiday closures, expiring checks, equipment custody, travel, relocation, notice periods, and system activation rules. Route decisions instead of presenting the date shift as administratively neutral.' },
+    { heading: 'Run a readiness review against the revised date', focus: 'Ask each dependency owner for a dated ready, blocked, changed, or not-applicable response. Send the candidate only approved updates, and keep unresolved internal details out of general onboarding messages.' },
+  ],
+];
+
+const expandBrief = (topic: BlogBatchTopic, brief: SectionBrief, position: number) => {
+  const openings = [
+    `The most important design choice in this part of ${topic.workflow} is the source of authority.`,
+    `This checkpoint fails when speed is allowed to stand in for evidence.`,
+    `A useful operating record must explain both what changed and what deliberately did not change.`,
+    `Treat this stage as a dependency decision rather than a clerical update.`,
+  ];
+  return [
+    `${openings[position % openings.length]} ${brief.focus} Record the source event, observed value, accountable owner, effective time, and next checkpoint in terms a second reviewer can reconstruct. The support role may gather, compare, and route facts; it may not convert an incomplete or conflicting record into an approved outcome. That boundary matters because the apparent simplicity of a field, calendar item, or queue status says nothing about its downstream consequence.`,
+    `For “${brief.heading.toLowerCase()},” use this redacted case in a tabletop review: ${topic.example}. Identify the first fact that prevents routine handling, the system or person that controls that fact, and the deadline that remains visible while the case is paused. The escalation should contain the relevant source and one bounded question for ${topic.owner}. It should not propose a legal, employment, pay, benefit, privacy, security, or candidate decision merely to keep the service target green.`,
+    `Translate “${brief.heading.toLowerCase()}” into explicit states rather than a free-text note. Preserve submitted, source, approved, and destination values separately; attach restricted links instead of copying sensitive material; and record rejection or non-response as its own event. Stop when ${topic.stop}. If the owner supplies a new instruction, retain the prior state and add the dated decision so a later reviewer can see why the workflow changed direction.`,
+    `Close “${brief.heading.toLowerCase()}” from destination evidence. For this workflow, ${topic.proof}. A reminder, sent email, successful upload, or checked box proves activity, not the authoritative result. Review rejected and reopened cases weekly, because they reveal weak source data, ambiguous ownership, integration defects, or an unrealistic cutoff. Improve the access design and playbook instead of asking the coordinator to assume authority the role does not have.`,
+  ];
+};
+
+const baseOctober2Articles = buildBlogBatch(october2CycleDate, prefix, october2Topics);
+
+export const october2Articles = Object.fromEntries(Object.entries(baseOctober2Articles).map(([slug, article], articleIndex) => [slug, {
+  ...article,
+  ...(firstRewritePass[articleIndex] ? {
+    minutes: 15,
+    sections: firstRewritePass[articleIndex].map((brief, sectionIndex) => ({
+      heading: brief.heading,
+      paragraphs: expandBrief(october2Topics[articleIndex], brief, sectionIndex),
+    })),
+  } : {}),
+}]));
