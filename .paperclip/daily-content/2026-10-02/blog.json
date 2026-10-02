@@ -1,0 +1,33 @@
+{
+  "family": "blog",
+  "cycleLabel": "2026-10-02",
+  "requiredCount": 12,
+  "publicationDate": "2026-10-02",
+  "timezone": "UTC",
+  "baseline": "856854b8adc5c72579728ab28209b9e949356082",
+  "repository": "coolifystealthagents/humanresourcesoutsourced",
+  "productionBranch": "main",
+  "contentCommit": "ef0a3b11577e4359f6c9dfa7bb2d74647be7d713",
+  "deploymentResource": "Coolify3 application z9ouisdufbu5unwm79ywygzb",
+  "entries": [
+    {"topic":"Employee name-change system sequencing","slug":"october2-hr-employee-name-change-system-sequence","sources":["https://www.ssa.gov/employer/","https://www.nist.gov/privacy-framework"],"contentHash":"c66f18bc3012e876ae7ac58a561a5b3248cff73915c583e98915934925e14840","substantiveWordCount":2284,"publicationDate":"2026-10-02","liveUrl":"https://humanresourcesoutsourced.com/blog/october2-hr-employee-name-change-system-sequence"},
+    {"topic":"Manager access transfer","slug":"october2-hr-manager-access-transfer-checklist","sources":["https://www.nist.gov/cyberframework","https://www.nist.gov/privacy-framework"],"contentHash":"dcf27ea3fe4757396967d245736d14cf6ac1306b715a7600fc6a7515716b1485","substantiveWordCount":2273,"publicationDate":"2026-10-02","liveUrl":"https://humanresourcesoutsourced.com/blog/october2-hr-manager-access-transfer-checklist"},
+    {"topic":"Candidate withdrawal record handoff","slug":"october2-hr-candidate-withdrawal-record-handoff","sources":["https://www.eeoc.gov/employers/recordkeeping-requirements","https://www.nist.gov/privacy-framework"],"contentHash":"e294f3173ece2e5fec6caef90975f1920366433297059cc499ea246e642f42d5","substantiveWordCount":2264,"publicationDate":"2026-10-02","liveUrl":"https://humanresourcesoutsourced.com/blog/october2-hr-candidate-withdrawal-record-handoff"},
+    {"topic":"New-hire start-date change control","slug":"october2-hr-new-hire-start-date-change-control","sources":["https://www.uscis.gov/i-9-central","https://www.nist.gov/privacy-framework"],"contentHash":"d6303bed03f5bcdad8dac2d6c9be53251f012cd3cc93b3005af0818ee7464b49","substantiveWordCount":2289,"publicationDate":"2026-10-02","liveUrl":"https://humanresourcesoutsourced.com/blog/october2-hr-new-hire-start-date-change-control"},
+    {"topic":"Payroll duplicate employee record review","slug":"october2-hr-payroll-duplicate-employee-record-review","sources":["https://www.dol.gov/general/topic/workhours/hoursrecordkeeping","https://www.nist.gov/privacy-framework"],"contentHash":"5e442dd1796b9a4842160fe9e2b29b3939570cd0e323d1b851b82713e91ce363","substantiveWordCount":2259,"publicationDate":"2026-10-02","liveUrl":"https://humanresourcesoutsourced.com/blog/october2-hr-payroll-duplicate-employee-record-review"},
+    {"topic":"Benefits qualifying-event document status","slug":"october2-hr-benefits-qualifying-event-document-status","sources":["https://www.dol.gov/general/topic/health-plans","https://www.nist.gov/privacy-framework"],"contentHash":"ab93d97bfd11415bff2053ff8cce20d12d302023951e7a46192376fee74aeb3c","substantiveWordCount":2264,"publicationDate":"2026-10-02","liveUrl":"https://humanresourcesoutsourced.com/blog/october2-hr-benefits-qualifying-event-document-status"},
+    {"topic":"Interview no-show recovery","slug":"october2-hr-interview-no-show-recovery-workflow","sources":["https://www.eeoc.gov/disability-discrimination-and-employment-decisions","https://www.nist.gov/privacy-framework"],"contentHash":"05f6f32cb996e9e8960e295c0347f45af61dfe06e004149a348244de8ac27a12","substantiveWordCount":2264,"publicationDate":"2026-10-02","liveUrl":"https://humanresourcesoutsourced.com/blog/october2-hr-interview-no-show-recovery-workflow"},
+    {"topic":"Translated policy review handoff","slug":"october2-hr-policy-translation-review-handoff","sources":["https://www.eeoc.gov/national-origin-discrimination","https://www.nist.gov/privacy-framework"],"contentHash":"c8e96de99a0ccee69c47d2ea2d91767ef9b8ff2369db6c4895aa080aef561494","substantiveWordCount":2259,"publicationDate":"2026-10-02","liveUrl":"https://humanresourcesoutsourced.com/blog/october2-hr-policy-translation-review-handoff"},
+    {"topic":"Employee survey anonymity operations","slug":"october2-hr-employee-survey-anonymity-operations","sources":["https://www.nist.gov/privacy-framework"],"contentHash":"55672f1558cc1bdfde86e95fbcc4767892382752ab66dfc9a5509c27d9448b03","substantiveWordCount":2246,"publicationDate":"2026-10-02","liveUrl":"https://humanresourcesoutsourced.com/blog/october2-hr-employee-survey-anonymity-operations"},
+    {"topic":"Employee reimbursement status tracking","slug":"october2-hr-employee-refund-reimbursement-status","sources":["https://www.irs.gov/publications/p15b","https://www.nist.gov/privacy-framework"],"contentHash":"67441030c623c613a394ca4da00b507d0890bedcc0ca1f8690a7536669086cbf","substantiveWordCount":2257,"publicationDate":"2026-10-02","liveUrl":"https://humanresourcesoutsourced.com/blog/october2-hr-employee-refund-reimbursement-status"},
+    {"topic":"Disciplinary meeting record routing","slug":"october2-hr-disciplinary-meeting-record-routing","sources":["https://www.whistleblowers.gov/","https://www.nist.gov/privacy-framework"],"contentHash":"a531098d794df1fc4b744da9f0c8c449d38238ebb122d3109e0b62913ffaa3b2","substantiveWordCount":2196,"publicationDate":"2026-10-02","liveUrl":"https://humanresourcesoutsourced.com/blog/october2-hr-disciplinary-meeting-record-routing"},
+    {"topic":"HR vendor contact-change verification","slug":"october2-hr-hr-vendor-contact-change-verification","sources":["https://www.ftc.gov/business-guidance/resources/start-security-guide-business","https://www.nist.gov/privacy-framework"],"contentHash":"4aa988ac402065b911017cb5ce053c1082ce486d636219f282ec9c49a4c949dc","substantiveWordCount":2281,"publicationDate":"2026-10-02","liveUrl":"https://humanresourcesoutsourced.com/blog/october2-hr-hr-vendor-contact-change-verification"}
+  ],
+  "quality": {
+    "bodyMinimum": 900,
+    "maximumPairwiseFiveWordShingleJaccard": 0.428934,
+    "identicalParagraphsAcrossArticles": 0,
+    "qualitativeSharedArgumentCheck": "pass: each article has four topic-specific decision stages, a distinct exception model, distinct operational dependencies, and a different reader outcome; common HR role-boundary components are supporting controls rather than substituted arguments"
+  },
+  "verification": {"status":"local_validated","verifiedCount":0,"owner":"HUM-80 integrator and browser operator","note":"Actual UTC date reconciled before the sole push; awaiting exact-SHA deployment and public verification."}
+}

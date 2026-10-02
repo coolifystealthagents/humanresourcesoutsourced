@@ -46,6 +46,20 @@
       ]
     },
     "blog": {
+      "2026-10-02": [
+        "october2-hr-employee-name-change-system-sequence",
+        "october2-hr-manager-access-transfer-checklist",
+        "october2-hr-candidate-withdrawal-record-handoff",
+        "october2-hr-new-hire-start-date-change-control",
+        "october2-hr-payroll-duplicate-employee-record-review",
+        "october2-hr-benefits-qualifying-event-document-status",
+        "october2-hr-interview-no-show-recovery-workflow",
+        "october2-hr-policy-translation-review-handoff",
+        "october2-hr-employee-survey-anonymity-operations",
+        "october2-hr-employee-refund-reimbursement-status",
+        "october2-hr-disciplinary-meeting-record-routing",
+        "october2-hr-hr-vendor-contact-change-verification"
+      ],
       "2026-09-28": [
         "september28-hr-personnel-file-request-routing",
         "september28-hr-contractor-onboarding-dependency-map",
