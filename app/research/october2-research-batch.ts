@@ -1,4 +1,5 @@
 import type { ResearchPost } from '../fleet-data';
+import { october2IndependentResearchSupport } from './october2-independent-support';
 
 type Study = {
   slug: string; title: string; excerpt: string; service: string; lens: string;
@@ -107,17 +108,15 @@ const studies: readonly Study[] = [
   },
 ];
 
-const method = 'Methodology: we reviewed the cited primary government materials on October 2, 2026, separated their express requirements from our operational inferences, and modeled the workflow from intake through owner decision, execution, evidence, exception, correction, and review. We used scenario analysis rather than employee data or production testing. The model asks what a buyer can verify, which steps can be standardized, where professional judgment begins, and whether another authorized reviewer can reproduce the result. It does not estimate market prevalence, provider performance, or legal outcomes.';
-const limitations = 'Limitations and uncertainty: public guidance can change, and applicability depends on the employer, workforce, entity structure, jurisdiction, systems, contracts, plans, facts, and current law. We did not audit an employer, inspect employee records, test a production platform, or obtain a legal opinion. A control can reduce preventable administrative error without proving compliance or a correct substantive decision. Buyers should obtain qualified legal, tax, benefits, payroll, safety, privacy, security, accessibility, records, and technical review whenever the question requires it.';
-const checklist = 'Buyer implementation checklist: name the authoritative source and owner; define the full population and explicit exclusions; document intake channels and stable identifiers; separate preparation, decision, execution, review, and communication; restrict sensitive content to approved systems; create safe-stop conditions; name primary and backup owners; preserve original and corrected states; test ordinary, edge, and unauthorized paths with synthetic data; reconcile source counts to outputs; measure exceptions with denominators; and require retesting after a material rule, system, vendor, integration, entity, staffing, or scope change. If any step depends on memory, silence, shared credentials, or an undocumented side channel, keep the lane in pilot.';
-const rollout = 'Practical rollout: begin with one employing entity, one authoritative repository, and a narrow observation window. Inventory the real states before configuring automation. Have the employer approve the source hierarchy, field definitions, decision owners, access groups, communication templates, and stop rules. Run synthetic ordinary and exception records through the entire lane, then pilot with daily reconciliation and a second-person review. Compare system permissions with contractual scope and remove unnecessary access. At the end of the pilot, ask an independent authorized reviewer to reconstruct a stratified sample from intake through closure using only retained evidence. Record missing evidence and disagreements as defects rather than explaining them away. Expand volume only after corrective actions are tested, backups can act through their own accounts, and reporting shows unresolved items with named owners. Schedule periodic source checks and event-driven reviews so a changed form, instruction, integration, entity, vendor, or employer policy cannot silently leave an obsolete workflow in service.';
-
-export const october2ResearchPosts: readonly ResearchPost[] = studies.map((study) => ({
+export const october2ResearchPosts: readonly ResearchPost[] = studies.map((study) => {
+  const support = october2IndependentResearchSupport[study.slug];
+  if (!support) throw new Error(`Missing independent Research support for ${study.slug}`);
+  return {
   slug: study.slug, title: study.title, excerpt: study.excerpt, published: '2026-10-02',
   thumbnail: '/hr-team.jpg',
   sections: [
     { heading: 'Research question and buyer decision', body: study.lens },
-    { heading: 'Methodology', body: `${study.title} uses this method. ${method}` },
+    { heading: 'Methodology', body: support.method },
     { heading: 'What primary sources say—and our inference', body: study.authority },
     { heading: 'Population and denominator', body: study.population },
     { heading: 'Controlled operating sequence', body: study.sequence },
@@ -126,11 +125,12 @@ export const october2ResearchPosts: readonly ResearchPost[] = studies.map((study
     { heading: 'Control testing', body: study.tests },
     { heading: 'Decision-grade measures', body: study.measures },
     { heading: 'Role boundaries', body: study.boundary },
-    { heading: 'Buyer implementation checklist', body: `For ${study.title}, apply this checklist. ${checklist}` },
-    { heading: 'Practical rollout sequence', body: `For the ${study.slug} control lane, use this rollout. ${rollout}` },
-    { heading: 'Limitations and uncertainty', body: `These limitations apply specifically to ${study.title}. ${limitations}` },
+    { heading: 'Buyer implementation checklist', body: support.checklist },
+    { heading: 'Practical rollout sequence', body: support.rollout },
+    { heading: 'Limitations and uncertainty', body: support.limitations },
     { heading: 'Conclusion for outsourced HR buyers', body: study.conclusion },
   ],
   sources: study.sources,
   serviceLink: { title: 'Connect this research to a bounded service lane', href: `/services/${study.service}`, body: 'Review the related support scope while preserving employer authority for substantive decisions and exceptions.' },
-}));
+  };
+});
