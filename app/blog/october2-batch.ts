@@ -57,6 +57,57 @@ const firstRewritePass: readonly (readonly SectionBrief[])[] = [
   ],
 ];
 
+const secondRewritePass: readonly (readonly SectionBrief[])[] = [
+  [
+    { heading: 'Treat a duplicate signal as a hypothesis', focus: 'Compare worker IDs, names, contact details, government identifiers, employing entities, rehire links, assignments, and effective periods without assuming a match proves duplication. Shared addresses, changed names, concurrent jobs, and data-entry errors can create false positives.' },
+    { heading: 'Freeze risky changes while payroll remains observable', focus: 'Prevent unsupervised merge, deletion, direct-deposit change, tax-profile replacement, or status closure. Record affected payroll runs and let authorized payroll owners choose a controlled hold or processing path rather than losing the audit trail.' },
+    { heading: 'Reconstruct how both records were created', focus: 'Trace recruiting, onboarding, HRIS, integration, import, vendor, and manual events. Identify which record each destination treats as authoritative and where pay, deductions, balances, access, or reporting has already accumulated.' },
+    { heading: 'Resolve identity and reconcile financial effects separately', focus: 'Document whether the records represent one worker, a rehire, concurrent employment, or two people. After that identity decision, reconcile gross-to-net totals, taxes, benefits, time, general-ledger output, and retained history through approved corrections.' },
+  ],
+  [
+    { heading: 'Open the case around the participant’s event statement', focus: 'Record the participant, event they reported, event date, received time, requested coverage change, plan, and approved source channel. Intake staff may describe missing fields but must not promise eligibility or a coverage date.' },
+    { heading: 'Use a document-status map instead of an eligibility verdict', focus: 'Track requested, received, unreadable, identity mismatch, owner review, carrier submission, rejected, supplemented, and confirmed states. Keep sensitive supporting material in the restricted benefits system rather than copying it into reminder notes.' },
+    { heading: 'Protect deadlines without manufacturing certainty', focus: 'Show plan deadlines, internal review targets, carrier cutoffs, payroll freezes, and the next owner action. If evidence or terms are disputed, preserve the submission time and escalate; do not alter an event date to make processing easier.' },
+    { heading: 'Reconcile coverage, deductions, and carrier response', focus: 'Compare the plan owner’s disposition with coverage tier, covered people, effective interval, carrier acknowledgment, payroll deductions, credits, and employee communication. Leave the case open when those outcomes disagree.' },
+  ],
+  [
+    { heading: 'Verify what failed before labeling a no-show', focus: 'Check the invitation version, accepted time, timezone, meeting link, delivery status, candidate reply, interviewer attendance, lobby records, and approved accommodation path. A failed calendar or host process should not become an adverse candidate label.' },
+    { heading: 'Route signals that scheduling staff should not interpret', focus: 'Escalate disability or accommodation language, emergencies, complaints, identity concerns, technology barriers, recruiter promises, and disputed timing. Preserve the candidate’s message accurately without adding a diagnosis or credibility judgment.' },
+    { heading: 'Offer a bounded recovery path', focus: 'Use recruiter-approved wording for confirmation, one rescheduling opportunity, response deadline, available formats, and contact route. Apply the employer’s stated process consistently while allowing qualified owners to approve a different response.' },
+    { heading: 'Measure preventable failures as well as candidate outcomes', focus: 'Separate candidate absence from interviewer absence, link failure, timezone mismatch, delivery failure, late change, and unresolved request. Review patterns by process stage without using operational defects as candidate-quality evidence.' },
+  ],
+  [
+    { heading: 'Freeze one approved source version for translation', focus: 'Give the translator a version identifier, publication owner, defined audience, jurisdiction, effective date, glossary, and context notes. Changes to the source after translation begins must create a visible revision rather than silent line edits.' },
+    { heading: 'Review meaning where literal equivalence is unsafe', focus: 'Flag leave, discipline, reporting, benefits, safety, complaint, confidentiality, and acknowledgment terms for qualified review. Ask reviewers to explain ambiguities and employee actions, not merely proofread spelling.' },
+    { heading: 'Test the document with its intended readers and format', focus: 'Check reading order, headings, links, tables, forms, contact routes, screen-reader behavior, and mobile display. Confirm that examples and date or number conventions remain clear without introducing new policy promises.' },
+    { heading: 'Publish paired versions with one change history', focus: 'Link source and translation versions, approval evidence, distribution list, superseded files, acknowledgments, and correction notices. Employees should be able to identify the current document and a route for questions in the relevant language.' },
+  ],
+  [
+    { heading: 'Define the anonymity promise in operational terms', focus: 'Specify which platform fields exist, who can see raw data, whether links or devices are traceable, how free text is treated, and the smallest reportable group. Avoid claiming anonymity when administrators can identify individual responses.' },
+    { heading: 'Build a roster that supports invitations without entering analysis', focus: 'Use the minimum fields required to distribute approved invitations and reminders. Keep participation status away from line managers when the stated promise or collection purpose does not support named follow-up.' },
+    { heading: 'Control small groups, filters, comments, and exports', focus: 'Test whether combinations of location, team, tenure, role, demographics, timestamps, or narrative details can reveal a respondent. Suppress, combine, redact, or route outputs under the owner’s approved rules.' },
+    { heading: 'Report limitations beside every conclusion', focus: 'Show response population, response rate, excluded groups, threshold rules, missingness, weighting choices, and survey period. Do not present a voluntary snapshot as a complete workforce finding or expose comments to create a more dramatic report.' },
+  ],
+  [
+    { heading: 'Keep receipt, business purpose, and approval as separate facts', focus: 'Record the claimant, expense date, merchant, amount, currency, category, receipt, submitted purpose, project, and named approver. A complete packet does not establish that an item is allowable, reimbursable, or non-taxable.' },
+    { heading: 'Route exceptions without coaching the desired answer', focus: 'Pause duplicates, missing receipts, late submissions, unusual merchants, personal components, foreign exchange, disputed policy, manager conflicts, and payroll questions. Send the evidence and one bounded question to the correct owner.' },
+    { heading: 'Track the approved amount through the payment path', focus: 'Distinguish submitted, approved, adjusted, rejected, exported, scheduled, paid, returned, and cancelled states. Preserve both claimed and approved amounts so a downstream payment does not erase the reason for a difference.' },
+    { heading: 'Close from destination evidence and employee-facing clarity', focus: 'Match employee, amount, currency, payment reference, cycle, and destination response. Use approved wording to explain status and owner decisions, and leave bank, tax, wage, or policy disputes with qualified staff.' },
+  ],
+  [
+    { heading: 'Open the restricted case from an authorized instruction', focus: 'Confirm the case owner, approved notice version, participants, meeting purpose, delivery method, representation process, timing, and restricted record location. Scheduling access does not confer access to the underlying investigation or decision file.' },
+    { heading: 'Coordinate logistics without editing the decision', focus: 'Prepare invitations, approved documents, acknowledgments, interpreter or accessibility arrangements, private rooms, and attendance evidence. Route requests to change allegations, findings, consequences, or employee rights back to HR or legal owners.' },
+    { heading: 'Treat new disclosures as a stop event', focus: 'Escalate safety reports, protected activity, leave, accommodation, discrimination, retaliation, pay, medical facts, threats, representation questions, and factual disputes. Do not bury them in meeting notes or promise an outcome.' },
+    { heading: 'Record disposition without treating signature as agreement', focus: 'Distinguish delivery, attendance, receipt, signature, refusal, comments, appeal or review request, and assigned follow-up. File only the approved version and keep general trackers free of sensitive narrative.' },
+  ],
+  [
+    { heading: 'Compare the requested change with the trusted vendor record', focus: 'Identify the contract entity, service, current contacts, approved domains, portals, data routes, account owners, payment details, and verification channels. A familiar logo or urgent email is not proof of authority.' },
+    { heading: 'Verify authority outside the requesting message', focus: 'Use an established portal, known telephone contact, contract owner, or independently retrieved directory. Require separate review when a change affects bank instructions, employee data, credentials, administrators, or encryption keys.' },
+    { heading: 'Stage access and transfers at the narrowest scope', focus: 'Test a non-sensitive acknowledgment or controlled account update before releasing live files. Limit recipient, dataset, period, purpose, expiry, download, and onward sharing according to approved terms.' },
+    { heading: 'Reconcile every workflow touched by the new contact', focus: 'Review scheduled exports, shared links, mailbox rules, support tickets, invoices, access groups, integrations, and emergency contacts. Remove superseded access and retain evidence of verification, approval, first successful use, and any rejected destination.' },
+  ],
+];
+
 const expandBrief = (topic: BlogBatchTopic, brief: SectionBrief, position: number) => {
   const openings = [
     `The most important design choice in this part of ${topic.workflow} is the source of authority.`,
@@ -76,9 +127,10 @@ const baseOctober2Articles = buildBlogBatch(october2CycleDate, prefix, october2T
 
 export const october2Articles = Object.fromEntries(Object.entries(baseOctober2Articles).map(([slug, article], articleIndex) => [slug, {
   ...article,
-  ...(firstRewritePass[articleIndex] ? {
+  heroImage: '/hr-team.jpg',
+  ...((firstRewritePass[articleIndex] ?? secondRewritePass[articleIndex - firstRewritePass.length]) ? {
     minutes: 15,
-    sections: firstRewritePass[articleIndex].map((brief, sectionIndex) => ({
+    sections: (firstRewritePass[articleIndex] ?? secondRewritePass[articleIndex - firstRewritePass.length]).map((brief, sectionIndex) => ({
       heading: brief.heading,
       paragraphs: expandBrief(october2Topics[articleIndex], brief, sectionIndex),
     })),
