@@ -1,16 +1,82 @@
 {
-  "family": "research", "cycleLabel": "2026-10-02", "requiredCount": 5,
-  "publicationDate": "2026-10-02", "timezone": "UTC",
+  "family": "research",
+  "cycleLabel": "2026-10-02",
+  "requiredCount": 5,
+  "publicationDate": "2026-10-02",
+  "timezone": "UTC",
   "baseline": "856854b8adc5c72579728ab28209b9e949356082",
-  "repository": "coolifystealthagents/humanresourcesoutsourced", "productionBranch": "main",
-  "handoffOnly": true, "deploymentResource": "Coolify3 application z9ouisdufbu5unwm79ywygzb",
+  "repository": "coolifystealthagents/humanresourcesoutsourced",
+  "productionBranch": "main",
+  "contentCommit": "fb8c778200954dc4fddce7a18564354fb7ca4718",
+  "handoffOnly": true,
+  "deploymentResource": "Coolify3 application z9ouisdufbu5unwm79ywygzb",
   "entries": [
-    {"slug":"fmla-notice-sequence-reconciliation","substantiveWordCount":1405,"contentHash":"fcb3554c95a2f974c3f117ee3909e43d9e44e24a3fe81c9558354e4e92262aee","publicationDate":"2026-10-02","sources":["https://www.dol.gov/agencies/whd/fact-sheets/28d-fmla-employer%20notification","https://www.dol.gov/agencies/whd/fmla/faq","https://www.nist.gov/privacy-framework"]},
-    {"slug":"form-i9-reverification-evidence-queue","substantiveWordCount":1350,"contentHash":"a007da81f0b1406ce4bfb93087f1ffdc4892047bcfa94e0e2be237e5131f8a5d","publicationDate":"2026-10-02","sources":["https://www.uscis.gov/sites/default/files/document/forms/i-9instr.pdf","https://www.uscis.gov/sites/default/files/document/forms/i-9.pdf?page=3","https://www.nist.gov/privacy-framework"]},
-    {"slug":"aca-form-1095c-source-reconciliation","substantiveWordCount":1293,"contentHash":"99d0ee877263da1af0a0baf48f4b68da9a8b65d27254c49d0b8e03a90b8f5426","publicationDate":"2026-10-02","sources":["https://www.irs.gov/instructions/i109495c","https://www.irs.gov/affordable-care-act/employers/information-reporting-by-applicable-large-employers","https://www.irs.gov/affordable-care-act/employers/questions-and-answers-about-information-reporting-by-employers-on-form-1094-c-and-form-1095-c"]},
-    {"slug":"wage-garnishment-order-conflict-reconciliation","substantiveWordCount":1318,"contentHash":"1e2002012c19e438fc9ba7da173337795782a9d40997900bbeef8f17aa236a04","publicationDate":"2026-10-02","sources":["https://www.dol.gov/agencies/whd/wage-garnishment","https://www.dol.gov/agencies/whd/fact-sheets/30-cppa","https://www.nist.gov/privacy-framework"]},
-    {"slug":"osha-recordkeeping-case-state-reconciliation","substantiveWordCount":1305,"contentHash":"2bb5cd50b7c8cd6bfcfbe545847a43a013bd9d207b46f3205328fe9047765837","publicationDate":"2026-10-02","sources":["https://www.osha.gov/recordkeeping/forms","https://www.osha.gov/recordkeeping/recording","https://www.osha.gov/laws-regs/regulations/standardnumber/1904/1904.29"]}
+    {
+      "slug": "fmla-notice-sequence-reconciliation",
+      "substantiveWordCount": 1266,
+      "contentHash": "509bc2dd6f779a8e8d97d99abe7e88f5e664ebc5594f609fdd558687818d8b62",
+      "publicationDate": "2026-10-02",
+      "sources": [
+        "https://www.dol.gov/agencies/whd/fact-sheets/28d-fmla-employer%20notification",
+        "https://www.dol.gov/agencies/whd/fmla/faq",
+        "https://www.nist.gov/privacy-framework"
+      ]
+    },
+    {
+      "slug": "form-i9-reverification-evidence-queue",
+      "substantiveWordCount": 1203,
+      "contentHash": "a662af89f68e4b800bbef64bfd472cf55fd82879f789e1f112723cabaa1e16ae",
+      "publicationDate": "2026-10-02",
+      "sources": [
+        "https://www.uscis.gov/sites/default/files/document/forms/i-9instr.pdf",
+        "https://www.uscis.gov/sites/default/files/document/forms/i-9.pdf?page=3",
+        "https://www.nist.gov/privacy-framework"
+      ]
+    },
+    {
+      "slug": "aca-form-1095c-source-reconciliation",
+      "substantiveWordCount": 1215,
+      "contentHash": "15934d143532daa63fb14aaf23a0a3816b99c5984a3c7718fb7ce9f30b013454",
+      "publicationDate": "2026-10-02",
+      "sources": [
+        "https://www.irs.gov/instructions/i109495c",
+        "https://www.irs.gov/affordable-care-act/employers/information-reporting-by-applicable-large-employers",
+        "https://www.irs.gov/affordable-care-act/employers/questions-and-answers-about-information-reporting-by-employers-on-form-1094-c-and-form-1095-c"
+      ]
+    },
+    {
+      "slug": "wage-garnishment-order-conflict-reconciliation",
+      "substantiveWordCount": 1224,
+      "contentHash": "75ae6d30bcc50b2b4d503464c82e641e9156e088e8445c2aafc79dee872145e2",
+      "publicationDate": "2026-10-02",
+      "sources": [
+        "https://www.dol.gov/agencies/whd/wage-garnishment",
+        "https://www.dol.gov/agencies/whd/fact-sheets/30-cppa",
+        "https://www.nist.gov/privacy-framework"
+      ]
+    },
+    {
+      "slug": "osha-recordkeeping-case-state-reconciliation",
+      "substantiveWordCount": 1217,
+      "contentHash": "5c72bfe4be0b45295cd9cd7dd7cfd71d95b5d2a72b38fa59823a30f5a3b07632",
+      "publicationDate": "2026-10-02",
+      "sources": [
+        "https://www.osha.gov/recordkeeping/forms",
+        "https://www.osha.gov/recordkeeping/recording",
+        "https://www.osha.gov/laws-regs/regulations/standardnumber/1904/1904.29"
+      ]
+    }
   ],
-  "quality": {"bodyOnlyMinimum":1200,"maximumPairwiseFiveWordShingleJaccard":0.190261,"identicalParagraphs":0},
-  "verification": {"status":"local_handoff","verifiedCount":0,"owner":"HUM-80 integrator and browser operator","note":"Reconcile publication date immediately before the sole push; Research did not push or deploy."}
+  "quality": {
+    "bodyOnlyMinimum": 1200,
+    "maximumPairwiseFiveWordShingleJaccard": 0.001579,
+    "identicalParagraphs": 0,
+    "sharedLongArgumentEngine": false
+  },
+  "verification": {
+    "status": "local_handoff",
+    "verifiedCount": 0,
+    "owner": "HUM-80 integrator and browser operator",
+    "note": "Reconcile publication date immediately before the sole push; Research did not push or deploy."
+  }
 }
