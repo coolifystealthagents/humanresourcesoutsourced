@@ -81,7 +81,7 @@ export const october5ResearchPosts: readonly ResearchPost[] = [
     sources: [
       { name: `Cybersecurity Framework 2.0 — NIST — ${checked}`, url: 'https://www.nist.gov/cyberframework' },
       { name: `Business Continuity Planning Suite — Ready.gov — ${checked}`, url: 'https://www.ready.gov/business-continuity-planning-suite' },
-      { name: `Standards for Internal Control in the Federal Government (Green Book) — GAO — ${checked}`, url: 'https://www.gao.gov/green-book' },
+      { name: `Standards for Internal Control in the Federal Government (Green Book) — GAO — ${checked}`, url: 'https://www.gao.gov/greenbook' },
     ],
     serviceLink: { title: 'Test the handoff inside a bounded queue', href: '/services/hr-help-desk-support', body: 'Use explicit acceptance and backup evidence while employer specialists retain every substantive decision.' },
   },
@@ -135,7 +135,7 @@ export const october5ResearchPosts: readonly ResearchPost[] = [
       { name: `Fact Sheet #21: Recordkeeping Requirements under the FLSA — U.S. Department of Labor — ${checked}`, url: 'https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping' },
       { name: `Publication 15, Employer’s Tax Guide — Internal Revenue Service — ${checked}`, url: 'https://www.irs.gov/publications/p15' },
       { name: `Employment Tax Recordkeeping — Internal Revenue Service — ${checked}`, url: 'https://www.irs.gov/businesses/small-businesses-self-employed/employment-tax-recordkeeping' },
-      { name: `Standards for Internal Control in the Federal Government (Green Book) — GAO — ${checked}`, url: 'https://www.gao.gov/green-book' },
+      { name: `Standards for Internal Control in the Federal Government (Green Book) — GAO — ${checked}`, url: 'https://www.gao.gov/greenbook' },
     ],
     serviceLink: { title: 'Use the evidence in payroll preparation support', href: '/services/payroll-preparation-support', body: 'Review a separated preparation and reconciliation lane while the employer retains payroll approval and submission authority.' },
   },

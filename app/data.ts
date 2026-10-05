@@ -194,8 +194,7 @@ export const blogPosts = [
   ...august13BlogPosts,
   ...august11BlogPosts,
   ...dailyBlogPosts,
-  ...evergreenBlogPosts,
-] as const;
+  ...evergreenBlogPosts] as const;
 
 export const staffingOffer = {
   included: [
