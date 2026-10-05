@@ -5,6 +5,7 @@ import { october5KickoffPost } from './blog/october5-hr-outsourcing-kickoff-pack
 import { october5ProposalPost } from './blog/october5-compare-hr-outsourcing-proposals';
 import { october5PilotPost } from './blog/october5-hr-admin-pilot';
 import { october5CapacityPost } from './blog/october5-seasonal-hr-capacity';
+import { october5RenewalPost } from './blog/october5-hr-outsourcing-renewal';
 import { october2BlogPosts } from './blog/october2-batch';
 import { september28BlogPosts } from './blog/september28-batch';
 import { september25BlogPosts } from './blog/september25-batch';
@@ -150,6 +151,7 @@ const evergreenBlogPosts = [
 
 // The dated daily batch is the newest family content and must precede evergreen posts.
 export const blogPosts = [
+  october5RenewalPost,
   october5CapacityPost,
   october5PilotPost,
   october5ProposalPost,
