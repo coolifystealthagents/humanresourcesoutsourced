@@ -31,3 +31,10 @@ This ledger maps existing Philippines-based HR research to the service page that
 8. Research Article Organization identity was released in rendered-source commit `cca1cdcfe401e525ed818094da334f5b939d29a9`. The shared on-site Organization now supplies both `author` and `publisher`, each with the canonical site URL. Source, full test, build, and emitted-artifact checks passed. The routine prohibits deployment and live-site verification, so retain this as `deployment_pending_public_verification` and do not infer public rollout from the push.
 9. The October 2 audit confirms three valid, delivered research-to-service pairs: FMLA notice sequence to Employee Records Administration, Form 1095-C reconciliation to HR Reporting and QA, and OSHA recordkeeping to Employee Records Administration. Each source route has one matching anchor in `<main>`; both source and destination artifacts are canonical and sitemap-listed.
 10. The Form I-9 record now has one verified route-local handoff to the existing `onboarding-coordination` service. The wage-garnishment record still points to missing `payroll-support`; keep that row blocked until a separate service-route registration repair restores its generated artifact, canonical metadata, and sitemap location.
+
+## Delivery status — 2026-10-05
+
+- Rendered source: `0f785ea5e03425b22d06b87f517e4cfd2996cf2e`
+- Local proof: the Form I-9 research artifact has the route-local onboarding-coordination handoff exactly once, the old missing destination is absent, its Article and Open Graph modified date is `2026-10-05`, and the generated sitemap contains the same route/date plus the existing service route.
+- Deployment/public verification: `deployment_pending_public_verification`. `ops/recurring-routines.json` assigns this routine a validated Git push terminal action and prohibits Coolify deployment, deployment monitoring, and live-site verification.
+- Preserve rendered-source commit `0f785ea5e03425b22d06b87f517e4cfd2996cf2e`; this status record does not claim rollout.
