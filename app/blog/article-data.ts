@@ -7,6 +7,7 @@ import { october5PilotArticles } from './october5-hr-admin-pilot';
 import { october5CapacityArticles } from './october5-seasonal-hr-capacity';
 import { october5RenewalArticles } from './october5-hr-outsourcing-renewal';
 import { october5ResponsibilityArticles } from './october5-hr-responsibility-matrix';
+import { october5KnowledgeArticles } from './october5-hr-knowledge-base';
 import { october2Articles } from './october2-batch';
 import { september28Articles } from './september28-batch';
 import { september25Articles } from './september25-batch';
@@ -55,6 +56,7 @@ export const richArticles: Record<string, RichArticle> = {
   ...october5CapacityArticles,
   ...october5RenewalArticles,
   ...october5ResponsibilityArticles,
+  ...october5KnowledgeArticles,
   ...october2Articles,
   ...september28Articles,
   ...september25Articles,
