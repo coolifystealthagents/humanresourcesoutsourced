@@ -7,7 +7,7 @@
   "baseline": "f38404b87bfde6cbd599ea6e8851c66197a8ecec",
   "repository": "coolifystealthagents/humanresourcesoutsourced",
   "productionBranch": "main",
-  "contentCommit": "LOCAL_COMMIT_PENDING",
+  "contentCommit": "8bf0de877e7271f28c65189e0e59250b75aafdca",
   "handoffOnly": true,
   "deploymentResource": "Coolify3 application z9ouisdufbu5unwm79ywygzb",
   "publicationDateInstruction": "Integrator must reconcile this date to the actual first-publication date in the configured site timezone immediately before the sole combined push.",
