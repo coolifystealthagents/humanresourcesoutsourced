@@ -1,6 +1,7 @@
 import { october5BlogArticles } from './october5-blog-batch';
 import { october5HelpDeskArticles } from './october5-help-desk-service-levels';
 import { october5FileMigrationArticles } from './october5-employee-file-migration';
+import { october5KickoffArticles } from './october5-hr-outsourcing-kickoff-packet';
 import { october2Articles } from './october2-batch';
 import { september28Articles } from './september28-batch';
 import { september25Articles } from './september25-batch';
@@ -43,6 +44,7 @@ export const richArticles: Record<string, RichArticle> = {
   ...october5BlogArticles,
   ...october5HelpDeskArticles,
   ...october5FileMigrationArticles,
+  ...october5KickoffArticles,
   ...october2Articles,
   ...september28Articles,
   ...september25Articles,
