@@ -13,9 +13,9 @@
 
 | Slug | Body words | SHA-256 |
 | --- | ---: | --- |
-| `hr-help-desk-metrics-privacy-safe` | 1,218 | `013011b9203df6afc998a1f0ac08fbadfd4d460d44914766e2037bddebcbfd8e` |
-| `hr-onboarding-dependency-evidence` | 1,207 | `80673d18429a778e432c8e144d437f587d7ddac362e4e04665b92d57dff138b2` |
-| `hr-support-queue-owner-acknowledgment-resilience` | 1,286 | `8343c88cd8fc2a95f8b5820f91fbaad1a9be045a1803f3140518e8afb1a5ba3a` |
+| `hr-help-desk-metrics-privacy-safe` | 1,265 | `22cc5a517be3cbe56d7522cca52df9e5d76343ec9c598e6957344e71b55c4cb3` |
+| `hr-onboarding-dependency-evidence` | 1,255 | `ebfb7ed39468f1e8b26a624a525b523a738241e544dee5790b689989b859006a` |
+| `hr-form-version-drift-detection` | 1,241 | `7d2d847e33eedc5635f56f3702f65f4cf15033e5d730400e9f9b76143381b0c8` |
 | `benefits-carrier-discrepancy-resolution-evidence` | 1,212 | `fef49d11dc06c6997149a654a6bbf03591cdaec0faf28468bd32b44ed2ce974a` |
 | `payroll-cutoff-late-input-impact-evidence` | 1,222 | `46f18cb4c4da9a86298aa16f4f1e092d5c38ff0ddc167c9059ed5951d07da04d` |
 
@@ -27,7 +27,7 @@
 - Rendered equality: every source body paragraph and title appears in its generated HTML; no excerpt-only rendering.
 - Route metadata: titles, provisional dates, canonicals, structured data, shared image reference, Research index inclusion, and sitemap entries passed for all five routes.
 - Asset: `public/hr-team.jpg` exists, has a valid JPEG signature, and is referenced by all five routes.
-- Originality: maximum pairwise five-word-shingle Jaccard `0.001219`; 61 of 61 substantive paragraphs unique; qualitative repeated-paragraph, shared-argument-sequence, and reused-example checks passed.
+- Originality: maximum pairwise five-word-shingle Jaccard `0.003166`; all substantive paragraphs unique; qualitative repeated-paragraph, shared-argument-sequence, and reused-example checks passed.
 - Source destinations: all cited destinations returned HTTP 200 after correcting three moved official pages; GAO Green Book returned 403 to an automated client but remains its canonical official destination.
 - Git: latest `origin/main` was fetched immediately before commit and remained at the baseline SHA; no rebase was required.
 

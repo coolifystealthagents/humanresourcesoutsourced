@@ -1,8 +1,9 @@
 import type { ResearchPost } from '../fleet-data';
+import { october5RepairedResearchPosts } from './october5-research-repairs';
 
 const checked = 'checked October 5, 2026';
 
-export const october5ResearchPosts: readonly ResearchPost[] = [
+const october5SupersededResearchPosts: readonly ResearchPost[] = [
   {
     slug: 'hr-help-desk-metrics-privacy-safe',
     title: 'Privacy-Safe HR Help Desk Metrics: Measure the Queue Without Rebuilding the Case File',
@@ -140,3 +141,8 @@ export const october5ResearchPosts: readonly ResearchPost[] = [
     serviceLink: { title: 'Use the evidence in payroll preparation support', href: '/services/payroll-preparation-support', body: 'Review a separated preparation and reconciliation lane while the employer retains payroll approval and submission authority.' },
   },
 ] as const;
+
+export const october5ResearchPosts: readonly ResearchPost[] = [
+  ...october5RepairedResearchPosts,
+  ...october5SupersededResearchPosts.slice(3),
+];
