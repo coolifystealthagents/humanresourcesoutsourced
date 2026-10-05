@@ -2,7 +2,7 @@ import type { ResearchPost } from '../fleet-data';
 import { october2IndependentResearchSupport } from './october2-independent-support';
 
 type Study = {
-  slug: string; title: string; excerpt: string; service: string; lens: string;
+  slug: string; title: string; excerpt: string; service: string; modified?: string; lens: string;
   authority: string; population: string; sequence: string; exceptions: string;
   evidence: string; tests: string; measures: string; boundary: string; conclusion: string;
   sources: readonly { name: string; url: string }[];
@@ -32,7 +32,7 @@ const studies: readonly Study[] = [
   },
   {
     slug: 'form-i9-reverification-evidence-queue', title: 'Form I-9 Reverification Queues: Separate Document Expiration From Authorized Action',
-    excerpt: 'A buyer-oriented study of reverification queue evidence, controlled reminders, Supplement B preparation, and employer-owned exceptions.', service: 'onboarding-offboarding-support',
+    excerpt: 'A buyer-oriented study of reverification queue evidence, controlled reminders, Supplement B preparation, and employer-owned exceptions.', service: 'onboarding-coordination', modified: '2026-10-05',
     lens: 'The operational question is how to maintain a reverification queue without treating every document expiration as an instruction to request new documents. A sound queue begins with the employer-approved population and the authoritative Form I-9 record, then distinguishes work-authorization expiration, documents that should not be reverified, rehire events, name changes, receipts, and unresolved source quality. The service buyer needs evidence that reminders and preparation follow current instructions without steering an employee toward a particular document. A calendar built from copied expiration dates is not enough because an incorrect population can produce inappropriate requests at scale.',
     authority: 'USCIS instructions place reverification and eligible rehire recording in Supplement B and explain the employer or authorized representative certification. Those instructions are the primary operating source; a vendor checklist cannot replace them. The official material also makes document handling fact-dependent, so this research does not create a universal reverification rule. Our inference is narrower: outsourced support can maintain source-linked dates, prepare an employer-approved workflow, and surface uncertainty, while trained employer owners decide whether reverification is required and how unusual status, receipt, extension, remote examination, discrimination, or retention questions are resolved.',
     population: 'Inventory active employees from the employer’s authoritative roster and connect them to the actual Form I-9 record without copying identity documents into a broad tracker. Include remote hires, reverification candidates, rehired workers, leaves, transfers, terminated workers mistakenly left active, records with multiple Supplement B pages, receipts, automatic-extension evidence, missing forms, unreadable dates, and conflicts between the HRIS and protected repository. Segment by employing entity, original form version, authorization basis recorded by the employer, source location, relevant date, workflow owner, review state, and exception type. Unknown records remain visible and must not be converted into guessed deadlines.',
@@ -112,7 +112,7 @@ export const october2ResearchPosts: readonly ResearchPost[] = studies.map((study
   const support = october2IndependentResearchSupport[study.slug];
   if (!support) throw new Error(`Missing independent Research support for ${study.slug}`);
   return {
-  slug: study.slug, title: study.title, excerpt: study.excerpt, published: '2026-10-02',
+  slug: study.slug, title: study.title, excerpt: study.excerpt, published: '2026-10-02', modified: study.modified,
   thumbnail: '/hr-team.jpg',
   sections: [
     { heading: 'Research question and buyer decision', body: study.lens },
