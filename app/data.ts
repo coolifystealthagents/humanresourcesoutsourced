@@ -3,6 +3,7 @@ import { october5HelpDeskPost } from './blog/october5-help-desk-service-levels';
 import { october5FileMigrationPost } from './blog/october5-employee-file-migration';
 import { october5KickoffPost } from './blog/october5-hr-outsourcing-kickoff-packet';
 import { october5ProposalPost } from './blog/october5-compare-hr-outsourcing-proposals';
+import { october5PilotPost } from './blog/october5-hr-admin-pilot';
 import { october2BlogPosts } from './blog/october2-batch';
 import { september28BlogPosts } from './blog/september28-batch';
 import { september25BlogPosts } from './blog/september25-batch';
@@ -148,6 +149,7 @@ const evergreenBlogPosts = [
 
 // The dated daily batch is the newest family content and must precede evergreen posts.
 export const blogPosts = [
+  october5PilotPost,
   october5ProposalPost,
   october5KickoffPost,
   october5FileMigrationPost,
