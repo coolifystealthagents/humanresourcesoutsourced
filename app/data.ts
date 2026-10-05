@@ -8,6 +8,8 @@ import { october5CapacityPost } from './blog/october5-seasonal-hr-capacity';
 import { october5RenewalPost } from './blog/october5-hr-outsourcing-renewal';
 import { october5ResponsibilityPost } from './blog/october5-hr-responsibility-matrix';
 import { october5KnowledgePost } from './blog/october5-hr-knowledge-base';
+import { october5CommunicationsPost } from './blog/october5-employee-communications';
+import { october5ReadinessPost } from './blog/october5-hr-readiness';
 import { october2BlogPosts } from './blog/october2-batch';
 import { september28BlogPosts } from './blog/september28-batch';
 import { september25BlogPosts } from './blog/september25-batch';
@@ -153,6 +155,8 @@ const evergreenBlogPosts = [
 
 // The dated daily batch is the newest family content and must precede evergreen posts.
 export const blogPosts = [
+  october5ReadinessPost,
+  october5CommunicationsPost,
   october5KnowledgePost,
   october5ResponsibilityPost,
   october5RenewalPost,
