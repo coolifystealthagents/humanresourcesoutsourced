@@ -1,7 +1,14 @@
 {
-  "updatedAt": "2026-10-02T00:00:00Z",
+  "updatedAt": "2026-10-05T00:00:00Z",
   "families": {
     "research": {
+      "2026-10-05": [
+        "hr-help-desk-metrics-privacy-safe",
+        "hr-onboarding-dependency-evidence",
+        "hr-support-queue-owner-acknowledgment-resilience",
+        "benefits-carrier-discrepancy-resolution-evidence",
+        "payroll-cutoff-late-input-impact-evidence"
+      ],
       "2026-10-02": [
         "fmla-notice-sequence-reconciliation",
         "form-i9-reverification-evidence-queue",

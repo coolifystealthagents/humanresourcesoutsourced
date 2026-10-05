@@ -102,6 +102,7 @@ export const fleetServices: readonly FleetService[] = [
 
 // Add reviewed, source-backed original research here. The templates and sitemap update automatically.
 export const researchPosts: readonly ResearchPost[] = [
+  ...october5ResearchPosts,
   { slug: 'hr-workflow-documentation-control-points', title: 'HR Workflow Documentation: Where Control Points Matter Most', excerpt: 'A practical, source-backed framework for documenting recurring HR workflows without losing approval ownership.', published: '2026-08-08', sections: [
     { heading: 'Research question', body: 'Which parts of a recurring HR workflow should be documented first? The answer is the points where personal data is collected, a decision is made, or work is handed to another owner.' },
     { heading: 'Methodology', body: 'This report synthesizes official guidance on records, privacy, and internal controls, then translates it into a repeatable workflow map. It is operational guidance, not legal advice.' },
@@ -412,4 +413,5 @@ import { august21DataPrivacyPosts } from './research/august21-data-privacy-virtu
 import { august21KnowledgeRetentionPosts } from './research/august21-knowledge-retention-va-client-transitions';
 import { august21ProductivityPosts } from './research/august21-productivity-metrics-remote-admin-support';
 import { october2ResearchPosts } from './research/october2-research-batch';
+import { october5ResearchPosts } from './research/october5-research-batch';
 import { september28ResearchPosts } from './research/september28-research-batch';
