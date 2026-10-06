@@ -27,7 +27,7 @@ test('October 5 stages exactly five substantive, sourced Research articles', () 
   for (const post of posts) {
     const body = post.sections.map((section) => section.body).join(' ');
     const entry = manifest.entries.find((candidate) => candidate.slug === post.slug);
-    assert.equal(post.published, '2026-10-05');
+    assert.equal(post.published, '2026-10-06');
     assert.ok(entry);
     assert.ok(body.trim().split(/\s+/).length >= 1200);
     assert.equal(body.trim().split(/\s+/).length, entry.substantiveWordCount);

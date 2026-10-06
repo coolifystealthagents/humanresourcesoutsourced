@@ -7,7 +7,7 @@
 - Content commit: `8bf0de877e7271f28c65189e0e59250b75aafdca`
 - Role: local Research handoff only; nothing was pushed or deployed.
 - Configured site timezone used by current renderer and prior manifests: `UTC`.
-- Provisional publication date: `2026-10-05`. The Blog integrator must reconcile this to the actual first-publication date in the configured site timezone immediately before the sole combined push.
+- Actual first-publication date prepared for the approved corrective push: `2026-10-06` in configured timezone `UTC`.
 
 ## Inventory
 

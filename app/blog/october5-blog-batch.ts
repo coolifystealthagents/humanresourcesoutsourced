@@ -1,7 +1,7 @@
 import type { RichArticle } from './article-data';
 
 // Cycle label only. Reconcile this to the actual UTC first-publication date before the sole push.
-export const october5BlogDate = '2026-10-05';
+export const october5BlogDate = '2026-10-06';
 const slug = 'hr-outsourcing-provider-transition-without-losing-employee-context';
 export const october5BlogPosts = [{ slug, title: 'How to Change HR Outsourcing Providers Without Losing Employee Context', excerpt: 'Plan a controlled HR support transition that preserves open cases, records, access boundaries, employee expectations, and decision ownership.', minutes: 15, published: october5BlogDate }] as const;
 
