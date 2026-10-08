@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-08",
+  "requiredCount": 5,
+  "entries": [
+    {
+      "slug": "hr-outsourcing-owner-acknowledgement-latency-study",
+      "title": "How Long Do HR Packets Wait for Qualified-Owner Acknowledgement?",
+      "route": "/research/hr-outsourcing-owner-acknowledgement-latency-study",
+      "words": 1474,
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.gao.gov/greenbook",
+        "https://www.eeoc.gov/employers/recordkeeping-requirements",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ]
+    },
+    {
+      "slug": "hr-outsourcing-source-reconstruction-study",
+      "title": "Can a Second Reviewer Reconstruct an Outsourced HR Packet?",
+      "route": "/research/hr-outsourcing-source-reconstruction-study",
+      "words": 1474,
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.gao.gov/greenbook",
+        "https://www.eeoc.gov/employers/recordkeeping-requirements",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ]
+    },
+    {
+      "slug": "hr-outsourcing-exception-reviewer-agreement-study",
+      "title": "Do Reviewers Agree on HR Administration Exceptions?",
+      "route": "/research/hr-outsourcing-exception-reviewer-agreement-study",
+      "words": 1454,
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.gao.gov/greenbook",
+        "https://www.eeoc.gov/employers/recordkeeping-requirements",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ]
+    },
+    {
+      "slug": "hr-outsourcing-access-removal-evidence-study",
+      "title": "Does HR Offboarding Prove Access Removal?",
+      "route": "/research/hr-outsourcing-access-removal-evidence-study",
+      "words": 1444,
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.gao.gov/greenbook",
+        "https://www.eeoc.gov/employers/recordkeeping-requirements",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ]
+    },
+    {
+      "slug": "hr-outsourcing-reopened-case-recurrence-study",
+      "title": "Why Do HR Administration Cases Reopen After Closure?",
+      "route": "/research/hr-outsourcing-reopened-case-recurrence-study",
+      "words": 1464,
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.gao.gov/greenbook",
+        "https://www.eeoc.gov/employers/recordkeeping-requirements",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ]
+    }
+  ]
+}

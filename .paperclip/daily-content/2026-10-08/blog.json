@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-08",
+  "requiredCount": 12,
+  "entries": [
+    {
+      "slug": "hr-outsourcing-candidate-interview-availability-conflict",
+      "title": "Resolve a Candidate Interview Availability Conflict Without Inventing Priority",
+      "route": "/blog/hr-outsourcing-candidate-interview-availability-conflict",
+      "words": 1264
+    },
+    {
+      "slug": "hr-outsourcing-new-hire-legal-name-mismatch",
+      "title": "Route a New-Hire Name Mismatch Through the Approved Record Path",
+      "route": "/blog/hr-outsourcing-new-hire-legal-name-mismatch",
+      "words": 1270
+    },
+    {
+      "slug": "hr-outsourcing-employee-data-correction-request",
+      "title": "Prepare an Employee Data-Correction Request Without Overwriting History",
+      "route": "/blog/hr-outsourcing-employee-data-correction-request",
+      "words": 1258
+    },
+    {
+      "slug": "hr-outsourcing-manager-approval-delegation-expiry",
+      "title": "Stop HR Approvals When Manager Delegation Expires",
+      "route": "/blog/hr-outsourcing-manager-approval-delegation-expiry",
+      "words": 1252
+    },
+    {
+      "slug": "hr-outsourcing-benefits-enrollment-evidence-gap",
+      "title": "Hold a Benefits Enrollment Case With Missing Evidence",
+      "route": "/blog/hr-outsourcing-benefits-enrollment-evidence-gap",
+      "words": 1258
+    },
+    {
+      "slug": "hr-outsourcing-leave-request-sensitive-routing",
+      "title": "Route a Sensitive Leave Request With Minimum Necessary Information",
+      "route": "/blog/hr-outsourcing-leave-request-sensitive-routing",
+      "words": 1264
+    },
+    {
+      "slug": "hr-outsourcing-payroll-effective-date-conflict",
+      "title": "Preserve Conflicting Payroll Effective Dates",
+      "route": "/blog/hr-outsourcing-payroll-effective-date-conflict",
+      "words": 1240
+    },
+    {
+      "slug": "hr-outsourcing-policy-acknowledgment-version-mismatch",
+      "title": "Resolve a Policy Acknowledgment Version Mismatch",
+      "route": "/blog/hr-outsourcing-policy-acknowledgment-version-mismatch",
+      "words": 1246
+    },
+    {
+      "slug": "hr-outsourcing-offboarding-shared-mailbox-review",
+      "title": "Review Shared-Mailbox Delegation During Offboarding",
+      "route": "/blog/hr-outsourcing-offboarding-shared-mailbox-review",
+      "words": 1240
+    },
+    {
+      "slug": "hr-outsourcing-reference-check-consent-record",
+      "title": "Preserve the Consent Record for Reference-Check Coordination",
+      "route": "/blog/hr-outsourcing-reference-check-consent-record",
+      "words": 1252
+    },
+    {
+      "slug": "hr-outsourcing-training-roster-identity-collision",
+      "title": "Resolve an Identity Collision in the Training Roster",
+      "route": "/blog/hr-outsourcing-training-roster-identity-collision",
+      "words": 1258
+    },
+    {
+      "slug": "hr-outsourcing-helpdesk-owner-reassignment",
+      "title": "Transfer an HR Help-Desk Case to a New Owner",
+      "route": "/blog/hr-outsourcing-helpdesk-owner-reassignment",
+      "words": 1264
+    }
+  ]
+}

@@ -7,6 +7,7 @@ export const metadata = {
   title: `Blog | ${site.brand}`,
   description: `Philippines-based ${site.primary} planning guides.`,
 };
+const formatDate=(date:string)=>new Intl.DateTimeFormat('en-US',{month:'long',day:'numeric',year:'numeric',timeZone:'UTC'}).format(new Date(`${date}T00:00:00Z`));
 
 export default function Blog() {
   const pages = Math.max(1, Math.ceil(blogPosts.length / postsPerPage));
@@ -32,6 +33,7 @@ export default function Blog() {
           {posts.map((post) => <a className="card" href={`/blog/${post.slug}`} key={post.slug}>
             <h2>{post.title}</h2>
             <p>{post.excerpt}</p>
+            {'published' in post&&post.published?<p className="eyebrow">Published <time dateTime={post.published}>{formatDate(post.published)}</time></p>:null}
             <b>Read article →</b>
           </a>)}
         </div>
