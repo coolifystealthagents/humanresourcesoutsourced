@@ -464,7 +464,7 @@ export const october8ResearchPosts:readonly ResearchPost[]=[
     "title": "Does HR Offboarding Prove Access Removal?",
     "excerpt": "A control audit separates identity, HRIS, mailbox, file, integration, token, device, recovery, and shared-link states.",
     "published": "2026-10-08",
-    "modified": "2026-10-08",
+    "modified": "2026-10-10",
     "thumbnail": "/hr-team.jpg",
     "sections": [
       {
@@ -607,9 +607,9 @@ export const october8ResearchPosts:readonly ResearchPost[]=[
       }
     ],
     "serviceLink": {
-      "title": "Scope a bounded HR coordination lane",
-      "href": "/services",
-      "body": "Use named owners, minimum-necessary access, and retained evidence before expansion."
+      "title": "Review offboarding coordination scope",
+      "href": "/services/offboarding-coordination",
+      "body": "Use this support lane to track approved offboarding tasks and record account-disablement evidence. The employer and accountable system owners decide separation, access changes, employee communication, and closure."
     }
   },
   {
