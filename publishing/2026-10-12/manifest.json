@@ -1,0 +1,103 @@
+{
+  "site": "HumanResourcesOutsourced.com",
+  "repository": "coolifystealthagents/humanresourcesoutsourced",
+  "branch": "main",
+  "baseSha": "5c43ac23b707ad6dce4b9e78c1d6dd58a1a367ed",
+  "date": "2026-10-12",
+  "blogSystem": "app/blog/october12-batch.ts",
+  "researchSystem": "app/research/october12-research-batch.ts",
+  "blog": [
+    {
+      "slug": "hr-intake-queue-severity-triage",
+      "title": "Build an HR Intake Queue That Separates Urgency From Severity",
+      "thumbnail": "public/october-12/hr-intake-queue-severity-triage.svg"
+    },
+    {
+      "slug": "new-hire-document-expiry-control",
+      "title": "Control Expiring New-Hire Documents Without Making Eligibility Decisions",
+      "thumbnail": "public/october-12/new-hire-document-expiry-control.svg"
+    },
+    {
+      "slug": "benefits-deduction-variance-handoff",
+      "title": "Reconcile a Benefits Deduction Variance Before Payroll Cutoff",
+      "thumbnail": "public/october-12/benefits-deduction-variance-handoff.svg"
+    },
+    {
+      "slug": "employee-record-access-recertification",
+      "title": "Run an Employee-Record Access Recertification With Evidence",
+      "thumbnail": "public/october-12/employee-record-access-recertification.svg"
+    },
+    {
+      "slug": "manager-change-workflow-map",
+      "title": "Map a Manager Change Across Every HR Dependency",
+      "thumbnail": "public/october-12/manager-change-workflow-map.svg"
+    },
+    {
+      "slug": "hr-electronic-signature-recipient-mismatch",
+      "title": "Resolve an HR Electronic-Signature Recipient Mismatch",
+      "thumbnail": "public/october-12/hr-electronic-signature-recipient-mismatch.svg"
+    },
+    {
+      "slug": "hr-vendor-file-transfer-checklist",
+      "title": "Verify an HR Vendor File Transfer Before Calling It Complete",
+      "thumbnail": "public/october-12/hr-vendor-file-transfer-checklist.svg"
+    },
+    {
+      "slug": "policy-exception-register-design",
+      "title": "Design a Policy Exception Register That Preserves Authority",
+      "thumbnail": "public/october-12/policy-exception-register-design.svg"
+    },
+    {
+      "slug": "employee-status-change-effective-date",
+      "title": "Resolve an Employee Status Change With Conflicting Effective Dates",
+      "thumbnail": "public/october-12/employee-status-change-effective-date.svg"
+    },
+    {
+      "slug": "hr-knowledge-answer-retirement",
+      "title": "Retire an HR Knowledge Answer Before It Creates Drift",
+      "thumbnail": "public/october-12/hr-knowledge-answer-retirement.svg"
+    },
+    {
+      "slug": "payroll-input-cutoff-exception",
+      "title": "Handle a Late Payroll Input Without Bypassing Review",
+      "thumbnail": "public/october-12/payroll-input-cutoff-exception.svg"
+    },
+    {
+      "slug": "offboarding-forwarding-rule-review",
+      "title": "Review Mail Forwarding Rules During Employee Offboarding",
+      "thumbnail": "public/october-12/offboarding-forwarding-rule-review.svg"
+    }
+  ],
+  "research": [
+    {
+      "slug": "hr-case-reopen-rate-study",
+      "title": "What Does the HR Case Reopen Rate Actually Measure?",
+      "thumbnail": "public/october-12/hr-case-reopen-rate-study.svg",
+      "sources": 10
+    },
+    {
+      "slug": "onboarding-dependency-delay-study",
+      "title": "Which Onboarding Dependencies Create the Longest Delays?",
+      "thumbnail": "public/october-12/onboarding-dependency-delay-study.svg",
+      "sources": 10
+    },
+    {
+      "slug": "hr-access-removal-verification-study",
+      "title": "Can HR Access Removal Be Independently Verified?",
+      "thumbnail": "public/october-12/hr-access-removal-verification-study.svg",
+      "sources": 10
+    },
+    {
+      "slug": "payroll-variance-escalation-study",
+      "title": "Which Payroll Variances Need Earlier Escalation?",
+      "thumbnail": "public/october-12/payroll-variance-escalation-study.svg",
+      "sources": 10
+    },
+    {
+      "slug": "hr-knowledge-drift-study",
+      "title": "How Quickly Does Approved HR Knowledge Drift?",
+      "thumbnail": "public/october-12/hr-knowledge-drift-study.svg",
+      "sources": 10
+    }
+  ]
+}
