@@ -158,7 +158,7 @@ export const october8ResearchPosts:readonly ResearchPost[]=[
     "title": "Can a Second Reviewer Reconstruct an Outsourced HR Packet?",
     "excerpt": "A blinded reconstruction study tests source lineage, definitions, timestamps, exclusions, approvals, and destination proof.",
     "published": "2026-10-08",
-    "modified": "2026-10-08",
+    "modified": "2026-10-12",
     "thumbnail": "/hr-team.jpg",
     "sections": [
       {
@@ -301,9 +301,9 @@ export const october8ResearchPosts:readonly ResearchPost[]=[
       }
     ],
     "serviceLink": {
-      "title": "Scope a bounded HR coordination lane",
-      "href": "/services",
-      "body": "Use named owners, minimum-necessary access, and retained evidence before expansion."
+      "title": "Review employee-records administration scope",
+      "href": "/services/employee-records-administration",
+      "body": "Use a Philippines-based coordinator to check approved source evidence, file the record in the named system, and keep a reconciliation log. The employer keeps authoritative values, retention rules, access decisions, and exception decisions."
     }
   },
   {
