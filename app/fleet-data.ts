@@ -2,6 +2,7 @@ export type FleetService = { slug: string; title: string; desc: string; tasks: r
 export type ResearchPost = { slug: string; title: string; excerpt: string; published: string; modified?: string; thumbnail?: string; sections: readonly { heading: string; body: string }[]; sources?: readonly { name: string; url: string }[]; serviceLink?: { title: string; href: string; body: string } };
 import { august13ResearchPosts } from './research/august13-batch';
 import { october12ResearchPosts } from './research/october12-research-batch';
+import { october13ResearchPosts } from './research/october13-research-batch';
 import { august14ResearchPosts } from './research/august14-batch';
 import { august17ResearchPosts } from './research/august17-batch';
 import { august18ResearchPosts } from './research/august18-batch';
@@ -103,6 +104,7 @@ export const fleetServices: readonly FleetService[] = [
 
 // Add reviewed, source-backed original research here. The templates and sitemap update automatically.
 export const researchPosts: readonly ResearchPost[] = [
+  ...october13ResearchPosts,
   ...october12ResearchPosts,
   ...october8ResearchPosts,
   ...october5ResearchPosts,

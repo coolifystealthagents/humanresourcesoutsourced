@@ -1,0 +1,246 @@
+{
+  "site": "HumanResourcesOutsourced.com",
+  "canonicalDomain": "https://humanresourcesoutsourced.com",
+  "repository": "coolifystealthagents/humanresourcesoutsourced",
+  "branch": "main",
+  "baseSha": "12f2d6bc89749d97e19a5e12d5f55cc2c7d685ac",
+  "date": "2026-10-13",
+  "counts": {
+    "blog": 12,
+    "research": 5,
+    "total": 17,
+    "thumbnails": 17
+  },
+  "items": [
+    {
+      "kind": "Blog",
+      "slug": "employee-preferred-name-synchronization",
+      "title": "Verify Employee Preferred Name Synchronization",
+      "sourcePath": "app/blog/october13-batch.ts",
+      "thumbnailPath": "public/october-13/employee-preferred-name-synchronization.svg",
+      "publicationDate": "2026-10-13",
+      "wordCount": 2999,
+      "sha256": "a76ebb98a59bce8a56e2cf2911905cc969a262437ff903622b69ef277f659450"
+    },
+    {
+      "kind": "Blog",
+      "slug": "workplace-accommodation-intake-routing",
+      "title": "Route a Workplace Accommodation Intake Without Interpreting It",
+      "sourcePath": "app/blog/october13-batch.ts",
+      "thumbnailPath": "public/october-13/workplace-accommodation-intake-routing.svg",
+      "publicationDate": "2026-10-13",
+      "wordCount": 3087,
+      "sha256": "27a1eb51798e148947cb6d77d360f2f66c5f544ac417233cdd1521f14dbd0ac9"
+    },
+    {
+      "kind": "Blog",
+      "slug": "background-check-adverse-action-handoff",
+      "title": "Control a Background Check Adverse Action Handoff",
+      "sourcePath": "app/blog/october13-batch.ts",
+      "thumbnailPath": "public/october-13/background-check-adverse-action-handoff.svg",
+      "publicationDate": "2026-10-13",
+      "wordCount": 3055,
+      "sha256": "65a30cbba83e114fb8a03a6b3a7e64b98ae8ae054a5276128387fc31b02e706e"
+    },
+    {
+      "kind": "Blog",
+      "slug": "timekeeping-location-code-change",
+      "title": "Reconcile Timekeeping Location Code Changes",
+      "sourcePath": "app/blog/october13-batch.ts",
+      "thumbnailPath": "public/october-13/timekeeping-location-code-change.svg",
+      "publicationDate": "2026-10-13",
+      "wordCount": 2999,
+      "sha256": "e6babcd3b2aff189e95d7bc84197abb76959667038064a2a1aed6125080fd2b0"
+    },
+    {
+      "kind": "Blog",
+      "slug": "contractor-assignment-expiry-tracking",
+      "title": "Track Expiring Contractor Assignments",
+      "sourcePath": "app/blog/october13-batch.ts",
+      "thumbnailPath": "public/october-13/contractor-assignment-expiry-tracking.svg",
+      "publicationDate": "2026-10-13",
+      "wordCount": 2999,
+      "sha256": "7e24b601a7df6285dbe054a6fe07a1145932482223e5523c6d951b915cbd1093"
+    },
+    {
+      "kind": "Blog",
+      "slug": "emergency-contact-data-correction",
+      "title": "Review Emergency Contact Data Corrections",
+      "sourcePath": "app/blog/october13-batch.ts",
+      "thumbnailPath": "public/october-13/emergency-contact-data-correction.svg",
+      "publicationDate": "2026-10-13",
+      "wordCount": 2983,
+      "sha256": "9e21256de7651039565dc3cdf29bc8cf5335661262b3c5e8011d8d44d5d67a91"
+    },
+    {
+      "kind": "Blog",
+      "slug": "leave-vendor-escalation-packet",
+      "title": "Prepare a Leave Administration Vendor Escalation",
+      "sourcePath": "app/blog/october13-batch.ts",
+      "thumbnailPath": "public/october-13/leave-vendor-escalation-packet.svg",
+      "publicationDate": "2026-10-13",
+      "wordCount": 3039,
+      "sha256": "7e3e4b8e77f70eb8daf7f06792bcb6bcc6ae6d28cef866a80822f2f882f51469"
+    },
+    {
+      "kind": "Blog",
+      "slug": "interview-recording-consent-audit",
+      "title": "Audit Recruiting Interview Recording Consent",
+      "sourcePath": "app/blog/october13-batch.ts",
+      "thumbnailPath": "public/october-13/interview-recording-consent-audit.svg",
+      "publicationDate": "2026-10-13",
+      "wordCount": 3007,
+      "sha256": "49572ef4e66b01d4266c6af0c1a1ea7f1cf848fa9a5f230195cf41dbd57727bc"
+    },
+    {
+      "kind": "Blog",
+      "slug": "manager-approval-delegation-closure",
+      "title": "Close a Former Manager Approval Delegation",
+      "sourcePath": "app/blog/october13-batch.ts",
+      "thumbnailPath": "public/october-13/manager-approval-delegation-closure.svg",
+      "publicationDate": "2026-10-13",
+      "wordCount": 3023,
+      "sha256": "b5ed89719e84003c97c10becf71ba6d588f613dac0aa455e1cd1078dd2e93eee"
+    },
+    {
+      "kind": "Blog",
+      "slug": "compensation-letter-delivery-receipt",
+      "title": "Maintain a Compensation Letter Delivery Receipt",
+      "sourcePath": "app/blog/october13-batch.ts",
+      "thumbnailPath": "public/october-13/compensation-letter-delivery-receipt.svg",
+      "publicationDate": "2026-10-13",
+      "wordCount": 3015,
+      "sha256": "b293a0e7e3f09f328f4527e71499178ccfde96d11b6160b58e783f2d68295401"
+    },
+    {
+      "kind": "Blog",
+      "slug": "training-completion-evidence-reconciliation",
+      "title": "Reconcile Employee Training Completion Evidence",
+      "sourcePath": "app/blog/october13-batch.ts",
+      "thumbnailPath": "public/october-13/training-completion-evidence-reconciliation.svg",
+      "publicationDate": "2026-10-13",
+      "wordCount": 3007,
+      "sha256": "d9bb437b9bbb6c01f7a84982a801fea9c2758e140f3ea646b394b55fc53f40fd"
+    },
+    {
+      "kind": "Blog",
+      "slug": "hr-investigation-document-request-handoff",
+      "title": "Handoff an HR Investigation Document Request",
+      "sourcePath": "app/blog/october13-batch.ts",
+      "thumbnailPath": "public/october-13/hr-investigation-document-request-handoff.svg",
+      "publicationDate": "2026-10-13",
+      "wordCount": 3055,
+      "sha256": "03bbaf911d4b8dc381b63aef4175205358ab0f3318b851369a6c70768146c62e"
+    },
+    {
+      "kind": "Research",
+      "slug": "employee-data-correction-turnaround-reliability",
+      "title": "Employee Data Correction Turnaround Reliability Study",
+      "sourcePath": "app/research/october13-research-batch.ts",
+      "thumbnailPath": "public/october-13/employee-data-correction-turnaround-reliability.svg",
+      "publicationDate": "2026-10-13",
+      "wordCount": 3227,
+      "sha256": "d1f3e64c2d4ec04065860967200cde5a600f2d9a213ab06a89137883761cee86",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "https://www.gao.gov/green-book",
+        "https://www.eeoc.gov/employers/recordkeeping-requirements",
+        "https://www.dol.gov/general/topic/workhours/recordkeeping",
+        "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business",
+        "https://www.cisa.gov/cybersecurity-performance-goals",
+        "https://www.archives.gov/records-mgmt",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ]
+    },
+    {
+      "kind": "Research",
+      "slug": "hr-intake-misclassification-study",
+      "title": "HR Intake Misclassification Detection Study",
+      "sourcePath": "app/research/october13-research-batch.ts",
+      "thumbnailPath": "public/october-13/hr-intake-misclassification-study.svg",
+      "publicationDate": "2026-10-13",
+      "wordCount": 3242,
+      "sha256": "a54a7e392b32ac4d7a490caa613a358c37becd0fddc32e65fbc8b983fdcfd6b6",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "https://www.gao.gov/green-book",
+        "https://www.eeoc.gov/employers/recordkeeping-requirements",
+        "https://www.dol.gov/general/topic/workhours/recordkeeping",
+        "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business",
+        "https://www.cisa.gov/cybersecurity-performance-goals",
+        "https://www.archives.gov/records-mgmt",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ]
+    },
+    {
+      "kind": "Research",
+      "slug": "manager-delegation-expiry-study",
+      "title": "Manager Approval Delegation Expiry Control Study",
+      "sourcePath": "app/research/october13-research-batch.ts",
+      "thumbnailPath": "public/october-13/manager-delegation-expiry-study.svg",
+      "publicationDate": "2026-10-13",
+      "wordCount": 3197,
+      "sha256": "756dcb706ff2ca41710552b69d2bec47dc379cc4bb436053323e49be7b4ea55a",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "https://www.gao.gov/green-book",
+        "https://www.eeoc.gov/employers/recordkeeping-requirements",
+        "https://www.dol.gov/general/topic/workhours/recordkeeping",
+        "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business",
+        "https://www.cisa.gov/cybersecurity-performance-goals",
+        "https://www.archives.gov/records-mgmt",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ]
+    },
+    {
+      "kind": "Research",
+      "slug": "recruiting-scheduling-cancellation-bias-study",
+      "title": "Recruiting Scheduling Cancellation Bias Study",
+      "sourcePath": "app/research/october13-research-batch.ts",
+      "thumbnailPath": "public/october-13/recruiting-scheduling-cancellation-bias-study.svg",
+      "publicationDate": "2026-10-13",
+      "wordCount": 3212,
+      "sha256": "7088eacc35f51382e08b1006296b7cf066b96fdc8743d1dab9dffcef61b225b3",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "https://www.gao.gov/green-book",
+        "https://www.eeoc.gov/employers/recordkeeping-requirements",
+        "https://www.dol.gov/general/topic/workhours/recordkeeping",
+        "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business",
+        "https://www.cisa.gov/cybersecurity-performance-goals",
+        "https://www.archives.gov/records-mgmt",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ]
+    },
+    {
+      "kind": "Research",
+      "slug": "employee-record-source-conflict-study",
+      "title": "Employee Record Source Conflict Resolution Study",
+      "sourcePath": "app/research/october13-research-batch.ts",
+      "thumbnailPath": "public/october-13/employee-record-source-conflict-study.svg",
+      "publicationDate": "2026-10-13",
+      "wordCount": 3272,
+      "sha256": "db2b88cfe064b7a4e80e60cdb83c4cf4d3e79405a5d295d81eed655dcf74b09f",
+      "sources": [
+        "https://www.nist.gov/cyberframework",
+        "https://www.nist.gov/privacy-framework",
+        "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "https://www.gao.gov/green-book",
+        "https://www.eeoc.gov/employers/recordkeeping-requirements",
+        "https://www.dol.gov/general/topic/workhours/recordkeeping",
+        "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business",
+        "https://www.cisa.gov/cybersecurity-performance-goals",
+        "https://www.archives.gov/records-mgmt",
+        "https://privacy.gov.ph/data-privacy-act/"
+      ]
+    }
+  ]
+}
