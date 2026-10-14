@@ -112,9 +112,9 @@ export const october13ResearchPosts: readonly ResearchPost[] = [
       }
     ],
     "serviceLink": {
-      "title": "Scope an evidence-led HR coordination lane",
-      "href": "/services",
-      "body": "Apply the employee-data-correction-turnaround-reliability protocol to a bounded queue before expanding permissions or volume."
+      "title": "Review employee-records administration scope",
+      "href": "/services/employee-records-administration",
+      "body": "A Philippines-based coordinator can check approved source evidence, file an authorized correction in the named system, and keep a before-and-after log. The employer keeps authority over the record value, access, retention, employee notice, and any exception."
     }
   },
   {
