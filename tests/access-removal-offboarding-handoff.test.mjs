@@ -4,7 +4,25 @@ import assert from 'node:assert/strict';
 
 const record = fs.readFileSync('app/research/october8-research-batch.ts', 'utf8');
 const services = fs.readFileSync('app/fleet-data.ts', 'utf8');
+const localServices = fs.readFileSync('app/data.ts', 'utf8');
 const page = fs.readFileSync('app/research/[slug]/page.tsx', 'utf8');
+
+test('owner-acknowledgement research links to the local HR reporting and QA service', () => {
+  const selected = record.slice(record.indexOf('"slug": "hr-outsourcing-owner-acknowledgement-latency-study"'), record.indexOf('"slug": "hr-outsourcing-source-reconstruction-study"'));
+  assert.ok(selected.length > 0);
+  assert.match(selected, /"published": "2026-10-08"/);
+  assert.match(selected, /"modified": "2026-10-16"/);
+  assert.match(selected, /"title": "Review HR reporting and QA scope"/);
+  assert.match(selected, /"href": "\/services\/reporting-and-qa"/);
+  assert.match(selected, /prepare an owner-acknowledgement register, flag missing evidence, and report open packets/);
+  assert.match(selected, /HR owner decides priorities, follow-up, employee communication, and any operational change/);
+  assert.doesNotMatch(selected, /"href": "\/services"/);
+  const reportingService = localServices.slice(localServices.indexOf("slug: 'reporting-and-qa'"), localServices.indexOf('] as const;'));
+  assert.match(reportingService, /weekly HR reports/);
+  assert.match(reportingService, /owner signoff before reports are sent outside HR/);
+  assert.match(page, /post\.serviceLink/);
+  assert.match(page, /modifiedTime: post\.modified/);
+});
 
 test('access-removal research links once to the bounded offboarding coordination scope', () => {
   const selected = record.slice(record.indexOf('"slug": "hr-outsourcing-access-removal-evidence-study"'), record.indexOf('"slug": "hr-outsourcing-reopened-case-recurrence-study"'));

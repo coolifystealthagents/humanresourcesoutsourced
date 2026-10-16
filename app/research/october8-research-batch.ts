@@ -5,7 +5,7 @@ export const october8ResearchPosts:readonly ResearchPost[]=[
     "title": "How Long Do HR Packets Wait for Qualified-Owner Acknowledgement?",
     "excerpt": "A prospective protocol separates coordination, acknowledgement, decision, execution, employee update, and verified closure.",
     "published": "2026-10-08",
-    "modified": "2026-10-08",
+    "modified": "2026-10-16",
     "thumbnail": "/hr-team.jpg",
     "sections": [
       {
@@ -148,10 +148,10 @@ export const october8ResearchPosts:readonly ResearchPost[]=[
       }
     ],
     "serviceLink": {
-      "title": "Scope a bounded HR coordination lane",
-      "href": "/services",
-      "body": "Use named owners, minimum-necessary access, and retained evidence before expansion."
-    }
+      "title": "Review HR reporting and QA scope",
+      "href": "/services/reporting-and-qa",
+      "body": "Use a Philippines-based HR support lane to prepare an owner-acknowledgement register, flag missing evidence, and report open packets. The HR owner decides priorities, follow-up, employee communication, and any operational change."
+    },
   },
   {
     "slug": "hr-outsourcing-source-reconstruction-study",
