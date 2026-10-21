@@ -308,32 +308,32 @@ export const october13BlogArticles: Record<string, RichArticle> = {
     ],
     "sources": [
       {
-        "name": "NIST Cybersecurity Framework 2.0 \u2014 accessed 2026-10-13",
+        "name": "NIST Cybersecurity Framework 2.0, accessed 2026-10-13",
         "url": "https://www.nist.gov/cyberframework",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "NIST Privacy Framework \u2014 accessed 2026-10-13",
+        "name": "NIST Privacy Framework, accessed 2026-10-13",
         "url": "https://www.nist.gov/privacy-framework",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "NIST SP 800-53 Revision 5 \u2014 accessed 2026-10-13",
+        "name": "NIST SP 800-53 Revision 5, accessed 2026-10-13",
         "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "GAO Green Book \u2014 accessed 2026-10-13",
+        "name": "GAO Green Book, accessed 2026-10-13",
         "url": "https://www.gao.gov/green-book",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "EEOC Recordkeeping Requirements \u2014 accessed 2026-10-13",
+        "name": "EEOC Recordkeeping Requirements, accessed 2026-10-13",
         "url": "https://www.eeoc.gov/employers/recordkeeping-requirements",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "U.S. Department of Labor Recordkeeping \u2014 accessed 2026-10-13",
+        "name": "U.S. Department of Labor Recordkeeping, accessed 2026-10-13",
         "url": "https://www.dol.gov/general/topic/workhours/recordkeeping",
         "note": "Authoritative control reference checked 2026-10-13."
       }
@@ -584,32 +584,32 @@ export const october13BlogArticles: Record<string, RichArticle> = {
     ],
     "sources": [
       {
-        "name": "NIST Cybersecurity Framework 2.0 \u2014 accessed 2026-10-13",
+        "name": "NIST Cybersecurity Framework 2.0, accessed 2026-10-13",
         "url": "https://www.nist.gov/cyberframework",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "NIST Privacy Framework \u2014 accessed 2026-10-13",
+        "name": "NIST Privacy Framework, accessed 2026-10-13",
         "url": "https://www.nist.gov/privacy-framework",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "NIST SP 800-53 Revision 5 \u2014 accessed 2026-10-13",
+        "name": "NIST SP 800-53 Revision 5, accessed 2026-10-13",
         "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "GAO Green Book \u2014 accessed 2026-10-13",
+        "name": "GAO Green Book, accessed 2026-10-13",
         "url": "https://www.gao.gov/green-book",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "EEOC Recordkeeping Requirements \u2014 accessed 2026-10-13",
+        "name": "EEOC Recordkeeping Requirements, accessed 2026-10-13",
         "url": "https://www.eeoc.gov/employers/recordkeeping-requirements",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "U.S. Department of Labor Recordkeeping \u2014 accessed 2026-10-13",
+        "name": "U.S. Department of Labor Recordkeeping, accessed 2026-10-13",
         "url": "https://www.dol.gov/general/topic/workhours/recordkeeping",
         "note": "Authoritative control reference checked 2026-10-13."
       }
@@ -860,32 +860,32 @@ export const october13BlogArticles: Record<string, RichArticle> = {
     ],
     "sources": [
       {
-        "name": "NIST Cybersecurity Framework 2.0 \u2014 accessed 2026-10-13",
+        "name": "NIST Cybersecurity Framework 2.0, accessed 2026-10-13",
         "url": "https://www.nist.gov/cyberframework",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "NIST Privacy Framework \u2014 accessed 2026-10-13",
+        "name": "NIST Privacy Framework, accessed 2026-10-13",
         "url": "https://www.nist.gov/privacy-framework",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "NIST SP 800-53 Revision 5 \u2014 accessed 2026-10-13",
+        "name": "NIST SP 800-53 Revision 5, accessed 2026-10-13",
         "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "GAO Green Book \u2014 accessed 2026-10-13",
+        "name": "GAO Green Book, accessed 2026-10-13",
         "url": "https://www.gao.gov/green-book",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "EEOC Recordkeeping Requirements \u2014 accessed 2026-10-13",
+        "name": "EEOC Recordkeeping Requirements, accessed 2026-10-13",
         "url": "https://www.eeoc.gov/employers/recordkeeping-requirements",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "U.S. Department of Labor Recordkeeping \u2014 accessed 2026-10-13",
+        "name": "U.S. Department of Labor Recordkeeping, accessed 2026-10-13",
         "url": "https://www.dol.gov/general/topic/workhours/recordkeeping",
         "note": "Authoritative control reference checked 2026-10-13."
       }
@@ -1136,32 +1136,32 @@ export const october13BlogArticles: Record<string, RichArticle> = {
     ],
     "sources": [
       {
-        "name": "NIST Cybersecurity Framework 2.0 \u2014 accessed 2026-10-13",
+        "name": "NIST Cybersecurity Framework 2.0, accessed 2026-10-13",
         "url": "https://www.nist.gov/cyberframework",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "NIST Privacy Framework \u2014 accessed 2026-10-13",
+        "name": "NIST Privacy Framework, accessed 2026-10-13",
         "url": "https://www.nist.gov/privacy-framework",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "NIST SP 800-53 Revision 5 \u2014 accessed 2026-10-13",
+        "name": "NIST SP 800-53 Revision 5, accessed 2026-10-13",
         "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "GAO Green Book \u2014 accessed 2026-10-13",
+        "name": "GAO Green Book, accessed 2026-10-13",
         "url": "https://www.gao.gov/green-book",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "EEOC Recordkeeping Requirements \u2014 accessed 2026-10-13",
+        "name": "EEOC Recordkeeping Requirements, accessed 2026-10-13",
         "url": "https://www.eeoc.gov/employers/recordkeeping-requirements",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "U.S. Department of Labor Recordkeeping \u2014 accessed 2026-10-13",
+        "name": "U.S. Department of Labor Recordkeeping, accessed 2026-10-13",
         "url": "https://www.dol.gov/general/topic/workhours/recordkeeping",
         "note": "Authoritative control reference checked 2026-10-13."
       }
@@ -1412,32 +1412,32 @@ export const october13BlogArticles: Record<string, RichArticle> = {
     ],
     "sources": [
       {
-        "name": "NIST Cybersecurity Framework 2.0 \u2014 accessed 2026-10-13",
+        "name": "NIST Cybersecurity Framework 2.0, accessed 2026-10-13",
         "url": "https://www.nist.gov/cyberframework",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "NIST Privacy Framework \u2014 accessed 2026-10-13",
+        "name": "NIST Privacy Framework, accessed 2026-10-13",
         "url": "https://www.nist.gov/privacy-framework",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "NIST SP 800-53 Revision 5 \u2014 accessed 2026-10-13",
+        "name": "NIST SP 800-53 Revision 5, accessed 2026-10-13",
         "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "GAO Green Book \u2014 accessed 2026-10-13",
+        "name": "GAO Green Book, accessed 2026-10-13",
         "url": "https://www.gao.gov/green-book",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "EEOC Recordkeeping Requirements \u2014 accessed 2026-10-13",
+        "name": "EEOC Recordkeeping Requirements, accessed 2026-10-13",
         "url": "https://www.eeoc.gov/employers/recordkeeping-requirements",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "U.S. Department of Labor Recordkeeping \u2014 accessed 2026-10-13",
+        "name": "U.S. Department of Labor Recordkeeping, accessed 2026-10-13",
         "url": "https://www.dol.gov/general/topic/workhours/recordkeeping",
         "note": "Authoritative control reference checked 2026-10-13."
       }
@@ -1688,32 +1688,32 @@ export const october13BlogArticles: Record<string, RichArticle> = {
     ],
     "sources": [
       {
-        "name": "NIST Cybersecurity Framework 2.0 \u2014 accessed 2026-10-13",
+        "name": "NIST Cybersecurity Framework 2.0, accessed 2026-10-13",
         "url": "https://www.nist.gov/cyberframework",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "NIST Privacy Framework \u2014 accessed 2026-10-13",
+        "name": "NIST Privacy Framework, accessed 2026-10-13",
         "url": "https://www.nist.gov/privacy-framework",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "NIST SP 800-53 Revision 5 \u2014 accessed 2026-10-13",
+        "name": "NIST SP 800-53 Revision 5, accessed 2026-10-13",
         "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "GAO Green Book \u2014 accessed 2026-10-13",
+        "name": "GAO Green Book, accessed 2026-10-13",
         "url": "https://www.gao.gov/green-book",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "EEOC Recordkeeping Requirements \u2014 accessed 2026-10-13",
+        "name": "EEOC Recordkeeping Requirements, accessed 2026-10-13",
         "url": "https://www.eeoc.gov/employers/recordkeeping-requirements",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "U.S. Department of Labor Recordkeeping \u2014 accessed 2026-10-13",
+        "name": "U.S. Department of Labor Recordkeeping, accessed 2026-10-13",
         "url": "https://www.dol.gov/general/topic/workhours/recordkeeping",
         "note": "Authoritative control reference checked 2026-10-13."
       }
@@ -1964,32 +1964,32 @@ export const october13BlogArticles: Record<string, RichArticle> = {
     ],
     "sources": [
       {
-        "name": "NIST Cybersecurity Framework 2.0 \u2014 accessed 2026-10-13",
+        "name": "NIST Cybersecurity Framework 2.0, accessed 2026-10-13",
         "url": "https://www.nist.gov/cyberframework",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "NIST Privacy Framework \u2014 accessed 2026-10-13",
+        "name": "NIST Privacy Framework, accessed 2026-10-13",
         "url": "https://www.nist.gov/privacy-framework",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "NIST SP 800-53 Revision 5 \u2014 accessed 2026-10-13",
+        "name": "NIST SP 800-53 Revision 5, accessed 2026-10-13",
         "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "GAO Green Book \u2014 accessed 2026-10-13",
+        "name": "GAO Green Book, accessed 2026-10-13",
         "url": "https://www.gao.gov/green-book",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "EEOC Recordkeeping Requirements \u2014 accessed 2026-10-13",
+        "name": "EEOC Recordkeeping Requirements, accessed 2026-10-13",
         "url": "https://www.eeoc.gov/employers/recordkeeping-requirements",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "U.S. Department of Labor Recordkeeping \u2014 accessed 2026-10-13",
+        "name": "U.S. Department of Labor Recordkeeping, accessed 2026-10-13",
         "url": "https://www.dol.gov/general/topic/workhours/recordkeeping",
         "note": "Authoritative control reference checked 2026-10-13."
       }
@@ -2240,32 +2240,32 @@ export const october13BlogArticles: Record<string, RichArticle> = {
     ],
     "sources": [
       {
-        "name": "NIST Cybersecurity Framework 2.0 \u2014 accessed 2026-10-13",
+        "name": "NIST Cybersecurity Framework 2.0, accessed 2026-10-13",
         "url": "https://www.nist.gov/cyberframework",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "NIST Privacy Framework \u2014 accessed 2026-10-13",
+        "name": "NIST Privacy Framework, accessed 2026-10-13",
         "url": "https://www.nist.gov/privacy-framework",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "NIST SP 800-53 Revision 5 \u2014 accessed 2026-10-13",
+        "name": "NIST SP 800-53 Revision 5, accessed 2026-10-13",
         "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "GAO Green Book \u2014 accessed 2026-10-13",
+        "name": "GAO Green Book, accessed 2026-10-13",
         "url": "https://www.gao.gov/green-book",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "EEOC Recordkeeping Requirements \u2014 accessed 2026-10-13",
+        "name": "EEOC Recordkeeping Requirements, accessed 2026-10-13",
         "url": "https://www.eeoc.gov/employers/recordkeeping-requirements",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "U.S. Department of Labor Recordkeeping \u2014 accessed 2026-10-13",
+        "name": "U.S. Department of Labor Recordkeeping, accessed 2026-10-13",
         "url": "https://www.dol.gov/general/topic/workhours/recordkeeping",
         "note": "Authoritative control reference checked 2026-10-13."
       }
@@ -2516,32 +2516,32 @@ export const october13BlogArticles: Record<string, RichArticle> = {
     ],
     "sources": [
       {
-        "name": "NIST Cybersecurity Framework 2.0 \u2014 accessed 2026-10-13",
+        "name": "NIST Cybersecurity Framework 2.0, accessed 2026-10-13",
         "url": "https://www.nist.gov/cyberframework",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "NIST Privacy Framework \u2014 accessed 2026-10-13",
+        "name": "NIST Privacy Framework, accessed 2026-10-13",
         "url": "https://www.nist.gov/privacy-framework",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "NIST SP 800-53 Revision 5 \u2014 accessed 2026-10-13",
+        "name": "NIST SP 800-53 Revision 5, accessed 2026-10-13",
         "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "GAO Green Book \u2014 accessed 2026-10-13",
+        "name": "GAO Green Book, accessed 2026-10-13",
         "url": "https://www.gao.gov/green-book",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "EEOC Recordkeeping Requirements \u2014 accessed 2026-10-13",
+        "name": "EEOC Recordkeeping Requirements, accessed 2026-10-13",
         "url": "https://www.eeoc.gov/employers/recordkeeping-requirements",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "U.S. Department of Labor Recordkeeping \u2014 accessed 2026-10-13",
+        "name": "U.S. Department of Labor Recordkeeping, accessed 2026-10-13",
         "url": "https://www.dol.gov/general/topic/workhours/recordkeeping",
         "note": "Authoritative control reference checked 2026-10-13."
       }
@@ -2792,32 +2792,32 @@ export const october13BlogArticles: Record<string, RichArticle> = {
     ],
     "sources": [
       {
-        "name": "NIST Cybersecurity Framework 2.0 \u2014 accessed 2026-10-13",
+        "name": "NIST Cybersecurity Framework 2.0, accessed 2026-10-13",
         "url": "https://www.nist.gov/cyberframework",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "NIST Privacy Framework \u2014 accessed 2026-10-13",
+        "name": "NIST Privacy Framework, accessed 2026-10-13",
         "url": "https://www.nist.gov/privacy-framework",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "NIST SP 800-53 Revision 5 \u2014 accessed 2026-10-13",
+        "name": "NIST SP 800-53 Revision 5, accessed 2026-10-13",
         "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "GAO Green Book \u2014 accessed 2026-10-13",
+        "name": "GAO Green Book, accessed 2026-10-13",
         "url": "https://www.gao.gov/green-book",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "EEOC Recordkeeping Requirements \u2014 accessed 2026-10-13",
+        "name": "EEOC Recordkeeping Requirements, accessed 2026-10-13",
         "url": "https://www.eeoc.gov/employers/recordkeeping-requirements",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "U.S. Department of Labor Recordkeeping \u2014 accessed 2026-10-13",
+        "name": "U.S. Department of Labor Recordkeeping, accessed 2026-10-13",
         "url": "https://www.dol.gov/general/topic/workhours/recordkeeping",
         "note": "Authoritative control reference checked 2026-10-13."
       }
@@ -3068,32 +3068,32 @@ export const october13BlogArticles: Record<string, RichArticle> = {
     ],
     "sources": [
       {
-        "name": "NIST Cybersecurity Framework 2.0 \u2014 accessed 2026-10-13",
+        "name": "NIST Cybersecurity Framework 2.0, accessed 2026-10-13",
         "url": "https://www.nist.gov/cyberframework",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "NIST Privacy Framework \u2014 accessed 2026-10-13",
+        "name": "NIST Privacy Framework, accessed 2026-10-13",
         "url": "https://www.nist.gov/privacy-framework",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "NIST SP 800-53 Revision 5 \u2014 accessed 2026-10-13",
+        "name": "NIST SP 800-53 Revision 5, accessed 2026-10-13",
         "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "GAO Green Book \u2014 accessed 2026-10-13",
+        "name": "GAO Green Book, accessed 2026-10-13",
         "url": "https://www.gao.gov/green-book",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "EEOC Recordkeeping Requirements \u2014 accessed 2026-10-13",
+        "name": "EEOC Recordkeeping Requirements, accessed 2026-10-13",
         "url": "https://www.eeoc.gov/employers/recordkeeping-requirements",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "U.S. Department of Labor Recordkeeping \u2014 accessed 2026-10-13",
+        "name": "U.S. Department of Labor Recordkeeping, accessed 2026-10-13",
         "url": "https://www.dol.gov/general/topic/workhours/recordkeeping",
         "note": "Authoritative control reference checked 2026-10-13."
       }
@@ -3344,32 +3344,32 @@ export const october13BlogArticles: Record<string, RichArticle> = {
     ],
     "sources": [
       {
-        "name": "NIST Cybersecurity Framework 2.0 \u2014 accessed 2026-10-13",
+        "name": "NIST Cybersecurity Framework 2.0, accessed 2026-10-13",
         "url": "https://www.nist.gov/cyberframework",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "NIST Privacy Framework \u2014 accessed 2026-10-13",
+        "name": "NIST Privacy Framework, accessed 2026-10-13",
         "url": "https://www.nist.gov/privacy-framework",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "NIST SP 800-53 Revision 5 \u2014 accessed 2026-10-13",
+        "name": "NIST SP 800-53 Revision 5, accessed 2026-10-13",
         "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "GAO Green Book \u2014 accessed 2026-10-13",
+        "name": "GAO Green Book, accessed 2026-10-13",
         "url": "https://www.gao.gov/green-book",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "EEOC Recordkeeping Requirements \u2014 accessed 2026-10-13",
+        "name": "EEOC Recordkeeping Requirements, accessed 2026-10-13",
         "url": "https://www.eeoc.gov/employers/recordkeeping-requirements",
         "note": "Authoritative control reference checked 2026-10-13."
       },
       {
-        "name": "U.S. Department of Labor Recordkeeping \u2014 accessed 2026-10-13",
+        "name": "U.S. Department of Labor Recordkeeping, accessed 2026-10-13",
         "url": "https://www.dol.gov/general/topic/workhours/recordkeeping",
         "note": "Authoritative control reference checked 2026-10-13."
       }

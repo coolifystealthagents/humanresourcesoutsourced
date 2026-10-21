@@ -26,7 +26,7 @@ export const october2IndependentCopy: Record<string, IndependentBlogCopy> = {
       ]},
       { heading: 'Close with destination reconciliation and an employee summary', paragraphs: [
         'Closure requires more than completed tickets. Compare the approved values and effective date with each destination’s actual state or acknowledgment. Reconcile payroll export, benefits response, directory display, access identity, and archived references. If a system legitimately retains a historical name, record why and how authorized staff can search it. If an integration rejects the update, keep the case open with an owner and checkpoint rather than moving it to a vague completed-with-notes category.',
-        'Send the employee an approved summary that distinguishes completed changes, expected delays, intentionally different records, and the contact for corrections. Avoid listing systems or sensitive evidence that the employee does not need to receive by email. Review recurring failures—such as payroll formatting, vendor lags, or alias loss—as process defects. The reader outcome is a name-change runbook that protects the employee’s control over display, preserves regulated records, and proves that critical services continued through the change.'
+        'Send the employee an approved summary that distinguishes completed changes, expected delays, intentionally different records, and the contact for corrections. Avoid listing systems or sensitive evidence that the employee does not need to receive by email. Review recurring failures - such as payroll formatting, vendor lags, or alias loss - as process defects. The reader outcome is a name-change runbook that protects the employee’s control over display, preserves regulated records, and proves that critical services continued through the change.'
       ]},
     ],
     scripts: [
@@ -75,7 +75,7 @@ export const october2IndependentCopy: Record<string, IndependentBlogCopy> = {
   'october2-hr-candidate-withdrawal-record-handoff': {
     directAnswer: [
       'Record a withdrawal from the candidate’s authenticated instruction and define its scope. A person may leave one requisition while keeping another application active, stop interviews while preserving a privacy request, or withdraw after an offer without authorizing deletion of the recruiting record.',
-      'Close the operational work that no longer has a purpose—interviews, reminders, assessments, checks, and hiring tasks—while preserving prior history under the employer’s retention rules. Keep complaints, accommodations, source disputes, and deletion requests on their own qualified-owner paths.',
+      'Close the operational work that no longer has a purpose - interviews, reminders, assessments, checks, and hiring tasks - while preserving prior history under the employer’s retention rules. Keep complaints, accommodations, source disputes, and deletion requests on their own qualified-owner paths.',
     ],
     sections: [
       { heading: 'Capture the candidate’s instruction without enlarging it', paragraphs: [
@@ -120,7 +120,7 @@ export const october2IndependentCopy: Record<string, IndependentBlogCopy> = {
         'Avoid bulk-shifting every deadline by the same number of days. Payroll cycles, plan rules, vendor expirations, holidays, and facility access windows behave differently. Record the new due date and basis for each change. If a vendor cannot move a task, identify whether it can be reused, must be repeated, or requires an exception. The candidate should receive only confirmed changes, not internal speculation about eligibility or operational delays.'
       ]},
       { heading: 'Test consequences hidden behind a small calendar change', paragraphs: [
-        'A one-week move can cross a pay-period boundary, benefits waiting point, month end, holiday shutdown, screening validity window, relocation booking, or manager absence. It can also leave a laptop at an unattended address or send credentials before employment begins. Use the specific scenario—equipment shipped and a payroll record already created—to check physical custody, data access, pay status, and communications separately. Do not activate access merely because the account exists.',
+        'A one-week move can cross a pay-period boundary, benefits waiting point, month end, holiday shutdown, screening validity window, relocation booking, or manager absence. It can also leave a laptop at an unattended address or send credentials before employment begins. Use the specific scenario - equipment shipped and a payroll record already created - to check physical custody, data access, pay status, and communications separately. Do not activate access merely because the account exists.',
         'Include the candidate in changes that affect their actions: revised arrival instructions, document appointments, shipment handling, orientation, and approved contacts. Keep internal risk decisions with company owners. If the candidate cannot meet the new plan, reopen the hiring decision rather than repeatedly moving administrative dates without a stable agreement. Preserve every issued version and withdraw obsolete invitations so the person does not receive contradictory instructions.'
       ]},
       { heading: 'Run a dated readiness review and close the superseded plan', paragraphs: [
@@ -158,7 +158,7 @@ export const october2IndependentCopy: Record<string, IndependentBlogCopy> = {
       ]},
       { heading: 'Separate the identity resolution from financial correction', paragraphs: [
         'Once owners determine the relationship, create a correction plan by destination and period. Reconcile hours, gross-to-net pay, deductions, taxes, benefits, retirement contributions, leave balances, costing, general-ledger output, and employee statements. Some items may require reversal and reissue; others may remain historically attached to an inactive identifier. Keep owner approval for each consequential step and retain the original values beside corrected values.',
-        'Close only when payroll control totals match, required destinations acknowledge the approved state, access is appropriate, and the employee-facing records are understandable. Notify the employee through approved wording if statements or identifiers change. Review why prevention failed—rehire matching, entity handoff, import control, or manual entry—and test the repair. The reader outcome is a duplicate review that protects identity and pay instead of trading a tidy database for an unreconstructable payroll history.'
+        'Close only when payroll control totals match, required destinations acknowledge the approved state, access is appropriate, and the employee-facing records are understandable. Notify the employee through approved wording if statements or identifiers change. Review why prevention failed - rehire matching, entity handoff, import control, or manual entry - and test the repair. The reader outcome is a duplicate review that protects identity and pay instead of trading a tidy database for an unreconstructable payroll history.'
       ]},
     ],
     scripts: [
@@ -332,7 +332,7 @@ export const october2IndependentCopy: Record<string, IndependentBlogCopy> = {
     ],
     faqs: [
       { question: 'Can a coordinator approve a complete expense packet?', answer: 'No. Completeness is an administrative check; the authorized budget, policy, finance, payroll, or tax owner makes the decision.' },
-      { question: 'What proves payment?', answer: 'A destination response matching employee, approved amount, currency, and payment reference—not merely an exported file.' },
+      { question: 'What proves payment?', answer: 'A destination response matching employee, approved amount, currency, and payment reference - not merely an exported file.' },
     ],
   },
 
@@ -365,7 +365,7 @@ export const october2IndependentCopy: Record<string, IndependentBlogCopy> = {
     ],
     faqs: [
       { question: 'Does a signature prove agreement?', answer: 'Not necessarily. Record receipt, signature, refusal, comments, and owner disposition as separate facts.' },
-      { question: 'What belongs in the general tracker?', answer: 'Only a case reference, owner, meeting date, operational status, and next action—not sensitive allegations or evidence.' },
+      { question: 'What belongs in the general tracker?', answer: 'Only a case reference, owner, meeting date, operational status, and next action - not sensitive allegations or evidence.' },
     ],
   },
 

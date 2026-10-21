@@ -4,7 +4,7 @@ import { Header, Footer } from '../components';
 const bookingUrl = 'https://go.oncehub.com/StealthAgentsTeam?brdr=1pxd8d8d8&dt=&em=1&Si=1';
 
 export const metadata: Metadata = {
-  title: 'Request Received — Choose a Meeting Time',
+  title: 'Request Received  -  Choose a Meeting Time',
   description: 'Choose a convenient time to discuss your HR support workflow.',
   robots: { index: false, follow: false },
 };

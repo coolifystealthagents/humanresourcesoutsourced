@@ -4,8 +4,9 @@ import { postsPerPage } from '../fleet-data';
 import { BlogBanner } from '../blog-banners';
 
 export const metadata = {
-  title: `Blog | ${site.brand}`,
+  title: `Blog`,
   description: `Philippines-based ${site.primary} planning guides.`,
+  alternates: { canonical: `https://${site.domain.toLowerCase()}/blog` },
 };
 const formatDate=(date:string)=>new Intl.DateTimeFormat('en-US',{month:'long',day:'numeric',year:'numeric',timeZone:'UTC'}).format(new Date(`${date}T00:00:00Z`));
 

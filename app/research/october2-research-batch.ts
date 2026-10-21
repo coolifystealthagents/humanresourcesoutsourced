@@ -25,9 +25,9 @@ const studies: readonly Study[] = [
     boundary: 'An outsourced coordinator may capture approved routing facts, prepare controlled documents, monitor employer decisions, send specifically approved notices, record delivery evidence, reconcile states, and escalate exceptions. The coordinator must not determine FMLA coverage or eligibility, decide whether a reason qualifies, evaluate certification, calculate entitlement without an approved method and source data, select a legal position, promise job protection, or give individualized legal advice. Employer HR and qualified legal or leave owners retain every substantive determination and sensitive communication. The support scope should name reachable backups and a safe holding action when authority or facts are missing.',
     conclusion: 'A reliable FMLA administration lane is visible as a chain of authorized events. Buyers should be able to prove what the employer knew, who decided, which controlled notice was approved, how it was delivered, and how changed facts were reconciled. Human Resources Outsourced can operate the preparation, evidence, delivery-monitoring, and exception-routing mechanics within a bounded procedure. The employer remains responsible for legal applicability, substantive determinations, policy choices, employee rights, and final resolution.',
     sources: [
-      { name: 'Fact Sheet #28D: Employer Notification Requirements under the FMLA — U.S. Department of Labor — checked October 2, 2026', url: 'https://www.dol.gov/agencies/whd/fact-sheets/28d-fmla-employer%20notification' },
-      { name: 'FMLA Frequently Asked Questions — U.S. Department of Labor — checked October 2, 2026', url: 'https://www.dol.gov/agencies/whd/fmla/faq' },
-      { name: 'NIST Privacy Framework — NIST — checked October 2, 2026', url: 'https://www.nist.gov/privacy-framework' },
+      { name: 'Fact Sheet #28D: Employer Notification Requirements under the FMLA  -  U.S. Department of Labor  -  checked October 2, 2026', url: 'https://www.dol.gov/agencies/whd/fact-sheets/28d-fmla-employer%20notification' },
+      { name: 'FMLA Frequently Asked Questions  -  U.S. Department of Labor  -  checked October 2, 2026', url: 'https://www.dol.gov/agencies/whd/fmla/faq' },
+      { name: 'NIST Privacy Framework  -  NIST  -  checked October 2, 2026', url: 'https://www.nist.gov/privacy-framework' },
     ],
   },
   {
@@ -40,13 +40,13 @@ const studies: readonly Study[] = [
     exceptions: 'Challenge the queue with a permanent resident card expiration, a U.S. passport expiration, expiring employment authorization, an automatic extension, a receipt, a rehire near the permitted window, a legal name change, a missing original form, two records for one employee, an employee transferred between entities, and a reminder generated after termination. Include a worker who offers a different acceptable document and a record whose date format was misread. The desired behavior is a safe stop and owner review, not confident automation. Test that no report exposes document numbers or images to staff who only need queue status.',
     evidence: 'Preserve roster snapshot time, employee reference, employing entity, protected Form I-9 location, form and supplement version, source date as recorded, classification rule version, reviewer, exception reason, reminder template, approval, communication event, authorized representative, completion date, Supplement B reference, quality review, correction linkage, and retention state. Do not place document images, citizenship or immigration narratives, numbers, or sensitive attachments in a general project board. A hash can help detect an unintended file change but cannot establish that the examination or legal determination was correct. Evidence must tie the operational step to the authorized employer actor.',
     tests: 'Use synthetic forms and employee records to test every state, including documents that must not create a reverification task. Compare the generated queue with an independently prepared answer set. Try to edit a source date without approval, request a named document, complete certification with an expired delegation, attach an image to the wrong worker, and close a missing-form exception. Review access logs and export permissions. Sample resolved items back to Supplement B and the active roster. Re-test after USCIS form or instruction changes, system migrations, remote-examination process changes, acquisitions, or modifications to the employer’s authorized-representative model.',
-    measures: 'Report records reconciled, no-action classifications, owner reviews, upcoming authorized actions, completed supplements, unresolved source conflicts, missing forms, stopped reminders, corrections, and access exceptions. Age the owner-review queue and show the number of dates derived from authoritative records versus secondary imports. Measure false-positive reminder attempts and records that changed state after source review. Never rank employees by immigration-related status. Trend operational defects by root cause—roster lag, indexing, transcription, integration, training, or unclear ownership—and publish the population, observation time, exclusions, rule version, and unknown count with every result.',
+    measures: 'Report records reconciled, no-action classifications, owner reviews, upcoming authorized actions, completed supplements, unresolved source conflicts, missing forms, stopped reminders, corrections, and access exceptions. Age the owner-review queue and show the number of dates derived from authoritative records versus secondary imports. Measure false-positive reminder attempts and records that changed state after source review. Never rank employees by immigration-related status. Trend operational defects by root cause - roster lag, indexing, transcription, integration, training, or unclear ownership - and publish the population, observation time, exclusions, rule version, and unknown count with every result.',
     boundary: 'Support personnel may reconcile neutral identifiers, maintain protected references, apply an employer-approved classification, prepare neutral reminders, schedule authorized review, index completed supplements, and escalate inconsistencies. They may not decide which documents an employee must present, provide immigration advice, infer status, accept documentation outside delegated authority, alter attestation, backdate a form, conceal a missing record, or decide discrimination and retaliation questions. The employer appoints trained HR, legal, immigration, privacy, security, and authorized-representative owners. Minimum access, secure transfer, named accounts, and documented delegation are necessary regardless of where support staff work.',
     conclusion: 'The trustworthy output is not an alert; it is a reconciled, source-linked queue that prevents inappropriate requests and preserves employer authority. Human Resources Outsourced can maintain the workflow, evidence, reminders, and exception routing. The employer retains all examination, certification, legal interpretation, anti-discrimination, retention, correction, and risk decisions.',
     sources: [
-      { name: 'Instructions for Form I-9 — U.S. Citizenship and Immigration Services — checked October 2, 2026', url: 'https://www.uscis.gov/sites/default/files/document/forms/i-9instr.pdf' },
-      { name: 'Form I-9 Supplement B, Reverification and Rehire — USCIS — checked October 2, 2026', url: 'https://www.uscis.gov/sites/default/files/document/forms/i-9.pdf?page=3' },
-      { name: 'NIST Privacy Framework — NIST — checked October 2, 2026', url: 'https://www.nist.gov/privacy-framework' },
+      { name: 'Instructions for Form I-9  -  U.S. Citizenship and Immigration Services  -  checked October 2, 2026', url: 'https://www.uscis.gov/sites/default/files/document/forms/i-9instr.pdf' },
+      { name: 'Form I-9 Supplement B, Reverification and Rehire  -  USCIS  -  checked October 2, 2026', url: 'https://www.uscis.gov/sites/default/files/document/forms/i-9.pdf?page=3' },
+      { name: 'NIST Privacy Framework  -  NIST  -  checked October 2, 2026', url: 'https://www.nist.gov/privacy-framework' },
     ],
   },
   {
@@ -63,9 +63,9 @@ const studies: readonly Study[] = [
     boundary: 'An outsourced analyst can collect approved extracts, normalize identifiers, execute documented comparisons, prepare exception files, populate owner-approved mappings, reconcile counts, preserve acknowledgments, and coordinate correction tasks. The analyst should not determine ALE status, full-time status, affordability, coverage codes, tax liability, filing positions, intentional disregard, or employee tax guidance. Employer tax, benefits, payroll, HR, legal, privacy, security, and finance owners approve definitions, interpretations, submissions, corrections, and communications. Access to tax identifiers must be narrow, monitored, and time-bounded.',
     conclusion: 'Decision-grade ACA reporting starts with reproducible monthly evidence, not a clean vendor dashboard. Human Resources Outsourced can operate the controlled reconciliation and exception workflow. The employer and its qualified advisers retain all tax, benefits, filing, correction, and employee-communication decisions.',
     sources: [
-      { name: 'Instructions for Forms 1094-C and 1095-C (2025) — Internal Revenue Service — checked October 2, 2026', url: 'https://www.irs.gov/instructions/i109495c' },
-      { name: 'Information Reporting by Applicable Large Employers — IRS — checked October 2, 2026', url: 'https://www.irs.gov/affordable-care-act/employers/information-reporting-by-applicable-large-employers' },
-      { name: 'Questions and Answers about Forms 1094-C and 1095-C — IRS — checked October 2, 2026', url: 'https://www.irs.gov/affordable-care-act/employers/questions-and-answers-about-information-reporting-by-employers-on-form-1094-c-and-form-1095-c' },
+      { name: 'Instructions for Forms 1094-C and 1095-C (2025)  -  Internal Revenue Service  -  checked October 2, 2026', url: 'https://www.irs.gov/instructions/i109495c' },
+      { name: 'Information Reporting by Applicable Large Employers  -  IRS  -  checked October 2, 2026', url: 'https://www.irs.gov/affordable-care-act/employers/information-reporting-by-applicable-large-employers' },
+      { name: 'Questions and Answers about Forms 1094-C and 1095-C  -  IRS  -  checked October 2, 2026', url: 'https://www.irs.gov/affordable-care-act/employers/questions-and-answers-about-information-reporting-by-employers-on-form-1094-c-and-form-1095-c' },
     ],
   },
   {
@@ -82,9 +82,9 @@ const studies: readonly Study[] = [
     boundary: 'Support staff may receive through approved channels, index restricted documents, perform documented identity matching, prepare a conflict packet, enter specifically approved payroll settings, reconcile outputs, monitor remittance evidence, and route inquiries. They must not interpret an order, choose priority, decide disposable earnings, advise an employee or creditor, alter a remittance destination without verification, release a withholding, or decide how competing laws apply. Employer payroll, legal, HR, finance, privacy, security, and treasury owners retain those decisions and appoint reachable backups for cutoff-sensitive events.',
     conclusion: 'The control objective is not maximum automation; it is exact execution of a verified, employer-owned instruction with visible conflicts and recoverable evidence. Human Resources Outsourced can support intake, controlled setup, reconciliation, and exception tracking. The employer and qualified advisers retain all legal classification, calculation, priority, communication, correction, and release authority.',
     sources: [
-      { name: 'Federal Wage Garnishments — U.S. Department of Labor — checked October 2, 2026', url: 'https://www.dol.gov/agencies/whd/wage-garnishment' },
-      { name: 'Fact Sheet #30: Wage Garnishment Protections of the CCPA — U.S. Department of Labor — checked October 2, 2026', url: 'https://www.dol.gov/agencies/whd/fact-sheets/30-cppa' },
-      { name: 'NIST Privacy Framework — NIST — checked October 2, 2026', url: 'https://www.nist.gov/privacy-framework' },
+      { name: 'Federal Wage Garnishments  -  U.S. Department of Labor  -  checked October 2, 2026', url: 'https://www.dol.gov/agencies/whd/wage-garnishment' },
+      { name: 'Fact Sheet #30: Wage Garnishment Protections of the CCPA  -  U.S. Department of Labor  -  checked October 2, 2026', url: 'https://www.dol.gov/agencies/whd/fact-sheets/30-cppa' },
+      { name: 'NIST Privacy Framework  -  NIST  -  checked October 2, 2026', url: 'https://www.nist.gov/privacy-framework' },
     ],
   },
   {
@@ -101,9 +101,9 @@ const studies: readonly Study[] = [
     boundary: 'A coordinator may receive approved intake, preserve source references, route urgent signals, prepare forms after an owner decision, apply explicit privacy instructions, update approved factual fields, reconcile totals, maintain posting evidence, and monitor submission responses. The coordinator must not decide OSHA coverage or recordability, diagnose an injury, determine work-relatedness, classify treatment, suppress a case, certify a summary, report to an agency without authorization, or advise on retaliation and employee rights. Employer safety, legal, HR, medical, privacy, security, establishment, and executive owners retain all substantive and certification authority.',
     conclusion: 'A trustworthy recordkeeping process keeps incident intake, qualified decisions, form administration, privacy controls, and annual reconciliation connected without collapsing them. Human Resources Outsourced can support the evidence and workflow mechanics. The employer retains safety response, legal interpretation, recordability, classification, certification, reporting, communication, and corrective-action decisions.',
     sources: [
-      { name: 'OSHA Injury and Illness Recordkeeping Forms — OSHA — checked October 2, 2026', url: 'https://www.osha.gov/recordkeeping/forms' },
-      { name: 'Recording Criteria — OSHA — checked October 2, 2026', url: 'https://www.osha.gov/recordkeeping/recording' },
-      { name: '29 CFR 1904.29 Forms — OSHA — checked October 2, 2026', url: 'https://www.osha.gov/laws-regs/regulations/standardnumber/1904/1904.29' },
+      { name: 'OSHA Injury and Illness Recordkeeping Forms  -  OSHA  -  checked October 2, 2026', url: 'https://www.osha.gov/recordkeeping/forms' },
+      { name: 'Recording Criteria  -  OSHA  -  checked October 2, 2026', url: 'https://www.osha.gov/recordkeeping/recording' },
+      { name: '29 CFR 1904.29 Forms  -  OSHA  -  checked October 2, 2026', url: 'https://www.osha.gov/laws-regs/regulations/standardnumber/1904/1904.29' },
     ],
   },
 ];
@@ -117,7 +117,7 @@ export const october2ResearchPosts: readonly ResearchPost[] = studies.map((study
   sections: [
     { heading: 'Research question and buyer decision', body: study.lens },
     { heading: 'Methodology', body: support.method },
-    { heading: 'What primary sources say—and our inference', body: study.authority },
+    { heading: 'What primary sources say - and our inference', body: study.authority },
     { heading: 'Population and denominator', body: study.population },
     { heading: 'Controlled operating sequence', body: study.sequence },
     { heading: 'Exception and challenge cases', body: study.exceptions },

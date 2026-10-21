@@ -71,43 +71,43 @@ export const october13ResearchPosts: readonly ResearchPost[] = [
     ],
     "sources": [
       {
-        "name": "NIST Cybersecurity Framework 2.0 \u2014 accessed 2026-10-13",
+        "name": "NIST Cybersecurity Framework 2.0, accessed 2026-10-13",
         "url": "https://www.nist.gov/cyberframework"
       },
       {
-        "name": "NIST Privacy Framework \u2014 accessed 2026-10-13",
+        "name": "NIST Privacy Framework, accessed 2026-10-13",
         "url": "https://www.nist.gov/privacy-framework"
       },
       {
-        "name": "NIST SP 800-53 Revision 5 \u2014 accessed 2026-10-13",
+        "name": "NIST SP 800-53 Revision 5, accessed 2026-10-13",
         "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
       },
       {
-        "name": "GAO Green Book \u2014 accessed 2026-10-13",
+        "name": "GAO Green Book, accessed 2026-10-13",
         "url": "https://www.gao.gov/green-book"
       },
       {
-        "name": "EEOC Recordkeeping Requirements \u2014 accessed 2026-10-13",
+        "name": "EEOC Recordkeeping Requirements, accessed 2026-10-13",
         "url": "https://www.eeoc.gov/employers/recordkeeping-requirements"
       },
       {
-        "name": "U.S. Department of Labor Recordkeeping \u2014 accessed 2026-10-13",
+        "name": "U.S. Department of Labor Recordkeeping, accessed 2026-10-13",
         "url": "https://www.dol.gov/general/topic/workhours/recordkeeping"
       },
       {
-        "name": "FTC Protecting Personal Information \u2014 accessed 2026-10-13",
+        "name": "FTC Protecting Personal Information, accessed 2026-10-13",
         "url": "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business"
       },
       {
-        "name": "CISA Cybersecurity Performance Goals \u2014 accessed 2026-10-13",
+        "name": "CISA Cybersecurity Performance Goals, accessed 2026-10-13",
         "url": "https://www.cisa.gov/cybersecurity-performance-goals"
       },
       {
-        "name": "National Archives Records Management \u2014 accessed 2026-10-13",
+        "name": "National Archives Records Management, accessed 2026-10-13",
         "url": "https://www.archives.gov/records-mgmt"
       },
       {
-        "name": "Philippine National Privacy Commission Data Privacy Act \u2014 accessed 2026-10-13",
+        "name": "Philippine National Privacy Commission Data Privacy Act, accessed 2026-10-13",
         "url": "https://privacy.gov.ph/data-privacy-act/"
       }
     ],
@@ -188,43 +188,43 @@ export const october13ResearchPosts: readonly ResearchPost[] = [
     ],
     "sources": [
       {
-        "name": "NIST Cybersecurity Framework 2.0 \u2014 accessed 2026-10-13",
+        "name": "NIST Cybersecurity Framework 2.0, accessed 2026-10-13",
         "url": "https://www.nist.gov/cyberframework"
       },
       {
-        "name": "NIST Privacy Framework \u2014 accessed 2026-10-13",
+        "name": "NIST Privacy Framework, accessed 2026-10-13",
         "url": "https://www.nist.gov/privacy-framework"
       },
       {
-        "name": "NIST SP 800-53 Revision 5 \u2014 accessed 2026-10-13",
+        "name": "NIST SP 800-53 Revision 5, accessed 2026-10-13",
         "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
       },
       {
-        "name": "GAO Green Book \u2014 accessed 2026-10-13",
+        "name": "GAO Green Book, accessed 2026-10-13",
         "url": "https://www.gao.gov/green-book"
       },
       {
-        "name": "EEOC Recordkeeping Requirements \u2014 accessed 2026-10-13",
+        "name": "EEOC Recordkeeping Requirements, accessed 2026-10-13",
         "url": "https://www.eeoc.gov/employers/recordkeeping-requirements"
       },
       {
-        "name": "U.S. Department of Labor Recordkeeping \u2014 accessed 2026-10-13",
+        "name": "U.S. Department of Labor Recordkeeping, accessed 2026-10-13",
         "url": "https://www.dol.gov/general/topic/workhours/recordkeeping"
       },
       {
-        "name": "FTC Protecting Personal Information \u2014 accessed 2026-10-13",
+        "name": "FTC Protecting Personal Information, accessed 2026-10-13",
         "url": "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business"
       },
       {
-        "name": "CISA Cybersecurity Performance Goals \u2014 accessed 2026-10-13",
+        "name": "CISA Cybersecurity Performance Goals, accessed 2026-10-13",
         "url": "https://www.cisa.gov/cybersecurity-performance-goals"
       },
       {
-        "name": "National Archives Records Management \u2014 accessed 2026-10-13",
+        "name": "National Archives Records Management, accessed 2026-10-13",
         "url": "https://www.archives.gov/records-mgmt"
       },
       {
-        "name": "Philippine National Privacy Commission Data Privacy Act \u2014 accessed 2026-10-13",
+        "name": "Philippine National Privacy Commission Data Privacy Act, accessed 2026-10-13",
         "url": "https://privacy.gov.ph/data-privacy-act/"
       }
     ],
@@ -305,43 +305,43 @@ export const october13ResearchPosts: readonly ResearchPost[] = [
     ],
     "sources": [
       {
-        "name": "NIST Cybersecurity Framework 2.0 \u2014 accessed 2026-10-13",
+        "name": "NIST Cybersecurity Framework 2.0, accessed 2026-10-13",
         "url": "https://www.nist.gov/cyberframework"
       },
       {
-        "name": "NIST Privacy Framework \u2014 accessed 2026-10-13",
+        "name": "NIST Privacy Framework, accessed 2026-10-13",
         "url": "https://www.nist.gov/privacy-framework"
       },
       {
-        "name": "NIST SP 800-53 Revision 5 \u2014 accessed 2026-10-13",
+        "name": "NIST SP 800-53 Revision 5, accessed 2026-10-13",
         "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
       },
       {
-        "name": "GAO Green Book \u2014 accessed 2026-10-13",
+        "name": "GAO Green Book, accessed 2026-10-13",
         "url": "https://www.gao.gov/green-book"
       },
       {
-        "name": "EEOC Recordkeeping Requirements \u2014 accessed 2026-10-13",
+        "name": "EEOC Recordkeeping Requirements, accessed 2026-10-13",
         "url": "https://www.eeoc.gov/employers/recordkeeping-requirements"
       },
       {
-        "name": "U.S. Department of Labor Recordkeeping \u2014 accessed 2026-10-13",
+        "name": "U.S. Department of Labor Recordkeeping, accessed 2026-10-13",
         "url": "https://www.dol.gov/general/topic/workhours/recordkeeping"
       },
       {
-        "name": "FTC Protecting Personal Information \u2014 accessed 2026-10-13",
+        "name": "FTC Protecting Personal Information, accessed 2026-10-13",
         "url": "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business"
       },
       {
-        "name": "CISA Cybersecurity Performance Goals \u2014 accessed 2026-10-13",
+        "name": "CISA Cybersecurity Performance Goals, accessed 2026-10-13",
         "url": "https://www.cisa.gov/cybersecurity-performance-goals"
       },
       {
-        "name": "National Archives Records Management \u2014 accessed 2026-10-13",
+        "name": "National Archives Records Management, accessed 2026-10-13",
         "url": "https://www.archives.gov/records-mgmt"
       },
       {
-        "name": "Philippine National Privacy Commission Data Privacy Act \u2014 accessed 2026-10-13",
+        "name": "Philippine National Privacy Commission Data Privacy Act, accessed 2026-10-13",
         "url": "https://privacy.gov.ph/data-privacy-act/"
       }
     ],
@@ -422,43 +422,43 @@ export const october13ResearchPosts: readonly ResearchPost[] = [
     ],
     "sources": [
       {
-        "name": "NIST Cybersecurity Framework 2.0 \u2014 accessed 2026-10-13",
+        "name": "NIST Cybersecurity Framework 2.0, accessed 2026-10-13",
         "url": "https://www.nist.gov/cyberframework"
       },
       {
-        "name": "NIST Privacy Framework \u2014 accessed 2026-10-13",
+        "name": "NIST Privacy Framework, accessed 2026-10-13",
         "url": "https://www.nist.gov/privacy-framework"
       },
       {
-        "name": "NIST SP 800-53 Revision 5 \u2014 accessed 2026-10-13",
+        "name": "NIST SP 800-53 Revision 5, accessed 2026-10-13",
         "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
       },
       {
-        "name": "GAO Green Book \u2014 accessed 2026-10-13",
+        "name": "GAO Green Book, accessed 2026-10-13",
         "url": "https://www.gao.gov/green-book"
       },
       {
-        "name": "EEOC Recordkeeping Requirements \u2014 accessed 2026-10-13",
+        "name": "EEOC Recordkeeping Requirements, accessed 2026-10-13",
         "url": "https://www.eeoc.gov/employers/recordkeeping-requirements"
       },
       {
-        "name": "U.S. Department of Labor Recordkeeping \u2014 accessed 2026-10-13",
+        "name": "U.S. Department of Labor Recordkeeping, accessed 2026-10-13",
         "url": "https://www.dol.gov/general/topic/workhours/recordkeeping"
       },
       {
-        "name": "FTC Protecting Personal Information \u2014 accessed 2026-10-13",
+        "name": "FTC Protecting Personal Information, accessed 2026-10-13",
         "url": "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business"
       },
       {
-        "name": "CISA Cybersecurity Performance Goals \u2014 accessed 2026-10-13",
+        "name": "CISA Cybersecurity Performance Goals, accessed 2026-10-13",
         "url": "https://www.cisa.gov/cybersecurity-performance-goals"
       },
       {
-        "name": "National Archives Records Management \u2014 accessed 2026-10-13",
+        "name": "National Archives Records Management, accessed 2026-10-13",
         "url": "https://www.archives.gov/records-mgmt"
       },
       {
-        "name": "Philippine National Privacy Commission Data Privacy Act \u2014 accessed 2026-10-13",
+        "name": "Philippine National Privacy Commission Data Privacy Act, accessed 2026-10-13",
         "url": "https://privacy.gov.ph/data-privacy-act/"
       }
     ],
@@ -539,43 +539,43 @@ export const october13ResearchPosts: readonly ResearchPost[] = [
     ],
     "sources": [
       {
-        "name": "NIST Cybersecurity Framework 2.0 \u2014 accessed 2026-10-13",
+        "name": "NIST Cybersecurity Framework 2.0, accessed 2026-10-13",
         "url": "https://www.nist.gov/cyberframework"
       },
       {
-        "name": "NIST Privacy Framework \u2014 accessed 2026-10-13",
+        "name": "NIST Privacy Framework, accessed 2026-10-13",
         "url": "https://www.nist.gov/privacy-framework"
       },
       {
-        "name": "NIST SP 800-53 Revision 5 \u2014 accessed 2026-10-13",
+        "name": "NIST SP 800-53 Revision 5, accessed 2026-10-13",
         "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final"
       },
       {
-        "name": "GAO Green Book \u2014 accessed 2026-10-13",
+        "name": "GAO Green Book, accessed 2026-10-13",
         "url": "https://www.gao.gov/green-book"
       },
       {
-        "name": "EEOC Recordkeeping Requirements \u2014 accessed 2026-10-13",
+        "name": "EEOC Recordkeeping Requirements, accessed 2026-10-13",
         "url": "https://www.eeoc.gov/employers/recordkeeping-requirements"
       },
       {
-        "name": "U.S. Department of Labor Recordkeeping \u2014 accessed 2026-10-13",
+        "name": "U.S. Department of Labor Recordkeeping, accessed 2026-10-13",
         "url": "https://www.dol.gov/general/topic/workhours/recordkeeping"
       },
       {
-        "name": "FTC Protecting Personal Information \u2014 accessed 2026-10-13",
+        "name": "FTC Protecting Personal Information, accessed 2026-10-13",
         "url": "https://www.ftc.gov/business-guidance/resources/protecting-personal-information-guide-business"
       },
       {
-        "name": "CISA Cybersecurity Performance Goals \u2014 accessed 2026-10-13",
+        "name": "CISA Cybersecurity Performance Goals, accessed 2026-10-13",
         "url": "https://www.cisa.gov/cybersecurity-performance-goals"
       },
       {
-        "name": "National Archives Records Management \u2014 accessed 2026-10-13",
+        "name": "National Archives Records Management, accessed 2026-10-13",
         "url": "https://www.archives.gov/records-mgmt"
       },
       {
-        "name": "Philippine National Privacy Commission Data Privacy Act \u2014 accessed 2026-10-13",
+        "name": "Philippine National Privacy Commission Data Privacy Act, accessed 2026-10-13",
         "url": "https://privacy.gov.ph/data-privacy-act/"
       }
     ],

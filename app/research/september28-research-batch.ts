@@ -2,14 +2,14 @@ import type { ResearchPost } from '../fleet-data';
 
 const checked = 'checked September 28, 2026';
 const sources = [
-  { name: `Privacy Framework 1.0 — NIST — ${checked}`, url: 'https://www.nist.gov/privacy-framework' },
-  { name: `Cybersecurity Framework 2.0 — NIST — ${checked}`, url: 'https://www.nist.gov/cyberframework' },
-  { name: `Digital Identity Guidelines SP 800-63-4 — NIST — ${checked}`, url: 'https://pages.nist.gov/800-63-4/' },
-  { name: `Standards for Internal Control in the Federal Government (2025 Green Book) — U.S. GAO — ${checked}`, url: 'https://www.gao.gov/greenbook' },
-  { name: `Recordkeeping Requirements — U.S. EEOC — ${checked}`, url: 'https://www.eeoc.gov/employers/recordkeeping-requirements' },
-  { name: `Fact Sheet 21: Recordkeeping Requirements — U.S. Department of Labor — ${checked}`, url: 'https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping' },
-  { name: `Cybersecurity Program Best Practices — U.S. Department of Labor EBSA — ${checked}`, url: 'https://www.dol.gov/agencies/ebsa/key-topics/retirement-benefits/cybersecurity/best-practices' },
-  { name: `Records Management — U.S. National Archives — ${checked}`, url: 'https://www.archives.gov/records-mgmt' },
+  { name: `Privacy Framework 1.0  -  NIST  -  ${checked}`, url: 'https://www.nist.gov/privacy-framework' },
+  { name: `Cybersecurity Framework 2.0  -  NIST  -  ${checked}`, url: 'https://www.nist.gov/cyberframework' },
+  { name: `Digital Identity Guidelines SP 800-63-4  -  NIST  -  ${checked}`, url: 'https://pages.nist.gov/800-63-4/' },
+  { name: `Standards for Internal Control in the Federal Government (2025 Green Book)  -  U.S. GAO  -  ${checked}`, url: 'https://www.gao.gov/greenbook' },
+  { name: `Recordkeeping Requirements  -  U.S. EEOC  -  ${checked}`, url: 'https://www.eeoc.gov/employers/recordkeeping-requirements' },
+  { name: `Fact Sheet 21: Recordkeeping Requirements  -  U.S. Department of Labor  -  ${checked}`, url: 'https://www.dol.gov/agencies/whd/fact-sheets/21-flsa-recordkeeping' },
+  { name: `Cybersecurity Program Best Practices  -  U.S. Department of Labor EBSA  -  ${checked}`, url: 'https://www.dol.gov/agencies/ebsa/key-topics/retirement-benefits/cybersecurity/best-practices' },
+  { name: `Records Management  -  U.S. National Archives  -  ${checked}`, url: 'https://www.archives.gov/records-mgmt' },
 ] as const;
 
 type Spec = {
@@ -118,7 +118,7 @@ export const september28ResearchPosts: readonly ResearchPost[] = specs.map((spec
   sections: [
     { heading: 'Research question and buyer decision', body: spec.question },
     { heading: 'Methodology', body: spec.method },
-    { heading: 'What the sources support—and what is our inference', body: spec.findings },
+    { heading: 'What the sources support - and what is our inference', body: spec.findings },
     { heading: 'Population and denominator', body: spec.population },
     { heading: 'Operating workflow', body: spec.workflow },
     { heading: 'Challenge cases', body: spec.challenge },

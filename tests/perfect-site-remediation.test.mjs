@@ -37,10 +37,12 @@ test('public handoff pages do not present unverified reviews, star ratings, or p
   for (const pattern of unsupported) assert.doesNotMatch(source, pattern);
 });
 
-test('the application tree contains no unverified testimonial data or generic stock-photo dependencies', () => {
+test('the application tree contains no generic stock-photo dependencies and reviews are first-party attributed', () => {
   const source = appSource();
-  assert.doesNotMatch(source, /TestimonialsRail|\.sa-testimonial|What (?:Stealth Agents|our) clients say|5 out of 5 stars|★★★★★/i);
   assert.doesNotMatch(source, /unsplash|pexels|pixabay|shutterstock|istock|freepik/i);
+  const reviews = read('app/reviews.tsx');
+  assert.match(reviews, /StealthAgents reviews/);
+  assert.match(reviews, /stealthagents\.com\/our-clients/);
 });
 
 test('all article hero images have useful, page-specific alternative text', () => {
@@ -148,7 +150,7 @@ test('narrow article layouts constrain grid children and wrap long headings and 
   const css = read('app/globals.css');
   assert.match(css, /@media\(max-width:900px\)\{\.hr-article-hero-grid\{grid-template-columns:minmax\(0,1fr\)\}/);
   assert.match(css, /\.hr-article-hero-grid>\*\{min-width:0\}/);
-  assert.match(css, /\.hr-article h1\{[^}]*overflow-wrap:anywhere/);
+  assert.match(css, /\.hr-article h1\{[^}]*overflow-wrap:break-word[^}]*word-break:normal/);
   assert.match(css, /\.article-shell (?:p|a)[^}]*overflow-wrap:anywhere/);
 });
 

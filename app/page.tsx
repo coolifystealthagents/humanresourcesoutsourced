@@ -18,9 +18,9 @@ const deskLanes = [
 ];
 
 const launchSteps = [
-  ['01', 'Pick the busy desk', 'Choose one repeat area such as onboarding files, interview scheduling, or the HR inbox.'],
-  ['02', 'Set the red lines', 'Write down what the assistant may send, what needs review, and what must stay with your HR owner.'],
-  ['03', 'Review real work', 'Check the first batch together, fix the instructions, then add work only when the basics stay clean.'],
+  ['Pick the busy desk', 'Choose one repeat area such as onboarding files, interview scheduling, or the HR inbox.'],
+  ['Set the red lines', 'Write down what the assistant may send, what needs review, and what must stay with your HR owner.'],
+  ['Review real work', 'Check the first batch together, fix the instructions, then add work only when the basics stay clean.'],
 ];
 const hrIcons = [
   '/icons/getillustrations/sharpie-office-icons-svg/onboarding-checklist.svg',
@@ -77,7 +77,7 @@ export default function Home() {
             </div>
           </div>
           <div className="container hr-lane-strip" aria-label="HR support areas">
-            {deskLanes.map((lane, index) => <span key={lane}><b>0{index + 1}</b>{lane}</span>)}
+            {deskLanes.map((lane) => <span key={lane}>{lane}</span>)}
           </div>
         </section>
 
@@ -88,9 +88,8 @@ export default function Home() {
             <p>An assistant can keep the admin moving. Your HR lead still owns policy, pay, discipline, investigations, and sensitive employee decisions.</p>
           </div>
           <div className="hr-service-grid">
-            {services.map((service, index) => (
+            {services.map((service) => (
               <a id={`cta-home-services-open-${service.slug}`} className="hr-service-card" href={`/services/${service.slug}`} key={service.slug}>
-                <span className="hr-card-number">0{index + 1}</span>
                 <h3>{service.title}</h3>
                 <p>{service.desc}</p>
                 <strong>See tasks and checks</strong>
@@ -137,9 +136,8 @@ export default function Home() {
             <h2>Three steps before the inbox goes live.</h2>
           </div>
           <div className="hr-step-grid">
-            {launchSteps.map(([number, title, body]) => (
-              <article key={number}>
-                <span>{number}</span>
+            {launchSteps.map(([title, body]) => (
+              <article key={title}>
                 <h3>{title}</h3>
                 <p>{body}</p>
               </article>
@@ -155,9 +153,9 @@ export default function Home() {
               <a className="hr-text-link" href="/blog" id="cta-page-action-2">View all HR guides</a>
             </div>
             <div className="hr-guide-list">
-              {blogPosts.slice(0, 3).map((post, index) => (
+              {blogPosts.slice(0, 3).map((post) => (
                 <a href={`/blog/${post.slug}`} key={post.slug}>
-                  <span>Guide 0{index + 1}</span>
+                  <span>Practical guide</span>
                   <strong>{post.title.replace('Human Resources Outsourced: ', '')}</strong>
                   <small>{post.minutes} minute read</small>
                 </a>

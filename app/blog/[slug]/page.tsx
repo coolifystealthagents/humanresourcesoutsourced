@@ -5,8 +5,13 @@ import { blogPosts, site } from '../../data';
 import { richArticles } from '../article-data';
 import { generatedArticles } from '../generated-articles';
 import { ArticleTopicVisual } from '../../article-topic-visual';
+import { ActiveTableOfContents } from '../../article-toc';
 
 const allRichArticles = { ...richArticles, ...generatedArticles };
+const metadataTitleOverrides: Record<string, string> = {
+  'philippines-hr-employee-file-index-provenance-map': 'Philippines HR employee-file index provenance map',
+  'philippines-hr-absence-calendar-version-reconciliation': 'Philippines HR absence calendar version reconciliation',
+};
 
 const base = `https://${site.domain.toLowerCase()}`;
 const formatPublicDate = (date: string) => new Intl.DateTimeFormat('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' }).format(new Date(`${date}T00:00:00Z`));
@@ -22,7 +27,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const post = blogPosts.find((item) => item.slug === slug);
   if (!post) return {};
   const article = allRichArticles[slug];
-  const title = article?.title ?? post.title;
+  const title = metadataTitleOverrides[slug] ?? article?.title ?? post.title;
   const description = article?.description ?? post.excerpt;
   const url = `${base}/blog/${slug}`;
   const image = `${base}${article?.heroImage ?? '/hr-team.jpg'}`;
@@ -30,7 +35,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
     title,
     description,
     alternates: { canonical: url },
-    openGraph: { title, description, url, siteName: site.brand, type: 'article', publishedTime: article?.published, modifiedTime: article?.updated, images: [{ url: image, alt: `${site.brand} — ${title}` }] },
+    openGraph: { title, description, url, siteName: site.brand, type: 'article', publishedTime: article?.published, modifiedTime: article?.updated, images: [{ url: image, alt: `${site.brand} - ${title}` }] },
     twitter: { card: 'summary_large_image', title, description, images: [image] }
   };
 }
@@ -42,11 +47,27 @@ export default async function Post({ params }: Params) {
   const article = allRichArticles[slug];
 
   if (!article) {
-    return <><Header /><main><article className="section"><div className="container article-shell"><p className="eyebrow">{site.brand} blog</p><h1>{post.title}</h1><p className="lead">{post.excerpt}</p><div className='blog-standards-strip' aria-label='Article standards'><span>Source-backed guidance</span><span>Contextual internal links</span><span>Top, middle, and bottom CTAs</span></div><aside className='article-rotation-banner article-rotation-banner-top' data-article-banner='true'><p className='eyebrow'>Role planning checkpoint</p><h2>Turn this guide into a clear role brief</h2><p>Share the work queue, tools, review owner, and approval limits before adding outside support.</p><a className='btn' href='/contact-us'>Contact Us</a></aside><section className="card"><h2>Start with a defined workflow</h2><p>For Philippines-based staffing, document the work, tools, schedule, and desired outcome before candidate matching. Keep business judgment and final approvals with a named manager. <a href="https://www.ilo.org/global/topics/non-standard-employment/WCMS_534825/lang--en/index.htm" target="_blank" rel="noopener noreferrer">International Labour Organization guidance on remote work arrangements</a> reinforces the need for clear expectations, communication rhythms, and accountable handoffs.</p><aside className='article-rotation-banner article-rotation-banner-middle' data-article-banner='true'><p className='eyebrow'>Midpoint planning check</p><h2>Compare providers against one written workflow</h2><p>Use one task lane, one reviewer, and one quality check so each provider conversation is easier to judge.</p><a className='btn' href='/contact-us'>Contact Us</a></aside><h2>Prepare representative examples</h2><p>Use real, appropriately redacted examples to explain quality. Review early work together and update the written process when an exception appears.</p><h2>Plan access and handoffs</h2><p>Provide only the access needed for the position and use named accounts where possible. Write down which questions must be escalated and who receives them.</p></section></div><aside className='article-rotation-banner article-rotation-banner-bottom' data-article-banner='true'><p className='eyebrow'>Ready to scope the role?</p><h2>Build the first support lane before hiring</h2><p>We can help turn the article into a practical staffing brief with tasks, access rules, and review checkpoints.</p><a className='btn' href='/contact-us'>Contact Us</a></aside></article><CTA /></main><Footer /></>;
+    const tocItems = [
+      { id: 'defined-workflow', label: 'Start with a defined workflow' },
+      { id: 'representative-examples', label: 'Prepare representative examples' },
+      { id: 'access-and-handoffs', label: 'Plan access and handoffs' },
+      { id: 'related-guidance', label: 'Related guidance' },
+    ];
+    return <><Header /><main className="editorial-page"><article className="section"><header className="container article-header"><p className="eyebrow">{site.brand} blog</p><h1>{post.title}</h1><p className="lead">{post.excerpt}</p><ArticleTopicVisual title={post.title} kind="guide" /></header><div className="container article-layout"><div className="article-reading-column"><section className="article-section" id="defined-workflow"><h2>Start with a defined workflow</h2><p>Document the work, tools, schedule, desired outcome, and named review owner before candidate matching. Keep business judgment and final approvals with your team.</p></section><section className="article-section" id="representative-examples"><h2>Prepare representative examples</h2><p>Use appropriately redacted examples to show accepted work, rejected work, common exceptions, and the evidence required for completion. Review the first small batch together and update the instructions when a new exception appears.</p></section><section className="article-section" id="access-and-handoffs"><h2>Plan access and handoffs</h2><p>Provide only the access needed for the task. Use named accounts and define where personal data, approvals, corrections, and escalations belong. A concise daily handoff should show completed work, blocked items, decisions needed, and the next owner.</p></section><section className="article-section" id="related-guidance"><h2>Related guidance</h2><p><a href="/services">Review HR support services</a> or <a href="/research">read the research library</a> for more detailed controls, examples, and planning guidance.</p></section></div><aside className="article-sidebar"><ActiveTableOfContents items={tocItems} title="Article contents" /><div className="article-sidebar-module"><h2>Plan the handoff</h2><p>Bring one real queue, its source system, and the person who approves exceptions.</p><a href="/contact-us">Discuss your workflow</a></div></aside></div></article></main><Footer /></>;
   }
 
   const articleUrl = `${base}/blog/${article.slug}`;
   const articleImage = `${base}${article.heroImage ?? '/hr-team.jpg'}`;
+  const tocItems = [
+    { id: 'takeaways-heading', label: 'Key takeaways' },
+    { id: 'task-map-heading', label: 'Task and ownership map' },
+    { id: 'pilot-board-heading', label: 'Pilot evidence' },
+    { id: 'scripts-heading', label: 'Working scripts' },
+    { id: 'workflow-heading', label: 'Launch workflow' },
+    { id: 'faq-heading', label: 'Frequently asked questions' },
+    { id: 'related-heading', label: 'Related guidance' },
+    { id: 'sources-heading', label: 'Sources' },
+  ];
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'BlogPosting',
@@ -105,6 +126,7 @@ export default async function Post({ params }: Params) {
       </header>
 
       <article className="container hr-article-body">
+        <aside className="article-sidebar"><ActiveTableOfContents items={tocItems} title="Article contents" /><div className="article-sidebar-module"><h2>Use this guide</h2><p>Translate the guidance into one bounded workflow with a named reviewer and exception owner.</p><a href="/contact-us">Discuss your HR support plan</a></div><div className="article-sidebar-module"><h2>Publisher</h2><p>{site.brand} publishes practical guidance for controlled HR administration handoffs.</p></div></aside>
         <section className="hr-takeaways" aria-labelledby="takeaways-heading">
           <p className="eyebrow">Start here</p>
           <h2 id="takeaways-heading">Five rules for a safe first handoff</h2>

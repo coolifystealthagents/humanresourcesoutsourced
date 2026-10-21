@@ -341,7 +341,7 @@ export const richArticles: Record<string, RichArticle> = {
       { name: 'Lawphil: Republic Act No. 10173, Data Privacy Act of 2012', url: 'https://lawphil.net/statutes/repacts/ra2012/ra_10173_2012.html', note: 'Philippine privacy-law text for readers who need to discuss cross-border personal-data duties with qualified owners or advisers.' }
     ],
     expertQuote: {
-      text: 'Fraud prevention today is an operating model, not a single control. The best outcomes come from strengthening the fundamentals — verification, disciplined approvals and timely detection — and using technology to reinforce trust as payments move faster. At Truist, that’s how we show up: with simplicity, speed, safety and smart execution.',
+      text: 'Fraud prevention today is an operating model, not a single control. The best outcomes come from strengthening the fundamentals - verification, disciplined approvals and timely detection - and using technology to reinforce trust as payments move faster. At Truist, that’s how we show up: with simplicity, speed, safety and smart execution.',
       attribution: 'Chris Ward, Head of Enterprise Payments at Truist, quoted by AFP on April 14, 2026',
       url: 'https://www.financialprofessionals.org/about/learn-more/press-releases/Details/over-75-percent-of-us-firms-experienced-payments-fraud-in-2025-while-ai-adoption-for-fraud-mitigation-lags'
     },

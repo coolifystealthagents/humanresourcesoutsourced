@@ -131,19 +131,19 @@ export const october8ResearchPosts:readonly ResearchPost[]=[
     ],
     "sources": [
       {
-        "name": "NIST Cybersecurity Framework 2.0 — checked October 8, 2026",
+        "name": "NIST Cybersecurity Framework 2.0  -  checked October 8, 2026",
         "url": "https://www.nist.gov/cyberframework"
       },
       {
-        "name": "GAO Green Book — checked October 8, 2026",
+        "name": "GAO Green Book  -  checked October 8, 2026",
         "url": "https://www.gao.gov/greenbook"
       },
       {
-        "name": "EEOC Recordkeeping Requirements — checked October 8, 2026",
+        "name": "EEOC Recordkeeping Requirements  -  checked October 8, 2026",
         "url": "https://www.eeoc.gov/employers/recordkeeping-requirements"
       },
       {
-        "name": "Philippine National Privacy Commission Data Privacy Act — checked October 8, 2026",
+        "name": "Philippine National Privacy Commission Data Privacy Act  -  checked October 8, 2026",
         "url": "https://privacy.gov.ph/data-privacy-act/"
       }
     ],
@@ -284,19 +284,19 @@ export const october8ResearchPosts:readonly ResearchPost[]=[
     ],
     "sources": [
       {
-        "name": "NIST Cybersecurity Framework 2.0 — checked October 8, 2026",
+        "name": "NIST Cybersecurity Framework 2.0  -  checked October 8, 2026",
         "url": "https://www.nist.gov/cyberframework"
       },
       {
-        "name": "GAO Green Book — checked October 8, 2026",
+        "name": "GAO Green Book  -  checked October 8, 2026",
         "url": "https://www.gao.gov/greenbook"
       },
       {
-        "name": "EEOC Recordkeeping Requirements — checked October 8, 2026",
+        "name": "EEOC Recordkeeping Requirements  -  checked October 8, 2026",
         "url": "https://www.eeoc.gov/employers/recordkeeping-requirements"
       },
       {
-        "name": "Philippine National Privacy Commission Data Privacy Act — checked October 8, 2026",
+        "name": "Philippine National Privacy Commission Data Privacy Act  -  checked October 8, 2026",
         "url": "https://privacy.gov.ph/data-privacy-act/"
       }
     ],
@@ -437,19 +437,19 @@ export const october8ResearchPosts:readonly ResearchPost[]=[
     ],
     "sources": [
       {
-        "name": "NIST Cybersecurity Framework 2.0 — checked October 8, 2026",
+        "name": "NIST Cybersecurity Framework 2.0  -  checked October 8, 2026",
         "url": "https://www.nist.gov/cyberframework"
       },
       {
-        "name": "GAO Green Book — checked October 8, 2026",
+        "name": "GAO Green Book  -  checked October 8, 2026",
         "url": "https://www.gao.gov/greenbook"
       },
       {
-        "name": "EEOC Recordkeeping Requirements — checked October 8, 2026",
+        "name": "EEOC Recordkeeping Requirements  -  checked October 8, 2026",
         "url": "https://www.eeoc.gov/employers/recordkeeping-requirements"
       },
       {
-        "name": "Philippine National Privacy Commission Data Privacy Act — checked October 8, 2026",
+        "name": "Philippine National Privacy Commission Data Privacy Act  -  checked October 8, 2026",
         "url": "https://privacy.gov.ph/data-privacy-act/"
       }
     ],
@@ -590,19 +590,19 @@ export const october8ResearchPosts:readonly ResearchPost[]=[
     ],
     "sources": [
       {
-        "name": "NIST Cybersecurity Framework 2.0 — checked October 8, 2026",
+        "name": "NIST Cybersecurity Framework 2.0  -  checked October 8, 2026",
         "url": "https://www.nist.gov/cyberframework"
       },
       {
-        "name": "GAO Green Book — checked October 8, 2026",
+        "name": "GAO Green Book  -  checked October 8, 2026",
         "url": "https://www.gao.gov/greenbook"
       },
       {
-        "name": "EEOC Recordkeeping Requirements — checked October 8, 2026",
+        "name": "EEOC Recordkeeping Requirements  -  checked October 8, 2026",
         "url": "https://www.eeoc.gov/employers/recordkeeping-requirements"
       },
       {
-        "name": "Philippine National Privacy Commission Data Privacy Act — checked October 8, 2026",
+        "name": "Philippine National Privacy Commission Data Privacy Act  -  checked October 8, 2026",
         "url": "https://privacy.gov.ph/data-privacy-act/"
       }
     ],
@@ -743,19 +743,19 @@ export const october8ResearchPosts:readonly ResearchPost[]=[
     ],
     "sources": [
       {
-        "name": "NIST Cybersecurity Framework 2.0 — checked October 8, 2026",
+        "name": "NIST Cybersecurity Framework 2.0  -  checked October 8, 2026",
         "url": "https://www.nist.gov/cyberframework"
       },
       {
-        "name": "GAO Green Book — checked October 8, 2026",
+        "name": "GAO Green Book  -  checked October 8, 2026",
         "url": "https://www.gao.gov/greenbook"
       },
       {
-        "name": "EEOC Recordkeeping Requirements — checked October 8, 2026",
+        "name": "EEOC Recordkeeping Requirements  -  checked October 8, 2026",
         "url": "https://www.eeoc.gov/employers/recordkeeping-requirements"
       },
       {
-        "name": "Philippine National Privacy Commission Data Privacy Act — checked October 8, 2026",
+        "name": "Philippine National Privacy Commission Data Privacy Act  -  checked October 8, 2026",
         "url": "https://privacy.gov.ph/data-privacy-act/"
       }
     ],
