@@ -21,6 +21,17 @@ const appSource = walk(path.join(root, 'app'))
   .map((file) => fs.readFileSync(file, 'utf8'))
   .join('\n');
 
+test('homepage hero uses the approved team photo without an obstructing overlay', () => {
+  const home = read('app/page.tsx');
+  const css = read('app/globals.css');
+  assert.match(home, /src="\/stealth-agents-team-bacolod\.jpg"/);
+  assert.match(home, /width="953"[\s\S]*height="540"/);
+  assert.match(home, /<figcaption>Real people supporting carefully scoped HR administration\.<\/figcaption>/);
+  assert.doesNotMatch(home, /hr-photo-note|hr-admin-support\.svg/);
+  assert.doesNotMatch(css, /\.hr-photo-note/);
+  assert.match(css, /\.hr-photo-frame img\{[^}]*aspect-ratio:953\/540[^}]*object-fit:contain/);
+});
+
 test('sticky shared header and footer expose exact navigation and StealthAgents attribution', () => {
   assert.match(components, /<a href="\/">Home<\/a><a href="\/services">Services<\/a><a href="\/contact-us"[^>]*>Contact Us<\/a>/);
   assert.equal((components.match(/Powered by StealthAgents/g) || []).length, 2);

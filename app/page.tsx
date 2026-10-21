@@ -65,16 +65,18 @@ export default function Home() {
               <p className="hr-button-note">Start with clear task limits and a named reviewer.</p>
             </div>
 
-            <div className="hr-photo-stage">
+            <figure className="hr-photo-stage">
               <div className="hr-photo-frame">
-                <img src="/illustrations/getillustrations/hannah-business-illustrations-svg/hr-admin-support.svg" alt="Illustration of carefully organized HR administration and onboarding work" />
+                <img
+                  src="/stealth-agents-team-bacolod.jpg"
+                  alt="Stealth Agents team together outside Bacolod City Government Center"
+                  width="953"
+                  height="540"
+                  fetchPriority="high"
+                />
               </div>
-              <div className="hr-photo-note">
-                <span>First desk to fix</span>
-                <strong>Onboarding</strong>
-                <small>Files · dates · owner checks</small>
-              </div>
-            </div>
+              <figcaption>Real people supporting carefully scoped HR administration.</figcaption>
+            </figure>
           </div>
           <div className="container hr-lane-strip" aria-label="HR support areas">
             {deskLanes.map((lane) => <span key={lane}>{lane}</span>)}
