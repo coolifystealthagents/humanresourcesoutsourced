@@ -311,7 +311,7 @@ export const october8ResearchPosts:readonly ResearchPost[]=[
     "title": "Do Reviewers Agree on HR Administration Exceptions?",
     "excerpt": "An inter-rater design preserves first classifications and measures disagreement without turning ambiguity into a clean score.",
     "published": "2026-10-08",
-    "modified": "2026-10-08",
+    "modified": "2026-10-23",
     "thumbnail": "/hr-team.jpg",
     "sections": [
       {
@@ -454,9 +454,9 @@ export const october8ResearchPosts:readonly ResearchPost[]=[
       }
     ],
     "serviceLink": {
-      "title": "Scope a bounded HR coordination lane",
-      "href": "/services",
-      "body": "Use named owners, minimum-necessary access, and retained evidence before expansion."
+      "title": "Prepare an exception-review record",
+      "href": "/services/reporting-and-qa",
+      "body": "A Philippines-based support team can organize reviewer notes, source references, and disagreement records for a planned HR check. The employer decides the exception, changes the process, and approves any employee message."
     }
   },
   {

@@ -57,3 +57,20 @@ test('source-reconstruction research links once to employee-records administrati
   assert.match(page, /post\.serviceLink/);
   assert.match(page, /modifiedTime: post\.modified/);
 });
+
+test('exception-review research links to reporting and QA without transferring the decision', () => {
+  const selected = record.slice(record.indexOf('"slug": "hr-outsourcing-exception-reviewer-agreement-study"'), record.indexOf('"slug": "hr-outsourcing-access-removal-evidence-study"'));
+  assert.ok(selected.length > 0);
+  assert.match(selected, /"published": "2026-10-08"/);
+  assert.match(selected, /"modified": "2026-10-23"/);
+  assert.match(selected, /"title": "Prepare an exception-review record"/);
+  assert.match(selected, /"href": "\/services\/reporting-and-qa"/);
+  assert.match(selected, /organize reviewer notes, source references, and disagreement records/);
+  assert.match(selected, /employer decides the exception, changes the process, and approves any employee message/);
+  assert.doesNotMatch(selected, /"href": "\/services"/);
+  const reportingService = localServices.slice(localServices.indexOf("slug: 'reporting-and-qa'"), localServices.indexOf('] as const;'));
+  assert.match(reportingService, /weekly HR reports/);
+  assert.match(reportingService, /owner signoff before reports are sent outside HR/);
+  assert.match(page, /post\.serviceLink/);
+  assert.match(page, /modifiedTime: post\.modified/);
+});
