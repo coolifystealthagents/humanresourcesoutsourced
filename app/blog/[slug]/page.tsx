@@ -116,7 +116,7 @@ export default async function Post({ params }: Params) {
             <h1>{article.title}</h1>
             <p className="lead">{article.description}</p>
             {article.heroImage ? <img src={article.heroImage} alt={article.title} width={1200} height={630} loading="eager" /> : <ArticleTopicVisual title={article.title} kind="guide" />}
-            <div className="hr-article-meta"><span>{article.minutes} minute read</span><span>Published <time dateTime={article.published}>{formatPublicDate(article.published)}</time></span>{article.updated !== article.published ? <span>Updated <time dateTime={article.updated}>{formatPublicDate(article.updated)}</time></span> : null}<span>Philippines-only talent</span></div>
+            <div className="hr-article-meta"><span>{article.minutes} minute read</span><span className="hr-article-date">Published <time dateTime={article.published}>{formatPublicDate(article.published)}</time></span>{article.updated !== article.published ? <span>Updated <time dateTime={article.updated}>{formatPublicDate(article.updated)}</time></span> : null}<span>Philippines-only talent</span></div>
           </div>
           <aside className="hr-direct-answer" aria-label="Direct answer">
             <span>Direct answer</span>
@@ -126,7 +126,7 @@ export default async function Post({ params }: Params) {
       </header>
 
       <article className="container hr-article-body">
-        <aside className="article-sidebar"><ActiveTableOfContents items={tocItems} title="Article contents" /><div className="article-sidebar-module"><h2>Use this guide</h2><p>Translate the guidance into one bounded workflow with a named reviewer and exception owner.</p><a href="/contact-us">Discuss your HR support plan</a></div><div className="article-sidebar-module"><h2>Publisher</h2><p>{site.brand} publishes practical guidance for controlled HR administration handoffs.</p></div></aside>
+        <aside className="article-sidebar"><ActiveTableOfContents items={tocItems} title="Article contents" /><div className="article-sidebar-module"><h3>Use this guide</h3><p>Translate the guidance into one bounded workflow with a named reviewer and exception owner.</p><a href="/contact-us">Discuss your HR support plan</a></div><div className="article-sidebar-module"><h3>Publisher</h3><p>{site.brand} publishes practical guidance for controlled HR administration handoffs.</p></div></aside>
         <section className="hr-takeaways" aria-labelledby="takeaways-heading">
           <p className="eyebrow">Start here</p>
           <h2 id="takeaways-heading">Five rules for a safe first handoff</h2>

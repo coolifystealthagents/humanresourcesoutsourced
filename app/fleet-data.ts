@@ -3,6 +3,7 @@ export type ResearchPost = { slug: string; title: string; excerpt: string; publi
 import { august13ResearchPosts } from './research/august13-batch';
 import { october12ResearchPosts } from './research/october12-research-batch';
 import { october13ResearchPosts } from './research/october13-research-batch';
+import { octoberTwentyTwoResearchPosts } from './oct22-content';
 import { august14ResearchPosts } from './research/august14-batch';
 import { august17ResearchPosts } from './research/august17-batch';
 import { august18ResearchPosts } from './research/august18-batch';
@@ -104,6 +105,7 @@ export const fleetServices: readonly FleetService[] = [
 
 // Add reviewed, source-backed original research here. The templates and sitemap update automatically.
 export const researchPosts: readonly ResearchPost[] = [
+  ...octoberTwentyTwoResearchPosts,
   ...october13ResearchPosts,
   ...october12ResearchPosts,
   ...october8ResearchPosts,
