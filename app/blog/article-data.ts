@@ -2,6 +2,7 @@ import { october5BlogArticles } from './october5-blog-batch';
 import { october8BlogArticles } from './october8-batch';
 import { october12BlogArticles } from './october12-batch';
 import { october13BlogArticles } from './october13-batch';
+import { octoberTwentySixthBlogArticles } from '../oct26-blog';
 import { octoberTwentyFifthBlogArticles } from '../oct25-blog';
 import { octoberTwentyTwoBlogArticles } from '../oct22-content';
 import { october5HelpDeskArticles } from './october5-help-desk-service-levels';
@@ -54,6 +55,7 @@ export type RichArticle = {
 };
 
 export const richArticles: Record<string, RichArticle> = {
+  ...octoberTwentySixthBlogArticles,
   ...octoberTwentyFifthBlogArticles,
   ...octoberTwentyTwoBlogArticles,
   ...october13BlogArticles,
