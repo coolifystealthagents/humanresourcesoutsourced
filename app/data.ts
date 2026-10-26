@@ -2,6 +2,7 @@ import { october5BlogPosts } from './blog/october5-blog-batch';
 import { october8BlogPosts } from './blog/october8-batch';
 import { october12BlogPosts } from './blog/october12-batch';
 import { october13BlogPosts } from './blog/october13-batch';
+import { octoberTwentyFifthBlogPosts } from './oct25-blog';
 import { octoberTwentyTwoBlogPosts } from './oct22-content';
 import { october5HelpDeskPost } from './blog/october5-help-desk-service-levels';
 import { october5FileMigrationPost } from './blog/october5-employee-file-migration';
@@ -159,6 +160,7 @@ const evergreenBlogPosts = [
 
 // The dated daily batch is the newest family content and must precede evergreen posts.
 export const blogPosts = [
+  ...octoberTwentyFifthBlogPosts,
   ...octoberTwentyTwoBlogPosts,
   ...october13BlogPosts,
   ...october12BlogPosts,
