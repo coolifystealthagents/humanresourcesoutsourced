@@ -1,0 +1,457 @@
+export const octoberTwentyEighthResearchPosts = [
+  {
+    "slug": "humanresourcesoutsourced-measuring-decision-latency-in-employee-file",
+    "title": "Measuring decision latency in employee file",
+    "excerpt": "A grounded HR outsourcing note for HR and people operations leaders: employee file with explicit evidence, decision rights, and a verified close.",
+    "published": "2026-10-28",
+    "modified": "2026-10-28",
+    "thumbnail": "/oct28-heroes/humanresourcesoutsourced-measuring-decision-latency-in-employee-file.png",
+    "sections": [
+      {
+        "heading": "Question and scope",
+        "paragraphs": [
+          "A useful scope is narrow enough to reproduce and specific enough to show whether missing I-9 is being detected. Record the opening count, additions, withdrawals, resolutions, and unresolved items at the end of the window. Define age from the first recorded request, not from the first time someone remembered to open the case. Separate the operational question from the compliance question; this method does not certify either outcome. When a value is missing, record the missing state and the reason instead of leaving an empty field in the extract. The October 28 employee file exception log should show the reason code, owner, and release decision.",
+          "The question should name the unit, the start event, the stop event, and the decision the result is meant to inform. The unit definition should be stable enough that two reviewers can classify the same case the same way. A case is complete only when the applicant tracking system shows the approved destination value and the I-9 record supports it. Write the decision the study is meant to inform before choosing the measure. If the evidence is sensitive, record the approved reference and access path rather than copying the content. The October 28 employee file recovery test should record the restore point and the I-9 exception count result."
+        ]
+      },
+      {
+        "heading": "Population and unit",
+        "paragraphs": [
+          "A population that changes size during the day should be reported with the start, end, and net change, not only the closing total. A case that moves between owners stays one case unless the process defines a new requirement at the handoff. A correction should be classified by the original case and by the correction event, with both dates retained. Record the extraction date and the queue filter so another reviewer can reproduce the population count. Record this decision in the study log with the case key, the review date, and the person who approved the classification. The October 28 control note for Human Resources Outsourced should name the employee file source, the owner, and the next review time.",
+          "A population that changes size during the day should be reported with the start, end, and net change, not only the closing total. Exclude cases opened outside the window only when the exclusion rule was written before collection. The definition should make it possible to classify a case without asking the person who did the work. Record the extraction date and the queue filter so another reviewer can reproduce the population count. If the source changes after the observation, preserve the earlier value and add a dated note instead of replacing it. The October 28 evidence trail for employee file should show the source version and the payroll manager decision."
+        ]
+      },
+      {
+        "heading": "Definitions and measures",
+        "paragraphs": [
+          "Name the owner who can declare a case complete, and record that role in the data dictionary. Use a stable case key and a separate identity crosswalk stored in an approved system. Use the same status vocabulary in the queue, the evidence extract, and the report so a case does not change category. Keep a change log for every definition adjustment and the date it took effect. Use the same note in the case file and the study extract; do not create a second version in a personal document. The employee file review at Human Resources Outsourced should state whether the benefits enrollment was current on October 28.",
+          "A case that has no destination change should be defined as cancelled or rejected, not counted as complete. Keep the original text and the coded value together so a reviewer can check the classification. Record the person who approved the definition and the date it became effective. Record the pause rule and the person authorized to release a paused case. Keep the measurement note short enough to read with the case and specific enough to support the reported policy acknowledgment rate. The October 28 employee file note should distinguish a missing leave request from a confirmed negative."
+        ]
+      },
+      {
+        "heading": "Data dictionary and evidence",
+        "paragraphs": [
+          "Keep free-text notes separate from coded fields so the analysis does not depend on inconsistent wording. If a field is derived, record the formula and the source fields used to calculate it. Use one row per case and one column per required field; do not bury evidence in a long free-text note. Keep the original request, the approval, and the destination value linked to the same key. Link the observation to the exact field in the leave management system and to the leave request that supports it. The benefits broker decision on employee file should be dated October 28 and linked to the leave request.",
+          "The data dictionary should name the allowed values for status, exception reason, owner, and close evidence. Version the dictionary and report which version was used for each observation period. Keep the original evidence reference next to the coded value so the reviewer can verify the classification. Archive the dictionary with the study so a later reviewer can reproduce the categories. If the case moved between owners, include both owner periods in the review note and name the handoff time. The October 28 employee file close should name the destination field, the approver, and the I-9 exception count check.",
+          "Each case needs the source, the observation time, the field supported, the owner, and the reviewer. Name the required fields for each article type and mark conditional fields in the dictionary. Record the data extraction date and the version of the HR ticket queue used for the population count. Archive the dictionary with the study so a later reviewer can reproduce the categories. When a value is missing, record the missing state and the reason instead of leaving an empty field in the extract. The October 28 employee file exception log should show the reason code, owner, and release decision."
+        ]
+      },
+      {
+        "heading": "Sampling and collection",
+        "paragraphs": [
+          "Include adverse cases: a missing performance review, a conflicting source, an unavailable client HR lead, and a tight deadline. Collect the exception reason and the action taken before the close so the analysis can separate detection from resolution. Keep the sample selection reproducible by recording the export date, filter, and random seed or start rule. Use a random start and a fixed interval when the frame is ordered, and record both. If the evidence is sensitive, record the approved reference and access path rather than copying the content. The October 28 employee file recovery test should record the restore point and the benefits change cycle result.",
+          "Stop expanding the sample only when the review question is answered, not when the result starts to look favorable. If a source cannot be accessed, mark it unavailable and record the access problem rather than asking the operator to reconstruct it from memory. Stratify by risk, channel, and owner so the sample is not dominated by the easiest queue. A case that is difficult to access is still part of the frame; report the access failure rather than replacing it silently. Record this decision in the study log with the case key, the review date, and the person who approved the classification. The October 28 control note for Human Resources Outsourced should name the employee file source, the owner, and the next review time.",
+          "If the population is small, report every case and the reason the sample is exhaustive rather than presenting a false precision. Use the same collection form for every case and keep the original record linked to the extracted fields. Include reopened, unresolved, and exception cases in the sample frame. Include at least one case from each owner in scope when the frame allows it. If the source changes after the observation, preserve the earlier value and add a dated note instead of replacing it. The October 28 evidence trail for employee file should show the source version and the benefits broker decision."
+        ]
+      },
+      {
+        "heading": "Analysis and reporting",
+        "paragraphs": [
+          "Keep case-level detail available for review, because a summary chart without records cannot support a decision. Use case-level review to explain an outlier before treating it as a process signal. If the result is unstable, say which cases create the variation and what a larger sample would test. When a rate changes, check whether the case mix or the evidence standard changed at the same time. Use the same note in the case file and the study extract; do not create a second version in a personal document. The employee file review at Human Resources Outsourced should state whether the policy acknowledgment was current on October 28.",
+          "Report the eligible count, the sample, the missing-field rate, the exception rate, and the unresolved count at the close of the window. Compare periods only after checking the case mix, the definitions, and the queue rules. Record the sample date, the denominator, the numerator, and the exclusion count for every reported rate. Keep descriptive findings separate from causal claims and label exploratory results. Keep the measurement note short enough to read with the case and specific enough to support the reported policy acknowledgment rate. The October 28 employee file note should distinguish a missing employee file from a confirmed negative."
+        ]
+      },
+      {
+        "heading": "Limitations",
+        "paragraphs": [
+          "The study cannot determine whether the professional decision was correct, only whether the record and handoff are reconstructable. The cited sources describe recordkeeping, privacy, security, or control practice; they do not supply a local benchmark. If the reviewer also performed the work, note the independence limitation and use a second reviewer for a subsample. Keep the limitations with the result so a local observation is not turned into a general claim. Link the observation to the exact field in the HRIS and to the employee file that supports it. The client HR lead decision on employee file should be dated October 28 and linked to the employee file.",
+          "Changes in definitions, staffing, or the applicant tracking system during the window can create a trend that is not a process effect. Selection bias remains when the team chooses cases that are easy to open or owners who are likely to cooperate. Record the response or access problems that prevented a case from being reviewed. If the queue changed during the window, explain how the change affects the denominator. If the case moved between owners, include both owner periods in the review note and name the handoff time. The October 28 employee file close should name the destination field, the approver, and the I-9 exception count check."
+        ]
+      },
+      {
+        "heading": "Review and next action",
+        "paragraphs": [
+          "Keep the review note with the employee file evidence so the next reviewer can see why the process changed. A quality review should end with a testable next step, not a general instruction to improve. Link the action to the specific employee file cases that motivated it. Use a short action log that names the change, the owner, the due date, and the measure that will show whether it worked. When a value is missing, record the missing state and the reason instead of leaving an empty field in the extract. The October 28 employee file exception log should show the reason code, owner, and release decision.",
+          "A quality review should end with an owner, a date, and one testable change, not a list of intentions. Name the owner, the review date, and the decision the study is expected to inform. Link the action to the specific employee file cases that motivated it. Record the owner, due date, and exact change that will be tested at the next review. If the evidence is sensitive, record the approved reference and access path rather than copying the content. The October 28 employee file recovery test should record the restore point and the leave response time result."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "U.S. Department of Labor \u2014 recordkeeping",
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping"
+      },
+      {
+        "name": "U.S. Citizenship and Immigration Services \u2014 Form I-9",
+        "url": "https://www.uscis.gov/i-9"
+      },
+      {
+        "name": "U.S. Department of Health and Human Services \u2014 HIPAA",
+        "url": "https://www.hhs.gov/hipaa/index.html"
+      },
+      {
+        "name": "NIST Cybersecurity Framework",
+        "url": "https://www.nist.gov/cyberframework"
+      }
+    ],
+    "serviceLink": {
+      "title": "HR operations support",
+      "href": "/services",
+      "body": "Use the method to define evidence and ownership."
+    }
+  },
+  {
+    "slug": "humanresourcesoutsourced-testing-evidence-retention-across-i-9-record-corrections",
+    "title": "Testing evidence retention across I-9 record corrections",
+    "excerpt": "A grounded HR outsourcing note for HR and people operations leaders: I-9 record with explicit evidence, decision rights, and a verified close.",
+    "published": "2026-10-28",
+    "modified": "2026-10-28",
+    "thumbnail": "/oct28-heroes/humanresourcesoutsourced-testing-evidence-retention-across-i-9-record-corrections.png",
+    "sections": [
+      {
+        "heading": "Question and scope",
+        "paragraphs": [
+          "A useful scope is narrow enough to reproduce and specific enough to show whether stale policy is being detected. A count without a denominator is not a measurement, especially when the queue changes size during the day. If a definition changes during the review, keep the earlier classification and apply the new rule only to later cases. Keep the protocol with the I-9 record batch so the next reviewer can see what was measured. Record this decision in the study log with the case key, the review date, and the person who approved the classification. The October 28 control note for Human Resources Outsourced should name the I-9 record source, the owner, and the next review time.",
+          "The protocol does not estimate an industry benchmark; it produces a local description that HR and people operations leaders can review. The unit definition should be stable enough that two reviewers can classify the same case the same way. Define the start event, the stop event, the pause rule, and the treatment of a missing leave request before collecting data. Name the population, the observation window, and the systems included in the extraction. If the source changes after the observation, preserve the earlier value and add a dated note instead of replacing it. The October 28 evidence trail for I-9 record should show the source version and the benefits broker decision."
+        ]
+      },
+      {
+        "heading": "Population and unit",
+        "paragraphs": [
+          "If a reopened case creates a new requirement, count it as a new case and retain a link to the earlier record. Define whether a request that generates several leave request updates is one case or several before counting begins. Use plain language in the definition and add one example and one non-example for the reviewer. If a request was reopened after the window, keep it in the original population and report the later event separately. Use the same note in the case file and the study extract; do not create a second version in a personal document. The I-9 record review at Human Resources Outsourced should state whether the leave request was current on October 28.",
+          "Include cases opened before the window but closed inside it only when the protocol says they belong to the population. A denominator that changes during the window should be reported separately for each period. If the definition of offboarding closure changes, keep the old and new values side by side for the transition period. If the queue was archived during the window, report the loss and exclude the affected period rather than assuming the cases were resolved. Keep the measurement note short enough to read with the case and specific enough to support the reported offboarding closure. The October 28 I-9 record note should distinguish a missing performance review from a confirmed negative."
+        ]
+      },
+      {
+        "heading": "Definitions and measures",
+        "paragraphs": [
+          "Measure elapsed time from the first recorded request to the verified destination update, and report waiting intervals separately. Keep the original text and the coded value together so a reviewer can check the classification. Before collection, test the definitions on a missing performance review, a reopened case, and a handoff. Record the pause rule and the person authorized to release a paused case. Link the observation to the exact field in the leave management system and to the performance review that supports it. The employee decision on I-9 record should be dated October 28 and linked to the performance review.",
+          "A case that has no destination change should be defined as cancelled or rejected, not counted as complete. Record the source system, the record identifier, the extraction time, and the reviewer for every extracted value. A completeness measure should name the required fields and the evidence state; an overall percentage is not reproducible. If two reviewers disagree, preserve both classifications until the definition is clarified. If the case moved between owners, include both owner periods in the review note and name the handoff time. The October 28 I-9 record close should name the destination field, the approver, and the file completeness check."
+        ]
+      },
+      {
+        "heading": "Data dictionary and evidence",
+        "paragraphs": [
+          "Test the dictionary on five cases before the full sample; ambiguous fields should be fixed before collection, not after. Use a controlled list for exception reasons; do not let free text become the analysis category. Use one row per case and one column per required field; do not bury evidence in a long free-text note. Use a separate field for reviewer notes so the coded values stay comparable. When a value is missing, record the missing state and the reason instead of leaving an empty field in the extract. The October 28 I-9 record exception log should show the reason code, owner, and release decision.",
+          "Test the dictionary on five cases before the full sample; ambiguous fields should be fixed before collection, not after. Give every case a study key that is not the client name, member number, or candidate email. Store sensitive evidence in the approved repository and keep only the reference in the analysis file. Use a separate field for reviewer notes so the coded values stay comparable. If the evidence is sensitive, record the approved reference and access path rather than copying the content. The October 28 I-9 record recovery test should record the restore point and the benefits change cycle result.",
+          "If the source is a document, record the page or field; if the source is a system, record the record identifier and extraction time. Keep the identity crosswalk in the approved system and restrict it to the review owner. Store sensitive evidence in the approved repository and keep only the reference in the analysis file. A case key should remain stable if the case moves between owners or changes status. Record this decision in the study log with the case key, the review date, and the person who approved the classification. The October 28 control note for Human Resources Outsourced should name the I-9 record source, the owner, and the next review time."
+        ]
+      },
+      {
+        "heading": "Sampling and collection",
+        "paragraphs": [
+          "Stop expanding the sample only when the review question is answered, not when the result starts to look favorable. Collect the case from the HR ticket queue, the employee file, and the approval record, and stop at the verified close. Record the eligible count and every exclusion before the sample is drawn. If a selected case is out of scope, replace it only with the next case in the same stratum and record the substitution. If the source changes after the observation, preserve the earlier value and add a dated note instead of replacing it. The October 28 evidence trail for I-9 record should show the source version and the employee decision.",
+          "Stop expanding the sample only when the review question is answered, not when the result starts to look favorable. Use the same collection form for every case and keep the original record linked to the extracted fields. A sample of recent closures can miss the oldest unresolved work, which is often the most informative. Use a random start and a fixed interval when the frame is ordered, and record both. Use the same note in the case file and the study extract; do not create a second version in a personal document. The I-9 record review at Human Resources Outsourced should state whether the I-9 record was current on October 28.",
+          "Stop expanding the sample only when the review question is answered, not when the result starts to look favorable. Collect the case from the applicant tracking system, the benefits enrollment, and the approval record, and stop at the verified close. Keep the sample selection reproducible by recording the export date, filter, and random seed or start rule. Keep a table of planned, eligible, selected, and reviewed counts for each stratum. Keep the measurement note short enough to read with the case and specific enough to support the reported policy acknowledgment rate. The October 28 I-9 record note should distinguish a missing benefits enrollment from a confirmed negative."
+        ]
+      },
+      {
+        "heading": "Analysis and reporting",
+        "paragraphs": [
+          "Keep case-level detail available for review, because a summary chart without records cannot support a decision. Report denominators with every rate and separate missing evidence from negative evidence. Record the sample date, the denominator, the numerator, and the exclusion count for every reported rate. End with the decision the evidence supports and the decision it does not support. Link the observation to the exact field in the HRIS and to the I-9 record that supports it. The payroll manager decision on I-9 record should be dated October 28 and linked to the I-9 record.",
+          "Keep case-level detail available for review, because a summary chart without records cannot support a decision. Compare periods only after checking the case mix, the definitions, and the queue rules. Keep the case-level table available for review and summarize only the measures that answer the question. End with the decision the evidence supports and the decision it does not support. If the case moved between owners, include both owner periods in the review note and name the handoff time. The October 28 I-9 record close should name the destination field, the approver, and the file completeness check."
+        ]
+      },
+      {
+        "heading": "Limitations",
+        "paragraphs": [
+          "The study cannot determine whether the professional decision was correct, only whether the record and handoff are reconstructable. A clean summary can hide missing evidence, especially when the operator who did the work is also the reviewer. Record the response or access problems that prevented a case from being reviewed. If the reviewer performed the work, use a second reviewer for a subsample and report the disagreement. When a value is missing, record the missing state and the reason instead of leaving an empty field in the extract. The October 28 I-9 record exception log should show the reason code, owner, and release decision.",
+          "Selection bias remains if the team samples only records that are easy to open or cases handled by cooperative owners. Changes in staffing, access, or the benefits portal during the window can create a difference that is not a process effect. Keep the limitations with the result so a later reader does not turn a local observation into a general claim. State that the result describes the observed sample, not the whole industry or every team in the service. If the evidence is sensitive, record the approved reference and access path rather than copying the content. The October 28 I-9 record recovery test should record the restore point and the benefits change cycle result."
+        ]
+      },
+      {
+        "heading": "Review and next action",
+        "paragraphs": [
+          "Repeat the protocol after the change with the same definitions, window, and exclusions. A quality review should end with a testable next step, not a general instruction to improve. If the action requires a policy or access change, route it to the owner and record the decision. Use a short action log that names the change, the owner, the due date, and the measure that will show whether it worked. Record this decision in the study log with the case key, the review date, and the person who approved the classification. The October 28 control note for Human Resources Outsourced should name the I-9 record source, the owner, and the next review time.",
+          "Record the decision and the next check so the study does not end as an archive. Name the owner, the review date, and the decision the study is expected to inform. Link the action to the specific I-9 record cases that motivated it. If the action needs approval, record the approver and the date before the change is applied. If the source changes after the observation, preserve the earlier value and add a dated note instead of replacing it. The October 28 evidence trail for I-9 record should show the source version and the client HR lead decision."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "U.S. Citizenship and Immigration Services \u2014 Form I-9",
+        "url": "https://www.uscis.gov/i-9"
+      },
+      {
+        "name": "U.S. Department of Health and Human Services \u2014 HIPAA",
+        "url": "https://www.hhs.gov/hipaa/index.html"
+      },
+      {
+        "name": "NIST Cybersecurity Framework",
+        "url": "https://www.nist.gov/cyberframework"
+      },
+      {
+        "name": "U.S. Department of Labor \u2014 recordkeeping",
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping"
+      }
+    ],
+    "serviceLink": {
+      "title": "HR operations support",
+      "href": "/services",
+      "body": "Use the method to define evidence and ownership."
+    }
+  },
+  {
+    "slug": "humanresourcesoutsourced-estimating-exception-spillover-in-benefits-enrollment",
+    "title": "Estimating exception spillover in benefits enrollment",
+    "excerpt": "A grounded HR outsourcing note for HR and people operations leaders: benefits enrollment with explicit evidence, decision rights, and a verified close.",
+    "published": "2026-10-28",
+    "modified": "2026-10-28",
+    "thumbnail": "/oct28-heroes/humanresourcesoutsourced-estimating-exception-spillover-in-benefits-enrollment.png",
+    "sections": [
+      {
+        "heading": "Question and scope",
+        "paragraphs": [
+          "The question should name the unit, the start event, the stop event, and the decision the result is meant to inform. A count without a denominator is not a measurement, especially when the queue changes size during the day. If a definition changes during the review, keep the earlier classification and apply the new rule only to later cases. Keep the protocol with the benefits enrollment batch so the next reviewer can see what was measured. Use the same note in the case file and the study extract; do not create a second version in a personal document. The benefits enrollment review at Human Resources Outsourced should state whether the performance review was current on October 28.",
+          "The question should name the unit, the start event, the stop event, and the decision the result is meant to inform. Record the opening count, additions, withdrawals, resolutions, and unresolved items at the end of the window. If a definition changes during the review, keep the earlier classification and apply the new rule only to later cases. State whether the study covers one team, one client, or all cases in the defined service. Keep the measurement note short enough to read with the case and specific enough to support the reported leave response time. The October 28 benefits enrollment note should distinguish a missing policy acknowledgment from a confirmed negative."
+        ]
+      },
+      {
+        "heading": "Population and unit",
+        "paragraphs": [
+          "A population that changes size during the day should be reported with the start, end, and net change, not only the closing total. A denominator that changes during the window should be reported separately for each period. Define how a case that waits for client HR lead is counted: paused, open, or excluded, but not silently dropped. If a request was reopened after the window, keep it in the original population and report the later event separately. Link the observation to the exact field in the leave management system and to the policy acknowledgment that supports it. The client HR lead decision on benefits enrollment should be dated October 28 and linked to the policy acknowledgment.",
+          "Record the opening count by owner and channel, because a single total can hide a queue concentrated in one person. The population should include unresolved cases, not only closures, or the study will overstate completion. The start event should be the first recorded request, not the first time the team opened the case. Separate cases opened before the window from cases opened and closed inside it, and report both counts. If the case moved between owners, include both owner periods in the review note and name the handoff time. The October 28 benefits enrollment close should name the destination field, the approver, and the policy acknowledgment rate check."
+        ]
+      },
+      {
+        "heading": "Definitions and measures",
+        "paragraphs": [
+          "A case that has no destination change should be defined as cancelled or rejected, not counted as complete. Record the version of the employee file and the policy library snapshot used for each case. Define whether a case that waits for a third party is open, paused, or excluded, and apply that rule to every owner. A definition that depends on the reviewer\u2019s memory is not reproducible enough for this study. When a value is missing, record the missing state and the reason instead of leaving an empty field in the extract. The October 28 benefits enrollment exception log should show the reason code, owner, and release decision.",
+          "Define the controlled event as the moment a request for benefits enrollment becomes work, not the moment someone starts typing a note. Record the source system, the record identifier, the extraction time, and the reviewer for every extracted value. Use the same status vocabulary in the queue, the evidence extract, and the report so a case does not change category. If two reviewers disagree, preserve both classifications until the definition is clarified. If the evidence is sensitive, record the approved reference and access path rather than copying the content. The October 28 benefits enrollment recovery test should record the restore point and the I-9 exception count result."
+        ]
+      },
+      {
+        "heading": "Data dictionary and evidence",
+        "paragraphs": [
+          "Record the version or date of the I-9 record and the HR ticket queue value so a later reviewer can see what was known at the first action. Keep the identity crosswalk in the approved system and restrict it to the review owner. Record the source identifier, the field name, the observation time, and the reviewer for every extracted value. Use a separate field for reviewer notes so the coded values stay comparable. Record this decision in the study log with the case key, the review date, and the person who approved the classification. The October 28 control note for Human Resources Outsourced should name the benefits enrollment source, the owner, and the next review time.",
+          "Test the dictionary on five cases before the full sample; ambiguous fields should be fixed before collection, not after. If a field is derived, record the formula and the source fields used to calculate it. Keep the source reference and the coded value in the same row, and do not overwrite the original with a later correction. Define who may change a coded value and how the change is logged. If the source changes after the observation, preserve the earlier value and add a dated note instead of replacing it. The October 28 evidence trail for benefits enrollment should show the source version and the employee decision.",
+          "If the source is a document, record the page or field; if the source is a system, record the record identifier and extraction time. Name the required fields for each article type and mark conditional fields in the dictionary. A missing value should have a reason code, not a blank cell or a zero. Use a separate field for reviewer notes so the coded values stay comparable. Use the same note in the case file and the study extract; do not create a second version in a personal document. The benefits enrollment review at Human Resources Outsourced should state whether the leave request was current on October 28."
+        ]
+      },
+      {
+        "heading": "Sampling and collection",
+        "paragraphs": [
+          "Stop expanding the sample only when the review question is answered, not when the result starts to look favorable. Record the time of each observation so a later reviewer can distinguish a late entry from a changed decision. Stratify by risk, channel, and owner so the sample is not dominated by the easiest queue. Record the sampling frame as an export with a date, filter, and row count. Keep the measurement note short enough to read with the case and specific enough to support the reported offboarding closure. The October 28 benefits enrollment note should distinguish a missing benefits enrollment from a confirmed negative.",
+          "Use consecutive benefits enrollment cases where possible, then stratify by owner, channel, and risk class. If a source cannot be accessed, mark it unavailable and record the access problem rather than asking the operator to reconstruct it from memory. If a stratum has fewer cases than planned, report the smaller count instead of replacing it with a convenience case. Record the date of the sample and the version of the queue export. Link the observation to the exact field in the applicant tracking system and to the leave request that supports it. The payroll manager decision on benefits enrollment should be dated October 28 and linked to the leave request.",
+          "Use consecutive benefits enrollment cases where possible, then stratify by owner, channel, and risk class. Keep the collection window and the number of collectors in the report; both affect how the result should be interpreted. A sample of recent closures can miss the oldest unresolved work, which is often the most informative. A case that is difficult to access is still part of the frame; report the access failure rather than replacing it silently. If the case moved between owners, include both owner periods in the review note and name the handoff time. The October 28 benefits enrollment close should name the destination field, the approver, and the file completeness check."
+        ]
+      },
+      {
+        "heading": "Analysis and reporting",
+        "paragraphs": [
+          "Separate observation from interpretation; a high completion rate on a small easy sample is not evidence of a strong control. If two measures disagree, report both and explain what each one counts. If the result is unstable, say which cases create the variation and what a larger sample would test. Use a case-level table to explain an outlier before treating it as a process signal. When a value is missing, record the missing state and the reason instead of leaving an empty field in the extract. The October 28 benefits enrollment exception log should show the reason code, owner, and release decision.",
+          "Separate observation from interpretation; a high completion rate on a small easy sample is not evidence of a strong control. If two measures disagree, report both and explain what each one counts. Write the finding in plain language and separate what was observed from what the team believes caused it. Report the numerator, denominator, observation window, and exclusion count for each measure. If the evidence is sensitive, record the approved reference and access path rather than copying the content. The October 28 benefits enrollment recovery test should record the restore point and the I-9 exception count result."
+        ]
+      },
+      {
+        "heading": "Limitations",
+        "paragraphs": [
+          "Changes in definitions, staffing, or the benefits portal during the window can create a trend that is not a process effect. Selection bias remains when the team chooses cases that are easy to open or owners who are likely to cooperate. Keep the limitations with the result so a later reader does not turn a local observation into a general claim. A missing record is evidence about the record, not proof that the work was never done. Record this decision in the study log with the case key, the review date, and the person who approved the classification. The October 28 control note for Human Resources Outsourced should name the benefits enrollment source, the owner, and the next review time.",
+          "The method also cannot observe work that never entered the queue, which may be the most important missing population. Selection bias remains when the team chooses cases that are easy to open or owners who are likely to cooperate. Do not treat a missing record as proof that the work did not happen; it is evidence about the record. Record the access problems that prevented a case from being reviewed. If the source changes after the observation, preserve the earlier value and add a dated note instead of replacing it. The October 28 evidence trail for benefits enrollment should show the source version and the payroll manager decision."
+        ]
+      },
+      {
+        "heading": "Review and next action",
+        "paragraphs": [
+          "Record the decision and the next check so the study does not end as an archive. If the action changes late benefits change, record the approval from client HR lead before implementation. Close the review only when the owner has accepted the result and the next check is scheduled. Close the review when the owner accepts the finding and the next test is on the calendar. Use the same note in the case file and the study extract; do not create a second version in a personal document. The benefits enrollment review at Human Resources Outsourced should state whether the policy acknowledgment was current on October 28.",
+          "Name the owner who will read the result and set a review date before the sample is collected. A quality review should end with a testable next step, not a general instruction to improve. Keep the old process note until the new process has been tested; do not erase the baseline. Close the review when the owner accepts the finding and the next test is on the calendar. Keep the measurement note short enough to read with the case and specific enough to support the reported policy acknowledgment rate. The October 28 benefits enrollment note should distinguish a missing employee file from a confirmed negative."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "U.S. Department of Health and Human Services \u2014 HIPAA",
+        "url": "https://www.hhs.gov/hipaa/index.html"
+      },
+      {
+        "name": "NIST Cybersecurity Framework",
+        "url": "https://www.nist.gov/cyberframework"
+      },
+      {
+        "name": "U.S. Department of Labor \u2014 recordkeeping",
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping"
+      },
+      {
+        "name": "U.S. Citizenship and Immigration Services \u2014 Form I-9",
+        "url": "https://www.uscis.gov/i-9"
+      }
+    ],
+    "serviceLink": {
+      "title": "HR operations support",
+      "href": "/services",
+      "body": "Use the method to define evidence and ownership."
+    }
+  },
+  {
+    "slug": "humanresourcesoutsourced-auditing-backup-owner-coverage-for-leave-request",
+    "title": "Auditing backup-owner coverage for leave request",
+    "excerpt": "A grounded HR outsourcing note for HR and people operations leaders: leave request with explicit evidence, decision rights, and a verified close.",
+    "published": "2026-10-28",
+    "modified": "2026-10-28",
+    "thumbnail": "/oct28-heroes/humanresourcesoutsourced-auditing-backup-owner-coverage-for-leave-request.png",
+    "sections": [
+      {
+        "heading": "Question and scope",
+        "paragraphs": [
+          "The protocol does not estimate an industry benchmark; it produces a local description that HR and people operations leaders can review. Exclude a reopened case only when the reopening did not create a new requirement; keep the exclusion count and reason. Write the primary measure and one supporting measure; a measure without a denominator or observation window is not ready. State whether the study covers one team, one client, or all cases in the defined service. Link the observation to the exact field in the leave management system and to the employee file that supports it. The payroll manager decision on leave request should be dated October 28 and linked to the employee file.",
+          "A useful scope is narrow enough to reproduce and specific enough to show whether offboarding access leftover is being detected. Record the opening count, additions, withdrawals, resolutions, and unresolved items at the end of the window. The definitions should be short enough to use at the queue and precise enough to defend in a review with client HR lead. Record the exclusions in advance so a difficult case cannot be removed after the result is known. If the case moved between owners, include both owner periods in the review note and name the handoff time. The October 28 leave request close should name the destination field, the approver, and the offboarding closure check."
+        ]
+      },
+      {
+        "heading": "Population and unit",
+        "paragraphs": [
+          "Test the unit definition on a case that crosses owners, a case that is still open, and a case that was reopened. Exclude cases opened outside the window only when the exclusion rule was written before collection. The stop event should be the verified destination update, not the last message in the thread. If the queue was archived during the window, report the loss and exclude the affected period rather than assuming the cases were resolved. When a value is missing, record the missing state and the reason instead of leaving an empty field in the extract. The October 28 leave request exception log should show the reason code, owner, and release decision.",
+          "Test the unit definition on a case that crosses owners, a case that is still open, and a case that was reopened. Define whether a request that generates several benefits enrollment updates is one case or several before counting begins. Define how a case that waits for benefits broker is counted: paused, open, or excluded, but not silently dropped. Use the same case key across the queue export and the evidence extract to avoid double counting. If the evidence is sensitive, record the approved reference and access path rather than copying the content. The October 28 leave request recovery test should record the restore point and the file completeness result."
+        ]
+      },
+      {
+        "heading": "Definitions and measures",
+        "paragraphs": [
+          "Name the owner who can declare a case complete, and record that role in the data dictionary. Keep the original text and the coded value together so a reviewer can check the classification. Record the person who approved the definition and the date it became effective. Record the pause rule and the person authorized to release a paused case. Record this decision in the study log with the case key, the review date, and the person who approved the classification. The October 28 control note for Human Resources Outsourced should name the leave request source, the owner, and the next review time.",
+          "Define how a correction after close is linked to the original case and whether it creates a new case. Keep the original text and the coded value together so a reviewer can check the classification. Define whether a case that waits for a third party is open, paused, or excluded, and apply that rule to every owner. Give one concrete example and one boundary case to each reviewer before collection begins. If the source changes after the observation, preserve the earlier value and add a dated note instead of replacing it. The October 28 evidence trail for leave request should show the source version and the client HR lead decision."
+        ]
+      },
+      {
+        "heading": "Data dictionary and evidence",
+        "paragraphs": [
+          "Test the dictionary on five cases before the full sample; ambiguous fields should be fixed before collection, not after. Record the extraction time separately from the event time so a late entry is visible. Store sensitive evidence in the approved repository and keep only the reference in the analysis file. Define who may change a coded value and how the change is logged. Use the same note in the case file and the study extract; do not create a second version in a personal document. The leave request review at Human Resources Outsourced should state whether the leave request was current on October 28.",
+          "The data dictionary should name the allowed values for status, exception reason, owner, and close evidence. Give every case a study key that is not the client name, member number, or candidate email. Use one row per case and one column per required field; do not bury evidence in a long free-text note. A case key should remain stable if the case moves between owners or changes status. Keep the measurement note short enough to read with the case and specific enough to support the reported offboarding closure. The October 28 leave request note should distinguish a missing performance review from a confirmed negative.",
+          "Each case needs the source, the observation time, the field supported, the owner, and the reviewer. Version the dictionary and report which version was used for each observation period. Record the source identifier, the field name, the observation time, and the reviewer for every extracted value. Keep the original request, the approval, and the destination value linked to the same key. Link the observation to the exact field in the benefits portal and to the policy acknowledgment that supports it. The payroll manager decision on leave request should be dated October 28 and linked to the policy acknowledgment."
+        ]
+      },
+      {
+        "heading": "Sampling and collection",
+        "paragraphs": [
+          "Sample across the full observation window, including the days when the queue was busiest and the days when coverage changed. Do not clean the data by filling missing values; preserve the missing state and report it as a result. Include reopened, unresolved, and exception cases in the sample frame. A case that is difficult to access is still part of the frame; report the access failure rather than replacing it silently. If the case moved between owners, include both owner periods in the review note and name the handoff time. The October 28 leave request close should name the destination field, the approver, and the policy acknowledgment rate check.",
+          "Use consecutive leave request cases where possible, then stratify by owner, channel, and risk class. If a source cannot be accessed, mark it unavailable and record the access problem rather than asking the operator to reconstruct it from memory. Include reopened, unresolved, and exception cases in the sample frame. Use a random start and a fixed interval when the frame is ordered, and record both. When a value is missing, record the missing state and the reason instead of leaving an empty field in the extract. The October 28 leave request exception log should show the reason code, owner, and release decision.",
+          "A convenience sample of recently closed cases will overrepresent easy work and underrepresent the tail that needs attention. Collect the case from the leave management system, the employee file, and the approval record, and stop at the verified close. A sample of recent closures can miss the oldest unresolved work, which is often the most informative. A case that is difficult to access is still part of the frame; report the access failure rather than replacing it silently. If the evidence is sensitive, record the approved reference and access path rather than copying the content. The October 28 leave request recovery test should record the restore point and the I-9 exception count result."
+        ]
+      },
+      {
+        "heading": "Analysis and reporting",
+        "paragraphs": [
+          "Keep case-level detail available for review, because a summary chart without records cannot support a decision. Compare periods only after checking the case mix, the definitions, and the queue rules. If the result is unstable, say which cases create the variation and what a larger sample would test. End with the decision the evidence supports and the decision it does not support. Record this decision in the study log with the case key, the review date, and the person who approved the classification. The October 28 control note for Human Resources Outsourced should name the leave request source, the owner, and the next review time.",
+          "A difference between two periods is a signal to inspect, not proof that a process change caused the change. Report denominators with every rate and separate missing evidence from negative evidence. Report the number of cases that changed status after the first extraction and how the change was handled. Show the age distribution and the open-case count by owner, not only the mean. If the source changes after the observation, preserve the earlier value and add a dated note instead of replacing it. The October 28 evidence trail for leave request should show the source version and the benefits broker decision."
+        ]
+      },
+      {
+        "heading": "Limitations",
+        "paragraphs": [
+          "The record may be incomplete, delayed, or maintained outside the team, so the method cannot infer missing work from a clean summary. Small samples are unstable; report the range and the cases that create the variation. Keep the limitations with the result so a later reader does not turn a local observation into a general claim. If the reviewer performed the work, use a second reviewer for a subsample and report the disagreement. Use the same note in the case file and the study extract; do not create a second version in a personal document. The leave request review at Human Resources Outsourced should state whether the employee file was current on October 28.",
+          "Small samples are sensitive to one case; report the instability instead of presenting a percentage as a stable rate. Report the unknown population and the evidence that would be needed to describe it. Report the limits of the policy library data, including fields that were unavailable or changed during the window. State what a follow-up study would measure and which population it would include. Keep the measurement note short enough to read with the case and specific enough to support the reported offboarding closure. The October 28 leave request note should distinguish a missing I-9 record from a confirmed negative."
+        ]
+      },
+      {
+        "heading": "Review and next action",
+        "paragraphs": [
+          "Keep the review note with the leave request evidence so the next reviewer can see why the process changed. Keep the review note with the leave request evidence so the next owner can see why the process changed. If the action requires a policy or access change, route it to the owner and record the decision. Report a failed action with the same detail as a successful one so the team can learn from it. Link the observation to the exact field in the policy library and to the I-9 record that supports it. The employee decision on leave request should be dated October 28 and linked to the I-9 record.",
+          "Choose one next action: fix the source, simplify the benefits enrollment, change the queue, adjust access, or pause the work until the owner decides. Keep the review note with the leave request evidence so the next owner can see why the process changed. Close the review only when the owner has accepted the result and the next check is scheduled. Keep the prior procedure available so the next reviewer can compare the old and new states. If the case moved between owners, include both owner periods in the review note and name the handoff time. The October 28 leave request close should name the destination field, the approver, and the file completeness check."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "NIST Cybersecurity Framework",
+        "url": "https://www.nist.gov/cyberframework"
+      },
+      {
+        "name": "U.S. Department of Labor \u2014 recordkeeping",
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping"
+      },
+      {
+        "name": "U.S. Citizenship and Immigration Services \u2014 Form I-9",
+        "url": "https://www.uscis.gov/i-9"
+      },
+      {
+        "name": "U.S. Department of Health and Human Services \u2014 HIPAA",
+        "url": "https://www.hhs.gov/hipaa/index.html"
+      }
+    ],
+    "serviceLink": {
+      "title": "HR operations support",
+      "href": "/services",
+      "body": "Use the method to define evidence and ownership."
+    }
+  },
+  {
+    "slug": "humanresourcesoutsourced-testing-whether-performance-review-audit-samples-detect-silent-gaps",
+    "title": "Testing whether performance review audit samples detect silent gaps",
+    "excerpt": "A grounded HR outsourcing note for HR and people operations leaders: performance review with explicit evidence, decision rights, and a verified close.",
+    "published": "2026-10-28",
+    "modified": "2026-10-28",
+    "thumbnail": "/oct28-heroes/humanresourcesoutsourced-testing-whether-performance-review-audit-samples-detect-silent-gaps.png",
+    "sections": [
+      {
+        "heading": "Question and scope",
+        "paragraphs": [
+          "The protocol does not estimate an industry benchmark; it produces a local description that HR and people operations leaders can review. A count without a denominator is not a measurement, especially when the queue changes size during the day. Distinguish an administrative pause from a failure: a pause waits for a named decision, while a failure leaves the next action unowned. If the study is exploratory, label it exploratory and do not present the result as a stable baseline. When a value is missing, record the missing state and the reason instead of leaving an empty field in the extract. The October 28 performance review exception log should show the reason code, owner, and release decision.",
+          "The scope is one defined population of performance review cases observed from first request through verified close in the HR ticket queue. A count without a denominator is not a measurement, especially when the queue changes size during the day. Record how corrections, reopens, and duplicate requests are treated so policy acknowledgment rate cannot be inflated by reclassification. Name the population, the observation window, and the systems included in the extraction. If the evidence is sensitive, record the approved reference and access path rather than copying the content. The October 28 performance review recovery test should record the restore point and the policy acknowledgment rate result."
+        ]
+      },
+      {
+        "heading": "Population and unit",
+        "paragraphs": [
+          "Record how duplicate requests were matched, merged, or kept separate, because that choice changes the denominator. Define whether a request that generates several leave request updates is one case or several before counting begins. Write the rule for a missing leave request before the first case so the treatment is consistent. If the queue was archived during the window, report the loss and exclude the affected period rather than assuming the cases were resolved. Record this decision in the study log with the case key, the review date, and the person who approved the classification. The October 28 control note for Human Resources Outsourced should name the performance review source, the owner, and the next review time.",
+          "Include cases opened before the window but closed inside it only when the protocol says they belong to the population. Record the queue at the start and end of each observation day so additions and withdrawals are visible. The start event should be the first recorded request, not the first time the team opened the case. Report a case that moved between owners as one case with two owner periods unless the process creates a new requirement. If the source changes after the observation, preserve the earlier value and add a dated note instead of replacing it. The October 28 evidence trail for performance review should show the source version and the payroll manager decision."
+        ]
+      },
+      {
+        "heading": "Definitions and measures",
+        "paragraphs": [
+          "Define how a correction after close is linked to the original case and whether it creates a new case. Test the data dictionary on a small set of cases and revise ambiguous fields before the main sample. Before collection, test the definitions on a missing performance review, a reopened case, and a handoff. Define whether the measure counts requests, cases, or destination updates, and use that unit consistently. Use the same note in the case file and the study extract; do not create a second version in a personal document. The performance review review at Human Resources Outsourced should state whether the performance review was current on October 28.",
+          "Define how a correction after close is linked to the original case and whether it creates a new case. Keep the original text and the coded value together so a reviewer can check the classification. Define whether a case that waits for a third party is open, paused, or excluded, and apply that rule to every owner. Keep a change log for every definition adjustment and the date it took effect. Keep the measurement note short enough to read with the case and specific enough to support the reported leave response time. The October 28 performance review note should distinguish a missing policy acknowledgment from a confirmed negative."
+        ]
+      },
+      {
+        "heading": "Data dictionary and evidence",
+        "paragraphs": [
+          "Test the dictionary on five cases before the full sample; ambiguous fields should be fixed before collection, not after. Test the dictionary on a case with a missing policy acknowledgment and a case with a corrected value. Record the data extraction date and the version of the applicant tracking system used for the population count. Define who may change a coded value and how the change is logged. Link the observation to the exact field in the applicant tracking system and to the policy acknowledgment that supports it. The benefits broker decision on performance review should be dated October 28 and linked to the policy acknowledgment.",
+          "Mark missing, unavailable, and confirmed negative values separately; collapsing them hides the difference between no evidence and evidence of absence. Use a controlled list for exception reasons; do not let free text become the analysis category. Record the source identifier, the field name, the observation time, and the reviewer for every extracted value. Record the source location, not just the file name, so a reviewer can reopen the exact evidence. If the case moved between owners, include both owner periods in the review note and name the handoff time. The October 28 performance review close should name the destination field, the approver, and the policy acknowledgment rate check.",
+          "Each case needs the source, the observation time, the field supported, the owner, and the reviewer. Use a controlled list for exception reasons; do not let free text become the analysis category. Keep the original evidence reference next to the coded value so the reviewer can verify the classification. Pilot the dictionary with two reviewers and compare their classifications before the main sample. When a value is missing, record the missing state and the reason instead of leaving an empty field in the extract. The October 28 performance review exception log should show the reason code, owner, and release decision."
+        ]
+      },
+      {
+        "heading": "Sampling and collection",
+        "paragraphs": [
+          "A convenience sample of recently closed cases will overrepresent easy work and underrepresent the tail that needs attention. Record the time of each observation so a later reviewer can distinguish a late entry from a changed decision. Keep the sample selection reproducible by recording the export date, filter, and random seed or start rule. Record the date of the sample and the version of the queue export. If the evidence is sensitive, record the approved reference and access path rather than copying the content. The October 28 performance review recovery test should record the restore point and the file completeness result.",
+          "Record the eligible count, the sample size, and every exclusion so another reviewer can reproduce the sample. A second reviewer should re-extract a small subsample and record disagreements before the full analysis. Use a random or systematic start rule and then take consecutive cases within each stratum. Include at least one case from each owner in scope when the frame allows it. Record this decision in the study log with the case key, the review date, and the person who approved the classification. The October 28 control note for Human Resources Outsourced should name the performance review source, the owner, and the next review time.",
+          "Stop expanding the sample only when the review question is answered, not when the result starts to look favorable. Collect the exception reason and the action taken before the close so the analysis can separate detection from resolution. A sample of recent closures can miss the oldest unresolved work, which is often the most informative. Do not let the reviewer choose the sample after seeing the results. If the source changes after the observation, preserve the earlier value and add a dated note instead of replacing it. The October 28 evidence trail for performance review should show the source version and the benefits broker decision."
+        ]
+      },
+      {
+        "heading": "Analysis and reporting",
+        "paragraphs": [
+          "For performance review, report the age distribution and the share of cases waiting on a named decision rather than a single average. Keep descriptive findings separate from causal claims. When two groups differ, check whether the difference survives after adjusting for case mix and evidence standard. Keep descriptive findings separate from causal claims and label exploratory results. Use the same note in the case file and the study extract; do not create a second version in a personal document. The performance review review at Human Resources Outsourced should state whether the I-9 record was current on October 28.",
+          "For performance review, report the age distribution and the share of cases waiting on a named decision rather than a single average. For performance review, report the age distribution and the share of cases waiting on a named owner. Record the sample date, the denominator, the numerator, and the exclusion count for every reported rate. Report the number of cases that drive a small-sample result and the direction of the effect. Keep the measurement note short enough to read with the case and specific enough to support the reported leave response time. The October 28 performance review note should distinguish a missing benefits enrollment from a confirmed negative."
+        ]
+      },
+      {
+        "heading": "Limitations",
+        "paragraphs": [
+          "The record may be incomplete, delayed, or maintained outside the team, so the method cannot infer missing work from a clean summary. The study cannot determine whether a professional judgment was correct, only whether the record supports it. If the queue changed during the window, explain how the change affects the denominator and the interpretation. A missing record is evidence about the record, not proof that the work was never done. Link the observation to the exact field in the policy library and to the benefits enrollment that supports it. The client HR lead decision on performance review should be dated October 28 and linked to the benefits enrollment.",
+          "Selection bias remains if the team samples only records that are easy to open or cases handled by cooperative owners. Changes in staffing, access, or the HR ticket queue during the window can create a difference that is not a process effect. Record the response or access problems that prevented a case from being reviewed. State what a follow-up study would measure and which population it would include. If the case moved between owners, include both owner periods in the review note and name the handoff time. The October 28 performance review close should name the destination field, the approver, and the policy acknowledgment rate check."
+        ]
+      },
+      {
+        "heading": "Review and next action",
+        "paragraphs": [
+          "Repeat the protocol after the change with the same definitions, window, and exclusions. Name the owner, the review date, and the decision the study is expected to inform. Record the owner, the due date, and the exact change that will be tested at the next review. Record the owner, due date, and exact change that will be tested at the next review. When a value is missing, record the missing state and the reason instead of leaving an empty field in the extract. The October 28 performance review exception log should show the reason code, owner, and release decision. For the October 28 Human Resources Outsourced record, the review and next action review also names the HRIS and the file completeness check for performance review.",
+          "Choose one next action: fix the source, simplify the performance review, change the queue, adjust access, or pause the work until the owner decides. Repeat the protocol with the same definitions and window, then compare the same measures. Set the next sample date before closing the review, so the action does not drift. Use a short action log that names the change, the owner, the due date, and the measure that will show whether it worked. If the evidence is sensitive, record the approved reference and access path rather than copying the content. The October 28 performance review recovery test should record the restore point and the I-9 exception count result."
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "name": "U.S. Department of Labor \u2014 recordkeeping",
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping"
+      },
+      {
+        "name": "U.S. Citizenship and Immigration Services \u2014 Form I-9",
+        "url": "https://www.uscis.gov/i-9"
+      },
+      {
+        "name": "U.S. Department of Health and Human Services \u2014 HIPAA",
+        "url": "https://www.hhs.gov/hipaa/index.html"
+      },
+      {
+        "name": "NIST Cybersecurity Framework",
+        "url": "https://www.nist.gov/cyberframework"
+      }
+    ],
+    "serviceLink": {
+      "title": "HR operations support",
+      "href": "/services",
+      "body": "Use the method to define evidence and ownership."
+    }
+  }
+];
