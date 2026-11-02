@@ -153,8 +153,8 @@ export const nov02BlogArticles = {
     "workflow": [],
     "faqs": [
       {
-        "q": "What should the team check first on employee file?",
-        "a": "For employee file, the minimum trail is a dated source, a named reviewer, a stated close condition, and a note on what remains unresolved. At Human Resources Outsourced, employee file work belongs to the employee file service alongside I-9 record and benefits enrollment. A specialist working with HR and people operations leaders records 'Check the source', 'Route the review', and 'Flag the gap', then attaches the dated employee file source for the HR owner. The humanresourcesoutsourced.com queue shows both the entry date and the reviewer who accepted it."
+        "question": "What should the team check first on employee file?",
+        "answer": "For employee file, the minimum trail is a dated source, a named reviewer, a stated close condition, and a note on what remains unresolved. At Human Resources Outsourced, employee file work belongs to the employee file service alongside I-9 record and benefits enrollment. A specialist working with HR and people operations leaders records 'Check the source', 'Route the review', and 'Flag the gap', then attaches the dated employee file source for the HR owner. The humanresourcesoutsourced.com queue shows both the entry date and the reviewer who accepted it."
       }
     ],
     "related": [
@@ -264,8 +264,8 @@ export const nov02BlogArticles = {
     "workflow": [],
     "faqs": [
       {
-        "q": "What should the team check first on I-9 record?",
-        "a": "The record must connect four things on I-9 record: the request as it arrived, the evidence that was checked, the person who decided, and the destination field that actually changed. Human Resources Outsourced documents I-9 record inside the I-9 record service, with employee file and benefits enrollment as related HR outsourcing workflows for HR and people operations leaders. The expected steps are 'Check the form', 'Route the question', and 'Flag the missing item', each with a source and a date. the HR owner reviews the packet before the humanresourcesoutsourced.com record is closed."
+        "question": "What should the team check first on I-9 record?",
+        "answer": "The record must connect four things on I-9 record: the request as it arrived, the evidence that was checked, the person who decided, and the destination field that actually changed. Human Resources Outsourced documents I-9 record inside the I-9 record service, with employee file and benefits enrollment as related HR outsourcing workflows for HR and people operations leaders. The expected steps are 'Check the form', 'Route the question', and 'Flag the missing item', each with a source and a date. the HR owner reviews the packet before the humanresourcesoutsourced.com record is closed."
       }
     ],
     "related": [
@@ -375,8 +375,8 @@ export const nov02BlogArticles = {
     "workflow": [],
     "faqs": [
       {
-        "q": "What should the team check first on benefits enrollment?",
-        "a": "A useful benefits enrollment record answers who, what, when, and what changed, and it does so without a second message thread. The Human Resources Outsourced benefits enrollment service supports benefits enrollment for HR and people operations leaders, and it shares its HR outsourcing controls with employee file and I-9 record. Each case records 'Check the enrollment', 'Route the correction', and 'Flag the error' plus the source date. the HR owner signs the decision that releases the humanresourcesoutsourced.com entry."
+        "question": "What should the team check first on benefits enrollment?",
+        "answer": "A useful benefits enrollment record answers who, what, when, and what changed, and it does so without a second message thread. The Human Resources Outsourced benefits enrollment service supports benefits enrollment for HR and people operations leaders, and it shares its HR outsourcing controls with employee file and I-9 record. Each case records 'Check the enrollment', 'Route the correction', and 'Flag the error' plus the source date. the HR owner signs the decision that releases the humanresourcesoutsourced.com entry."
       }
     ],
     "related": [
@@ -486,8 +486,8 @@ export const nov02BlogArticles = {
     "workflow": [],
     "faqs": [
       {
-        "q": "What should the team check first on leave request?",
-        "a": "What HR and people operations leaders need from leave request is not a longer form but a shorter path from question to verifiable answer. The Human Resources Outsourced leave request service for HR and people operations leaders treats 'Check the policy', 'Route the decision', and 'Flag the gap' as the evidence sequence for leave request. Neighbouring HR outsourcing services such as employee file and I-9 record follow the same rule. the HR owner signs the release, and the humanresourcesoutsourced.com record keeps the source date."
+        "question": "What should the team check first on leave request?",
+        "answer": "What HR and people operations leaders need from leave request is not a longer form but a shorter path from question to verifiable answer. The Human Resources Outsourced leave request service for HR and people operations leaders treats 'Check the policy', 'Route the decision', and 'Flag the gap' as the evidence sequence for leave request. Neighbouring HR outsourcing services such as employee file and I-9 record follow the same rule. the HR owner signs the release, and the humanresourcesoutsourced.com record keeps the source date."
       }
     ],
     "related": [
@@ -597,8 +597,8 @@ export const nov02BlogArticles = {
     "workflow": [],
     "faqs": [
       {
-        "q": "What should the team check first on policy acknowledgment?",
-        "a": "For policy acknowledgment, the minimum trail is a dated source, a named reviewer, a stated close condition, and a note on what remains unresolved. The Human Resources Outsourced service map places policy acknowledgment under policy acknowledgment, next to employee file and I-9 record. A specialist serving HR and people operations leaders records 'Check the version', 'Route the follow-up', and 'Flag the missing signature', then links the policy acknowledgment evidence to the case. the HR owner approves the outcome, and humanresourcesoutsourced.com keeps the trail."
+        "question": "What should the team check first on policy acknowledgment?",
+        "answer": "For policy acknowledgment, the minimum trail is a dated source, a named reviewer, a stated close condition, and a note on what remains unresolved. The Human Resources Outsourced service map places policy acknowledgment under policy acknowledgment, next to employee file and I-9 record. A specialist serving HR and people operations leaders records 'Check the version', 'Route the follow-up', and 'Flag the missing signature', then links the policy acknowledgment evidence to the case. the HR owner approves the outcome, and humanresourcesoutsourced.com keeps the trail."
       }
     ],
     "related": [
@@ -708,8 +708,8 @@ export const nov02BlogArticles = {
     "workflow": [],
     "faqs": [
       {
-        "q": "What should the team check first on offboarding?",
-        "a": "The record must connect four things on offboarding: the request as it arrived, the evidence that was checked, the person who decided, and the destination field that actually changed. Human Resources Outsourced runs this work through its offboarding service, one of several HR outsourcing services that also include employee file and I-9 record. The specialist completes 'Check the access list', 'Route the confirmation', and 'Flag the stale account' before the HR owner reviews the offboarding entry. The Human Resources Outsourced desk at humanresourcesoutsourced.com keeps the dated source and the reviewer initials with the case."
+        "question": "What should the team check first on offboarding?",
+        "answer": "The record must connect four things on offboarding: the request as it arrived, the evidence that was checked, the person who decided, and the destination field that actually changed. Human Resources Outsourced runs this work through its offboarding service, one of several HR outsourcing services that also include employee file and I-9 record. The specialist completes 'Check the access list', 'Route the confirmation', and 'Flag the stale account' before the HR owner reviews the offboarding entry. The Human Resources Outsourced desk at humanresourcesoutsourced.com keeps the dated source and the reviewer initials with the case."
       }
     ],
     "related": [
@@ -819,8 +819,8 @@ export const nov02BlogArticles = {
     "workflow": [],
     "faqs": [
       {
-        "q": "What should the team check first on employee file queue?",
-        "a": "A useful employee file queue record answers who, what, when, and what changed, and it does so without a second message thread. For HR and people operations leaders, Human Resources Outsourced separates preparation from approval across its HR outsourcing services, including employee file, I-9 record, and benefits enrollment. The specialist completes 'Check the source', 'Route the review', and 'Flag the gap' on employee file queue; the HR owner decides what leaves the queue. The humanresourcesoutsourced.com entry shows who prepared and who approved."
+        "question": "What should the team check first on employee file queue?",
+        "answer": "A useful employee file queue record answers who, what, when, and what changed, and it does so without a second message thread. For HR and people operations leaders, Human Resources Outsourced separates preparation from approval across its HR outsourcing services, including employee file, I-9 record, and benefits enrollment. The specialist completes 'Check the source', 'Route the review', and 'Flag the gap' on employee file queue; the HR owner decides what leaves the queue. The humanresourcesoutsourced.com entry shows who prepared and who approved."
       }
     ],
     "related": [
@@ -930,8 +930,8 @@ export const nov02BlogArticles = {
     "workflow": [],
     "faqs": [
       {
-        "q": "What should the team check first on I-9 record queue?",
-        "a": "What HR and people operations leaders need from I-9 record queue is not a longer form but a shorter path from question to verifiable answer. Inside Human Resources Outsourced, I-9 record queue follows the same HR outsourcing pattern as employee file, benefits enrollment, and the I-9 record service itself. The specialist works through 'Check the form', 'Route the question', and 'Flag the missing item', then dates the source for the HR owner. The humanresourcesoutsourced.com reviewer checks the sequence before closure."
+        "question": "What should the team check first on I-9 record queue?",
+        "answer": "What HR and people operations leaders need from I-9 record queue is not a longer form but a shorter path from question to verifiable answer. Inside Human Resources Outsourced, I-9 record queue follows the same HR outsourcing pattern as employee file, benefits enrollment, and the I-9 record service itself. The specialist works through 'Check the form', 'Route the question', and 'Flag the missing item', then dates the source for the HR owner. The humanresourcesoutsourced.com reviewer checks the sequence before closure."
       }
     ],
     "related": [
@@ -1041,8 +1041,8 @@ export const nov02BlogArticles = {
     "workflow": [],
     "faqs": [
       {
-        "q": "What should the team check first on benefits enrollment queue?",
-        "a": "For benefits enrollment queue, the minimum trail is a dated source, a named reviewer, a stated close condition, and a note on what remains unresolved. At Human Resources Outsourced, benefits enrollment queue work belongs to the benefits enrollment service alongside employee file and I-9 record. A specialist working with HR and people operations leaders records 'Check the enrollment', 'Route the correction', and 'Flag the error', then attaches the dated benefits enrollment source for the HR owner. The humanresourcesoutsourced.com queue shows both the entry date and the reviewer who accepted it."
+        "question": "What should the team check first on benefits enrollment queue?",
+        "answer": "For benefits enrollment queue, the minimum trail is a dated source, a named reviewer, a stated close condition, and a note on what remains unresolved. At Human Resources Outsourced, benefits enrollment queue work belongs to the benefits enrollment service alongside employee file and I-9 record. A specialist working with HR and people operations leaders records 'Check the enrollment', 'Route the correction', and 'Flag the error', then attaches the dated benefits enrollment source for the HR owner. The humanresourcesoutsourced.com queue shows both the entry date and the reviewer who accepted it."
       }
     ],
     "related": [
@@ -1152,8 +1152,8 @@ export const nov02BlogArticles = {
     "workflow": [],
     "faqs": [
       {
-        "q": "What should the team check first on leave request queue?",
-        "a": "The record must connect four things on leave request queue: the request as it arrived, the evidence that was checked, the person who decided, and the destination field that actually changed. Human Resources Outsourced documents leave request queue inside the leave request service, with employee file and I-9 record as related HR outsourcing workflows for HR and people operations leaders. The expected steps are 'Check the policy', 'Route the decision', and 'Flag the gap', each with a source and a date. the HR owner reviews the packet before the humanresourcesoutsourced.com record is closed."
+        "question": "What should the team check first on leave request queue?",
+        "answer": "The record must connect four things on leave request queue: the request as it arrived, the evidence that was checked, the person who decided, and the destination field that actually changed. Human Resources Outsourced documents leave request queue inside the leave request service, with employee file and I-9 record as related HR outsourcing workflows for HR and people operations leaders. The expected steps are 'Check the policy', 'Route the decision', and 'Flag the gap', each with a source and a date. the HR owner reviews the packet before the humanresourcesoutsourced.com record is closed."
       }
     ],
     "related": [
@@ -1263,8 +1263,8 @@ export const nov02BlogArticles = {
     "workflow": [],
     "faqs": [
       {
-        "q": "What should the team check first on policy acknowledgment queue?",
-        "a": "A useful policy acknowledgment queue record answers who, what, when, and what changed, and it does so without a second message thread. The Human Resources Outsourced policy acknowledgment service supports policy acknowledgment queue for HR and people operations leaders, and it shares its HR outsourcing controls with employee file and I-9 record. Each case records 'Check the version', 'Route the follow-up', and 'Flag the missing signature' plus the source date. the HR owner signs the decision that releases the humanresourcesoutsourced.com entry."
+        "question": "What should the team check first on policy acknowledgment queue?",
+        "answer": "A useful policy acknowledgment queue record answers who, what, when, and what changed, and it does so without a second message thread. The Human Resources Outsourced policy acknowledgment service supports policy acknowledgment queue for HR and people operations leaders, and it shares its HR outsourcing controls with employee file and I-9 record. Each case records 'Check the version', 'Route the follow-up', and 'Flag the missing signature' plus the source date. the HR owner signs the decision that releases the humanresourcesoutsourced.com entry."
       }
     ],
     "related": [
@@ -1374,8 +1374,8 @@ export const nov02BlogArticles = {
     "workflow": [],
     "faqs": [
       {
-        "q": "What should the team check first on offboarding queue?",
-        "a": "What HR and people operations leaders need from offboarding queue is not a longer form but a shorter path from question to verifiable answer. The Human Resources Outsourced offboarding service for HR and people operations leaders treats 'Check the access list', 'Route the confirmation', and 'Flag the stale account' as the evidence sequence for offboarding queue. Neighbouring HR outsourcing services such as employee file and I-9 record follow the same rule. the HR owner signs the release, and the humanresourcesoutsourced.com record keeps the source date."
+        "question": "What should the team check first on offboarding queue?",
+        "answer": "What HR and people operations leaders need from offboarding queue is not a longer form but a shorter path from question to verifiable answer. The Human Resources Outsourced offboarding service for HR and people operations leaders treats 'Check the access list', 'Route the confirmation', and 'Flag the stale account' as the evidence sequence for offboarding queue. Neighbouring HR outsourcing services such as employee file and I-9 record follow the same rule. the HR owner signs the release, and the humanresourcesoutsourced.com record keeps the source date."
       }
     ],
     "related": [
