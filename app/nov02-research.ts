@@ -67,8 +67,9 @@ export const nov02ResearchPosts = [
       }
     ],
     "serviceLink": {
-      "label": "HR outsourcing support",
-      "href": "/services"
+      "title": "HR outsourcing support",
+      "href": "/services",
+      "body": "Review the matching HR support service."
     }
   },
   {
@@ -139,8 +140,9 @@ export const nov02ResearchPosts = [
       }
     ],
     "serviceLink": {
-      "label": "HR outsourcing support",
-      "href": "/services"
+      "title": "HR outsourcing support",
+      "href": "/services",
+      "body": "Review the matching HR support service."
     }
   },
   {
@@ -211,8 +213,9 @@ export const nov02ResearchPosts = [
       }
     ],
     "serviceLink": {
-      "label": "HR outsourcing support",
-      "href": "/services"
+      "title": "HR outsourcing support",
+      "href": "/services",
+      "body": "Review the matching HR support service."
     }
   },
   {
@@ -283,8 +286,9 @@ export const nov02ResearchPosts = [
       }
     ],
     "serviceLink": {
-      "label": "HR outsourcing support",
-      "href": "/services"
+      "title": "HR outsourcing support",
+      "href": "/services",
+      "body": "Review the matching HR support service."
     }
   },
   {
@@ -355,8 +359,9 @@ export const nov02ResearchPosts = [
       }
     ],
     "serviceLink": {
-      "label": "HR outsourcing support",
-      "href": "/services"
+      "title": "HR outsourcing support",
+      "href": "/services",
+      "body": "Review the matching HR support service."
     }
   }
 ];
