@@ -159,34 +159,41 @@ export const nov02BlogArticles = {
     ],
     "related": [
       {
-        "label": "Services",
-        "href": "/services"
+        "title": "HR operations support",
+        "href": "/services",
+        "note": "Review the matching support lane."
       }
     ],
     "sources": [
       {
         "name": "U.S. Department of Labor recordkeeping",
-        "url": "https://www.dol.gov/agencies/whd/recordkeeping"
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping",
+        "note": "Reference used for this article."
       },
       {
         "name": "U.S. Citizenship and Immigration Services Form I-9",
-        "url": "https://www.uscis.gov/i-9"
+        "url": "https://www.uscis.gov/i-9",
+        "note": "Reference used for this article."
       },
       {
         "name": "HHS HIPAA",
-        "url": "https://www.hhs.gov/hipaa/index.html"
+        "url": "https://www.hhs.gov/hipaa/index.html",
+        "note": "Reference used for this article."
       },
       {
         "name": "EEOC guidance",
-        "url": "https://www.eeoc.gov/"
+        "url": "https://www.eeoc.gov/",
+        "note": "Reference used for this article."
       },
       {
         "name": "NIST Privacy Framework",
-        "url": "https://www.nist.gov/privacy-framework"
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Reference used for this article."
       },
       {
         "name": "SBA business guide",
-        "url": "https://www.sba.gov/business-guide/manage-your-business"
+        "url": "https://www.sba.gov/business-guide/manage-your-business",
+        "note": "Reference used for this article."
       }
     ]
   },
@@ -263,34 +270,41 @@ export const nov02BlogArticles = {
     ],
     "related": [
       {
-        "label": "Services",
-        "href": "/services"
+        "title": "HR operations support",
+        "href": "/services",
+        "note": "Review the matching support lane."
       }
     ],
     "sources": [
       {
         "name": "U.S. Department of Labor recordkeeping",
-        "url": "https://www.dol.gov/agencies/whd/recordkeeping"
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping",
+        "note": "Reference used for this article."
       },
       {
         "name": "U.S. Citizenship and Immigration Services Form I-9",
-        "url": "https://www.uscis.gov/i-9"
+        "url": "https://www.uscis.gov/i-9",
+        "note": "Reference used for this article."
       },
       {
         "name": "HHS HIPAA",
-        "url": "https://www.hhs.gov/hipaa/index.html"
+        "url": "https://www.hhs.gov/hipaa/index.html",
+        "note": "Reference used for this article."
       },
       {
         "name": "EEOC guidance",
-        "url": "https://www.eeoc.gov/"
+        "url": "https://www.eeoc.gov/",
+        "note": "Reference used for this article."
       },
       {
         "name": "NIST Privacy Framework",
-        "url": "https://www.nist.gov/privacy-framework"
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Reference used for this article."
       },
       {
         "name": "SBA business guide",
-        "url": "https://www.sba.gov/business-guide/manage-your-business"
+        "url": "https://www.sba.gov/business-guide/manage-your-business",
+        "note": "Reference used for this article."
       }
     ]
   },
@@ -367,34 +381,41 @@ export const nov02BlogArticles = {
     ],
     "related": [
       {
-        "label": "Services",
-        "href": "/services"
+        "title": "HR operations support",
+        "href": "/services",
+        "note": "Review the matching support lane."
       }
     ],
     "sources": [
       {
         "name": "U.S. Department of Labor recordkeeping",
-        "url": "https://www.dol.gov/agencies/whd/recordkeeping"
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping",
+        "note": "Reference used for this article."
       },
       {
         "name": "U.S. Citizenship and Immigration Services Form I-9",
-        "url": "https://www.uscis.gov/i-9"
+        "url": "https://www.uscis.gov/i-9",
+        "note": "Reference used for this article."
       },
       {
         "name": "HHS HIPAA",
-        "url": "https://www.hhs.gov/hipaa/index.html"
+        "url": "https://www.hhs.gov/hipaa/index.html",
+        "note": "Reference used for this article."
       },
       {
         "name": "EEOC guidance",
-        "url": "https://www.eeoc.gov/"
+        "url": "https://www.eeoc.gov/",
+        "note": "Reference used for this article."
       },
       {
         "name": "NIST Privacy Framework",
-        "url": "https://www.nist.gov/privacy-framework"
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Reference used for this article."
       },
       {
         "name": "SBA business guide",
-        "url": "https://www.sba.gov/business-guide/manage-your-business"
+        "url": "https://www.sba.gov/business-guide/manage-your-business",
+        "note": "Reference used for this article."
       }
     ]
   },
@@ -471,34 +492,41 @@ export const nov02BlogArticles = {
     ],
     "related": [
       {
-        "label": "Services",
-        "href": "/services"
+        "title": "HR operations support",
+        "href": "/services",
+        "note": "Review the matching support lane."
       }
     ],
     "sources": [
       {
         "name": "U.S. Department of Labor recordkeeping",
-        "url": "https://www.dol.gov/agencies/whd/recordkeeping"
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping",
+        "note": "Reference used for this article."
       },
       {
         "name": "U.S. Citizenship and Immigration Services Form I-9",
-        "url": "https://www.uscis.gov/i-9"
+        "url": "https://www.uscis.gov/i-9",
+        "note": "Reference used for this article."
       },
       {
         "name": "HHS HIPAA",
-        "url": "https://www.hhs.gov/hipaa/index.html"
+        "url": "https://www.hhs.gov/hipaa/index.html",
+        "note": "Reference used for this article."
       },
       {
         "name": "EEOC guidance",
-        "url": "https://www.eeoc.gov/"
+        "url": "https://www.eeoc.gov/",
+        "note": "Reference used for this article."
       },
       {
         "name": "NIST Privacy Framework",
-        "url": "https://www.nist.gov/privacy-framework"
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Reference used for this article."
       },
       {
         "name": "SBA business guide",
-        "url": "https://www.sba.gov/business-guide/manage-your-business"
+        "url": "https://www.sba.gov/business-guide/manage-your-business",
+        "note": "Reference used for this article."
       }
     ]
   },
@@ -575,34 +603,41 @@ export const nov02BlogArticles = {
     ],
     "related": [
       {
-        "label": "Services",
-        "href": "/services"
+        "title": "HR operations support",
+        "href": "/services",
+        "note": "Review the matching support lane."
       }
     ],
     "sources": [
       {
         "name": "U.S. Department of Labor recordkeeping",
-        "url": "https://www.dol.gov/agencies/whd/recordkeeping"
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping",
+        "note": "Reference used for this article."
       },
       {
         "name": "U.S. Citizenship and Immigration Services Form I-9",
-        "url": "https://www.uscis.gov/i-9"
+        "url": "https://www.uscis.gov/i-9",
+        "note": "Reference used for this article."
       },
       {
         "name": "HHS HIPAA",
-        "url": "https://www.hhs.gov/hipaa/index.html"
+        "url": "https://www.hhs.gov/hipaa/index.html",
+        "note": "Reference used for this article."
       },
       {
         "name": "EEOC guidance",
-        "url": "https://www.eeoc.gov/"
+        "url": "https://www.eeoc.gov/",
+        "note": "Reference used for this article."
       },
       {
         "name": "NIST Privacy Framework",
-        "url": "https://www.nist.gov/privacy-framework"
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Reference used for this article."
       },
       {
         "name": "SBA business guide",
-        "url": "https://www.sba.gov/business-guide/manage-your-business"
+        "url": "https://www.sba.gov/business-guide/manage-your-business",
+        "note": "Reference used for this article."
       }
     ]
   },
@@ -679,34 +714,41 @@ export const nov02BlogArticles = {
     ],
     "related": [
       {
-        "label": "Services",
-        "href": "/services"
+        "title": "HR operations support",
+        "href": "/services",
+        "note": "Review the matching support lane."
       }
     ],
     "sources": [
       {
         "name": "U.S. Department of Labor recordkeeping",
-        "url": "https://www.dol.gov/agencies/whd/recordkeeping"
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping",
+        "note": "Reference used for this article."
       },
       {
         "name": "U.S. Citizenship and Immigration Services Form I-9",
-        "url": "https://www.uscis.gov/i-9"
+        "url": "https://www.uscis.gov/i-9",
+        "note": "Reference used for this article."
       },
       {
         "name": "HHS HIPAA",
-        "url": "https://www.hhs.gov/hipaa/index.html"
+        "url": "https://www.hhs.gov/hipaa/index.html",
+        "note": "Reference used for this article."
       },
       {
         "name": "EEOC guidance",
-        "url": "https://www.eeoc.gov/"
+        "url": "https://www.eeoc.gov/",
+        "note": "Reference used for this article."
       },
       {
         "name": "NIST Privacy Framework",
-        "url": "https://www.nist.gov/privacy-framework"
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Reference used for this article."
       },
       {
         "name": "SBA business guide",
-        "url": "https://www.sba.gov/business-guide/manage-your-business"
+        "url": "https://www.sba.gov/business-guide/manage-your-business",
+        "note": "Reference used for this article."
       }
     ]
   },
@@ -783,34 +825,41 @@ export const nov02BlogArticles = {
     ],
     "related": [
       {
-        "label": "Services",
-        "href": "/services"
+        "title": "HR operations support",
+        "href": "/services",
+        "note": "Review the matching support lane."
       }
     ],
     "sources": [
       {
         "name": "U.S. Department of Labor recordkeeping",
-        "url": "https://www.dol.gov/agencies/whd/recordkeeping"
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping",
+        "note": "Reference used for this article."
       },
       {
         "name": "U.S. Citizenship and Immigration Services Form I-9",
-        "url": "https://www.uscis.gov/i-9"
+        "url": "https://www.uscis.gov/i-9",
+        "note": "Reference used for this article."
       },
       {
         "name": "HHS HIPAA",
-        "url": "https://www.hhs.gov/hipaa/index.html"
+        "url": "https://www.hhs.gov/hipaa/index.html",
+        "note": "Reference used for this article."
       },
       {
         "name": "EEOC guidance",
-        "url": "https://www.eeoc.gov/"
+        "url": "https://www.eeoc.gov/",
+        "note": "Reference used for this article."
       },
       {
         "name": "NIST Privacy Framework",
-        "url": "https://www.nist.gov/privacy-framework"
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Reference used for this article."
       },
       {
         "name": "SBA business guide",
-        "url": "https://www.sba.gov/business-guide/manage-your-business"
+        "url": "https://www.sba.gov/business-guide/manage-your-business",
+        "note": "Reference used for this article."
       }
     ]
   },
@@ -887,34 +936,41 @@ export const nov02BlogArticles = {
     ],
     "related": [
       {
-        "label": "Services",
-        "href": "/services"
+        "title": "HR operations support",
+        "href": "/services",
+        "note": "Review the matching support lane."
       }
     ],
     "sources": [
       {
         "name": "U.S. Department of Labor recordkeeping",
-        "url": "https://www.dol.gov/agencies/whd/recordkeeping"
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping",
+        "note": "Reference used for this article."
       },
       {
         "name": "U.S. Citizenship and Immigration Services Form I-9",
-        "url": "https://www.uscis.gov/i-9"
+        "url": "https://www.uscis.gov/i-9",
+        "note": "Reference used for this article."
       },
       {
         "name": "HHS HIPAA",
-        "url": "https://www.hhs.gov/hipaa/index.html"
+        "url": "https://www.hhs.gov/hipaa/index.html",
+        "note": "Reference used for this article."
       },
       {
         "name": "EEOC guidance",
-        "url": "https://www.eeoc.gov/"
+        "url": "https://www.eeoc.gov/",
+        "note": "Reference used for this article."
       },
       {
         "name": "NIST Privacy Framework",
-        "url": "https://www.nist.gov/privacy-framework"
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Reference used for this article."
       },
       {
         "name": "SBA business guide",
-        "url": "https://www.sba.gov/business-guide/manage-your-business"
+        "url": "https://www.sba.gov/business-guide/manage-your-business",
+        "note": "Reference used for this article."
       }
     ]
   },
@@ -991,34 +1047,41 @@ export const nov02BlogArticles = {
     ],
     "related": [
       {
-        "label": "Services",
-        "href": "/services"
+        "title": "HR operations support",
+        "href": "/services",
+        "note": "Review the matching support lane."
       }
     ],
     "sources": [
       {
         "name": "U.S. Department of Labor recordkeeping",
-        "url": "https://www.dol.gov/agencies/whd/recordkeeping"
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping",
+        "note": "Reference used for this article."
       },
       {
         "name": "U.S. Citizenship and Immigration Services Form I-9",
-        "url": "https://www.uscis.gov/i-9"
+        "url": "https://www.uscis.gov/i-9",
+        "note": "Reference used for this article."
       },
       {
         "name": "HHS HIPAA",
-        "url": "https://www.hhs.gov/hipaa/index.html"
+        "url": "https://www.hhs.gov/hipaa/index.html",
+        "note": "Reference used for this article."
       },
       {
         "name": "EEOC guidance",
-        "url": "https://www.eeoc.gov/"
+        "url": "https://www.eeoc.gov/",
+        "note": "Reference used for this article."
       },
       {
         "name": "NIST Privacy Framework",
-        "url": "https://www.nist.gov/privacy-framework"
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Reference used for this article."
       },
       {
         "name": "SBA business guide",
-        "url": "https://www.sba.gov/business-guide/manage-your-business"
+        "url": "https://www.sba.gov/business-guide/manage-your-business",
+        "note": "Reference used for this article."
       }
     ]
   },
@@ -1095,34 +1158,41 @@ export const nov02BlogArticles = {
     ],
     "related": [
       {
-        "label": "Services",
-        "href": "/services"
+        "title": "HR operations support",
+        "href": "/services",
+        "note": "Review the matching support lane."
       }
     ],
     "sources": [
       {
         "name": "U.S. Department of Labor recordkeeping",
-        "url": "https://www.dol.gov/agencies/whd/recordkeeping"
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping",
+        "note": "Reference used for this article."
       },
       {
         "name": "U.S. Citizenship and Immigration Services Form I-9",
-        "url": "https://www.uscis.gov/i-9"
+        "url": "https://www.uscis.gov/i-9",
+        "note": "Reference used for this article."
       },
       {
         "name": "HHS HIPAA",
-        "url": "https://www.hhs.gov/hipaa/index.html"
+        "url": "https://www.hhs.gov/hipaa/index.html",
+        "note": "Reference used for this article."
       },
       {
         "name": "EEOC guidance",
-        "url": "https://www.eeoc.gov/"
+        "url": "https://www.eeoc.gov/",
+        "note": "Reference used for this article."
       },
       {
         "name": "NIST Privacy Framework",
-        "url": "https://www.nist.gov/privacy-framework"
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Reference used for this article."
       },
       {
         "name": "SBA business guide",
-        "url": "https://www.sba.gov/business-guide/manage-your-business"
+        "url": "https://www.sba.gov/business-guide/manage-your-business",
+        "note": "Reference used for this article."
       }
     ]
   },
@@ -1199,34 +1269,41 @@ export const nov02BlogArticles = {
     ],
     "related": [
       {
-        "label": "Services",
-        "href": "/services"
+        "title": "HR operations support",
+        "href": "/services",
+        "note": "Review the matching support lane."
       }
     ],
     "sources": [
       {
         "name": "U.S. Department of Labor recordkeeping",
-        "url": "https://www.dol.gov/agencies/whd/recordkeeping"
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping",
+        "note": "Reference used for this article."
       },
       {
         "name": "U.S. Citizenship and Immigration Services Form I-9",
-        "url": "https://www.uscis.gov/i-9"
+        "url": "https://www.uscis.gov/i-9",
+        "note": "Reference used for this article."
       },
       {
         "name": "HHS HIPAA",
-        "url": "https://www.hhs.gov/hipaa/index.html"
+        "url": "https://www.hhs.gov/hipaa/index.html",
+        "note": "Reference used for this article."
       },
       {
         "name": "EEOC guidance",
-        "url": "https://www.eeoc.gov/"
+        "url": "https://www.eeoc.gov/",
+        "note": "Reference used for this article."
       },
       {
         "name": "NIST Privacy Framework",
-        "url": "https://www.nist.gov/privacy-framework"
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Reference used for this article."
       },
       {
         "name": "SBA business guide",
-        "url": "https://www.sba.gov/business-guide/manage-your-business"
+        "url": "https://www.sba.gov/business-guide/manage-your-business",
+        "note": "Reference used for this article."
       }
     ]
   },
@@ -1303,34 +1380,41 @@ export const nov02BlogArticles = {
     ],
     "related": [
       {
-        "label": "Services",
-        "href": "/services"
+        "title": "HR operations support",
+        "href": "/services",
+        "note": "Review the matching support lane."
       }
     ],
     "sources": [
       {
         "name": "U.S. Department of Labor recordkeeping",
-        "url": "https://www.dol.gov/agencies/whd/recordkeeping"
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping",
+        "note": "Reference used for this article."
       },
       {
         "name": "U.S. Citizenship and Immigration Services Form I-9",
-        "url": "https://www.uscis.gov/i-9"
+        "url": "https://www.uscis.gov/i-9",
+        "note": "Reference used for this article."
       },
       {
         "name": "HHS HIPAA",
-        "url": "https://www.hhs.gov/hipaa/index.html"
+        "url": "https://www.hhs.gov/hipaa/index.html",
+        "note": "Reference used for this article."
       },
       {
         "name": "EEOC guidance",
-        "url": "https://www.eeoc.gov/"
+        "url": "https://www.eeoc.gov/",
+        "note": "Reference used for this article."
       },
       {
         "name": "NIST Privacy Framework",
-        "url": "https://www.nist.gov/privacy-framework"
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Reference used for this article."
       },
       {
         "name": "SBA business guide",
-        "url": "https://www.sba.gov/business-guide/manage-your-business"
+        "url": "https://www.sba.gov/business-guide/manage-your-business",
+        "note": "Reference used for this article."
       }
     ]
   }
