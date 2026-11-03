@@ -4,6 +4,7 @@ import { october12BlogPosts } from './blog/october12-batch';
 import { october13BlogPosts } from './blog/october13-batch';
 import { nov01BlogPosts } from './nov01-blog';
 import { nov02BlogPosts } from './nov02-blog';
+import { nov03BlogPosts } from './nov03-blog';
 import { octoberTwentyEighthBlogPosts } from './oct28-blog';
 import { octoberTwentySeventhBlogPosts } from './oct27-blog';
 import { octoberTwentySixthBlogPosts } from './oct26-blog';
@@ -165,6 +166,7 @@ const evergreenBlogPosts = [
 
 // The dated daily batch is the newest family content and must precede evergreen posts.
 export const blogPosts = [
+  ...nov03BlogPosts,
   ...nov02BlogPosts,
   ...nov01BlogPosts,
   ...octoberTwentyEighthBlogPosts,
