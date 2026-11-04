@@ -1,4 +1,4 @@
-export const nov03BlogPosts = [
+export const nov04BlogPosts = [
   {
     "slug": "map-the-employee-file-decision-to-one-accountable-owner",
     "title": "Map the employee file decision to one accountable owner",
@@ -57,7 +57,7 @@ export const nov03BlogPosts = [
   }
 ];
 
-export const nov03BlogArticles = {
+export const nov04BlogArticles = {
   "map-the-employee-file-decision-to-one-accountable-owner": {
     "slug": "map-the-employee-file-decision-to-one-accountable-owner",
     "title": "Map the employee file decision to one accountable owner",
