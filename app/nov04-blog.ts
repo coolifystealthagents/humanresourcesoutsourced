@@ -131,8 +131,9 @@ export const nov04BlogArticles = {
     ],
     "related": [
       {
-        "label": "Services",
-        "href": "/services"
+        "title": "Services",
+        "href": "/services",
+        "note": "Related reference"
       }
     ],
     "sources": [
@@ -235,8 +236,9 @@ export const nov04BlogArticles = {
     ],
     "related": [
       {
-        "label": "Services",
-        "href": "/services"
+        "title": "Services",
+        "href": "/services",
+        "note": "Related reference"
       }
     ],
     "sources": [
@@ -339,8 +341,9 @@ export const nov04BlogArticles = {
     ],
     "related": [
       {
-        "label": "Services",
-        "href": "/services"
+        "title": "Services",
+        "href": "/services",
+        "note": "Related reference"
       }
     ],
     "sources": [
@@ -443,8 +446,9 @@ export const nov04BlogArticles = {
     ],
     "related": [
       {
-        "label": "Services",
-        "href": "/services"
+        "title": "Services",
+        "href": "/services",
+        "note": "Related reference"
       }
     ],
     "sources": [
@@ -547,8 +551,9 @@ export const nov04BlogArticles = {
     ],
     "related": [
       {
-        "label": "Services",
-        "href": "/services"
+        "title": "Services",
+        "href": "/services",
+        "note": "Related reference"
       }
     ],
     "sources": [
@@ -651,8 +656,9 @@ export const nov04BlogArticles = {
     ],
     "related": [
       {
-        "label": "Services",
-        "href": "/services"
+        "title": "Services",
+        "href": "/services",
+        "note": "Related reference"
       }
     ],
     "sources": [
@@ -755,8 +761,9 @@ export const nov04BlogArticles = {
     ],
     "related": [
       {
-        "label": "Services",
-        "href": "/services"
+        "title": "Services",
+        "href": "/services",
+        "note": "Related reference"
       }
     ],
     "sources": [
@@ -859,8 +866,9 @@ export const nov04BlogArticles = {
     ],
     "related": [
       {
-        "label": "Services",
-        "href": "/services"
+        "title": "Services",
+        "href": "/services",
+        "note": "Related reference"
       }
     ],
     "sources": [
