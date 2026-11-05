@@ -139,27 +139,33 @@ export const nov04BlogArticles = {
     "sources": [
       {
         "name": "U.S. Department of Labor recordkeeping",
-        "url": "https://www.dol.gov/agencies/whd/recordkeeping"
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping",
+        "note": "Public guidance used as bounded control context."
       },
       {
         "name": "U.S. Citizenship and Immigration Services Form I-9",
-        "url": "https://www.uscis.gov/i-9"
+        "url": "https://www.uscis.gov/i-9",
+        "note": "Public guidance used as bounded control context."
       },
       {
         "name": "HHS HIPAA",
-        "url": "https://www.hhs.gov/hipaa/index.html"
+        "url": "https://www.hhs.gov/hipaa/index.html",
+        "note": "Public guidance used as bounded control context."
       },
       {
         "name": "EEOC guidance",
-        "url": "https://www.eeoc.gov/"
+        "url": "https://www.eeoc.gov/",
+        "note": "Public guidance used as bounded control context."
       },
       {
         "name": "NIST Privacy Framework",
-        "url": "https://www.nist.gov/privacy-framework"
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Public guidance used as bounded control context."
       },
       {
         "name": "SBA business guide",
-        "url": "https://www.sba.gov/business-guide/manage-your-business"
+        "url": "https://www.sba.gov/business-guide/manage-your-business",
+        "note": "Public guidance used as bounded control context."
       }
     ]
   },
@@ -244,27 +250,33 @@ export const nov04BlogArticles = {
     "sources": [
       {
         "name": "U.S. Department of Labor recordkeeping",
-        "url": "https://www.dol.gov/agencies/whd/recordkeeping"
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping",
+        "note": "Public guidance used as bounded control context."
       },
       {
         "name": "U.S. Citizenship and Immigration Services Form I-9",
-        "url": "https://www.uscis.gov/i-9"
+        "url": "https://www.uscis.gov/i-9",
+        "note": "Public guidance used as bounded control context."
       },
       {
         "name": "HHS HIPAA",
-        "url": "https://www.hhs.gov/hipaa/index.html"
+        "url": "https://www.hhs.gov/hipaa/index.html",
+        "note": "Public guidance used as bounded control context."
       },
       {
         "name": "EEOC guidance",
-        "url": "https://www.eeoc.gov/"
+        "url": "https://www.eeoc.gov/",
+        "note": "Public guidance used as bounded control context."
       },
       {
         "name": "NIST Privacy Framework",
-        "url": "https://www.nist.gov/privacy-framework"
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Public guidance used as bounded control context."
       },
       {
         "name": "SBA business guide",
-        "url": "https://www.sba.gov/business-guide/manage-your-business"
+        "url": "https://www.sba.gov/business-guide/manage-your-business",
+        "note": "Public guidance used as bounded control context."
       }
     ]
   },
@@ -349,27 +361,33 @@ export const nov04BlogArticles = {
     "sources": [
       {
         "name": "U.S. Department of Labor recordkeeping",
-        "url": "https://www.dol.gov/agencies/whd/recordkeeping"
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping",
+        "note": "Public guidance used as bounded control context."
       },
       {
         "name": "U.S. Citizenship and Immigration Services Form I-9",
-        "url": "https://www.uscis.gov/i-9"
+        "url": "https://www.uscis.gov/i-9",
+        "note": "Public guidance used as bounded control context."
       },
       {
         "name": "HHS HIPAA",
-        "url": "https://www.hhs.gov/hipaa/index.html"
+        "url": "https://www.hhs.gov/hipaa/index.html",
+        "note": "Public guidance used as bounded control context."
       },
       {
         "name": "EEOC guidance",
-        "url": "https://www.eeoc.gov/"
+        "url": "https://www.eeoc.gov/",
+        "note": "Public guidance used as bounded control context."
       },
       {
         "name": "NIST Privacy Framework",
-        "url": "https://www.nist.gov/privacy-framework"
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Public guidance used as bounded control context."
       },
       {
         "name": "SBA business guide",
-        "url": "https://www.sba.gov/business-guide/manage-your-business"
+        "url": "https://www.sba.gov/business-guide/manage-your-business",
+        "note": "Public guidance used as bounded control context."
       }
     ]
   },
@@ -454,27 +472,33 @@ export const nov04BlogArticles = {
     "sources": [
       {
         "name": "U.S. Department of Labor recordkeeping",
-        "url": "https://www.dol.gov/agencies/whd/recordkeeping"
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping",
+        "note": "Public guidance used as bounded control context."
       },
       {
         "name": "U.S. Citizenship and Immigration Services Form I-9",
-        "url": "https://www.uscis.gov/i-9"
+        "url": "https://www.uscis.gov/i-9",
+        "note": "Public guidance used as bounded control context."
       },
       {
         "name": "HHS HIPAA",
-        "url": "https://www.hhs.gov/hipaa/index.html"
+        "url": "https://www.hhs.gov/hipaa/index.html",
+        "note": "Public guidance used as bounded control context."
       },
       {
         "name": "EEOC guidance",
-        "url": "https://www.eeoc.gov/"
+        "url": "https://www.eeoc.gov/",
+        "note": "Public guidance used as bounded control context."
       },
       {
         "name": "NIST Privacy Framework",
-        "url": "https://www.nist.gov/privacy-framework"
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Public guidance used as bounded control context."
       },
       {
         "name": "SBA business guide",
-        "url": "https://www.sba.gov/business-guide/manage-your-business"
+        "url": "https://www.sba.gov/business-guide/manage-your-business",
+        "note": "Public guidance used as bounded control context."
       }
     ]
   },
@@ -559,27 +583,33 @@ export const nov04BlogArticles = {
     "sources": [
       {
         "name": "U.S. Department of Labor recordkeeping",
-        "url": "https://www.dol.gov/agencies/whd/recordkeeping"
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping",
+        "note": "Public guidance used as bounded control context."
       },
       {
         "name": "U.S. Citizenship and Immigration Services Form I-9",
-        "url": "https://www.uscis.gov/i-9"
+        "url": "https://www.uscis.gov/i-9",
+        "note": "Public guidance used as bounded control context."
       },
       {
         "name": "HHS HIPAA",
-        "url": "https://www.hhs.gov/hipaa/index.html"
+        "url": "https://www.hhs.gov/hipaa/index.html",
+        "note": "Public guidance used as bounded control context."
       },
       {
         "name": "EEOC guidance",
-        "url": "https://www.eeoc.gov/"
+        "url": "https://www.eeoc.gov/",
+        "note": "Public guidance used as bounded control context."
       },
       {
         "name": "NIST Privacy Framework",
-        "url": "https://www.nist.gov/privacy-framework"
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Public guidance used as bounded control context."
       },
       {
         "name": "SBA business guide",
-        "url": "https://www.sba.gov/business-guide/manage-your-business"
+        "url": "https://www.sba.gov/business-guide/manage-your-business",
+        "note": "Public guidance used as bounded control context."
       }
     ]
   },
@@ -664,27 +694,33 @@ export const nov04BlogArticles = {
     "sources": [
       {
         "name": "U.S. Department of Labor recordkeeping",
-        "url": "https://www.dol.gov/agencies/whd/recordkeeping"
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping",
+        "note": "Public guidance used as bounded control context."
       },
       {
         "name": "U.S. Citizenship and Immigration Services Form I-9",
-        "url": "https://www.uscis.gov/i-9"
+        "url": "https://www.uscis.gov/i-9",
+        "note": "Public guidance used as bounded control context."
       },
       {
         "name": "HHS HIPAA",
-        "url": "https://www.hhs.gov/hipaa/index.html"
+        "url": "https://www.hhs.gov/hipaa/index.html",
+        "note": "Public guidance used as bounded control context."
       },
       {
         "name": "EEOC guidance",
-        "url": "https://www.eeoc.gov/"
+        "url": "https://www.eeoc.gov/",
+        "note": "Public guidance used as bounded control context."
       },
       {
         "name": "NIST Privacy Framework",
-        "url": "https://www.nist.gov/privacy-framework"
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Public guidance used as bounded control context."
       },
       {
         "name": "SBA business guide",
-        "url": "https://www.sba.gov/business-guide/manage-your-business"
+        "url": "https://www.sba.gov/business-guide/manage-your-business",
+        "note": "Public guidance used as bounded control context."
       }
     ]
   },
@@ -769,27 +805,33 @@ export const nov04BlogArticles = {
     "sources": [
       {
         "name": "U.S. Department of Labor recordkeeping",
-        "url": "https://www.dol.gov/agencies/whd/recordkeeping"
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping",
+        "note": "Public guidance used as bounded control context."
       },
       {
         "name": "U.S. Citizenship and Immigration Services Form I-9",
-        "url": "https://www.uscis.gov/i-9"
+        "url": "https://www.uscis.gov/i-9",
+        "note": "Public guidance used as bounded control context."
       },
       {
         "name": "HHS HIPAA",
-        "url": "https://www.hhs.gov/hipaa/index.html"
+        "url": "https://www.hhs.gov/hipaa/index.html",
+        "note": "Public guidance used as bounded control context."
       },
       {
         "name": "EEOC guidance",
-        "url": "https://www.eeoc.gov/"
+        "url": "https://www.eeoc.gov/",
+        "note": "Public guidance used as bounded control context."
       },
       {
         "name": "NIST Privacy Framework",
-        "url": "https://www.nist.gov/privacy-framework"
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Public guidance used as bounded control context."
       },
       {
         "name": "SBA business guide",
-        "url": "https://www.sba.gov/business-guide/manage-your-business"
+        "url": "https://www.sba.gov/business-guide/manage-your-business",
+        "note": "Public guidance used as bounded control context."
       }
     ]
   },
@@ -874,27 +916,33 @@ export const nov04BlogArticles = {
     "sources": [
       {
         "name": "U.S. Department of Labor recordkeeping",
-        "url": "https://www.dol.gov/agencies/whd/recordkeeping"
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping",
+        "note": "Public guidance used as bounded control context."
       },
       {
         "name": "U.S. Citizenship and Immigration Services Form I-9",
-        "url": "https://www.uscis.gov/i-9"
+        "url": "https://www.uscis.gov/i-9",
+        "note": "Public guidance used as bounded control context."
       },
       {
         "name": "HHS HIPAA",
-        "url": "https://www.hhs.gov/hipaa/index.html"
+        "url": "https://www.hhs.gov/hipaa/index.html",
+        "note": "Public guidance used as bounded control context."
       },
       {
         "name": "EEOC guidance",
-        "url": "https://www.eeoc.gov/"
+        "url": "https://www.eeoc.gov/",
+        "note": "Public guidance used as bounded control context."
       },
       {
         "name": "NIST Privacy Framework",
-        "url": "https://www.nist.gov/privacy-framework"
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Public guidance used as bounded control context."
       },
       {
         "name": "SBA business guide",
-        "url": "https://www.sba.gov/business-guide/manage-your-business"
+        "url": "https://www.sba.gov/business-guide/manage-your-business",
+        "note": "Public guidance used as bounded control context."
       }
     ]
   }
