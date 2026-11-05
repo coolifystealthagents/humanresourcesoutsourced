@@ -125,40 +125,47 @@ export const nov05BlogArticles = {
     "workflow": [],
     "faqs": [
       {
-        "q": "What should the team check first on employee file?",
-        "a": "For employee file, the minimum trail is a dated source, a named reviewer, a stated close condition, and a note on what remains unresolved. At Human Resources Outsourced, employee file work belongs to the employee file service alongside I-9 record and benefits enrollment. A specialist working with HR and people operations leaders records 'Check the source', 'Route the review', and 'Flag the gap', then attaches the dated employee file source for the HR owner. The humanresourcesoutsourced.com queue shows both the entry date and the reviewer who accepted it. For HR and people operations leaders, the Human Resources Outsourced employee file packet also names I-9 record and benefits enrollment as the neighbouring workflows."
+        "question": "What should the team check first on employee file?",
+        "answer": "For employee file, the minimum trail is a dated source, a named reviewer, a stated close condition, and a note on what remains unresolved. At Human Resources Outsourced, employee file work belongs to the employee file service alongside I-9 record and benefits enrollment. A specialist working with HR and people operations leaders records 'Check the source', 'Route the review', and 'Flag the gap', then attaches the dated employee file source for the HR owner. The humanresourcesoutsourced.com queue shows both the entry date and the reviewer who accepted it. For HR and people operations leaders, the Human Resources Outsourced employee file packet also names I-9 record and benefits enrollment as the neighbouring workflows."
       }
     ],
     "related": [
       {
-        "label": "Services",
-        "href": "/services"
+        "title": "Services",
+        "href": "/services",
+        "note": "Related HR guidance and service scope."
       }
     ],
     "sources": [
       {
         "name": "U.S. Department of Labor recordkeeping",
-        "url": "https://www.dol.gov/agencies/whd/recordkeeping"
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping",
+        "note": "Public guidance consulted for general context."
       },
       {
         "name": "U.S. Citizenship and Immigration Services Form I-9",
-        "url": "https://www.uscis.gov/i-9"
+        "url": "https://www.uscis.gov/i-9",
+        "note": "Public guidance consulted for general context."
       },
       {
         "name": "HHS HIPAA",
-        "url": "https://www.hhs.gov/hipaa/index.html"
+        "url": "https://www.hhs.gov/hipaa/index.html",
+        "note": "Public guidance consulted for general context."
       },
       {
         "name": "EEOC guidance",
-        "url": "https://www.eeoc.gov/"
+        "url": "https://www.eeoc.gov/",
+        "note": "Public guidance consulted for general context."
       },
       {
         "name": "NIST Privacy Framework",
-        "url": "https://www.nist.gov/privacy-framework"
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Public guidance consulted for general context."
       },
       {
         "name": "SBA business guide",
-        "url": "https://www.sba.gov/business-guide/manage-your-business"
+        "url": "https://www.sba.gov/business-guide/manage-your-business",
+        "note": "Public guidance consulted for general context."
       }
     ]
   },
@@ -229,40 +236,47 @@ export const nov05BlogArticles = {
     "workflow": [],
     "faqs": [
       {
-        "q": "What should the team check first on I-9 record?",
-        "a": "The record must connect four things on I-9 record: the request as it arrived, the evidence that was checked, the person who decided, and the destination field that actually changed. Human Resources Outsourced documents I-9 record inside the I-9 record service, with employee file and benefits enrollment as related HR outsourcing workflows for HR and people operations leaders. The expected steps are 'Check the form', 'Route the question', and 'Flag the missing item', each with a source and a date. the HR owner reviews the packet before the humanresourcesoutsourced.com record is closed. The Human Resources Outsourced procedure for I-9 record lists these steps in order: Check the form; Record the date; Flag the missing item; Route the question."
+        "question": "What should the team check first on I-9 record?",
+        "answer": "The record must connect four things on I-9 record: the request as it arrived, the evidence that was checked, the person who decided, and the destination field that actually changed. Human Resources Outsourced documents I-9 record inside the I-9 record service, with employee file and benefits enrollment as related HR outsourcing workflows for HR and people operations leaders. The expected steps are 'Check the form', 'Route the question', and 'Flag the missing item', each with a source and a date. the HR owner reviews the packet before the humanresourcesoutsourced.com record is closed. The Human Resources Outsourced procedure for I-9 record lists these steps in order: Check the form; Record the date; Flag the missing item; Route the question."
       }
     ],
     "related": [
       {
-        "label": "Services",
-        "href": "/services"
+        "title": "Services",
+        "href": "/services",
+        "note": "Related HR guidance and service scope."
       }
     ],
     "sources": [
       {
         "name": "U.S. Department of Labor recordkeeping",
-        "url": "https://www.dol.gov/agencies/whd/recordkeeping"
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping",
+        "note": "Public guidance consulted for general context."
       },
       {
         "name": "U.S. Citizenship and Immigration Services Form I-9",
-        "url": "https://www.uscis.gov/i-9"
+        "url": "https://www.uscis.gov/i-9",
+        "note": "Public guidance consulted for general context."
       },
       {
         "name": "HHS HIPAA",
-        "url": "https://www.hhs.gov/hipaa/index.html"
+        "url": "https://www.hhs.gov/hipaa/index.html",
+        "note": "Public guidance consulted for general context."
       },
       {
         "name": "EEOC guidance",
-        "url": "https://www.eeoc.gov/"
+        "url": "https://www.eeoc.gov/",
+        "note": "Public guidance consulted for general context."
       },
       {
         "name": "NIST Privacy Framework",
-        "url": "https://www.nist.gov/privacy-framework"
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Public guidance consulted for general context."
       },
       {
         "name": "SBA business guide",
-        "url": "https://www.sba.gov/business-guide/manage-your-business"
+        "url": "https://www.sba.gov/business-guide/manage-your-business",
+        "note": "Public guidance consulted for general context."
       }
     ]
   },
@@ -333,40 +347,47 @@ export const nov05BlogArticles = {
     "workflow": [],
     "faqs": [
       {
-        "q": "What should the team check first on benefits enrollment?",
-        "a": "A useful benefits enrollment record answers who, what, when, and what changed, and it does so without a second message thread. The Human Resources Outsourced benefits enrollment service supports benefits enrollment for HR and people operations leaders, and it shares its HR outsourcing controls with employee file and I-9 record. Each case records 'Check the enrollment', 'Route the correction', and 'Flag the error' plus the source date. the HR owner signs the decision that releases the humanresourcesoutsourced.com entry. Related Human Resources Outsourced services in HR outsourcing are employee file, I-9 record, benefits enrollment, leave request, policy acknowledgment, offboarding; the humanresourcesoutsourced.com record ties this case to benefits enrollment."
+        "question": "What should the team check first on benefits enrollment?",
+        "answer": "A useful benefits enrollment record answers who, what, when, and what changed, and it does so without a second message thread. The Human Resources Outsourced benefits enrollment service supports benefits enrollment for HR and people operations leaders, and it shares its HR outsourcing controls with employee file and I-9 record. Each case records 'Check the enrollment', 'Route the correction', and 'Flag the error' plus the source date. the HR owner signs the decision that releases the humanresourcesoutsourced.com entry. Related Human Resources Outsourced services in HR outsourcing are employee file, I-9 record, benefits enrollment, leave request, policy acknowledgment, offboarding; the humanresourcesoutsourced.com record ties this case to benefits enrollment."
       }
     ],
     "related": [
       {
-        "label": "Services",
-        "href": "/services"
+        "title": "Services",
+        "href": "/services",
+        "note": "Related HR guidance and service scope."
       }
     ],
     "sources": [
       {
         "name": "U.S. Department of Labor recordkeeping",
-        "url": "https://www.dol.gov/agencies/whd/recordkeeping"
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping",
+        "note": "Public guidance consulted for general context."
       },
       {
         "name": "U.S. Citizenship and Immigration Services Form I-9",
-        "url": "https://www.uscis.gov/i-9"
+        "url": "https://www.uscis.gov/i-9",
+        "note": "Public guidance consulted for general context."
       },
       {
         "name": "HHS HIPAA",
-        "url": "https://www.hhs.gov/hipaa/index.html"
+        "url": "https://www.hhs.gov/hipaa/index.html",
+        "note": "Public guidance consulted for general context."
       },
       {
         "name": "EEOC guidance",
-        "url": "https://www.eeoc.gov/"
+        "url": "https://www.eeoc.gov/",
+        "note": "Public guidance consulted for general context."
       },
       {
         "name": "NIST Privacy Framework",
-        "url": "https://www.nist.gov/privacy-framework"
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Public guidance consulted for general context."
       },
       {
         "name": "SBA business guide",
-        "url": "https://www.sba.gov/business-guide/manage-your-business"
+        "url": "https://www.sba.gov/business-guide/manage-your-business",
+        "note": "Public guidance consulted for general context."
       }
     ]
   },
@@ -437,40 +458,47 @@ export const nov05BlogArticles = {
     "workflow": [],
     "faqs": [
       {
-        "q": "What should the team check first on leave request?",
-        "a": "What HR and people operations leaders need from leave request is not a longer form but a shorter path from question to verifiable answer. The Human Resources Outsourced leave request service for HR and people operations leaders treats 'Check the policy', 'Route the decision', and 'Flag the gap' as the evidence sequence for leave request. Neighbouring HR outsourcing services such as employee file and I-9 record follow the same rule. the HR owner signs the release, and the humanresourcesoutsourced.com record keeps the source date. The Human Resources Outsourced reviewer for leave request compares the entry with the HR owner and records the humanresourcesoutsourced.com source date."
+        "question": "What should the team check first on leave request?",
+        "answer": "What HR and people operations leaders need from leave request is not a longer form but a shorter path from question to verifiable answer. The Human Resources Outsourced leave request service for HR and people operations leaders treats 'Check the policy', 'Route the decision', and 'Flag the gap' as the evidence sequence for leave request. Neighbouring HR outsourcing services such as employee file and I-9 record follow the same rule. the HR owner signs the release, and the humanresourcesoutsourced.com record keeps the source date. The Human Resources Outsourced reviewer for leave request compares the entry with the HR owner and records the humanresourcesoutsourced.com source date."
       }
     ],
     "related": [
       {
-        "label": "Services",
-        "href": "/services"
+        "title": "Services",
+        "href": "/services",
+        "note": "Related HR guidance and service scope."
       }
     ],
     "sources": [
       {
         "name": "U.S. Department of Labor recordkeeping",
-        "url": "https://www.dol.gov/agencies/whd/recordkeeping"
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping",
+        "note": "Public guidance consulted for general context."
       },
       {
         "name": "U.S. Citizenship and Immigration Services Form I-9",
-        "url": "https://www.uscis.gov/i-9"
+        "url": "https://www.uscis.gov/i-9",
+        "note": "Public guidance consulted for general context."
       },
       {
         "name": "HHS HIPAA",
-        "url": "https://www.hhs.gov/hipaa/index.html"
+        "url": "https://www.hhs.gov/hipaa/index.html",
+        "note": "Public guidance consulted for general context."
       },
       {
         "name": "EEOC guidance",
-        "url": "https://www.eeoc.gov/"
+        "url": "https://www.eeoc.gov/",
+        "note": "Public guidance consulted for general context."
       },
       {
         "name": "NIST Privacy Framework",
-        "url": "https://www.nist.gov/privacy-framework"
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Public guidance consulted for general context."
       },
       {
         "name": "SBA business guide",
-        "url": "https://www.sba.gov/business-guide/manage-your-business"
+        "url": "https://www.sba.gov/business-guide/manage-your-business",
+        "note": "Public guidance consulted for general context."
       }
     ]
   },
@@ -541,40 +569,47 @@ export const nov05BlogArticles = {
     "workflow": [],
     "faqs": [
       {
-        "q": "What should the team check first on policy acknowledgment?",
-        "a": "For policy acknowledgment, the minimum trail is a dated source, a named reviewer, a stated close condition, and a note on what remains unresolved. The Human Resources Outsourced service map places policy acknowledgment under policy acknowledgment, next to employee file and I-9 record. A specialist serving HR and people operations leaders records 'Check the version', 'Route the follow-up', and 'Flag the missing signature', then links the policy acknowledgment evidence to the case. the HR owner approves the outcome, and humanresourcesoutsourced.com keeps the trail. For HR and people operations leaders, the Human Resources Outsourced policy acknowledgment packet also names employee file and I-9 record as the neighbouring workflows."
+        "question": "What should the team check first on policy acknowledgment?",
+        "answer": "For policy acknowledgment, the minimum trail is a dated source, a named reviewer, a stated close condition, and a note on what remains unresolved. The Human Resources Outsourced service map places policy acknowledgment under policy acknowledgment, next to employee file and I-9 record. A specialist serving HR and people operations leaders records 'Check the version', 'Route the follow-up', and 'Flag the missing signature', then links the policy acknowledgment evidence to the case. the HR owner approves the outcome, and humanresourcesoutsourced.com keeps the trail. For HR and people operations leaders, the Human Resources Outsourced policy acknowledgment packet also names employee file and I-9 record as the neighbouring workflows."
       }
     ],
     "related": [
       {
-        "label": "Services",
-        "href": "/services"
+        "title": "Services",
+        "href": "/services",
+        "note": "Related HR guidance and service scope."
       }
     ],
     "sources": [
       {
         "name": "U.S. Department of Labor recordkeeping",
-        "url": "https://www.dol.gov/agencies/whd/recordkeeping"
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping",
+        "note": "Public guidance consulted for general context."
       },
       {
         "name": "U.S. Citizenship and Immigration Services Form I-9",
-        "url": "https://www.uscis.gov/i-9"
+        "url": "https://www.uscis.gov/i-9",
+        "note": "Public guidance consulted for general context."
       },
       {
         "name": "HHS HIPAA",
-        "url": "https://www.hhs.gov/hipaa/index.html"
+        "url": "https://www.hhs.gov/hipaa/index.html",
+        "note": "Public guidance consulted for general context."
       },
       {
         "name": "EEOC guidance",
-        "url": "https://www.eeoc.gov/"
+        "url": "https://www.eeoc.gov/",
+        "note": "Public guidance consulted for general context."
       },
       {
         "name": "NIST Privacy Framework",
-        "url": "https://www.nist.gov/privacy-framework"
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Public guidance consulted for general context."
       },
       {
         "name": "SBA business guide",
-        "url": "https://www.sba.gov/business-guide/manage-your-business"
+        "url": "https://www.sba.gov/business-guide/manage-your-business",
+        "note": "Public guidance consulted for general context."
       }
     ]
   },
@@ -645,40 +680,47 @@ export const nov05BlogArticles = {
     "workflow": [],
     "faqs": [
       {
-        "q": "What should the team check first on offboarding?",
-        "a": "The record must connect four things on offboarding: the request as it arrived, the evidence that was checked, the person who decided, and the destination field that actually changed. Human Resources Outsourced runs this work through its offboarding service, one of several HR outsourcing services that also include employee file and I-9 record. The specialist completes 'Check the access list', 'Route the confirmation', and 'Flag the stale account' before the HR owner reviews the offboarding entry. The Human Resources Outsourced desk at humanresourcesoutsourced.com keeps the dated source and the reviewer initials with the case. The Human Resources Outsourced procedure for offboarding lists these steps in order: Check the access list; Record the removal; Flag the stale account; Route the confirmation."
+        "question": "What should the team check first on offboarding?",
+        "answer": "The record must connect four things on offboarding: the request as it arrived, the evidence that was checked, the person who decided, and the destination field that actually changed. Human Resources Outsourced runs this work through its offboarding service, one of several HR outsourcing services that also include employee file and I-9 record. The specialist completes 'Check the access list', 'Route the confirmation', and 'Flag the stale account' before the HR owner reviews the offboarding entry. The Human Resources Outsourced desk at humanresourcesoutsourced.com keeps the dated source and the reviewer initials with the case. The Human Resources Outsourced procedure for offboarding lists these steps in order: Check the access list; Record the removal; Flag the stale account; Route the confirmation."
       }
     ],
     "related": [
       {
-        "label": "Services",
-        "href": "/services"
+        "title": "Services",
+        "href": "/services",
+        "note": "Related HR guidance and service scope."
       }
     ],
     "sources": [
       {
         "name": "U.S. Department of Labor recordkeeping",
-        "url": "https://www.dol.gov/agencies/whd/recordkeeping"
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping",
+        "note": "Public guidance consulted for general context."
       },
       {
         "name": "U.S. Citizenship and Immigration Services Form I-9",
-        "url": "https://www.uscis.gov/i-9"
+        "url": "https://www.uscis.gov/i-9",
+        "note": "Public guidance consulted for general context."
       },
       {
         "name": "HHS HIPAA",
-        "url": "https://www.hhs.gov/hipaa/index.html"
+        "url": "https://www.hhs.gov/hipaa/index.html",
+        "note": "Public guidance consulted for general context."
       },
       {
         "name": "EEOC guidance",
-        "url": "https://www.eeoc.gov/"
+        "url": "https://www.eeoc.gov/",
+        "note": "Public guidance consulted for general context."
       },
       {
         "name": "NIST Privacy Framework",
-        "url": "https://www.nist.gov/privacy-framework"
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Public guidance consulted for general context."
       },
       {
         "name": "SBA business guide",
-        "url": "https://www.sba.gov/business-guide/manage-your-business"
+        "url": "https://www.sba.gov/business-guide/manage-your-business",
+        "note": "Public guidance consulted for general context."
       }
     ]
   },
@@ -749,40 +791,47 @@ export const nov05BlogArticles = {
     "workflow": [],
     "faqs": [
       {
-        "q": "What should the team check first on employee file queue?",
-        "a": "A useful employee file queue record answers who, what, when, and what changed, and it does so without a second message thread. For HR and people operations leaders, Human Resources Outsourced separates preparation from approval across its HR outsourcing services, including employee file, I-9 record, and benefits enrollment. The specialist completes 'Check the source', 'Route the review', and 'Flag the gap' on employee file queue; the HR owner decides what leaves the queue. The humanresourcesoutsourced.com entry shows who prepared and who approved. Related Human Resources Outsourced services in HR outsourcing are employee file, I-9 record, benefits enrollment, leave request, policy acknowledgment, offboarding; the humanresourcesoutsourced.com record ties this case to employee file."
+        "question": "What should the team check first on employee file queue?",
+        "answer": "A useful employee file queue record answers who, what, when, and what changed, and it does so without a second message thread. For HR and people operations leaders, Human Resources Outsourced separates preparation from approval across its HR outsourcing services, including employee file, I-9 record, and benefits enrollment. The specialist completes 'Check the source', 'Route the review', and 'Flag the gap' on employee file queue; the HR owner decides what leaves the queue. The humanresourcesoutsourced.com entry shows who prepared and who approved. Related Human Resources Outsourced services in HR outsourcing are employee file, I-9 record, benefits enrollment, leave request, policy acknowledgment, offboarding; the humanresourcesoutsourced.com record ties this case to employee file."
       }
     ],
     "related": [
       {
-        "label": "Services",
-        "href": "/services"
+        "title": "Services",
+        "href": "/services",
+        "note": "Related HR guidance and service scope."
       }
     ],
     "sources": [
       {
         "name": "U.S. Department of Labor recordkeeping",
-        "url": "https://www.dol.gov/agencies/whd/recordkeeping"
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping",
+        "note": "Public guidance consulted for general context."
       },
       {
         "name": "U.S. Citizenship and Immigration Services Form I-9",
-        "url": "https://www.uscis.gov/i-9"
+        "url": "https://www.uscis.gov/i-9",
+        "note": "Public guidance consulted for general context."
       },
       {
         "name": "HHS HIPAA",
-        "url": "https://www.hhs.gov/hipaa/index.html"
+        "url": "https://www.hhs.gov/hipaa/index.html",
+        "note": "Public guidance consulted for general context."
       },
       {
         "name": "EEOC guidance",
-        "url": "https://www.eeoc.gov/"
+        "url": "https://www.eeoc.gov/",
+        "note": "Public guidance consulted for general context."
       },
       {
         "name": "NIST Privacy Framework",
-        "url": "https://www.nist.gov/privacy-framework"
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Public guidance consulted for general context."
       },
       {
         "name": "SBA business guide",
-        "url": "https://www.sba.gov/business-guide/manage-your-business"
+        "url": "https://www.sba.gov/business-guide/manage-your-business",
+        "note": "Public guidance consulted for general context."
       }
     ]
   },
@@ -853,40 +902,47 @@ export const nov05BlogArticles = {
     "workflow": [],
     "faqs": [
       {
-        "q": "What should the team check first on I-9 record queue?",
-        "a": "What HR and people operations leaders need from I-9 record queue is not a longer form but a shorter path from question to verifiable answer. Inside Human Resources Outsourced, I-9 record queue follows the same HR outsourcing pattern as employee file, benefits enrollment, and the I-9 record service itself. The specialist works through 'Check the form', 'Route the question', and 'Flag the missing item', then dates the source for the HR owner. The humanresourcesoutsourced.com reviewer checks the sequence before closure. The Human Resources Outsourced reviewer for I-9 record queue compares the entry with the HR owner and records the humanresourcesoutsourced.com source date."
+        "question": "What should the team check first on I-9 record queue?",
+        "answer": "What HR and people operations leaders need from I-9 record queue is not a longer form but a shorter path from question to verifiable answer. Inside Human Resources Outsourced, I-9 record queue follows the same HR outsourcing pattern as employee file, benefits enrollment, and the I-9 record service itself. The specialist works through 'Check the form', 'Route the question', and 'Flag the missing item', then dates the source for the HR owner. The humanresourcesoutsourced.com reviewer checks the sequence before closure. The Human Resources Outsourced reviewer for I-9 record queue compares the entry with the HR owner and records the humanresourcesoutsourced.com source date."
       }
     ],
     "related": [
       {
-        "label": "Services",
-        "href": "/services"
+        "title": "Services",
+        "href": "/services",
+        "note": "Related HR guidance and service scope."
       }
     ],
     "sources": [
       {
         "name": "U.S. Department of Labor recordkeeping",
-        "url": "https://www.dol.gov/agencies/whd/recordkeeping"
+        "url": "https://www.dol.gov/agencies/whd/recordkeeping",
+        "note": "Public guidance consulted for general context."
       },
       {
         "name": "U.S. Citizenship and Immigration Services Form I-9",
-        "url": "https://www.uscis.gov/i-9"
+        "url": "https://www.uscis.gov/i-9",
+        "note": "Public guidance consulted for general context."
       },
       {
         "name": "HHS HIPAA",
-        "url": "https://www.hhs.gov/hipaa/index.html"
+        "url": "https://www.hhs.gov/hipaa/index.html",
+        "note": "Public guidance consulted for general context."
       },
       {
         "name": "EEOC guidance",
-        "url": "https://www.eeoc.gov/"
+        "url": "https://www.eeoc.gov/",
+        "note": "Public guidance consulted for general context."
       },
       {
         "name": "NIST Privacy Framework",
-        "url": "https://www.nist.gov/privacy-framework"
+        "url": "https://www.nist.gov/privacy-framework",
+        "note": "Public guidance consulted for general context."
       },
       {
         "name": "SBA business guide",
-        "url": "https://www.sba.gov/business-guide/manage-your-business"
+        "url": "https://www.sba.gov/business-guide/manage-your-business",
+        "note": "Public guidance consulted for general context."
       }
     ]
   }
