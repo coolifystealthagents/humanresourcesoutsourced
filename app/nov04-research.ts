@@ -67,8 +67,9 @@ export const nov04ResearchPosts = [
       }
     ],
     "serviceLink": {
-      "label": "HR outsourcing support",
-      "href": "/services"
+      "title": "HR outsourcing support",
+      "href": "/services",
+      "body": "Use the evidence and boundary language in the role brief."
     }
   },
   {
@@ -139,8 +140,9 @@ export const nov04ResearchPosts = [
       }
     ],
     "serviceLink": {
-      "label": "HR outsourcing support",
-      "href": "/services"
+      "title": "HR outsourcing support",
+      "href": "/services",
+      "body": "Use the evidence and boundary language in the role brief."
     }
   },
   {
@@ -211,8 +213,9 @@ export const nov04ResearchPosts = [
       }
     ],
     "serviceLink": {
-      "label": "HR outsourcing support",
-      "href": "/services"
+      "title": "HR outsourcing support",
+      "href": "/services",
+      "body": "Use the evidence and boundary language in the role brief."
     }
   },
   {
@@ -283,8 +286,9 @@ export const nov04ResearchPosts = [
       }
     ],
     "serviceLink": {
-      "label": "HR outsourcing support",
-      "href": "/services"
+      "title": "HR outsourcing support",
+      "href": "/services",
+      "body": "Use the evidence and boundary language in the role brief."
     }
   },
   {
@@ -355,8 +359,9 @@ export const nov04ResearchPosts = [
       }
     ],
     "serviceLink": {
-      "label": "HR outsourcing support",
-      "href": "/services"
+      "title": "HR outsourcing support",
+      "href": "/services",
+      "body": "Use the evidence and boundary language in the role brief."
     }
   },
   {
@@ -427,8 +432,9 @@ export const nov04ResearchPosts = [
       }
     ],
     "serviceLink": {
-      "label": "HR outsourcing support",
-      "href": "/services"
+      "title": "HR outsourcing support",
+      "href": "/services",
+      "body": "Use the evidence and boundary language in the role brief."
     }
   },
   {
@@ -499,8 +505,9 @@ export const nov04ResearchPosts = [
       }
     ],
     "serviceLink": {
-      "label": "HR outsourcing support",
-      "href": "/services"
+      "title": "HR outsourcing support",
+      "href": "/services",
+      "body": "Use the evidence and boundary language in the role brief."
     }
   }
 ];
