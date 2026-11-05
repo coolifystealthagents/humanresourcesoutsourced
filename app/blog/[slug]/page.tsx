@@ -127,6 +127,7 @@ export default async function Post({ params }: Params) {
 
       <article className="container hr-article-body">
         <aside className="article-sidebar"><ActiveTableOfContents items={tocItems} title="Article contents" /><div className="article-sidebar-module"><h3>Use this guide</h3><p>Translate the guidance into one bounded workflow with a named reviewer and exception owner.</p><a href="/contact-us">Discuss your HR support plan</a></div><div className="article-sidebar-module"><h3>Publisher</h3><p>{site.brand} publishes practical guidance for controlled HR administration handoffs.</p></div></aside>
+        <div className="hr-article-main">
         <section className="hr-takeaways" aria-labelledby="takeaways-heading">
           <p className="eyebrow">Start here</p>
           <h2 id="takeaways-heading">Five rules for a safe first handoff</h2>
@@ -205,6 +206,7 @@ export default async function Post({ params }: Params) {
           <p className="eyebrow">Sources</p><h2 id="sources-heading">Source notes</h2>
           <ol>{article.sources.map((source) => <li key={source.url}><a href={source.url} rel="noopener noreferrer">{source.name}</a><span>{source.note}</span></li>)}</ol>
         </section>
+        </div>
       </article>
     </main>
     <Footer articleMode />
