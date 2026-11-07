@@ -82,16 +82,16 @@ export const nov07BlogArticles = {
         "heading": "The control this promotion letter pack needs",
         "paragraphs": [
           "A promotion letter pack control earns its place when the team can apply it on a busy night without asking for context. Start with the owner, because a promotion letter pack case without one cannot be escalated cleanly across a time zone. The point of the promotion queue is to make the next decision obvious, not to collect activity. For HR and people operations leaders, the useful control is short enough to repeat and specific enough to challenge. In the the control this promotion letter pack needs step, the written action is to record the role, the new rate, and the effective date.",
-          "A written promotion letter pack rule beats a verbal habit once two shifts share the same queue. The promotion queue should show what arrived, what was checked, and what happens next. A promotion letter pack process that depends on one person remembering a detail is not yet a control.",
-          "The first design question is which decision the promotion letter pack record exists to support. Good promotion letter pack controls reduce the number of times the same question is answered differently. The promotion queue works when a new reviewer can pick up an item without reopening a chat thread."
+          "A written promotion letter pack rule beats a verbal habit once two shifts share the same queue. The promotion queue should show what arrived, what was checked, and what happens next. A promotion letter pack process that depends on one person remembering a detail is not yet a control. The HR queue shows both the request date and the coordinator who accepted it.",
+          "The first design question is which decision the promotion letter pack record exists to support. Good promotion letter pack controls reduce the number of times the same question is answered differently. The promotion queue works when a new reviewer can pick up an item without reopening a chat thread. A later reviewer can confirm the same detail on the employee record and the policy version."
         ]
       },
       {
         "heading": "What the promotion letter pack record must show",
         "paragraphs": [
           "Two fields often settle a promotion letter pack case: does the source match the system, and does the named approver still hold that authority? The promotion record record should name the field that changed, not just the fact that something changed. A dated observation is worth more than a current screenshot that cannot show what the record said earlier. Missing, unavailable, and confirmed negative values belong in separate fields. In the what the promotion letter pack record must show step, the written action is to confirm the HR owner approval before payroll setup.",
-          "The record should let the next reviewer see which parts were checked and which were assumed. Every promotion record needs an observation time, because a later reader cannot infer it from context. Write the source version beside the promotion letter pack decision so a later change stays visible.",
-          "A short promotion letter pack note with four specific fields usually outperforms a long narrative. The record is complete when the reviewer can tell what would have counted as a different answer. The promotion record note should say what was checked, not just that a check happened."
+          "The record should let the next reviewer see which parts were checked and which were assumed. Every promotion record needs an observation time, because a later reader cannot infer it from context. Write the source version beside the promotion letter pack decision so a later change stays visible. For HR operations, the request and the approval must agree before review.",
+          "A short promotion letter pack note with four specific fields usually outperforms a long narrative. The record is complete when the reviewer can tell what would have counted as a different answer. The promotion record note should say what was checked, not just that a check happened. The note stays with the employee file and the next check date."
         ]
       },
       {
@@ -106,15 +106,15 @@ export const nov07BlogArticles = {
         "heading": "The daily promotion letter pack routine",
         "paragraphs": [
           "The specialist should leave each promotion record with a date and a next step. Review the promotion letter pack list before accepting a new request, not after. A consistent daily start time makes the queue easier to trust. The daily promotion letter pack routine is short: open the list, confirm the source, log the exception, and leave a named next action. In the the daily promotion letter pack routine step, the written action is to confirm the HR owner approval before payroll setup.",
-          "Start with the oldest unresolved item, because age turns a small gap into an escalation. Small habits carry promotion letter pack: date the source, initial the check, state the next action, and never copy a familiar value. Keep the promotion queue small enough to finish, because a healthy average can hide one case that sat for weeks.",
-          "End each shift with a dated note that names what moved, what stalled, and who checks next. Write the promotion letter pack rule where the work happens, not in a document nobody opens. The routine should make the next reviewer faster, not just busier."
+          "Start with the oldest unresolved item, because age turns a small gap into an escalation. Small habits carry promotion letter pack: date the source, initial the check, state the next action, and never copy a familiar value. Keep the promotion queue small enough to finish, because a healthy average can hide one case that sat for weeks. Judgment stays with the HR owner; the coordinator records only what was checked and when.",
+          "End each shift with a dated note that names what moved, what stalled, and who checks next. Write the promotion letter pack rule where the work happens, not in a document nobody opens. The routine should make the next reviewer faster, not just busier. The next reviewer can act on the entry without calling the coordinator who prepared it."
         ]
       },
       {
         "heading": "Exceptions that should stop the case",
         "paragraphs": [
           "The promotion queue should separate an exception from a normal item before anyone starts working it. An exception that recurs every week is a design problem, not a training problem. A case that has already crossed into pay, title, and any employment term should not be reopened by the specialist. The promotion record record should say who was notified and when, even when the answer was no. In the exceptions that should stop the case step, the written action is to record the role, the new rate, and the effective date.",
-          "A stop condition that is not written down is discovered only after something goes wrong. For HR and people operations leaders, the safest exception rule is the one a new hire can apply on day one. If an exception has no owner, it will sit until it becomes urgent.",
+          "A stop condition that is not written down is discovered only after something goes wrong. For HR and people operations leaders, the safest exception rule is the one a new hire can apply on day one. If an exception has no owner, it will sit until it becomes urgent. The HR owner can trace the entry to the source document and the date it was confirmed.",
           "The promotion letter pack queue should show the reason an item stopped, not just that it stopped. Exceptions deserve a shorter path to the decision maker, not a longer form. The specialist should never invent a resolution to keep the promotion queue moving."
         ]
       },
@@ -255,7 +255,7 @@ export const nov07BlogArticles = {
         "heading": "The control this probation review needs",
         "paragraphs": [
           "The probation tracker should show what arrived, what was checked, and what happens next. A probation review process that depends on one person remembering a detail is not yet a control. The first design question is which decision the probation review record exists to support. Good probation review controls reduce the number of times the same question is answered differently. In the the control this probation review needs step, the written action is to record the start date, due date, and reviewer.",
-          "The probation tracker works when a new reviewer can pick up an item without reopening a chat thread. A control that survives staff turnover is worth more than a longer form that gets skipped. The probation review brief should name the decision, the evidence, and the person accountable for it.",
+          "The probation tracker works when a new reviewer can pick up an item without reopening a chat thread. A control that survives staff turnover is worth more than a longer form that gets skipped. The probation review brief should name the decision, the evidence, and the person accountable for it. Each exception carries the employee key, the effective date, and the named owner who decided it.",
           "A small, dated probation review rule is easier to defend than a policy nobody reads. The control should make exceptions visible rather than forcing them into a normal case. For HR and people operations leaders, the test is whether the same probation review case can be explained twice the same way."
         ]
       },
@@ -263,15 +263,15 @@ export const nov07BlogArticles = {
         "heading": "What the probation review record must show",
         "paragraphs": [
           "Every probation record needs an observation time, because a later reader cannot infer it from context. Write the source version beside the probation review decision so a later change stays visible. A short probation review note with four specific fields usually outperforms a long narrative. The record is complete when the reviewer can tell what would have counted as a different answer. In the what the probation review record must show step, the written action is to route the decision to the new manager if the owner changes.",
-          "The probation record note should say what was checked, not just that a check happened. A short cross-reference to the system entry saves the next reviewer a search. The record should show the requested change and the approved change side by side.",
-          "When a field is unknown, write unknown rather than leaving it blank. The probation record file should keep the original submission and the checked version together. A record with a named source and a timestamp can survive a staffing change."
+          "The probation record note should say what was checked, not just that a check happened. A short cross-reference to the system entry saves the next reviewer a search. The record should show the requested change and the approved change side by side. The benefits queue keeps the election, the carrier confirmation, and the review date.",
+          "When a field is unknown, write unknown rather than leaving it blank. The probation record file should keep the original submission and the checked version together. A record with a named source and a timestamp can survive a staffing change. The leave calendar shows the policy version and the approver."
         ]
       },
       {
         "heading": "Where the specialist’s work stops",
         "paragraphs": [
           "Escalation is a normal step, not a failure of the probation review process. When the boundary moves, tell the specialist on the same day it changes. The probation record record should show that an escalation happened and who received it. A written boundary protects the employee relationship as much as the specialist. In the where the specialist’s work stops step, the written action is to record the start date, due date, and reviewer.",
-          "Keep the probation review scope narrow enough that one person can actually own it. If the probation review boundary lives only in a training call, it disappears the first busy week. The HR owner keeps the decisions that move money, access, policy, or a employee promise.",
+          "Keep the probation review scope narrow enough that one person can actually own it. If the probation review boundary lives only in a training call, it disappears the first busy week. The HR owner keeps the decisions that move money, access, policy, or a employee promise. The promotion pack compares the role change with the approved band.",
           "Write down which systems the specialist may touch and which questions go back to the HR owner. A prepared probation review packet is a question waiting for a decision, not an approval in itself. The confirmation, extension, and any employment decision stays with the accountable owner, however complete the preparation looks."
         ]
       },
@@ -279,7 +279,7 @@ export const nov07BlogArticles = {
         "heading": "The daily probation review routine",
         "paragraphs": [
           "Small habits carry probation review: date the source, initial the check, state the next action, and never copy a familiar value. Keep the probation tracker small enough to finish, because a healthy average can hide one case that sat for weeks. End each shift with a dated note that names what moved, what stalled, and who checks next. Write the probation review rule where the work happens, not in a document nobody opens. In the the daily probation review routine step, the written action is to route the decision to the new manager if the owner changes.",
-          "The routine should make the next reviewer faster, not just busier. A daily list with ten open items is easier to trust than a dashboard with a hundred. The probation record check begins with the source version and ends with a confirmable change.",
+          "The routine should make the next reviewer faster, not just busier. A daily list with ten open items is easier to trust than a dashboard with a hundred. The probation record check begins with the source version and ends with a confirmable change. The accommodation log keeps the request and the next action without clinical detail.",
           "A same-day note about a blocked item saves a week of quiet drift. The probation tracker should be read before new work is accepted, not after. Each probation review close needs a timestamp and a named confirmer."
         ]
       },
@@ -437,7 +437,7 @@ export const nov07BlogArticles = {
         "paragraphs": [
           "A short cross-reference to the system entry saves the next reviewer a search. The record should show the requested change and the approved change side by side. When a field is unknown, write unknown rather than leaving it blank. The accommodation request file should keep the original submission and the checked version together. In the what the workplace accommodation record must show step, the written action is to log the next action without copying medical records.",
           "A record with a named source and a timestamp can survive a staffing change. The reviewer should be able to tell whether the evidence came from a person, a system, or a document. Store the workplace accommodation record where the next owner can find it without asking.",
-          "The accommodation request record is strongest when a new reviewer can read it without a second message thread. Four facts carry workplace accommodation: what arrived, what was verified, who approved it, and where the result now lives. The record should show the difference between what was requested and what was actually changed."
+          "The accommodation request record is strongest when a new reviewer can read it without a second message thread. Four facts carry workplace accommodation: what arrived, what was verified, who approved it, and where the result now lives. The record should show the difference between what was requested and what was actually changed. The handbook register links the version to the acknowledgement list."
         ]
       },
       {
@@ -453,7 +453,7 @@ export const nov07BlogArticles = {
         "paragraphs": [
           "A daily list with ten open items is easier to trust than a dashboard with a hundred. The accommodation request check begins with the source version and ends with a confirmable change. A same-day note about a blocked item saves a week of quiet drift. The accommodation queue should be read before new work is accepted, not after. In the the daily workplace accommodation routine step, the written action is to log the next action without copying medical records.",
           "Each workplace accommodation close needs a timestamp and a named confirmer. A routine that skips the exception log will spend the next week rediscovering the same exceptions. The specialist should be able to say what changed since the last review without guessing.",
-          "Keep the workplace accommodation handoff in one place so the next person does not have to reconcile two versions. A short daily check beats a monthly cleanup that nobody has time for. Begin the workplace accommodation check with the oldest item and the most recent change."
+          "Keep the workplace accommodation handoff in one place so the next person does not have to reconcile two versions. A short daily check beats a monthly cleanup that nobody has time for. Begin the workplace accommodation check with the oldest item and the most recent change. The disciplinary note records what was said and who decides next."
         ]
       },
       {
@@ -461,7 +461,7 @@ export const nov07BlogArticles = {
         "paragraphs": [
           "A clear stop rule protects the client, the specialist, and the manager at the same time. When in doubt, the workplace accommodation case pauses and a named person decides. The accommodation queue should show the exception type so it can be routed without rereading. An exception that touches a employee deadline should escalate the same day it is found. In the exceptions that should stop the case step, the written action is to record the request date, the task affected, and the HR owner.",
           "The accommodation request record should name the person who decided and the rule they applied. When an exception becomes common, revise the rule rather than adding more reminders. A specialist should stop and ask rather than resolve whether an accommodation is granted alone.",
-          "The stop condition should be visible to the employee-facing team as well as the queue. Every exception needs a resolution date or a named next review. A clear exception path keeps small problems from becoming urgent ones."
+          "The stop condition should be visible to the employee-facing team as well as the queue. Every exception needs a resolution date or a named next review. A clear exception path keeps small problems from becoming urgent ones. The HR owner keeps the employment decision, and the coordinator records only the dated evidence."
         ]
       },
       {
@@ -602,14 +602,14 @@ export const nov07BlogArticles = {
         "paragraphs": [
           "The leave calendar earns trust when every close points at something confirmable. Design the leave calendar control around the decision that repeats, not the exception that frightens everyone. A leave calendar rule should be testable by someone who joined this week. The leave calendar should make it hard to close an item without evidence. In the the control this leave calendar needs step, the written action is to record the leave dates, the policy version, and the approver.",
           "For HR and people operations leaders, the control is only as good as the source it points at. Review the leave calendar control once a quarter and retire steps that no longer match the work. A control that fits on one page is more likely to survive a busy week.",
-          "The leave calendar rule should say who may change it and how the change is announced. The leave calendar should separate a new request from a correction to an earlier one. A leave calendar control earns its place when the team can apply it on a busy night without asking for context."
+          "The leave calendar rule should say who may change it and how the change is announced. The leave calendar should separate a new request from a correction to an earlier one. A leave calendar control earns its place when the team can apply it on a busy night without asking for context. The HR queue shows both the request date and the coordinator who accepted it."
         ]
       },
       {
         "heading": "What the leave calendar record must show",
         "paragraphs": [
           "The reviewer should be able to tell whether the evidence came from a person, a system, or a document. Store the leave calendar record where the next owner can find it without asking. The leave record record is strongest when a new reviewer can read it without a second message thread. Four facts carry leave calendar: what arrived, what was verified, who approved it, and where the result now lives. In the what the leave calendar record must show step, the written action is to recheck open requests against the new policy.",
-          "The record should show the difference between what was requested and what was actually changed. When another team owns the source, the leave record note should name the contact and the expected response time. A leave calendar record that cannot be reproduced from its sources is a summary, not evidence.",
+          "The record should show the difference between what was requested and what was actually changed. When another team owns the source, the leave record note should name the contact and the expected response time. A leave calendar record that cannot be reproduced from its sources is a summary, not evidence. A later reviewer can confirm the same detail on the employee record and the policy version.",
           "The specialist may compare a submission with the system record, but a mismatch is a question for the HR owner. At minimum, HR and people operations leaders need a dated source, a named reviewer, a stated close condition, and a note about anything unresolved. Two fields often settle a leave calendar case: does the source match the system, and does the named approver still hold that authority?"
         ]
       },
@@ -617,7 +617,7 @@ export const nov07BlogArticles = {
         "heading": "Where the specialist’s work stops",
         "paragraphs": [
           "The specialist can assemble evidence and flag a gap; the specialist cannot decide the exception. When the leave calendar rule changes, apply the new rule to later cases and leave earlier classifications intact. The test is whether the HR owner can reopen the case next month without calling the original specialist. A boundary that is never written down becomes a different boundary for each new hire. In the where the specialist’s work stops step, the written action is to record the leave dates, the policy version, and the approver.",
-          "The leave calendar should route entitlement, pay, and any employment term to a named owner instead of parking it in the general list. An honest not-yet-verified note is better than a confident summary built on an unchecked field. The specialist owns the preparation standard; the owner owns the judgment call.",
+          "The leave calendar should route entitlement, pay, and any employment term to a named owner instead of parking it in the general list. An honest not-yet-verified note is better than a confident summary built on an unchecked field. The specialist owns the preparation standard; the owner owns the judgment call. For HR operations, the request and the approval must agree before review.",
           "Scope creep in leave calendar usually starts with one small favour that nobody recorded. The handoff is complete when both sides know which decisions did not travel with the work. For HR and people operations leaders, the boundary is only real if it is visible in the queue, not just in a policy file."
         ]
       },
@@ -625,15 +625,15 @@ export const nov07BlogArticles = {
         "heading": "The daily leave calendar routine",
         "paragraphs": [
           "A routine that skips the exception log will spend the next week rediscovering the same exceptions. The specialist should be able to say what changed since the last review without guessing. Keep the leave calendar handoff in one place so the next person does not have to reconcile two versions. A short daily check beats a monthly cleanup that nobody has time for. In the the daily leave calendar routine step, the written action is to recheck open requests against the new policy.",
-          "Begin the leave calendar check with the oldest item and the most recent change. A five-minute end-of-shift note prevents most next-morning confusion. The leave calendar should be cleared of duplicate entries before new work starts.",
-          "Log the exception where the next person will look, not in a private note. A routine that fits on one page is more likely to survive a busy week. The specialist should leave each leave record with a date and a next step."
+          "Begin the leave calendar check with the oldest item and the most recent change. A five-minute end-of-shift note prevents most next-morning confusion. The leave calendar should be cleared of duplicate entries before new work starts. The note stays with the employee file and the next check date.",
+          "Log the exception where the next person will look, not in a private note. A routine that fits on one page is more likely to survive a busy week. The specialist should leave each leave record with a date and a next step. Judgment stays with the HR owner; the coordinator records only what was checked and when."
         ]
       },
       {
         "heading": "Exceptions that should stop the case",
         "paragraphs": [
           "When an exception becomes common, revise the rule rather than adding more reminders. A specialist should stop and ask rather than resolve entitlement, pay, and any employment term alone. The stop condition should be visible to the employee-facing team as well as the queue. Every exception needs a resolution date or a named next review. In the exceptions that should stop the case step, the written action is to record the leave dates, the policy version, and the approver.",
-          "A clear exception path keeps small problems from becoming urgent ones. When leave calendar evidence is missing, record the gap instead of filling it from memory. Anything touching money, safety, access, legal exposure, or a client commitment waits for the HR owner.",
+          "A clear exception path keeps small problems from becoming urgent ones. When leave calendar evidence is missing, record the gap instead of filling it from memory. Anything touching money, safety, access, legal exposure, or a client commitment waits for the HR owner. The next reviewer can act on the entry without calling the coordinator who prepared it.",
           "Name the leave calendar stop conditions in the brief; use judgment is an invitation to guess. Predictable leave calendar cases should stop the line: a request calculated on the old policy, a calendar with two owners, an approval after the start date. The leave calendar should separate an exception from a normal item before anyone starts working it."
         ]
       },
@@ -642,7 +642,7 @@ export const nov07BlogArticles = {
         "paragraphs": [
           "The leave record close should name the confirmer, the confirmation time, and the record checked. A close without a destination check is only a promise that something will happen later. The leave calendar stays honest when failed closes return as open items with a new date. Review one closed leave calendar case each week to confirm the routine still works. In the how to verify and close step, the written action is to recheck open requests against the new policy.",
           "If the close cannot be reproduced, reopen the case rather than adding another note. A close note should be short enough to read and specific enough to verify. The specialist closes the preparation; the owner closes the decision.",
-          "The best close is the one the next reviewer can confirm in under a minute. A measured close rate without a definition is just a number with confidence. The leave calendar review should look at the oldest close, not only the newest."
+          "The best close is the one the next reviewer can confirm in under a minute. A measured close rate without a definition is just a number with confidence. The leave calendar review should look at the oldest close, not only the newest. The HR owner can trace the entry to the source document and the date it was confirmed."
         ]
       }
     ],
@@ -774,7 +774,7 @@ export const nov07BlogArticles = {
         "heading": "The control this benefits election needs",
         "paragraphs": [
           "Review the benefits election control once a quarter and retire steps that no longer match the work. A control that fits on one page is more likely to survive a busy week. The benefits election rule should say who may change it and how the change is announced. The benefits queue should separate a new request from a correction to an earlier one. In the the control this benefits election needs step, the written action is to record the election, the confirmation number, and the carrier.",
-          "A benefits election control earns its place when the team can apply it on a busy night without asking for context. Start with the owner, because a benefits election case without one cannot be escalated cleanly across a time zone. The point of the benefits queue is to make the next decision obvious, not to collect activity.",
+          "A benefits election control earns its place when the team can apply it on a busy night without asking for context. Start with the owner, because a benefits election case without one cannot be escalated cleanly across a time zone. The point of the benefits queue is to make the next decision obvious, not to collect activity. Each exception carries the employee key, the effective date, and the named owner who decided it.",
           "For HR and people operations leaders, the useful control is short enough to repeat and specific enough to challenge. A written benefits election rule beats a verbal habit once two shifts share the same queue. The benefits queue should show what arrived, what was checked, and what happens next."
         ]
       },
@@ -782,8 +782,8 @@ export const nov07BlogArticles = {
         "heading": "What the benefits election record must show",
         "paragraphs": [
           "When another team owns the source, the election record note should name the contact and the expected response time. A benefits election record that cannot be reproduced from its sources is a summary, not evidence. The specialist may compare a submission with the system record, but a mismatch is a question for the HR owner. At minimum, HR and people operations leaders need a dated source, a named reviewer, a stated close condition, and a note about anything unresolved. In the what the benefits election record must show step, the written action is to flag any election with no carrier confirmation.",
-          "Two fields often settle a benefits election case: does the source match the system, and does the named approver still hold that authority? The election record record should name the field that changed, not just the fact that something changed. A dated observation is worth more than a current screenshot that cannot show what the record said earlier.",
-          "Missing, unavailable, and confirmed negative values belong in separate fields. The record should let the next reviewer see which parts were checked and which were assumed. Every election record needs an observation time, because a later reader cannot infer it from context."
+          "Two fields often settle a benefits election case: does the source match the system, and does the named approver still hold that authority? The election record record should name the field that changed, not just the fact that something changed. A dated observation is worth more than a current screenshot that cannot show what the record said earlier. The benefits queue keeps the election, the carrier confirmation, and the review date.",
+          "Missing, unavailable, and confirmed negative values belong in separate fields. The record should let the next reviewer see which parts were checked and which were assumed. Every election record needs an observation time, because a later reader cannot infer it from context. The leave calendar shows the policy version and the approver."
         ]
       },
       {
@@ -798,8 +798,8 @@ export const nov07BlogArticles = {
         "heading": "The daily benefits election routine",
         "paragraphs": [
           "A five-minute end-of-shift note prevents most next-morning confusion. The benefits queue should be cleared of duplicate entries before new work starts. Log the exception where the next person will look, not in a private note. A routine that fits on one page is more likely to survive a busy week. In the the daily benefits election routine step, the written action is to flag any election with no carrier confirmation.",
-          "The specialist should leave each election record with a date and a next step. Review the benefits election list before accepting a new request, not after. A consistent daily start time makes the queue easier to trust.",
-          "The daily benefits election routine is short: open the list, confirm the source, log the exception, and leave a named next action. Start with the oldest unresolved item, because age turns a small gap into an escalation. Small habits carry benefits election: date the source, initial the check, state the next action, and never copy a familiar value."
+          "The specialist should leave each election record with a date and a next step. Review the benefits election list before accepting a new request, not after. A consistent daily start time makes the queue easier to trust. The promotion pack compares the role change with the approved band.",
+          "The daily benefits election routine is short: open the list, confirm the source, log the exception, and leave a named next action. Start with the oldest unresolved item, because age turns a small gap into an escalation. Small habits carry benefits election: date the source, initial the check, state the next action, and never copy a familiar value. The accommodation log keeps the request and the next action without clinical detail."
         ]
       },
       {
@@ -948,15 +948,15 @@ export const nov07BlogArticles = {
         "paragraphs": [
           "Start with the owner, because a HR report case without one cannot be escalated cleanly across a time zone. The point of the HR service desk is to make the next decision obvious, not to collect activity. For HR and people operations leaders, the useful control is short enough to repeat and specific enough to challenge. A written HR report rule beats a verbal habit once two shifts share the same queue. In the the control this hr report needs step, the written action is to classify the report against the approved list.",
           "The HR service desk should show what arrived, what was checked, and what happens next. A HR report process that depends on one person remembering a detail is not yet a control. The first design question is which decision the HR report record exists to support.",
-          "Good HR report controls reduce the number of times the same question is answered differently. The HR service desk works when a new reviewer can pick up an item without reopening a chat thread. A control that survives staff turnover is worth more than a longer form that gets skipped."
+          "Good HR report controls reduce the number of times the same question is answered differently. The HR service desk works when a new reviewer can pick up an item without reopening a chat thread. A control that survives staff turnover is worth more than a longer form that gets skipped. The handbook register links the version to the acknowledgement list."
         ]
       },
       {
         "heading": "What the HR report record must show",
         "paragraphs": [
           "The report request record should name the field that changed, not just the fact that something changed. A dated observation is worth more than a current screenshot that cannot show what the record said earlier. Missing, unavailable, and confirmed negative values belong in separate fields. The record should let the next reviewer see which parts were checked and which were assumed. In the what the hr report record must show step, the written action is to route sensitive extracts to the HR owner.",
-          "Every report request needs an observation time, because a later reader cannot infer it from context. Write the source version beside the HR report decision so a later change stays visible. A short HR report note with four specific fields usually outperforms a long narrative.",
-          "The record is complete when the reviewer can tell what would have counted as a different answer. The report request note should say what was checked, not just that a check happened. A short cross-reference to the system entry saves the next reviewer a search."
+          "Every report request needs an observation time, because a later reader cannot infer it from context. Write the source version beside the HR report decision so a later change stays visible. A short HR report note with four specific fields usually outperforms a long narrative. The disciplinary note records what was said and who decides next.",
+          "The record is complete when the reviewer can tell what would have counted as a different answer. The report request note should say what was checked, not just that a check happened. A short cross-reference to the system entry saves the next reviewer a search. The HR owner keeps the employment decision, and the coordinator records only the dated evidence."
         ]
       },
       {
@@ -971,8 +971,8 @@ export const nov07BlogArticles = {
         "heading": "The daily HR report routine",
         "paragraphs": [
           "Review the HR report list before accepting a new request, not after. A consistent daily start time makes the queue easier to trust. The daily HR report routine is short: open the list, confirm the source, log the exception, and leave a named next action. Start with the oldest unresolved item, because age turns a small gap into an escalation. In the the daily hr report routine step, the written action is to route sensitive extracts to the HR owner.",
-          "Small habits carry HR report: date the source, initial the check, state the next action, and never copy a familiar value. Keep the HR service desk small enough to finish, because a healthy average can hide one case that sat for weeks. End each shift with a dated note that names what moved, what stalled, and who checks next.",
-          "Write the HR report rule where the work happens, not in a document nobody opens. The routine should make the next reviewer faster, not just busier. A daily list with ten open items is easier to trust than a dashboard with a hundred."
+          "Small habits carry HR report: date the source, initial the check, state the next action, and never copy a familiar value. Keep the HR service desk small enough to finish, because a healthy average can hide one case that sat for weeks. End each shift with a dated note that names what moved, what stalled, and who checks next. The HR queue shows both the request date and the coordinator who accepted it.",
+          "Write the HR report rule where the work happens, not in a document nobody opens. The routine should make the next reviewer faster, not just busier. A daily list with ten open items is easier to trust than a dashboard with a hundred. A later reviewer can confirm the same detail on the employee record and the policy version."
         ]
       },
       {
@@ -987,7 +987,7 @@ export const nov07BlogArticles = {
         "heading": "How to verify and close",
         "paragraphs": [
           "A case that needed a correction is useful evidence about the routine. The report request record should distinguish a confirmed close from an assumed one. For HR and people operations leaders, a defensible close is worth more than a fast one. Keep the close rule fixed for the review window so the comparison means something. In the how to verify and close step, the written action is to route sensitive extracts to the HR owner.",
-          "Close the report request only after the destination record shows the approved change. A second pair of eyes is worth the time on any HR report exception. The close note should say what was confirmed and by whom.",
+          "Close the report request only after the destination record shows the approved change. A second pair of eyes is worth the time on any HR report exception. The close note should say what was confirmed and by whom. For HR operations, the request and the approval must agree before review.",
           "Reopened cases are a useful signal about where the routine is weak. The HR report close rule should stay stable across the review window. The HR service desk should count confirmed closes separately from assumed ones."
         ]
       }
@@ -1120,7 +1120,7 @@ export const nov07BlogArticles = {
         "heading": "The control this disciplinary note needs",
         "paragraphs": [
           "A disciplinary note process that depends on one person remembering a detail is not yet a control. The first design question is which decision the disciplinary note record exists to support. Good disciplinary note controls reduce the number of times the same question is answered differently. The employee relations queue works when a new reviewer can pick up an item without reopening a chat thread. In the the control this disciplinary note needs step, the written action is to record the date, attendees, and the allegations discussed.",
-          "A control that survives staff turnover is worth more than a longer form that gets skipped. The disciplinary note brief should name the decision, the evidence, and the person accountable for it. A small, dated disciplinary note rule is easier to defend than a policy nobody reads.",
+          "A control that survives staff turnover is worth more than a longer form that gets skipped. The disciplinary note brief should name the decision, the evidence, and the person accountable for it. A small, dated disciplinary note rule is easier to defend than a policy nobody reads. The note stays with the employee file and the next check date.",
           "The control should make exceptions visible rather than forcing them into a normal case. For HR and people operations leaders, the test is whether the same disciplinary note case can be explained twice the same way. The employee relations queue earns trust when every close points at something confirmable."
         ]
       },
@@ -1128,8 +1128,8 @@ export const nov07BlogArticles = {
         "heading": "What the disciplinary note record must show",
         "paragraphs": [
           "Write the source version beside the disciplinary note decision so a later change stays visible. A short disciplinary note note with four specific fields usually outperforms a long narrative. The record is complete when the reviewer can tell what would have counted as a different answer. The meeting note note should say what was checked, not just that a check happened. In the what the disciplinary note record must show step, the written action is to route the outcome decision to the HR owner.",
-          "A short cross-reference to the system entry saves the next reviewer a search. The record should show the requested change and the approved change side by side. When a field is unknown, write unknown rather than leaving it blank.",
-          "The meeting note file should keep the original submission and the checked version together. A record with a named source and a timestamp can survive a staffing change. The reviewer should be able to tell whether the evidence came from a person, a system, or a document."
+          "A short cross-reference to the system entry saves the next reviewer a search. The record should show the requested change and the approved change side by side. When a field is unknown, write unknown rather than leaving it blank. Judgment stays with the HR owner; the coordinator records only what was checked and when.",
+          "The meeting note file should keep the original submission and the checked version together. A record with a named source and a timestamp can survive a staffing change. The reviewer should be able to tell whether the evidence came from a person, a system, or a document. The next reviewer can act on the entry without calling the coordinator who prepared it."
         ]
       },
       {
@@ -1144,7 +1144,7 @@ export const nov07BlogArticles = {
         "heading": "The daily disciplinary note routine",
         "paragraphs": [
           "Keep the employee relations queue small enough to finish, because a healthy average can hide one case that sat for weeks. End each shift with a dated note that names what moved, what stalled, and who checks next. Write the disciplinary note rule where the work happens, not in a document nobody opens. The routine should make the next reviewer faster, not just busier. In the the daily disciplinary note routine step, the written action is to route the outcome decision to the HR owner.",
-          "A daily list with ten open items is easier to trust than a dashboard with a hundred. The meeting note check begins with the source version and ends with a confirmable change. A same-day note about a blocked item saves a week of quiet drift.",
+          "A daily list with ten open items is easier to trust than a dashboard with a hundred. The meeting note check begins with the source version and ends with a confirmable change. A same-day note about a blocked item saves a week of quiet drift. The HR owner can trace the entry to the source document and the date it was confirmed.",
           "The employee relations queue should be read before new work is accepted, not after. Each disciplinary note close needs a timestamp and a named confirmer. A routine that skips the exception log will spend the next week rediscovering the same exceptions."
         ]
       },
@@ -1153,7 +1153,7 @@ export const nov07BlogArticles = {
         "paragraphs": [
           "If an exception has no owner, it will sit until it becomes urgent. The disciplinary note queue should show the reason an item stopped, not just that it stopped. Exceptions deserve a shorter path to the decision maker, not a longer form. The specialist should never invent a resolution to keep the employee relations queue moving. In the exceptions that should stop the case step, the written action is to record the date, attendees, and the allegations discussed.",
           "A clear stop rule protects the client, the specialist, and the manager at the same time. When in doubt, the disciplinary note case pauses and a named person decides. The employee relations queue should show the exception type so it can be routed without rereading.",
-          "An exception that touches a employee deadline should escalate the same day it is found. The meeting note record should name the person who decided and the rule they applied. When an exception becomes common, revise the rule rather than adding more reminders."
+          "An exception that touches a employee deadline should escalate the same day it is found. The meeting note record should name the person who decided and the rule they applied. When an exception becomes common, revise the rule rather than adding more reminders. Each exception carries the employee key, the effective date, and the named owner who decided it."
         ]
       },
       {
@@ -1302,7 +1302,7 @@ export const nov07BlogArticles = {
         "paragraphs": [
           "The record should show the requested change and the approved change side by side. When a field is unknown, write unknown rather than leaving it blank. The handbook version file should keep the original submission and the checked version together. A record with a named source and a timestamp can survive a staffing change. In the what the employee handbook record must show step, the written action is to confirm managers acknowledged the current version.",
           "The reviewer should be able to tell whether the evidence came from a person, a system, or a document. Store the employee handbook record where the next owner can find it without asking. The handbook version record is strongest when a new reviewer can read it without a second message thread.",
-          "Four facts carry employee handbook: what arrived, what was verified, who approved it, and where the result now lives. The record should show the difference between what was requested and what was actually changed. When another team owns the source, the handbook version note should name the contact and the expected response time."
+          "Four facts carry employee handbook: what arrived, what was verified, who approved it, and where the result now lives. The record should show the difference between what was requested and what was actually changed. When another team owns the source, the handbook version note should name the contact and the expected response time. The benefits queue keeps the election, the carrier confirmation, and the review date."
         ]
       },
       {
@@ -1310,15 +1310,15 @@ export const nov07BlogArticles = {
         "paragraphs": [
           "The HR owner keeps the decisions that move money, access, policy, or a employee promise. Write down which systems the specialist may touch and which questions go back to the HR owner. A prepared employee handbook packet is a question waiting for a decision, not an approval in itself. The policy interpretation and any employment term stays with the accountable owner, however complete the preparation looks. In the where the specialist’s work stops step, the written action is to record the version, effective date, and distribution list.",
           "The specialist can assemble evidence and flag a gap; the specialist cannot decide the exception. When the employee handbook rule changes, apply the new rule to later cases and leave earlier classifications intact. The test is whether the HR owner can reopen the case next month without calling the original specialist.",
-          "A boundary that is never written down becomes a different boundary for each new hire. The handbook file should route policy interpretation and any employment term to a named owner instead of parking it in the general list. An honest not-yet-verified note is better than a confident summary built on an unchecked field."
+          "A boundary that is never written down becomes a different boundary for each new hire. The handbook file should route policy interpretation and any employment term to a named owner instead of parking it in the general list. An honest not-yet-verified note is better than a confident summary built on an unchecked field. The leave calendar shows the policy version and the approver."
         ]
       },
       {
         "heading": "The daily employee handbook routine",
         "paragraphs": [
           "The handbook version check begins with the source version and ends with a confirmable change. A same-day note about a blocked item saves a week of quiet drift. The handbook file should be read before new work is accepted, not after. Each employee handbook close needs a timestamp and a named confirmer. In the the daily employee handbook routine step, the written action is to confirm managers acknowledged the current version.",
-          "A routine that skips the exception log will spend the next week rediscovering the same exceptions. The specialist should be able to say what changed since the last review without guessing. Keep the employee handbook handoff in one place so the next person does not have to reconcile two versions.",
-          "A short daily check beats a monthly cleanup that nobody has time for. Begin the employee handbook check with the oldest item and the most recent change. A five-minute end-of-shift note prevents most next-morning confusion."
+          "A routine that skips the exception log will spend the next week rediscovering the same exceptions. The specialist should be able to say what changed since the last review without guessing. Keep the employee handbook handoff in one place so the next person does not have to reconcile two versions. The promotion pack compares the role change with the approved band.",
+          "A short daily check beats a monthly cleanup that nobody has time for. Begin the employee handbook check with the oldest item and the most recent change. A five-minute end-of-shift note prevents most next-morning confusion. The accommodation log keeps the request and the next action without clinical detail."
         ]
       },
       {
