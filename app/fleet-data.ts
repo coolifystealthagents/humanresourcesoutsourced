@@ -7,6 +7,7 @@ import { nov01ResearchPosts } from './nov01-research';
 import { nov02ResearchPosts } from './nov02-research';
 import { nov03ResearchPosts } from './nov03-research';
 import { nov06ResearchPosts } from './nov06-research';
+import { nov07ResearchPosts } from './nov07-research';
 import { nov05ResearchPosts } from './nov05-research';
 import { nov04ResearchPosts } from './nov04-research';
 import { octoberTwentyEighthResearchPosts } from './oct28-research';
@@ -116,6 +117,7 @@ export const fleetServices: readonly FleetService[] = [
 // Add reviewed, source-backed original research here. The templates and sitemap update automatically.
 export const researchPosts: readonly ResearchPost[] = [
   ...nov06ResearchPosts,
+  ...nov07ResearchPosts,
   ...nov05ResearchPosts,
   ...nov04ResearchPosts,
   ...nov03ResearchPosts,
