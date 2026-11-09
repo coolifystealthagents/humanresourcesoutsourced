@@ -258,12 +258,12 @@ export const nov09ResearchPosts = [
     "sources": [{"name": "U.S. Department of Labor", "url": "https://www.dol.gov/"}, {"name": "U.S. Small Business Administration", "url": "https://www.sba.gov/"}, {"name": "Occupational Safety and Health Administration", "url": "https://www.osha.gov/"}]
   },
   {
-    "slug": "where-does-delay-accumulate-in-an-hr-request",
-    "title": "Where does delay accumulate in an HR request?",
+    "slug": "where-does-delay-accumulate-in-an-hr-request-in-the-first-week",
+    "title": "Where does delay accumulate in an HR request in the first week?",
     "excerpt": "A proposed protocol for separating the intake wait, the approval wait, and the rework in an HR request.",
     "published": "2026-11-09",
     "modified": "2026-11-09",
-    "thumbnail": "/images/nov09/where-does-delay-accumulate-in-an-hr-request.png",
+    "thumbnail": "/images/nov09/where-does-delay-accumulate-in-an-hr-request-in-the-first-week.png",
     "sections": [
       {
         "heading": "Question and scope",
