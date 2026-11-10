@@ -8,6 +8,7 @@ import { nov03BlogPosts } from './nov03-blog';
 import { nov06BlogPosts } from './nov06-blog';
 import { nov08BlogPosts } from './nov08-blog';
 import { nov09BlogPosts } from './nov09-blog';
+import { nov10BlogPosts } from './nov10-blog';
 import { nov07BlogPosts } from './nov07-blog';
 import { nov05BlogPosts } from './nov05-blog';
 import { nov04BlogPosts } from './nov04-blog';
@@ -175,6 +176,7 @@ export const blogPosts = [
   ...nov06BlogPosts,
   ...nov08BlogPosts,
   ...nov09BlogPosts,
+  ...nov10BlogPosts,
   ...nov07BlogPosts,
   ...nov05BlogPosts,
   ...nov04BlogPosts,
