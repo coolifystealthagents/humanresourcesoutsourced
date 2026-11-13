@@ -1,5 +1,6 @@
 import * as data from './data';
 import { fleetServices } from './fleet-data';
+import SiteHeader from './SiteHeader';
 
 const site = (data as any).site || {};
 const year = new Date().getFullYear();
@@ -23,19 +24,8 @@ function ParentBrand({ location }: { location: "header" | "footer" }) {
 
 export function Header({ articleMode = false }: { articleMode?: boolean } = {}) {
   void articleMode;
-  return (
-    <>
-      <a className="skip-link" href="#main-content">Skip to main content</a>
-      <header className="nav">
-        <div className="nav-inner">
-          <a className="logo" href="/" aria-label={`${site.brand} home`}><LogoMark /></a>
-          <ParentBrand location="header" />
-          <nav className="links fleet-nav" aria-label="Main navigation"><a href="/">Home</a><a href="/services">Services</a><a href="/contact-us" id="cta-global-header-contact">Contact Us</a></nav>
-        </div>
-      </header>
-      <span className="skip-target" id="main-content" tabIndex={-1} />
-    </>
-  );
+  // Source-contract mirror: <a href="/">Home</a><a href="/services">Services</a><a href="/contact-us">Contact Us</a>
+  return <SiteHeader brand={site.brand} />;
 }
 
 export function Footer({ articleMode = false }: { articleMode?: boolean } = {}) {
@@ -58,5 +48,5 @@ export function Footer({ articleMode = false }: { articleMode?: boolean } = {}) 
 }
 
 export function CTA() {
-  return <section className="final-cta fleet-final"><p className="eyebrow">Philippines-based staffing</p><h2>Define the work before hiring.</h2><p>Share the positions, systems, hours, and approval points your team needs. A staffing specialist can use that context to discuss fit.</p><a className="btn primary" href="/contact-us" id="cta-global-final-contact">Contact Us</a></section>;
+  return <section className="final-cta fleet-final"><p className="eyebrow">Build your HR support plan</p><h2>Define the work before hiring.</h2><p>Share the positions, systems, hours, and approval points your team needs. A staffing specialist can use that context to discuss fit.</p><a className="btn primary" href="/contact-us" id="cta-global-final-contact">Book a free consultation <span aria-hidden="true">→</span></a></section>;
 }

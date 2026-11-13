@@ -63,6 +63,7 @@ export default function Home() {
               </ul>
               <a className="hr-button" href="/contact-us" id="cta-page-action-1">Plan my HR support</a>
               <p className="hr-button-note">Start with clear task limits and a named reviewer.</p>
+              <div className="hr-hero-proof" aria-label="Service principles"><span>Philippines-based talent</span><span>Defined access</span><span>Owner-reviewed work</span></div>
             </div>
 
             <figure className="hr-photo-stage">
@@ -132,6 +133,20 @@ export default function Home() {
           </div>
         </section>
 
+        <section className="hr-results" aria-labelledby="results-title">
+          <div className="container">
+            <div className="hr-section-head">
+              <div><p className="hr-kicker">A more dependable workflow</p><h2 id="results-title">Create capacity without losing control.</h2></div>
+              <p>Move recurring coordination into a documented support lane while your internal owners keep decisions, approvals, and sensitive conversations.</p>
+            </div>
+            <div className="hr-results-grid">
+              <article><strong>01</strong><h3>One visible queue</h3><p>Give repeat requests a clear status, due date, and accountable owner.</p></article>
+              <article><strong>02</strong><h3>Fewer loose handoffs</h3><p>Use accepted examples and completion evidence instead of relying on memory.</p></article>
+              <article><strong>03</strong><h3>Escalation by design</h3><p>Route policy, pay, privacy, and employee-relations questions to qualified owners.</p></article>
+            </div>
+          </div>
+        </section>
+
         <section className="container hr-section hr-launch">
           <div className="hr-section-head hr-section-head-short">
             <p className="hr-kicker">A careful start</p>
@@ -145,6 +160,18 @@ export default function Home() {
               </article>
             ))}
           </div>
+        </section>
+
+        <section className="hr-industries" aria-labelledby="industries-title">
+          <div className="container hr-industries-grid">
+            <div><p className="hr-kicker">Built around your operating model</p><h2 id="industries-title">Support for teams where people operations cannot pause.</h2><p>The role is shaped around your systems and approval structure, not a generic HR playbook.</p></div>
+            <div className="hr-industry-list"><span>Professional services</span><span>Healthcare administration</span><span>Technology teams</span><span>Multi-location operations</span><span>Ecommerce and retail</span><span>Growing small businesses</span></div>
+          </div>
+        </section>
+
+        <section className="container hr-team" aria-labelledby="team-title">
+          <div className="hr-team-photo"><img src="/stealth-agents-team-bacolod.jpg" alt="Stealth Agents team together outside Bacolod City Government Center" loading="lazy" /></div>
+          <div><p className="hr-kicker">The team behind the support</p><h2 id="team-title">People-supported work, with a clear operating rhythm.</h2><p>Stealth Agents provides the Philippines-based staffing team behind the consultation. Human Resources Outsourced helps you define a practical lane for repeat administration, review, and escalation.</p><a className="hr-text-link" href="/contact-us">Meet with a staffing specialist</a></div>
         </section>
 
         <section className="hr-reading">
@@ -163,6 +190,15 @@ export default function Home() {
                 </a>
               ))}
             </div>
+          </div>
+        </section>
+
+        <section className="container hr-faq" aria-labelledby="home-faq-title">
+          <div><p className="hr-kicker">Frequently asked questions</p><h2 id="home-faq-title">Start with a well-bounded role.</h2></div>
+          <div>
+            <details><summary>What HR work can be outsourced?</summary><p>Repeatable coordination and administration can be scoped for support, including onboarding checklists, recruiting calendars, employee request routing, records checks, and reporting preparation.</p></details>
+            <details><summary>Does the support team make employee decisions?</summary><p>No. Policy, compensation, legal interpretation, employee relations, investigations, and final employment decisions remain with your qualified internal owners.</p></details>
+            <details><summary>How should a team begin?</summary><p>Choose one recurring queue, document accepted examples and stop conditions, limit access to what the role needs, and review the first work together.</p></details>
           </div>
         </section>
 
