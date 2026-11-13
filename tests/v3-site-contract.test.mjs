@@ -21,15 +21,16 @@ const appSource = walk(path.join(root, 'app'))
   .map((file) => fs.readFileSync(file, 'utf8'))
   .join('\n');
 
-test('homepage hero uses the approved team photo without an obstructing overlay', () => {
+test('homepage hero uses the approved office photo without an obstructing overlay', () => {
   const home = read('app/page.tsx');
   const css = read('app/globals.css');
-  assert.match(home, /src="\/stealth-agents-team-bacolod\.jpg"/);
-  assert.match(home, /width="953"[\s\S]*height="540"/);
-  assert.match(home, /<figcaption>Real people supporting carefully scoped HR administration\.<\/figcaption>/);
+  assert.match(home, /src="\/hr-team\.jpg"/);
+  assert.match(home, /alt="Administrative support professionals collaborating with laptops and headsets in an office"/);
+  assert.match(home, /width="1600"[\s\S]*height="1050"/);
+  assert.match(home, /<figcaption>Collaborative support for carefully scoped HR administration\.<\/figcaption>/);
   assert.doesNotMatch(home, /hr-photo-note|hr-admin-support\.svg/);
   assert.doesNotMatch(css, /\.hr-photo-note/);
-  assert.match(css, /\.hr-photo-frame img\{[^}]*aspect-ratio:953\/540[^}]*object-fit:contain/);
+  assert.match(css, /\.hr-photo-frame img\{[^}]*aspect-ratio:953\/540[^}]*object-fit:cover[^}]*object-position:center/);
 });
 
 test('sticky shared header and footer expose exact navigation and StealthAgents attribution', () => {

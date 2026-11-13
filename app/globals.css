@@ -27,7 +27,7 @@ body:has(.hr-handled-home) .links a{color:#4f485a}
 .hr-button-note{margin:13px 0 0;color:#bdb6ca;font-size:13px}
 .hr-photo-stage{position:relative;align-self:center;margin:0;padding:0}
 .hr-photo-frame{overflow:hidden;background:#5a5368;border:8px solid rgba(255,255,255,.1);border-radius:28px 28px 8px 8px;box-shadow:24px 24px 0 rgba(124,208,182,.22)}
-.hr-photo-frame img{display:block;width:100%;height:auto;aspect-ratio:953/540;object-fit:contain;filter:saturate(.9) contrast(1.04)}
+.hr-photo-frame img{display:block;width:100%;height:auto;aspect-ratio:953/540;object-fit:cover;object-position:center;filter:saturate(.9) contrast(1.04)}
 .hr-photo-stage figcaption{margin:18px 24px 0 0;color:#c9c3d4;font-size:13px;line-height:1.5;text-align:right}
 .hr-lane-strip{display:grid;grid-template-columns:repeat(4,1fr);background:#fffaf4;color:#211a37;position:relative;z-index:2}
 .hr-lane-strip span{display:flex;gap:12px;align-items:center;padding:22px 20px;border-right:1px solid #ded6ce;font-size:13px;font-weight:800}

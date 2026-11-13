@@ -69,14 +69,14 @@ export default function Home() {
             <figure className="hr-photo-stage">
               <div className="hr-photo-frame">
                 <img
-                  src="/stealth-agents-team-bacolod.jpg"
-                  alt="Stealth Agents team together outside Bacolod City Government Center"
-                  width="953"
-                  height="540"
+                  src="/hr-team.jpg"
+                  alt="Administrative support professionals collaborating with laptops and headsets in an office"
+                  width="1600"
+                  height="1050"
                   fetchPriority="high"
                 />
               </div>
-              <figcaption>Real people supporting carefully scoped HR administration.</figcaption>
+              <figcaption>Collaborative support for carefully scoped HR administration.</figcaption>
             </figure>
           </div>
           <div className="container hr-lane-strip" aria-label="HR support areas">
