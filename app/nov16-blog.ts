@@ -68,7 +68,7 @@ export const nov16BlogArticles = {
     "revision": "2026-11-16-prepare-an-employee-handbook-acknowledgment-report-for-a-new-location",
     "directAnswer": [
       "A practical new-location handbook acknowledgment report record for HR and people operations teams, with the source, the reviewer, and the close condition named before the case advances.",
-      "The assistant prepares evidence; the the HR manager keeps the decisions that change pay, access, or an employee record."
+      "The assistant prepares evidence; the HR manager keeps the decisions that change pay, access, or an employee record."
     ],
     "takeaways": [
       "Name the source and reviewer for new-location handbook acknowledgment report.",
@@ -180,13 +180,13 @@ export const nov16BlogArticles = {
       {
         "step": "2",
         "title": "Review",
-        "text": "The the HR manager confirms the decision."
+        "text": "The HR manager confirms the decision."
       }
     ],
     "faqs": [
       {
         "question": "Who owns the decision on new-location handbook acknowledgment report?",
-        "answer": "The the HR manager keeps the decision; the assistant prepares the evidence."
+        "answer": "The HR manager keeps the decision; the assistant prepares the evidence."
       },
       {
         "question": "What closes a new-location handbook acknowledgment report case?",
@@ -224,7 +224,7 @@ export const nov16BlogArticles = {
     "revision": "2026-11-16-track-a-background-check-adverse-action-notice-through-the-decision-record",
     "directAnswer": [
       "A practical adverse action notice decision record record for HR and people operations teams, with the source, the reviewer, and the close condition named before the case advances.",
-      "The assistant prepares evidence; the the compliance lead keeps the decisions that change pay, access, or an employee record."
+      "The assistant prepares evidence; the compliance lead keeps the decisions that change pay, access, or an employee record."
     ],
     "takeaways": [
       "Name the source and reviewer for adverse action notice decision record.",
@@ -336,13 +336,13 @@ export const nov16BlogArticles = {
       {
         "step": "2",
         "title": "Review",
-        "text": "The the compliance lead confirms the decision."
+        "text": "The compliance lead confirms the decision."
       }
     ],
     "faqs": [
       {
         "question": "Who owns the decision on adverse action notice decision record?",
-        "answer": "The the compliance lead keeps the decision; the assistant prepares the evidence."
+        "answer": "The compliance lead keeps the decision; the assistant prepares the evidence."
       },
       {
         "question": "What closes a adverse action notice decision record case?",
@@ -380,7 +380,7 @@ export const nov16BlogArticles = {
     "revision": "2026-11-16-reconcile-a-contractor-onboarding-packet-with-the-signed-agreement",
     "directAnswer": [
       "A practical contractor onboarding packet reconciliation record for HR and people operations teams, with the source, the reviewer, and the close condition named before the case advances.",
-      "The assistant prepares evidence; the the HR operations lead keeps the decisions that change pay, access, or an employee record."
+      "The assistant prepares evidence; the HR operations lead keeps the decisions that change pay, access, or an employee record."
     ],
     "takeaways": [
       "Name the source and reviewer for contractor onboarding packet reconciliation.",
@@ -492,13 +492,13 @@ export const nov16BlogArticles = {
       {
         "step": "2",
         "title": "Review",
-        "text": "The the HR operations lead confirms the decision."
+        "text": "The HR operations lead confirms the decision."
       }
     ],
     "faqs": [
       {
         "question": "Who owns the decision on contractor onboarding packet reconciliation?",
-        "answer": "The the HR operations lead keeps the decision; the assistant prepares the evidence."
+        "answer": "The HR operations lead keeps the decision; the assistant prepares the evidence."
       },
       {
         "question": "What closes a contractor onboarding packet reconciliation case?",
@@ -536,7 +536,7 @@ export const nov16BlogArticles = {
     "revision": "2026-11-16-build-an-hr-ticket-triage-rule-for-payroll-deadline-week",
     "directAnswer": [
       "A practical payroll-week HR ticket triage record for HR and people operations teams, with the source, the reviewer, and the close condition named before the case advances.",
-      "The assistant prepares evidence; the the HR service desk lead keeps the decisions that change pay, access, or an employee record."
+      "The assistant prepares evidence; the HR service desk lead keeps the decisions that change pay, access, or an employee record."
     ],
     "takeaways": [
       "Name the source and reviewer for payroll-week HR ticket triage.",
@@ -648,13 +648,13 @@ export const nov16BlogArticles = {
       {
         "step": "2",
         "title": "Review",
-        "text": "The the HR service desk lead confirms the decision."
+        "text": "The HR service desk lead confirms the decision."
       }
     ],
     "faqs": [
       {
         "question": "Who owns the decision on payroll-week HR ticket triage?",
-        "answer": "The the HR service desk lead keeps the decision; the assistant prepares the evidence."
+        "answer": "The HR service desk lead keeps the decision; the assistant prepares the evidence."
       },
       {
         "question": "What closes a payroll-week HR ticket triage case?",
@@ -692,7 +692,7 @@ export const nov16BlogArticles = {
     "revision": "2026-11-16-keep-a-performance-review-calibration-log-without-changing-ratings",
     "directAnswer": [
       "A practical performance calibration log record for HR and people operations teams, with the source, the reviewer, and the close condition named before the case advances.",
-      "The assistant prepares evidence; the the HR business partner keeps the decisions that change pay, access, or an employee record."
+      "The assistant prepares evidence; the HR business partner keeps the decisions that change pay, access, or an employee record."
     ],
     "takeaways": [
       "Name the source and reviewer for performance calibration log.",
@@ -804,13 +804,13 @@ export const nov16BlogArticles = {
       {
         "step": "2",
         "title": "Review",
-        "text": "The the HR business partner confirms the decision."
+        "text": "The HR business partner confirms the decision."
       }
     ],
     "faqs": [
       {
         "question": "Who owns the decision on performance calibration log?",
-        "answer": "The the HR business partner keeps the decision; the assistant prepares the evidence."
+        "answer": "The HR business partner keeps the decision; the assistant prepares the evidence."
       },
       {
         "question": "What closes a performance calibration log case?",
@@ -848,7 +848,7 @@ export const nov16BlogArticles = {
     "revision": "2026-11-16-set-a-leave-case-handoff-note-that-survives-a-shift-change",
     "directAnswer": [
       "A practical leave case shift handoff record for HR and people operations teams, with the source, the reviewer, and the close condition named before the case advances.",
-      "The assistant prepares evidence; the the leave administrator keeps the decisions that change pay, access, or an employee record."
+      "The assistant prepares evidence; the leave administrator keeps the decisions that change pay, access, or an employee record."
     ],
     "takeaways": [
       "Name the source and reviewer for leave case shift handoff.",
@@ -960,13 +960,13 @@ export const nov16BlogArticles = {
       {
         "step": "2",
         "title": "Review",
-        "text": "The the leave administrator confirms the decision."
+        "text": "The leave administrator confirms the decision."
       }
     ],
     "faqs": [
       {
         "question": "Who owns the decision on leave case shift handoff?",
-        "answer": "The the leave administrator keeps the decision; the assistant prepares the evidence."
+        "answer": "The leave administrator keeps the decision; the assistant prepares the evidence."
       },
       {
         "question": "What closes a leave case shift handoff case?",
@@ -1004,7 +1004,7 @@ export const nov16BlogArticles = {
     "revision": "2026-11-16-audit-a-benefits-deduction-change-against-the-carrier-confirmation",
     "directAnswer": [
       "A practical benefits deduction change audit record for HR and people operations teams, with the source, the reviewer, and the close condition named before the case advances.",
-      "The assistant prepares evidence; the the benefits manager keeps the decisions that change pay, access, or an employee record."
+      "The assistant prepares evidence; the benefits manager keeps the decisions that change pay, access, or an employee record."
     ],
     "takeaways": [
       "Name the source and reviewer for benefits deduction change audit.",
@@ -1116,13 +1116,13 @@ export const nov16BlogArticles = {
       {
         "step": "2",
         "title": "Review",
-        "text": "The the benefits manager confirms the decision."
+        "text": "The benefits manager confirms the decision."
       }
     ],
     "faqs": [
       {
         "question": "Who owns the decision on benefits deduction change audit?",
-        "answer": "The the benefits manager keeps the decision; the assistant prepares the evidence."
+        "answer": "The benefits manager keeps the decision; the assistant prepares the evidence."
       },
       {
         "question": "What closes a benefits deduction change audit case?",
@@ -1160,7 +1160,7 @@ export const nov16BlogArticles = {
     "revision": "2026-11-16-prepare-a-reduction-in-force-document-checklist-for-legal-review",
     "directAnswer": [
       "A practical reduction-in-force document checklist record for HR and people operations teams, with the source, the reviewer, and the close condition named before the case advances.",
-      "The assistant prepares evidence; the the HR director keeps the decisions that change pay, access, or an employee record."
+      "The assistant prepares evidence; the HR director keeps the decisions that change pay, access, or an employee record."
     ],
     "takeaways": [
       "Name the source and reviewer for reduction-in-force document checklist.",
@@ -1272,13 +1272,13 @@ export const nov16BlogArticles = {
       {
         "step": "2",
         "title": "Review",
-        "text": "The the HR director confirms the decision."
+        "text": "The HR director confirms the decision."
       }
     ],
     "faqs": [
       {
         "question": "Who owns the decision on reduction-in-force document checklist?",
-        "answer": "The the HR director keeps the decision; the assistant prepares the evidence."
+        "answer": "The HR director keeps the decision; the assistant prepares the evidence."
       },
       {
         "question": "What closes a reduction-in-force document checklist case?",
