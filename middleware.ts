@@ -4,6 +4,7 @@ export function middleware(request: NextRequest) {
   const forwardedProtocol = request.headers.get('x-forwarded-proto')?.split(',')[0]?.trim();
   const cloudflareVisitor = request.headers.get('cf-visitor') || '';
   const hostname = (request.headers.get('host') || '').split(':')[0].toLowerCase();
+  if (hostname === 'localhost' || hostname === '127.0.0.1') return NextResponse.next();
   const visitorUsedHttp = forwardedProtocol === 'http' || /"scheme"\s*:\s*"http"/i.test(cloudflareVisitor);
   const duplicateBlogIndex = request.nextUrl.pathname === '/blog/page/1';
 

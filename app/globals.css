@@ -116,7 +116,7 @@ main:has(.final-cta)+.legit-footer{margin-top:0}
 /* Shared brand attribution, access support, reviews, and booking confirmation. */
 .skip-link{position:fixed;top:8px;left:12px;z-index:1000;padding:11px 16px;background:#fff;color:#211a37;border:3px solid #0f8f73;border-radius:6px;font-weight:900;transform:translateY(-150%)}.skip-link:focus{transform:translateY(0)}.skip-target{position:absolute;width:1px;height:1px;overflow:hidden;scroll-margin-top:100px}.parent-brand{display:inline-flex;align-items:center;gap:9px;flex:0 0 auto;color:#4f485a;font-size:11px;font-weight:900;line-height:1.2}.parent-brand img{width:104px;height:28px;object-fit:contain}.parent-brand-footer{width:max-content;margin-top:18px;padding:9px 11px;background:#fff;border-radius:8px;color:#211a37}.parent-brand-footer img{width:116px}.links a:focus-visible,.logo:focus-visible,.parent-brand:focus-visible,.footer a:focus-visible{outline:3px solid #0f8f73;outline-offset:4px;border-radius:3px}main[id]{scroll-margin-top:100px}
 .reviews-marquee{min-width:0;margin-top:30px;padding-top:24px;border-top:1px solid rgba(255,255,255,.18)}.reviews-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;margin-bottom:18px}.reviews-heading h2{margin:0;color:#fff;font-family:Fraunces,Georgia,serif;font-size:29px}.reviews-kicker{margin:0 0 5px;color:#7cd0b6;font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.14em}.reviews-heading-actions{display:flex;align-items:center;gap:14px;flex-wrap:wrap;justify-content:flex-end}.reviews-heading a,.reviews-heading button{color:#ffbea0;font-size:13px;font-weight:900;text-decoration:underline;text-underline-offset:4px}.reviews-heading button{padding:7px 10px;border:1px solid rgba(255,190,160,.65);border-radius:6px;background:transparent;cursor:pointer}.reviews-heading button:hover,.reviews-heading button:focus-visible{background:#fff;color:#7b231f;outline:3px solid #7cd0b6;outline-offset:3px}.reviews-window{width:100%;overflow:hidden;mask-image:linear-gradient(to right,transparent,#000 5%,#000 95%,transparent)}.reviews-track{display:flex;width:max-content;gap:16px;animation:reviews-scroll 72s linear infinite}.review-card{width:min(330px,78vw);min-height:235px;padding:22px;flex:0 0 auto;background:#fffaf4;color:#211a37;border-radius:12px;box-shadow:0 12px 32px rgba(7,5,17,.18)}.review-stars{display:block;color:#d84f42;font-size:19px;letter-spacing:3px}.review-card blockquote{margin:18px 0;color:#453e4d;font-size:15px;line-height:1.62}.review-card>p{margin:auto 0 0;color:#211a37;font-weight:900}.review-card{display:flex;flex-direction:column}@keyframes reviews-scroll{to{transform:translateX(calc(-50% - 8px))}}
-.reviews-track.is-paused{animation-play-state:paused}
+.reviews-window:hover .reviews-track,.reviews-window:focus .reviews-track{animation-play-state:paused}
 .booking-confirmation{min-height:72vh;padding:clamp(60px,9vw,110px) 20px;background:linear-gradient(145deg,#fffaf4,#dceee8)}.booking-confirmation-card{width:min(760px,100%);margin:0 auto;padding:clamp(28px,6vw,58px);background:#fff;border:1px solid #ded6ce;border-radius:22px;box-shadow:14px 14px 0 #ffad82}.booking-confirmation-card>img{width:58px;height:58px;margin-bottom:28px}.booking-confirmation-card h1{font-family:Fraunces,Georgia,serif;font-size:clamp(42px,6vw,66px);line-height:1;margin-bottom:22px;color:#211a37}.booking-confirmation-card h2{margin:30px 0 12px}.booking-confirmation-card p,.booking-confirmation-card li{color:#575061;line-height:1.7}.booking-confirmation-card .btn{margin-top:20px;border-radius:8px}
 @media(max-width:900px){.parent-brand-header{margin-left:auto}.reviews-marquee{max-width:760px}.footer-grid{grid-template-columns:1fr 1fr}.footer-brand{grid-column:1/-1}}
 @media(max-width:780px){.nav-inner{align-items:flex-start}.parent-brand-header{margin:0}.parent-brand-header img{width:96px}.fleet-nav{justify-content:space-between;overflow:visible}.fleet-nav>a{flex:0 0 auto}.footer-grid{grid-template-columns:1fr}.footer-brand{grid-column:auto}}
@@ -150,3 +150,19 @@ main:has(.final-cta)+.legit-footer{margin-top:0}
   .active-toc{position:static;z-index:auto;background:transparent;border:0;box-shadow:none;border-radius:0}
   .active-toc-mobile{border:1px solid #d8cfc6;border-radius:12px;background:#fff}
 }
+
+/* Compact desktop intake: keep every field and the submit action in view. */
+@media(min-width:1000px){
+  .sa-form-card{max-width:790px!important;padding:18px 22px 20px!important}
+  .sa-form-card h2{margin-bottom:9px!important}
+  .sa-form-card .sa-form-intro{margin-bottom:9px!important}
+  .sa-form-card form{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:6px 12px!important}
+  .sa-form-card .sa-grid{display:contents!important}
+  .sa-form-card form>label:has(textarea),.sa-form-card form>button,.sa-form-card form>.sa-error,.sa-form-card form>.sa-form-note{grid-column:1/-1}
+  .sa-form-card label{min-width:0;gap:3px!important;font-size:12px!important}
+  .sa-form-card input,.sa-form-card select{min-height:35px!important;padding:5px 9px!important;font-size:13px!important}
+  .sa-form-card textarea{min-height:48px!important;padding:6px 9px!important}
+  .sa-form-card small{font-size:10px!important}
+  .sa-form-card button{padding:9px 16px!important;font-size:15px!important}
+}
+@media(max-width:700px){.sa-form-card .sa-grid{display:grid!important}.sa-form-card label{font-size:15px!important}}

@@ -40,14 +40,14 @@ test('sticky shared header and footer expose exact navigation and StealthAgents 
   assert.match(read('app/globals.css'), /\.nav\s*\{[^}]*position:\s*sticky/s);
 });
 
-test('review marquee contains at least ten unique approved first-party records and an accessible motion control', () => {
+test('review marquee contains at least ten unique approved first-party records and pauses on focus', () => {
   const names = [...reviews.matchAll(/name:\s*['"]([^'"]+)['"]/g)].map((match) => match[1]);
   assert.ok(names.length >= 10, `expected at least 10 reviews, found ${names.length}`);
   assert.equal(new Set(names).size, names.length);
   assert.match(reviews, /StealthAgents reviews/);
   assert.match(reviews, /stealthagents\.com\/our-clients/);
-  assert.match(reviews, /aria-pressed=\{paused\}/);
-  assert.match(reviews, /Pause reviews/);
+  assert.match(reviews, /className="reviews-window" tabIndex=\{0\}/);
+  assert.match(read('app/globals.css'), /\.reviews-window:focus[^}]*animation-play-state:\s*paused/s);
   assert.doesNotMatch(reviews, /previous|next|pagination/i);
 });
 

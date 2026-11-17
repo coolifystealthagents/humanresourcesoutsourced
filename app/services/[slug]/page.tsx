@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation';
 import { Header, Footer, CTA, JsonLd } from '../../components';
 import { fleetServices } from '../../fleet-data';
+import { servicePhotography } from '../../service-photography';
 import { services, site } from '../../data';
 
 const base = `https://${site.domain.toLowerCase()}`;
@@ -14,23 +15,6 @@ const legacyServices = services.map((service) => ({
   faqs: service.faqs,
 }));
 const allServices = [...legacyServices, ...fleetServices.map((service) => ({ ...service, faqs: [] }))];
-
-const serviceHeroes: Record<string, { src: string; alt: string }> = {
-  'operations-support': { src: '/illustrations/getillustrations/hannah-business-illustrations-svg/hr-admin-support.svg', alt: 'HR operations coordinator organizing an employee administration workflow' },
-  'customer-support': { src: '/blog-heroes/september14-hr-hr-inbox-sensitive-case-routing.svg', alt: 'HR support desk workflow for routing routine and sensitive employee requests' },
-  'admin-support': { src: '/icons/getillustrations/sharpie-office-icons-svg/recruiting-calendar.svg', alt: 'Recruiting calendar used for candidate and interview coordination' },
-  'reporting-and-qa': { src: '/research-heroes/hr-status-source-authority-matrix.png', alt: 'HR reporting source authority and quality review matrix' },
-  'candidate-sourcing': { src: '/research-banners/hr-candidate-communication-approval.svg', alt: 'Candidate sourcing and approved communication workflow' },
-  'interview-coordination': { src: '/research-banners/hr-recruiting-interview-feedback-integrity.svg', alt: 'Interview coordination and feedback integrity workflow' },
-  'employee-records-administration': { src: '/research-banners/hr-employee-master-data-change-control.svg', alt: 'Employee records change control workflow' },
-  'benefits-administration-support': { src: '/research-banners/hr-benefits-enrollment-document-control.svg', alt: 'Benefits enrollment document control workflow' },
-  'payroll-preparation-support': { src: '/research-heroes/hr-payroll-input-reconciliation-evidence.png', alt: 'Payroll input reconciliation and approval evidence workflow' },
-  'onboarding-coordination': { src: '/research-banners/hr-new-hire-identity-access-handoff.svg', alt: 'New hire identity and access handoff workflow' },
-  'learning-administration': { src: '/research-banners/hr-training-completion-reconciliation.svg', alt: 'Training completion and learning administration reconciliation workflow' },
-  'hr-help-desk-support': { src: '/research-heroes/hr-hr-support-handoff-resilience.png', alt: 'HR help desk handoff and escalation workflow' },
-  'performance-review-administration': { src: '/blog-heroes/september14-hr-performance-review-reminder-exception.svg', alt: 'Performance review reminders and exception handling workflow' },
-  'offboarding-coordination': { src: '/research-banners/hr-termination-checklist-evidence.svg', alt: 'Offboarding checklist and completion evidence workflow' },
-};
 
 type Params = { params: Promise<{ slug: string }> };
 
@@ -49,7 +33,7 @@ export default async function Service({ params }: Params) {
   const { slug } = await params;
   const service = allServices.find((item) => item.slug === slug);
   if (!service) notFound();
-  const serviceHero = serviceHeroes[service.slug];
+  const serviceHero = servicePhotography[service.slug];
   const url = `${base}/services/${service.slug}`;
   const currentIndex = allServices.findIndex((item) => item.slug === service.slug);
   const related = [1, 2, 3].map((offset) => allServices[(currentIndex + offset) % allServices.length]);

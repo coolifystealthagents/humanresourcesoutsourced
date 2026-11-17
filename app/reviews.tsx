@@ -1,7 +1,3 @@
-'use client';
-
-import { useState } from 'react';
-
 type Review = {
   name: string;
   quote: string;
@@ -25,7 +21,6 @@ const approvedReviews: Review[] = [
 const loopReviews = [...approvedReviews, ...approvedReviews];
 
 export function ReviewsMarquee() {
-  const [paused, setPaused] = useState(false);
   return (
     <section className="reviews-marquee" aria-labelledby="stealth-reviews-title">
       <div className="reviews-heading">
@@ -34,16 +29,13 @@ export function ReviewsMarquee() {
           <h2 id="stealth-reviews-title">StealthAgents reviews</h2>
         </div>
         <div className="reviews-heading-actions">
-          <button type="button" aria-pressed={paused} onClick={() => setPaused((value) => !value)}>
-            {paused ? 'Resume reviews' : 'Pause reviews'}
-          </button>
           <a href="https://stealthagents.com/our-clients" target="_blank" rel="noopener noreferrer">
             Read the original reviews
           </a>
         </div>
       </div>
-      <div className="reviews-window">
-        <div className={`reviews-track${paused ? ' is-paused' : ''}`}>
+      <div className="reviews-window" tabIndex={0} aria-label="Client reviews. Focus or hover to pause movement.">
+        <div className="reviews-track">
           {loopReviews.map((review, index) => (
             <article
               className={`review-card${index >= approvedReviews.length ? " review-card-duplicate" : ""}`}

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import * as data from './data';
 import { Footer, Header, JsonLd } from './components';
+import { servicePhotography } from './service-photography';
 
 const { site, services, blogPosts } = data;
 
@@ -93,6 +94,7 @@ export default function Home() {
           <div className="hr-service-grid">
             {services.map((service) => (
               <a id={`cta-home-services-open-${service.slug}`} className="hr-service-card" href={`/services/${service.slug}`} key={service.slug}>
+                <img className="hr-card-photo" src={servicePhotography[service.slug].src} alt={servicePhotography[service.slug].alt} loading="lazy" />
                 <h3>{service.title}</h3>
                 <p>{service.desc}</p>
                 <strong>See tasks and checks</strong>
@@ -140,9 +142,9 @@ export default function Home() {
               <p>Move recurring coordination into a documented support lane while your internal owners keep decisions, approvals, and sensitive conversations.</p>
             </div>
             <div className="hr-results-grid">
-              <article><strong>01</strong><h3>One visible queue</h3><p>Give repeat requests a clear status, due date, and accountable owner.</p></article>
-              <article><strong>02</strong><h3>Fewer loose handoffs</h3><p>Use accepted examples and completion evidence instead of relying on memory.</p></article>
-              <article><strong>03</strong><h3>Escalation by design</h3><p>Route policy, pay, privacy, and employee-relations questions to qualified owners.</p></article>
+              <article><h3>One visible queue</h3><p>Give repeat requests a clear status, due date, and accountable owner.</p></article>
+              <article><h3>Fewer loose handoffs</h3><p>Use accepted examples and completion evidence instead of relying on memory.</p></article>
+              <article><h3>Escalation by design</h3><p>Route policy, pay, privacy, and employee-relations questions to qualified owners.</p></article>
             </div>
           </div>
         </section>
