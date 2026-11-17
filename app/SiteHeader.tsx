@@ -21,7 +21,7 @@ export default function SiteHeader({ brand }: Props) {
           <a className="logo" href="/" aria-label={`${brand} home`} onClick={() => setOpen(false)}>
             <span className="logo-mark-wrap">
               <img className="logo-img" src="/logo.svg?v=20260730-niche-logo" alt={`${brand} logo`} />
-              <span className="logo-name">{brand}</span>
+              <span className="header-brand-copy"><span className="logo-name">{brand}</span><span className="header-brand-sub">Powered by StealthAgents</span></span>
             </span>
           </a>
           <button className="nav-toggle" type="button" aria-expanded={open} aria-controls="primary-navigation" onClick={() => setOpen((value) => !value)}>

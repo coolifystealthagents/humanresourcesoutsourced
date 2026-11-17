@@ -446,7 +446,7 @@ const august11ResearchPosts: readonly ResearchPost[] = [
 
 export const allResearchPosts: readonly ResearchPost[] = [...october2ResearchPosts, ...september28ResearchPosts, ...september25ResearchPosts, ...september24ResearchPosts, ...september23ResearchPosts, ...september22ResearchPosts, ...september18SecondResearchPosts, ...september14ResearchPosts, ...september10ResearchPosts, ...september8ResearchPosts, ...september7ResearchPosts, ...september4ResearchPosts, ...september3ResearchPosts, ...september2ResearchPosts, ...september1ResearchPosts, ...august31ResearchPosts, ...august23ResearchPosts, ...august21AiTransparencyPosts, ...august21CrossCulturalPosts, ...august21DataPrivacyPosts, ...august21KnowledgeRetentionPosts, ...august21ProductivityPosts, ...august21NewResearchPosts, ...august21ResearchPosts, ...august21StatusPosts, ...august21RetentionPosts, ...august21ApprovalPosts, ...august21PortalPosts, ...august19ResearchPosts, ...august18ResearchPosts, ...august17ResearchPosts, ...august14ResearchPosts, ...august13ResearchPosts, ...august11ResearchPosts, ...researchPosts, ...researchBatchPosts, ...orderedResearchRun15Posts]
   .toSorted((a, b) => b.published.localeCompare(a.published));
-export const postsPerPage = 20;
+export const postsPerPage = 10;
 
 import { august21AiTransparencyPosts } from './research/august21-ai-transparency-virtual-assistant-performance';
 import { august21CrossCulturalPosts } from './research/august21-cross-cultural-communication-distributed-teams';

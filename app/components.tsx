@@ -36,11 +36,11 @@ export function Footer({ articleMode = false }: { articleMode?: boolean } = {}) 
         <div className="footer-brand">
           <a className="footer-logo" href="/"><LogoMark /></a>
           <p>Explore Philippines-based {site.primary || 'human resources'} support designed around documented scope and accountable handoffs.</p>
-          <p className="footer-note">We recruit and hire talent only in the Philippines. This independent information site may route submitted requests to a staffing team that can follow up.</p>
-          <ParentBrand location="footer" />
+          <p className="footer-note">We recruit and hire talent only in the Philippines. Submitted requests may be routed to the StealthAgents staffing team for follow-up.</p>
         </div>
         <div><h3>Services</h3><div className="footer-links">{fleetServices.slice(0, 6).map((service) => <a href={`/services/${service.slug}`} key={service.slug}>{service.title}</a>)}</div></div>
         <div><h3>Site</h3><div className="footer-links"><a href="/blog">Blog</a><a href="/research">Research</a><a href="/contact-us">Contact Us</a><a href="/privacy">Privacy Policy</a><a href="/terms">Terms &amp; Conditions</a></div></div>
+        <div className="footer-parent"><h3>Parent company</h3><a href="https://stealthagents.com/" target="_blank" rel="noopener noreferrer" aria-label="StealthAgents parent company"><img src="/stealth-agents-logo.png" alt="StealthAgents" /></a><p>StealthAgents recruits, employs, and supports the remote professionals who deliver this work. Human Resources Outsourced is a StealthAgents subsidiary.</p><a className="footer-parent-link" href="https://stealthagents.com/" target="_blank" rel="noopener noreferrer">Powered by StealthAgents ↗</a></div>
       </div>
       <div className="footer-bottom"><span>© {year} {site.brand}. All rights reserved.</span><span>{site.domain}</span></div>
     </footer>
