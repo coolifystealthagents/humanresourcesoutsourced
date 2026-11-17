@@ -29,7 +29,7 @@ export default function ContactUsPage() {
           <div className={styles.firstFoldGrid}>
             <div className={styles.intro}>
               <p className={styles.eyebrow}>A practical first conversation</p>
-              <h1 id="contact-title">Build a clearer handoff for recurring HR work.</h1>
+              <h1 id="contact-title">Let’s make HR work better.</h1>
               <p className={styles.lead}>Tell us where administration, recruiting coordination, or employee support is slowing down. We will focus the conversation on your workflow, access boundaries, and review owners.</p>
               <ul className={styles.checks}>
                 {prep.map((item) => <li key={item}>{item}</li>)}

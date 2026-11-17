@@ -1,35 +1,5 @@
-import { Header, Footer, CTA } from '../components';
-import { fleetServices } from '../fleet-data';
-import { servicePhotography } from '../service-photography';
-import { services, site } from '../data';
-
-export const metadata = { title: 'Services', description: `Explore Philippines-based ${site.primary} services.`, alternates: { canonical: `https://${site.domain.toLowerCase()}/services` } };
-
-const allServices = [
-  ...services.map((service) => ({ slug: service.slug, title: service.title, desc: service.desc })),
-  ...fleetServices,
-];
-
-export default function Services() {
-  return <>
-    <Header />
-    <main className="services-index">
-      <section className="fleet-hero services-hero">
-        <div className="container services-hero-grid">
-          <div><p className="eyebrow">Philippines-based HR support</p><h1>One clear support lane for the work that keeps piling up.</h1><p className="lead">Choose a focused human resources workflow, then define its tools, schedule, approvals, and handoffs.</p><div className="actions"><a className="btn primary" href="/contact-us">Plan your support</a><a className="btn secondary" href="#service-options">Explore services</a></div></div>
-          <div className="hr-services-visual"><img src="/optimization/hr-services-overview.jpg" alt="People operations team discussing work in a meeting" /><aside className="services-hero-panel" aria-label="A controlled support model"><span>What every service plan defines</span><ul><li>Approved tasks and accepted examples</li><li>Systems, permissions, and working hours</li><li>Review owners and escalation triggers</li><li>Completion evidence and quality checks</li></ul></aside></div>
-        </div>
-      </section>
-      <section className="services-proof"><div className="container"><span>Recruiting coordination</span><span>Employee administration</span><span>HR operations</span><span>Reporting and quality checks</span></div></section>
-      <section className="section services-catalog" id="service-options">
-        <div className="container">
-          <div className="services-section-head"><div><p className="eyebrow">Explore support lanes</p><h2>Start with one repeatable workflow.</h2></div><p>Each service brief sets out the work, required inputs, quality controls, decision boundaries, and a practical first-week pilot.</p></div>
-          <div className="fleet-service-grid">{allServices.map((service) => <a className="card fleet-service-card" href={`/services/${service.slug}`} key={service.slug}><img className="hr-card-photo" src={servicePhotography[service.slug].src} alt={servicePhotography[service.slug].alt} loading="lazy" /><h3>{service.title}</h3><p>{service.desc}</p><b>View service <i aria-hidden="true">→</i></b></a>)}</div>
-        </div>
-      </section>
-      <section className="services-method"><div className="container"><div><p className="eyebrow">How a role takes shape</p><h2>Scope first. Pilot second. Expand when the work is stable.</h2></div><ol><li><strong>Map the queue</strong><span>Choose the recurring work, systems, volume, and current blockers.</span></li><li><strong>Set boundaries</strong><span>Name permitted actions, required reviews, and immediate escalations.</span></li><li><strong>Calibrate the work</strong><span>Review a representative first batch and update the playbook.</span></li></ol></div></section>
-      <CTA />
-    </main>
-    <Footer />
-  </>;
-}
+import {Header,Footer} from '../components';
+import {catalog} from '../design-content';
+import {servicePhotography} from '../service-photography';
+export const metadata={title:'Services',alternates:{canonical:'/services'}};
+export default function Services(){return <><Header/><main className="renew-directory"><section className="renew-directory-hero container"><div><p className="renew-kicker">HR administration services</p><h1>A clearer day for your HR team.</h1><p className="renew-lead">From the first interview to the last handoff, choose practical support for the work your people team manages every day.</p><a className="renew-button" href="/contact-us">Discuss your requirements ↗</a></div><img src="/optimization/hr-services-overview.jpg" alt="Colleagues discussing work in an office meeting"/></section><section className="container renew-catalog"><div className="renew-heading"><h2>Choose where support makes a difference.</h2><p>Each service includes a detailed scope, practical tasks, quality checks and guidance for the first handoff.</p></div><div className="renew-service-directory">{catalog.map(s=><article key={s.slug}><a href={`/services/${s.slug}`} className="renew-service-photo"><img src={servicePhotography[s.slug].src} alt={servicePhotography[s.slug].alt} loading="lazy"/></a><div><h2><a href={`/services/${s.slug}`}>{s.title}</a></h2><p>{s.desc}</p><ul>{s.tasks.slice(0,3).map(t=><li key={t}>{t}</li>)}</ul><a className="renew-link" href={`/services/${s.slug}`}>See the full service ↗</a></div></article>)}</div></section><section className="renew-working"><div className="container"><div className="renew-heading"><h2>A useful brief makes a better match.</h2><p>Bring these details to your consultation so the conversation can focus on the right role.</p></div><div className="renew-process"><article><h3>The recurring workload</h3><p>Share the task types, expected volume, deadlines and examples of completed work. Identify what is delayed today and what a useful improvement would look like.</p></article><article><h3>Your operating setup</h3><p>List the systems, working hours and communication channels. Name the person who will review output, answer questions and approve exceptions.</p></article><article><h3>The limits of the role</h3><p>Decide which actions can be completed independently and which need approval. Keep payments, sensitive policy decisions and irreversible changes with authorized owners.</p></article></div></div></section><section className="renew-cta"><div className="container"><h2>Not sure which role fits?</h2><a className="renew-button" href="/contact-us">Talk through the work ↗</a></div></section></main><Footer/></>}

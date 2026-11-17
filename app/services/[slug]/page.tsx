@@ -1,3 +1,4 @@
+import scenarios from '../../service-scenarios.json';
 import { notFound } from 'next/navigation';
 import { Header, Footer, CTA, JsonLd } from '../../components';
 import { fleetServices } from '../../fleet-data';
@@ -38,6 +39,7 @@ export default async function Service({ params }: Params) {
   const currentIndex = allServices.findIndex((item) => item.slug === service.slug);
   const related = [1, 2, 3].map((offset) => allServices[(currentIndex + offset) % allServices.length]);
   const role = service.title.toLowerCase();
+  const scenario = (scenarios as Record<string,string[]>)[slug];
   const faqs = [
     ...service.faqs.map((faq) => [faq.question, faq.answer] as const),
     ['What should the first handoff include?', `Start ${role} with one recurring queue, representative examples, a finish condition, and a named reviewer.`] as const,
@@ -47,7 +49,7 @@ export default async function Service({ params }: Params) {
 
   return <>
     <Header />
-    <main>
+    <main className="renew-detail">
       <JsonLd data={{ '@context': 'https://schema.org', '@type': 'Service', name: service.title, description: service.desc, serviceType: 'Philippines-based HR administration staffing', url, areaServed: 'United States', provider: { '@type': 'Organization', name: site.brand, url: base } }} />
       <section className="service-hero">
         <div className="container service-hero-grid">
@@ -65,7 +67,8 @@ export default async function Service({ params }: Params) {
 
         <section className="service-boundaries"><div><p className="eyebrow">Quality controls</p><h2>Checks before work is closed</h2><ul>{service.controls.map((item) => <li key={item}>{item}</li>)}</ul><p>Review a small sample frequently during launch. Classify each correction by cause, update the written instruction, and expand volume only after repeat quality is stable.</p></div><div><p className="eyebrow">Human decision boundaries</p><h2>Keep judgment with accountable owners</h2><p>The support role can collect facts, prepare routine records, and make approved handoffs. Your HR, payroll, benefits, legal, security, or management owners retain decisions that affect employment terms, rights, privacy, policy, money, risk, or sensitive employee outcomes.</p></div></section>
 
-        <section className="service-start"><p className="eyebrow">Common starting scenarios</p><h2>Use a small pilot to expose the real exceptions</h2><div className="service-flow">{service.firstWeek.map((item) => <article key={item}><h3>{item}</h3><p>Record the inputs, expected result, reviewer, and stop condition. Add any correction to the working playbook before the next batch.</p></article>)}</div></section>
+        {scenario && <section className="service-example"><p className="eyebrow">A practical example</p><h2>{scenario[0]}</h2><p>{scenario[1]}</p><h3>What your team receives</h3><p>{scenario[2]}</p></section>}
+        <section className="service-start"><p className="eyebrow">Common starting scenarios</p><h2>Start with a reviewable first week</h2><p>Confirm the source information, expected result and reviewer for each activity below. Use the first batch to clarify instructions before expanding the workload.</p><div className="service-flow">{service.firstWeek.map((item) => <article key={item}><h3>{item}</h3></article>)}</div></section>
 
         <section className="service-faq"><p className="eyebrow">Frequently asked questions</p><h2>{service.title} questions</h2>{faqs.map(([question, answer]) => <details key={question}><summary>{question}</summary><p>{answer}</p></details>)}</section>
 
