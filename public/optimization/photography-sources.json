@@ -1,100 +1,122 @@
 [
   {
-    "asset": "/optimization/appointment-scheduling-20261117.jpg",
-    "source": "https://www.pexels.com/photo/7433858/",
+    "asset": "/optimization/hr-operations-support.jpg",
+    "source": "https://www.pexels.com/photo/8069749/",
     "license": "https://www.pexels.com/license/",
-    "alt": "Colleagues coordinating documents and appointments",
-    "note": "Stock photography illustrating the work; not represented as StealthAgents employees or clients."
+    "alt": "People operations colleagues reviewing documents together",
+    "sha256": "f08ca84dd62a82650383bf29a2af4a1e4b39852cdcc5e7f14c09ed6ddf7b04e5",
+    "note": "Licensed stock photography illustrating the service; not company staff or a client."
   },
   {
-    "asset": "/optimization/call-quality-monitoring-20261117.jpg",
-    "source": "https://www.pexels.com/photo/9304670/",
+    "asset": "/optimization/hr-customer-support.jpg",
+    "source": "https://www.pexels.com/photo/8204320/",
     "license": "https://www.pexels.com/license/",
-    "alt": "Colleagues discussing a quality report and next actions",
-    "note": "Stock photography illustrating the work; not represented as StealthAgents employees or clients."
+    "alt": "Office colleague discussing documents with an employee",
+    "sha256": "11605a15974f738f9d0eff69230fab6bbf960b1f1366b143d8355b30d74dd1d8",
+    "note": "Licensed stock photography illustrating the service; not company staff or a client."
   },
   {
-    "asset": "/optimization/crm-administration.webp",
-    "source": "https://www.pexels.com/photo/8441819/",
+    "asset": "/optimization/hr-admin-support.jpg",
+    "source": "https://www.pexels.com/photo/9489398/",
     "license": "https://www.pexels.com/license/",
-    "alt": "Professional reviewing information on a laptop",
-    "note": "Stock photography illustrating the work; not represented as StealthAgents employees or clients."
+    "alt": "Office team organizing documents around a table",
+    "sha256": "35c49daba87f2dd59d65ca0580908c83dfdc12768b9bcad5b6e0b2ea44174941",
+    "note": "Licensed stock photography illustrating the service; not company staff or a client."
   },
   {
-    "asset": "/optimization/customer-retention-support-20261117.jpg",
-    "source": "https://www.pexels.com/photo/7682351/",
+    "asset": "/optimization/hr-reporting-and-qa.jpg",
+    "source": "https://www.pexels.com/photo/7433874/",
     "license": "https://www.pexels.com/license/",
-    "alt": "Customer support colleagues standing together in an office",
-    "note": "Stock photography illustrating the work; not represented as StealthAgents employees or clients."
+    "alt": "Colleagues reviewing reports and figures",
+    "sha256": "ef9bcea03e3f43d785b6f718575fabc4adef386b1838f00521ec914b7f6ac0a0",
+    "note": "Licensed stock photography illustrating the service; not company staff or a client."
   },
   {
-    "asset": "/optimization/document-production.webp",
-    "source": "https://www.pexels.com/photo/7688110/",
+    "asset": "/optimization/hr-candidate-sourcing.jpg",
+    "source": "https://www.pexels.com/photo/5673502/",
     "license": "https://www.pexels.com/license/",
-    "alt": "Documents and stationery being organized at an office desk",
-    "note": "Stock photography illustrating the work; not represented as StealthAgents employees or clients."
+    "alt": "Candidate handing application documents to a recruiter",
+    "sha256": "5ebe5885d98293849da9fc6677f1fc417e70d3a52a93b71ad0bb1e728947856a",
+    "note": "Licensed stock photography illustrating the service; not company staff or a client."
   },
   {
-    "asset": "/optimization/hero.webp",
-    "source": "https://www.pexels.com/photo/8101449/",
+    "asset": "/optimization/hr-interview-coordination.jpg",
+    "source": "https://www.pexels.com/photo/5439143/",
     "license": "https://www.pexels.com/license/",
-    "alt": "Office professional coordinating work with a headset and binder",
-    "note": "Licensed stock photograph illustrating the work context; not presented as company staff or a client."
+    "alt": "Candidate taking part in an office interview",
+    "sha256": "05e885b25fdf5a9a9eba84e74878badf67245a567408263ba5db7ae3d75cd9cf",
+    "note": "Licensed stock photography illustrating the service; not company staff or a client."
   },
   {
-    "asset": "/optimization/inbox-triage.webp",
-    "source": "https://www.pexels.com/photo/9052865/",
+    "asset": "/optimization/hr-employee-records.jpg",
+    "source": "https://www.pexels.com/photo/8152735/",
     "license": "https://www.pexels.com/license/",
-    "alt": "Professional reviewing correspondence and documents at his desk",
-    "note": "Stock photography illustrating the work; not represented as StealthAgents employees or clients."
+    "alt": "Office colleagues signing and reviewing personnel documents",
+    "sha256": "51d2a4db31b7158876aed93650455e5161ad241f02f2b2d8bf78f54972f4bb9e",
+    "note": "Licensed stock photography illustrating the service; not company staff or a client."
   },
   {
-    "asset": "/optimization/meeting-administration.webp",
-    "source": "https://www.pexels.com/photo/7109315/",
+    "asset": "/optimization/hr-benefits-administration.jpg",
+    "source": "https://www.pexels.com/photo/6779332/",
     "license": "https://www.pexels.com/license/",
-    "alt": "A team reviewing meeting documents around a table",
-    "note": "Stock photography illustrating the work; not represented as StealthAgents employees or clients."
+    "alt": "Colleagues reviewing financial paperwork together",
+    "sha256": "e525a66edf7017a639802b315317c4db9e5383f34b0ebb361957735d11e8990d",
+    "note": "Licensed stock photography illustrating the service; not company staff or a client."
   },
   {
-    "asset": "/optimization/personal-executive-support.webp",
-    "source": "https://www.pexels.com/photo/5387263/",
+    "asset": "/optimization/hr-payroll-preparation.jpg",
+    "source": "https://www.pexels.com/photo/7654162/",
     "license": "https://www.pexels.com/license/",
-    "alt": "Professional reviewing paperwork in a bright office",
-    "note": "Stock photography illustrating the work; not represented as StealthAgents employees or clients."
+    "alt": "Professional checking figures with a calculator and laptop",
+    "sha256": "f1f5c7f95d9c40f8d279384fe20890be6f5c89b33a1504a3187f5801c5a8fca3",
+    "note": "Licensed stock photography illustrating the service; not company staff or a client."
   },
   {
-    "asset": "/optimization/project-administration.webp",
-    "source": "https://www.pexels.com/photo/8518619/",
+    "asset": "/optimization/hr-onboarding-coordination.jpg",
+    "source": "https://www.pexels.com/photo/18848926/",
     "license": "https://www.pexels.com/license/",
-    "alt": "Team planning tasks on a whiteboard",
-    "note": "Stock photography illustrating the work; not represented as StealthAgents employees or clients."
+    "alt": "New hire shaking hands after an office meeting",
+    "sha256": "fdd0cccb47c69e8be5e9e8d2bfb8397050b899807ae2647bcc542bc4d2205c89",
+    "note": "Licensed stock photography illustrating the service; not company staff or a client."
   },
   {
-    "asset": "/optimization/research-briefing.webp",
-    "source": "https://www.pexels.com/photo/7964540/",
+    "asset": "/optimization/hr-learning-administration.jpg",
+    "source": "https://www.pexels.com/photo/9301152/",
     "license": "https://www.pexels.com/license/",
-    "alt": "Colleagues preparing a research report with charts",
-    "note": "Stock photography illustrating the work; not represented as StealthAgents employees or clients."
+    "alt": "Team taking part in an office training session",
+    "sha256": "3cf7bf85d125430b478ae69225159d2a7d7c07399a973a5c0468c48200608445",
+    "note": "Licensed stock photography illustrating the service; not company staff or a client."
   },
   {
-    "asset": "/optimization/services-overview-20261117.jpg",
-    "source": "https://www.pexels.com/photo/9034773/",
+    "asset": "/optimization/hr-hr-help-desk.jpg",
+    "source": "https://www.pexels.com/photo/3931503/",
     "license": "https://www.pexels.com/license/",
-    "alt": "Colleagues discussing a plan during an office presentation",
-    "note": "Stock photography illustrating the work; not represented as StealthAgents employees or clients."
+    "alt": "Colleagues discussing documents beside a laptop",
+    "sha256": "c0236b326cbaeb311266965129e78dac4287dd9b6e45811b40f6e7d33bd801bc",
+    "note": "Licensed stock photography illustrating the service; not company staff or a client."
   },
   {
-    "asset": "/optimization/technical-help-desk-20261117.jpg",
-    "source": "https://www.pexels.com/photo/6805152/",
+    "asset": "/optimization/hr-performance-review.jpg",
+    "source": "https://www.pexels.com/photo/5946222/",
     "license": "https://www.pexels.com/license/",
-    "alt": "Technical professional investigating an issue at a computer",
-    "note": "Stock photography illustrating the work; not represented as StealthAgents employees or clients."
+    "alt": "Team meeting to review work and documents",
+    "sha256": "c80d29cfac8418942f2fef2b58557d63bdd86695350855f05335c2300e190670",
+    "note": "Licensed stock photography illustrating the service; not company staff or a client."
   },
   {
-    "asset": "/optimization/vendor-follow-up.webp",
-    "source": "https://www.pexels.com/photo/7731374/",
+    "asset": "/optimization/hr-offboarding-coordination.jpg",
+    "source": "https://www.pexels.com/photo/7433835/",
     "license": "https://www.pexels.com/license/",
-    "alt": "Colleagues reviewing a document beside a laptop",
-    "note": "Stock photography illustrating the work; not represented as StealthAgents employees or clients."
+    "alt": "Colleagues reviewing workplace documents together",
+    "sha256": "f9c092fab6ca10dc44f9d57cf185843c794ef5d07910b34434b2bb48c5851cea",
+    "note": "Licensed stock photography illustrating the service; not company staff or a client."
+  },
+  {
+    "asset": "/optimization/hr-services-overview.jpg",
+    "source": "https://www.pexels.com/photo/7691751/",
+    "license": "https://www.pexels.com/license/",
+    "alt": "People operations team discussing work in a meeting",
+    "sha256": "ec5df3f444253c994e15af99d5fb3327ceba299c5c4b4cd5568afaf1d2488613",
+    "note": "Licensed stock photography illustrating the service; not company staff or a client."
   }
 ]
