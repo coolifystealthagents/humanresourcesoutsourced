@@ -115,8 +115,8 @@ export default async function Post({ params }: Params) {
             <p className="eyebrow">Philippines staffing guide</p>
             <h1>{article.title}</h1>
             <p className="lead">{article.description}</p>
+            <div className="hr-article-meta"><span className="hr-article-date">Published <time dateTime={article.published}>{formatPublicDate(article.published)}</time></span><span>{article.minutes} minute read</span>{article.updated !== article.published ? <span>Updated <time dateTime={article.updated}>{formatPublicDate(article.updated)}</time></span> : null}<span>Philippines-only talent</span></div>
             {article.heroImage ? <img src={article.heroImage} alt={article.title} width={1200} height={630} loading="eager" /> : <ArticleTopicVisual title={article.title} kind="guide" />}
-            <div className="hr-article-meta"><span>{article.minutes} minute read</span><span className="hr-article-date">Published <time dateTime={article.published}>{formatPublicDate(article.published)}</time></span>{article.updated !== article.published ? <span>Updated <time dateTime={article.updated}>{formatPublicDate(article.updated)}</time></span> : null}<span>Philippines-only talent</span></div>
           </div>
           <aside className="hr-direct-answer" aria-label="Direct answer">
             <span>Direct answer</span>
