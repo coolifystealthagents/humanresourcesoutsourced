@@ -10,6 +10,7 @@ import { nov08BlogArticles } from '../nov08-blog';
 import { nov09BlogArticles } from '../nov09-blog';
 import { nov10BlogArticles } from '../nov10-blog';
 import { nov19BlogArticles } from '../nov19-blog';
+import { nov21BlogArticles } from '../nov21-blog';
 import { nov20BlogArticles } from '../nov20-blog';
 import { nov18BlogArticles } from '../nov18-blog';
 import { nov17BlogArticles } from '../nov17-blog';
@@ -78,6 +79,7 @@ export const richArticles: Record<string, RichArticle> = {
   ...nov09BlogArticles,
   ...nov10BlogArticles,
   ...nov19BlogArticles,
+  ...nov21BlogArticles,
   ...nov20BlogArticles,
   ...nov18BlogArticles,
   ...nov17BlogArticles,
