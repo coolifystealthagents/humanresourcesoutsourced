@@ -14,6 +14,7 @@ import { nov21BlogArticles } from '../nov21-blog';
 import { nov20BlogArticles } from '../nov20-blog';
 import { nov22BlogArticles } from '../nov22-blog';
 import { nov23BlogArticles } from '../nov23-blog';
+import { nov24BlogArticles } from '../nov24-blog';
 import { nov18BlogArticles } from '../nov18-blog';
 import { nov17BlogArticles } from '../nov17-blog';
 import { nov16BlogArticles } from '../nov16-blog';
@@ -85,6 +86,7 @@ export const richArticles: Record<string, RichArticle> = {
   ...nov20BlogArticles,
   ...nov22BlogArticles,
   ...nov23BlogArticles,
+  ...nov24BlogArticles,
   ...nov18BlogArticles,
   ...nov17BlogArticles,
   ...nov16BlogArticles,
