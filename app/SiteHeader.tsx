@@ -16,7 +16,7 @@ export default function SiteHeader({ brand }: Props) {
   return (
     <>
       <a className="skip-link" href="#main-content">Skip to main content</a>
-      <header className="nav site-header">
+      <header data-site-header="sticky" className="nav site-header">
         <div className="nav-inner">
           <a className="logo" href="/" aria-label={`${brand} home`} onClick={() => setOpen(false)}>
             <span className="logo-mark-wrap">

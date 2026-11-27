@@ -10,6 +10,8 @@ import './renew.css';
 import PageMotion from './PageMotion';
 import type { Metadata } from 'next';
 
+import "./site-chrome-fixes.css";
+
 export const metadata: Metadata = {
   metadataBase: new URL('https://humanresourcesoutsourced.com'),
   title: {

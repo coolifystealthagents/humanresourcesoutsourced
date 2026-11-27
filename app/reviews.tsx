@@ -34,7 +34,7 @@ export function ReviewsMarquee() {
           </a>
         </div>
       </div>
-      <div className="reviews-window" tabIndex={0} aria-label="Client reviews. Focus or hover to pause movement.">
+      <div className="reviews-window" tabIndex={0} aria-label="Client reviews. Focus to pause movement.">
         <div className="reviews-track">
           {loopReviews.map((review, index) => (
             <article
